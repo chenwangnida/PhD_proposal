@@ -1,0 +1,95 @@
+\begin{thebibliography}{10}
+
+\bibitem{bertoli2009control}
+{\sc Bertoli, P., Kazhamiakin, R., Paolucci, M., Pistore, M., Raik, H., and
+  Wagner, M.}
+\newblock Control flow requirements for automated service composition.
+\newblock In {\em Web Services, 2009. ICWS 2009. IEEE International Conference
+  on\/} (2009), IEEE, pp.~17--24.
+
+\bibitem{DBLP:journals/soca/BoustilMS14}
+{\sc Boustil, A., Maamri, R., and Sahnoun, Z.}
+\newblock A semantic selection approach for composite web services using
+  {OWL-DL} and rules.
+\newblock {\em Service Oriented Computing and Applications 8}, 3 (2014),
+  221--238.
+
+\bibitem{boustil2010web}
+{\sc Boustil, A., Sabouret, N., and Maamri, R.}
+\newblock Web services composition handling user constraints: towards a
+  semantic approach.
+\newblock In {\em Proceedings of the 12th International Conference on
+  Information Integration and Web-based Applications \& Services\/} (2010),
+  ACM, pp.~913--916.
+
+\bibitem{gamha2008framework}
+{\sc Gamha, Y., Bennacer, N., Naquet, G., Ayeb, B., and Romdhane, L.~B.}
+\newblock A framework for the semantic composition of web services handling
+  user constraints.
+\newblock In {\em Web Services, 2008. ICWS'08. IEEE International Conference
+  on\/} (2008), IEEE, pp.~228--237.
+
+\bibitem{karakoc2009composing}
+{\sc Karakoc, E., and Senkul, P.}
+\newblock Composing semantic web services under constraints.
+\newblock {\em Expert Systems with Applications 36}, 8 (2009), 11021--11029.
+
+\bibitem{lin2008web}
+{\sc Lin, N., Kuter, U., and Sirin, E.}
+\newblock {\em Web service composition with user preferences}.
+\newblock Springer, 2008.
+
+\bibitem{marconi2006specifying}
+{\sc Marconi, A., Pistore, M., and Traverso, P.}
+\newblock Specifying data-flow requirements for the automated composition of
+  web services.
+\newblock In {\em Software Engineering and Formal Methods, 2006. SEFM 2006.
+  Fourth IEEE International Conference on\/} (2006), IEEE, pp.~147--156.
+
+\bibitem{martin2007bringing}
+{\sc Martin, D., Burstein, M., Mcdermott, D., Mcilraith, S., Paolucci, M.,
+  Sycara, K., Mcguinness, D.~L., Sirin, E., and Srinivasan, N.}
+\newblock Bringing semantics to web services with owl-s.
+\newblock {\em World Wide Web 10}, 3 (2007), 243--277.
+
+\bibitem{saboohi2011world}
+{\sc Saboohi, H., and Kareem, S.~A.}
+\newblock World-altering semantic web services discovery and composition
+  techniques-a survey.
+\newblock In {\em The 7th International Conference on Semantic Web and Web
+  Services (SWWS)\/} (2011), pp.~91--95.
+
+\bibitem{sohrabi2009web}
+{\sc Sohrabi, S., Prokoshyna, N., and McIlraith, S.~A.}
+\newblock Web service composition via the customization of golog programs with
+  user preferences.
+\newblock In {\em Conceptual Modeling: Foundations and Applications}. Springer,
+  2009, pp.~319--334.
+
+\bibitem{wang2014automated}
+{\sc Wang, P., Ding, Z., Jiang, C., and Zhou, M.}
+\newblock Automated web service composition supporting conditional branch
+  structures.
+\newblock {\em Enterprise Information Systems 8}, 1 (2014), 121--146.
+
+\bibitem{xiang2011qos}
+{\sc Xiang, C., Zhao, W., Tian, C., Nie, J., and Zhang, J.}
+\newblock Qos-aware, optimal and automated service composition with users'
+  constraints.
+\newblock In {\em e-Business Engineering (ICEBE), 2011 IEEE 8th International
+  Conference on\/} (2011), IEEE, pp.~223--228.
+
+\bibitem{yoo2008web}
+{\sc Yoo, J. J.-W., Kumara, S., Lee, D., and Oh, S.-C.}
+\newblock A web service composition framework using integer programming with
+  non-functional objectives and constraints.
+\newblock {\em algorithms 1\/} (2008), 7.
+
+\bibitem{zhang2013genetic}
+{\sc Zhang, Z., Zheng, S., Li, W., Tan, Y., Wu, Z., and Tan, W.}
+\newblock Genetic algorithm for context-aware service composition based on
+  context space model.
+\newblock In {\em Web Services (ICWS), 2013 IEEE 20th International Conference
+  on\/} (2013), IEEE, pp.~605--606.
+
+\end{thebibliography}

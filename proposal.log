@@ -1,0 +1,175 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (Web2C 2013) (format=pdflatex 2014.6.21)  20 NOV 2014 17:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**proposal.tex
+(./proposal.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, uk
+rainian, turkish, swedish, spanish, slovenian, slovak, serbian, russian, romani
+an, portuguese, polish, bokmal, nynorsk, latin, italian, irish, indonesian, ice
+landic, hungarian, monogreek, greek, german, ngerman, french, finnish, estonian
+, esperanto, dutch, danish, czech, croatian, catalan, bulgarian, basque, loaded
+.
+(/usr/pkg/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/pkg/share/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/pkg/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
+(/usr/pkg/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\@float@every@fig=\toks16
+\c@fig=\count89
+ (./vuwproject.sty
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+VUW Honours reports modifications -- Mar 1995
+Modified to handle different degrees 2003
+Modified to handle duplex printing properly 2006
+\@abstract=\box28
+) (./proposal.aux (./introduction.aux))
+\openout1 = `proposal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 56.
+
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+\big@size=\dimen103
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 73.
+
+
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 73.
+
+
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 73.
+
+
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 73.
+
+
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 73.
+ [-1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [0]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 77.
+ (./proposal.toc)
+\tf@toc=\write3
+\openout3 = `proposal.toc'.
+
+ [1
+
+
+] [2
+
+] (./proposal.lof)
+\tf@lof=\write4
+\openout4 = `proposal.lof'.
+
+
+[3] [4
+
+]
+\openout2 = `introduction.aux'.
+
+ (./introduction.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 10.
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+ [1
+
+
+]
+Overfull \hbox (5.6833pt too wide) in paragraph at lines 54--55
+[]\OT1/ppl/m/n/10.95 Preferences spec-i-fied us-ing PDDL3 (Plan-ning Do-main De
+f-i-ni-tion Lan-guage). In PDDL3,
+ []
+
+[2]) [3] [4
+
+
+] (./proposal.bbl [5
+
+]) [6] (./proposal.aux (./introduction.aux)) ) 
+Here is how much of TeX's memory you used:
+ 660 strings out of 493945
+ 8147 string characters out of 6159096
+ 58636 words of memory out of 5000000
+ 3918 multiletter control sequences out of 15000+600000
+ 27723 words of font info for 69 fonts, out of 8000000 for 9000
+ 774 hyphenation exceptions out of 8191
+ 25i,4n,20p,776b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/pkg/share/texmf-dist/fonts/
+enc/dvips/base/8r.enc}</usr/pkg/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></us
+r/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texm
+f-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/ty
+pe1/vuw/vuw20.pfb>
+Output written on proposal.pdf (12 pages, 89926 bytes).
+PDF statistics:
+ 64 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

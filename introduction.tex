@@ -1,0 +1,62 @@
+\chapter{Introduction}\label{C:intro}
+
+\section{Problem Statement}
+
+\section{Motivations}
+
+\section{Research Goals}
+
+\begin{itemize}
+ \item \textit{How can EC approaches to automated Web service composition take user preferences into account?}
+ 
+ User constraints and preferences are a common requirement when performing Web service composition. For example,
+ consider the case of a user who wishes to book transportation and accommodation for a trip, including transportation
+ from the airport to the hotel, a room at the hotel for a given number of days, and transportation back
+ to the airport \cite{boustil2010web}. In this scenario, the user is likely to have constraints on the attributes
+ of a given service (e.g. the hotel booking service must either be that of a two-star or that of a three-star hotel),
+ as well as conditional constraints (e.g. if the hotel booking service is for a two-star hotel, then the transportation
+ to and from the aiport should be arranged using a taxi service, otherwise a shuttle service should be used). Different
+ techniques have been explored to achieve compositions that consider such constraints, including the use of AI planning
+ with rules encoding user constraints \cite{DBLP:journals/soca/BoustilMS14} and the representation of the composition
+ as a constraint satisfaction problem to be processed with a solver engine \cite{karakoc2009composing}. However, this
+ territory has not been widely explored by applying evolutionary computation techniques (a GA approach for composition
+ that considers inter-service relationships has been proposed \cite{zhang2013genetic}, even though no actual examples
+ of these relationships were presented). Due to the flexibility and efficiency of these techniques, it would be
+ interesting to focus on the investigation of ways in which to extend them to apply these constraints.
+ 
+ The specification of user constraints is closely connected with the semantic representation of Web services. In the
+ example presented earlier, where the user specifies constraints based on an attribute of a hotel service (the hotel's
+ number of stars), the assumption is that this information is in fact available for that service. This type of information,
+ which encodes details about the underlying domain of a service, is what is referred to as semantics. Though standards
+ for semantically describing a Web service exist \cite{martin2007bringing}, semantic Web service composition is currently
+ geared towards the utilisation of planning techniques and semantic reasoning engines \cite{saboohi2011world}. Therefore,
+ further research on evolutionary computation applied to semantic Web service composition would also contribute to enabling
+ the specification of user constraints.
+ 
+ \item \textit{Is it possible to take user constraints into account while at the same time optimising potentially conflicting
+ QoS preferences?}
+ 
+ One possible way of achieving optimisation of these different dimensions simultaneously is through the use of multi-objective
+ techniques.
+ 
+\end{itemize}
+
+The following types of constraints and user preferences have been presented in literature:
+
+\begin{itemize}
+ \item Conditional branch structures that reflect user preferences \cite{wang2014automated}. The paper covers two types of user preferences that require branching. The first type is when the user prefers one service instead of another according to a condition (i.e. the if-else construct -- note that this construct eventually closes into a diamond, and only one output is produced). The second type is when the user specifies a list of services with similar functonalities ranked according to personal preferences. If the service with the highest priority fails, then the service with the second-highest priority will be executed (e.g. PayWithCard service with higher priority, PayInCash service with lower priority).
+ \item Preferences specified using a logic language (based on linear temporal logic) \cite{sohrabi2009web}. For example, specify that you do not want to book a Hilton hotel, but you want a 3-star hotel paid using a credit card (this language requires relatively detailed semantic information about services). Another example: prefers not book air ticket until the hotel has been booked (order of service execution).
+ \item Hard constraints on services: service properties (i.e. service must have a specific property with a specific value) and coreography details (essentially if-else constraints that close into a diamond) \cite{boustil2010web}.
+ \item Preferences specified using the Knowledge Interchange Format (KIF) language, as it provides a well-defined syntax and semantic that can be applied to constraints \cite{gamha2008framework}. The types of preferences that can be defined are the same as those in \cite{sohrabi2009web}.
+ \item Temporal and causality constraints: Constraints on the flow structure of the composition (e.g. if service 1 executes, then service 2 must also execute) \cite{karakoc2009composing}.
+ \item Logical constraints: any logical expressions on integer or string values, e.g. Hotel should be in Barcelona and the cost should be under \$450 a day \cite{karakoc2009composing}.
+ \item If/then constraints: if a constraint X holds, then another constant Y must hold as well. E.g. If a hotel has less than 4 stars, then its cost a day must be under 100 dollars \cite{karakoc2009composing}.
+ \item Preferences specified using PDDL3 (Planning Domain Definition Language). In PDDL3, preferences are described using logical formulae (i.e. logical statements encoding constraints) and temporal preferences (i.e. how often a constraint must hold as the planning steps through its states) \cite{lin2008web}.
+ \item Data flow constraints of the composition specified using a visual language. For example, if a room is available book it, otherwise cancel the entire transaction. The basic idea is to check if the data net of constraints is satisfied by the plan presented as the solution, with some heavy formalisation \cite{marconi2006specifying}.
+ \item Use of a representation that employs domain objects, allowing the specification of control flow requirements and also of logical constraints \cite{bertoli2009control}.
+ \item Global constraints based on attributes of a single service (e.g. only one service that costs 50 may be invoked). Solved using ILP \cite{yoo2008web}.
+ \item Constraints on the resources consumed while creating the composition (note they are not part of the solution itself) \cite{xiang2011qos}.
+\end{itemize}
+
+
+\section{Organisation of Proposal}

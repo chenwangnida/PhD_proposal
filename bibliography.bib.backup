@@ -1,0 +1,19 @@
+@inproceedings{boustil2010web,
+  title={Web services composition handling user constraints: towards a semantic approach},
+  author={Boustil, Amel and Sabouret, Nicolas and Maamri, Ramdane},
+  booktitle={Proceedings of the 12th International Conference on Information Integration and Web-based Applications \& Services},
+  pages={913--916},
+  year={2010},
+  organization={ACM}
+}
+
+@article{karakoc2009composing,
+  title={Composing semantic Web services under constraints},
+  author={Karakoc, Erman and Senkul, Pinar},
+  journal={Expert Systems with Applications},
+  volume={36},
+  number={8},
+  pages={11021--11029},
+  year={2009},
+  publisher={Elsevier}
+}
