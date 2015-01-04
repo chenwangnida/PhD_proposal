@@ -1,0 +1,39 @@
+\chapter{Literature Review}
+A workflow-based Web service composition solution can be decomposed into a series of steps \cite{moghaddam2014service}, as shown in Figure \ref{fig:steps} and discussed below:
+
+\begin{figure}
+\caption{Typical steps in a workflow-based automated Web service composition solution.}
+\label{fig:steps}
+\end{figure}
+
+\begin{enumerate}
+ \item \textit{Goal specification:} The user's goal and preferences for the composition are specified. An abstract workflow is generated,
+ showing details about data flow and functionality, and the QoS requirements are determined based on the user's information.
+ \item \textit{Service discovery:} Candidate concrete services that are functionally and non-functionally suitable to fill the slots
+ in the abstract workflow are discovered in a service repository. At this stage, candidates have varying quality levels.
+ \item \textit{Service selection:} A technique is employed to find which discovered services best fulfil each slot in the abstract
+ workflow specified earlier, and a concrete Web service composition is generated.
+ \item \textit{Service execution:} An instance of the concrete composition generated above is made executed.
+ \item \textit{Service maintenance and monitoring:} The created instance is constantly monitored for failures and/or changes
+ to the composing atomic services.
+\end{enumerate}
+
+It is important to draw a distinction between semi-automated and fully automated composition approaches. Fully automated is ..., while semi-automated is ... [A survey of automated web service composition methods]. This work focuses on performing fully automated composition, but not really on service discovery, maintenance and monitoring.
+
+
+The following types of constraints and user preferences have been presented in literature:
+
+\begin{itemize}
+ \item Conditional branch structures that reflect user preferences \cite{wang2014automated}. The paper covers two types of user preferences that require branching. The first type is when the user prefers one service instead of another according to a condition (i.e. the if-else construct -- note that this construct eventually closes into a diamond, and only one output is produced). The second type is when the user specifies a list of services with similar functonalities ranked according to personal preferences. If the service with the highest priority fails, then the service with the second-highest priority will be executed (e.g. PayWithCard service with higher priority, PayInCash service with lower priority).
+ \item Preferences specified using a logic language (based on linear temporal logic) \cite{sohrabi2009web}. For example, specify that you do not want to book a Hilton hotel, but you want a 3-star hotel paid using a credit card (this language requires relatively detailed semantic information about services). Another example: prefers not book air ticket until the hotel has been booked (order of service execution).
+ \item Hard constraints on services: service properties (i.e. service must have a specific property with a specific value) and coreography details (essentially if-else constraints that close into a diamond) \cite{boustil2010web}.
+ \item Preferences specified using the Knowledge Interchange Format (KIF) language, as it provides a well-defined syntax and semantic that can be applied to constraints \cite{gamha2008framework}. The types of preferences that can be defined are the same as those in \cite{sohrabi2009web}.
+ \item Temporal and causality constraints: Constraints on the flow structure of the composition (e.g. if service 1 executes, then service 2 must also execute) \cite{karakoc2009composing}.
+ \item Logical constraints: any logical expressions on integer or string values, e.g. Hotel should be in Barcelona and the cost should be under \$450 a day \cite{karakoc2009composing}.
+ \item If/then constraints: if a constraint X holds, then another constant Y must hold as well. E.g. If a hotel has less than 4 stars, then its cost a day must be under 100 dollars \cite{karakoc2009composing}.
+ \item Preferences specified using PDDL3 (Planning Domain Definition Language). In PDDL3, preferences are described using logical formulae (i.e. logical statements encoding constraints) and temporal preferences (i.e. how often a constraint must hold as the planning steps through its states) \cite{lin2008web}.
+ \item Data flow constraints of the composition specified using a visual language. For example, if a room is available book it, otherwise cancel the entire transaction. The basic idea is to check if the data net of constraints is satisfied by the plan presented as the solution, with some heavy formalisation \cite{marconi2006specifying}.
+ \item Use of a representation that employs domain objects, allowing the specification of control flow requirements and also of logical constraints \cite{bertoli2009control}.
+ \item Global constraints based on attributes of a single service (e.g. only one service that costs 50 may be invoked). Solved using ILP \cite{yoo2008web}.
+ \item Constraints on the resources consumed while creating the composition (note they are not part of the solution itself) \cite{xiang2011qos}.
+\end{itemize}

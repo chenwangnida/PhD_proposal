@@ -1,0 +1,145 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.12.29)  29 DEC 2014 10:26
+entering extended mode
+**C:/Users/Alex/git/proposal/bibliography.bib
+(C:/Users/Alex/git/proposal/bibliography.bib
+Overfull \hbox (5.98201pt too wide) in paragraph at lines 19--27
+[]\tenrm @inproceedingszhang2013genetic, ti-tle=Genetic Al-go-rithm for Context
+-Aware Ser-vice Com-po-si-tion Based|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (5.13498pt too wide) in paragraph at lines 67--75
+\tenrm man-tic ap-proach, au-thor=Boustil, Amel and Sabouret, Nico-las and Maam
+ri, Ram-dane, book-ti-tle=Proceedings|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm m
+.\tenrm a
+.\discretionary replacing 2
+..\tenrm n
+..\tenrm -
+.\tenrm n
+.\kern-0.27779
+.etc.
+
+
+Overfull \hbox (19.6071pt too wide) in paragraph at lines 85--95
+[]\tenrm @articlekarakoc2009composing, ti-tle=Composing se-man-tic Web ser-vice
+s un-der con-straints, au-thor=Karakoc,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (1.30168pt too wide) in paragraph at lines 85--95
+\tenrm Er-man and Senkul, Pinar, jour-nal=Expert Sys-tems with Ap-pli-ca-tions,
+ vol-ume=36, num-ber=8, pages=11021--|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm E
+.\tenrm r
+.\discretionary
+..\tenrm -
+.\tenrm m
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (4.69041pt too wide) in paragraph at lines 130--138
+[]\tenrm @inproceedingsxiang2011qos, title=QoS-aware, Op-ti-mal and Au-to-mated
+ Ser-vice Com-po-si-tion with Users'|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (9.24588pt too wide) in paragraph at lines 139--147
+[]\tenrm @inproceedingsperrey2003service, title=Service-oriented ar-chi-tec-tur
+e, au-thor=Perrey, Ran-dall and Lycett,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (1.17648pt too wide) in paragraph at lines 148--157
+[]\tenrm @articlegottschalk2002introduction, ti-tle=Introduction to web ser-vic
+es ar-chi-tec-ture, au-thor=Gottschalk,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (19.6071pt too wide) in paragraph at lines 189--199
+[]\tenrm @articlekarakoc2009composing, ti-tle=Composing se-man-tic Web ser-vice
+s un-der con-straints, au-thor=Karakoc,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (1.30168pt too wide) in paragraph at lines 189--199
+\tenrm Er-man and Senkul, Pinar, jour-nal=Expert Sys-tems with Ap-pli-ca-tions,
+ vol-ume=36, num-ber=8, pages=11021--|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm E
+.\tenrm r
+.\discretionary
+..\tenrm -
+.\tenrm m
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (7.49586pt too wide) in paragraph at lines 200--208
+[]\tenrm @inproceedingschen2014qos, title=QoS-aware Ser-vice Com-po-si-tion ove
+r Graph-plan through Graph Reach-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+)
+*
+! Emergency stop.
+<*> C:/Users/Alex/git/proposal/bibliography.bib
+                                               
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

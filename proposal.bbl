@@ -22,12 +22,24 @@
   Information Integration and Web-based Applications \& Services\/} (2010),
   ACM, pp.~913--916.
 
+\bibitem{chen2014qos}
+{\sc Chen, M., and Yan, Y.}
+\newblock Qos-aware service composition over graphplan through graph
+  reachability.
+\newblock In {\em Services Computing (SCC), 2014 IEEE International Conference
+  on\/} (2014), IEEE, pp.~544--551.
+
 \bibitem{gamha2008framework}
 {\sc Gamha, Y., Bennacer, N., Naquet, G., Ayeb, B., and Romdhane, L.~B.}
 \newblock A framework for the semantic composition of web services handling
   user constraints.
 \newblock In {\em Web Services, 2008. ICWS'08. IEEE International Conference
   on\/} (2008), IEEE, pp.~228--237.
+
+\bibitem{gottschalk2002introduction}
+{\sc Gottschalk, K., Graham, S., Kreger, H., and Snell, J.}
+\newblock Introduction to web services architecture.
+\newblock {\em IBM systems Journal 41}, 2 (2002), 170--177.
 
 \bibitem{karakoc2009composing}
 {\sc Karakoc, E., and Senkul, P.}
@@ -39,6 +51,12 @@
 \newblock {\em Web service composition with user preferences}.
 \newblock Springer, 2008.
 
+\bibitem{lu2007web}
+{\sc Lu, J., Yu, Y., Roy, D., and Saha, D.}
+\newblock Web service composition: A reality check.
+\newblock In {\em Web Information Systems Engineering--WISE 2007}. Springer,
+  2007, pp.~523--532.
+
 \bibitem{marconi2006specifying}
 {\sc Marconi, A., Pistore, M., and Traverso, P.}
 \newblock Specifying data-flow requirements for the automated composition of
@@ -46,18 +64,34 @@
 \newblock In {\em Software Engineering and Formal Methods, 2006. SEFM 2006.
   Fourth IEEE International Conference on\/} (2006), IEEE, pp.~147--156.
 
-\bibitem{martin2007bringing}
-{\sc Martin, D., Burstein, M., Mcdermott, D., Mcilraith, S., Paolucci, M.,
-  Sycara, K., Mcguinness, D.~L., Sirin, E., and Srinivasan, N.}
-\newblock Bringing semantics to web services with owl-s.
-\newblock {\em World Wide Web 10}, 3 (2007), 243--277.
+\bibitem{maue2011envision}
+{\sc Mau{\'e}, P., and Roman, D.}
+\newblock The envision environmental portal and services infrastructure.
+\newblock In {\em Environmental Software Systems. Frameworks of eEnvironment}.
+  Springer, 2011, pp.~280--294.
 
-\bibitem{saboohi2011world}
-{\sc Saboohi, H., and Kareem, S.~A.}
-\newblock World-altering semantic web services discovery and composition
-  techniques-a survey.
-\newblock In {\em The 7th International Conference on Semantic Web and Web
-  Services (SWWS)\/} (2011), pp.~91--95.
+\bibitem{milanovic2004current}
+{\sc Milanovic, N., and Malek, M.}
+\newblock Current solutions for web service composition.
+\newblock {\em IEEE Internet Computing 8}, 6 (2004), 51--59.
+
+\bibitem{moghaddam2014service}
+{\sc Moghaddam, M., and Davis, J.~G.}
+\newblock Service selection in web service composition: A comparative review of
+  existing approaches.
+\newblock In {\em Web Services Foundations}. Springer, 2014, pp.~321--346.
+
+\bibitem{perrey2003service}
+{\sc Perrey, R., and Lycett, M.}
+\newblock Service-oriented architecture.
+\newblock In {\em Applications and the Internet Workshops, 2003. Proceedings.
+  2003 Symposium on\/} (2003), IEEE, pp.~116--119.
+
+\bibitem{pop2010immune}
+{\sc Pop, C.~B., Chifu, V.~R., Salomie, I., and Dinsoreanu, M.}
+\newblock Immune-inspired method for selecting the optimal solution in web
+  service composition.
+\newblock In {\em Resource Discovery}. Springer, 2010, pp.~1--17.
 
 \bibitem{sohrabi2009web}
 {\sc Sohrabi, S., Prokoshyna, N., and McIlraith, S.~A.}
@@ -65,6 +99,12 @@
   user preferences.
 \newblock In {\em Conceptual Modeling: Foundations and Applications}. Springer,
   2009, pp.~319--334.
+
+\bibitem{wang2012survey}
+{\sc Wang, L., Shen, J., and Yong, J.}
+\newblock A survey on bio-inspired algorithms for web service composition.
+\newblock In {\em Computer Supported Cooperative Work in Design (CSCWD), 2012
+  IEEE 16th International Conference on\/} (2012), IEEE, pp.~569--574.
 
 \bibitem{wang2014automated}
 {\sc Wang, P., Ding, Z., Jiang, C., and Zhou, M.}

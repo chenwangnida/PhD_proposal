@@ -1,47 +1,18 @@
-This is BibTeX, Version 0.99d (Web2C 2013)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: proposal.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: proposal.aux
 A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: review.aux
 The style file: acm.bst
 Database file #1: bibliography.bib
-You've used 14 entries,
-            2253 wiz_defined-function locations,
-            613 strings with 7152 characters,
-and the built_in function-call counts, 6326 in all, are:
-= -- 616
-> -- 318
-< -- 0
-+ -- 133
-- -- 116
-* -- 493
-:= -- 970
-add.period$ -- 43
-call.type$ -- 14
-change.case$ -- 99
-chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 246
-empty$ -- 487
-format.name$ -- 116
-if$ -- 1352
-int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 15
-newline$ -- 73
-num.names$ -- 28
-pop$ -- 119
-preamble$ -- 1
-purify$ -- 86
-quote$ -- 0
-skip$ -- 176
-stack$ -- 0
-substring$ -- 428
-swap$ -- 88
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 54
-warning$ -- 0
-while$ -- 61
-width$ -- 16
-write$ -- 150
+Repeated entry---line 169 of file bibliography.bib
+ : @article{wang2014automated
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 180 of file bibliography.bib
+ : @incollection{sohrabi2009web
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 189 of file bibliography.bib
+ : @article{karakoc2009composing
+ :                              ,
+I'm skipping whatever remains of this entry
+(There were 3 error messages)
