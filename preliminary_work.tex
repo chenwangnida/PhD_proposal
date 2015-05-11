@@ -1,0 +1,20 @@
+\chapter{Preliminary Work}\label{C:preliminary}
+
+\section{Formalisation}
+A Web service composition can be thought of as a reachability problem where, given a composition input set $I$, a group of services is assembled in order to produce a composition output set $O$. Users often expect these services to be optimised according to their quality, giving higher weights to reflect the priority of quality attributes. Based on this basic understanding, the following definitions are presented:
+
+\textbf{Composition task:} A composition task is represented as $T = (I, O, P)$, where $I$ and $O$ are the sets mentioned above, and \textit{P} is the set of priority weights for each Quality of Service (QoS) attribute.
+
+\textbf{Web service:} A Web service is represented as a tuple $w_i = (I_i, O_i, Q_i)$, where $I_i$ is the set of inputs that must be provided in order to execute the service, $O_i$ is the set of outputs produced by the service after execution, and $Q_i$ are the service's QoS attributes.
+
+\textbf{Web service composition:} A Web service composition is a minimal set of services where all services have their input set fully satisfied, either by the composition input set $I$, or by connections to the outputs of other services in the same composition. Thus, $WSC = \{w_i | $all inputs of $w_i$ are satisfied$\}$.
+
+\textbf{Semantic ontology:} The inputs and outputs of individual services and of the overall composition represent data types that are governed by an ontology. The ontology encodes the relationship between these data types, and this structure is verified in order to establish whether a given data type can be satisfied by another when connecting two web services. The semantic ontology is represented as a tree, where more general data types are parent nodes of the more specific ones. Thus, each node in the ontology tree is represented as $n = (t, N)$, where $c$ is the type represented by that node, and $N$ are that type's direct descendants. The parent-child relationship between $n$ and the nodes in $N$ can be represented as $n_i \rightarrow n, \forall n_i \in N$.
+
+\textbf{Semantic compatibility:} For verifying whether a given data type $a$ can be satisfied by another type $b$, the ontology tree is transitively checked for parent-child relationships that lead to the connection $b \rightarrow^+ a$. If the tree contains these connections, then $a$ is satisfied by $b$, written as $b \sqsubseteq a$. For example, if one service requires a \textit{real number} as an input, and another service produces an \textit{integer} as its output, then the input of the first service can be satisfied by the output of the second, meaning that the two services can be linked in a composition.
+
+In case of a composition that involves branches, the definition of a task and of a Web service composition must be revised:
+
+\textbf{Composition task with branching:} A composition task with branching has multiple outputs that depend on branching conditions, where a condition $c_i$ is a semantic compatibility test between two data types. A tree describing inputs $I$, conditions $c_1$ to $c_n$, and outputs $O_1$ to $O_m$ is a suitable representation. Thus, $T_b = (I,c_1..c_n, O_1..O_m)$.
+
+\textbf{Web service composition with branching:} A web service composition with branching is described as $WSC = (W, C)$, where $W = \{w_i | $all inputs of $w_i$ are satisfied$\}$ and $C = \{c_i | c_i $is satisfied$\}$.

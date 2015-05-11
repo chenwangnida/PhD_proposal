@@ -1,6 +1,29 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Problem Statement}{1}
 \contentsline {section}{\numberline {1.2}Motivations}{2}
-\contentsline {section}{\numberline {1.3}Research Goals}{3}
-\contentsline {section}{\numberline {1.4}Organisation of Proposal}{4}
-\contentsline {chapter}{\numberline {2}Literature Review}{5}
+\contentsline {section}{\numberline {1.3}Research Goals}{4}
+\contentsline {section}{\numberline {1.4}Published Papers}{8}
+\contentsline {section}{\numberline {1.5}Organisation of Proposal}{8}
+\contentsline {chapter}{\numberline {2}Literature Review}{9}
+\contentsline {section}{\numberline {2.1}An Overview of Web Service Composition}{9}
+\contentsline {subsection}{\numberline {2.1.1}Web Service Composition in Practice}{11}
+\contentsline {section}{\numberline {2.2}Single-Objective QoS-Aware Composition Approaches}{12}
+\contentsline {subsection}{\numberline {2.2.1}Biologically-Inspired Approaches}{12}
+\contentsline {subsection}{\numberline {2.2.2}General Optimisation Approaches}{14}
+\contentsline {subsection}{\numberline {2.2.3}Terminology}{18}
+\contentsline {subsection}{\numberline {2.2.4}Models for Web Service Composition}{18}
+\contentsline {subsection}{\numberline {2.2.5}Ant Colony Algorithm}{18}
+\contentsline {subsection}{\numberline {2.2.6}Genetic Algorithm}{19}
+\contentsline {subsection}{\numberline {2.2.7}Particle Swarm Optimisation}{19}
+\contentsline {section}{\numberline {2.3}Service Selection in Web Service Composition: A Comparative Review of Existing Approaches \cite {moghaddam2014service}}{19}
+\contentsline {subsection}{\numberline {2.3.1}Lifecycle of a Typical Workflow-based WSC Solution}{19}
+\contentsline {subsection}{\numberline {2.3.2}Optimisation-based WSC Approaches}{20}
+\contentsline {subsection}{\numberline {2.3.3}Negotiation-based WSC Approaches}{20}
+\contentsline {subsection}{\numberline {2.3.4}Hybrid Approaches}{20}
+\contentsline {section}{\numberline {2.4}Compositions using AI Planning}{21}
+\contentsline {section}{\numberline {2.5}Hybrid Composition Approaches}{26}
+\contentsline {section}{\numberline {2.6}Multi-objective, Top-K, and Skyline Composition Approaches}{29}
+\contentsline {section}{\numberline {2.7}Semantic Composition Approaches}{31}
+\contentsline {section}{\numberline {2.8}Dynamic, Distributed, and Cloud Composition}{38}
+\contentsline {chapter}{\numberline {3}Preliminary Work}{43}
+\contentsline {section}{\numberline {3.1}Formalisation}{43}

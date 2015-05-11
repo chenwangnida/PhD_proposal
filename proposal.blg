@@ -1,18 +1,142 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: proposal.aux
+This is BibTeX, Version 0.99d (Web2C 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: proposal.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: review.aux
+A level-1 auxiliary file: preliminary_work.aux
 The style file: acm.bst
 Database file #1: bibliography.bib
-Repeated entry---line 169 of file bibliography.bib
- : @article{wang2014automated
- :                           ,
+Repeated entry---line 262 of file bibliography.bib
+ : @inproceedings{wang2012survey
+ :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 180 of file bibliography.bib
- : @incollection{sohrabi2009web
- :                             ,
+Repeated entry---line 271 of file bibliography.bib
+ : @incollection{moghaddam2014service
+ :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 189 of file bibliography.bib
+Repeated entry---line 280 of file bibliography.bib
+ : @incollection{maue2011envision
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 299 of file bibliography.bib
+ : @incollection{lu2007web
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 308 of file bibliography.bib
+ : @inproceedings{saboohi2011world
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 322 of file bibliography.bib
+ : @article{martin2007bringing
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 333 of file bibliography.bib
+ : @inproceedings{boustil2010web
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 342 of file bibliography.bib
  : @article{karakoc2009composing
  :                              ,
 I'm skipping whatever remains of this entry
-(There were 3 error messages)
+Repeated entry---line 353 of file bibliography.bib
+ : @inproceedings{gamha2008framework
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 362 of file bibliography.bib
+ : @book{lin2008web
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 369 of file bibliography.bib
+ : @inproceedings{marconi2006specifying
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 378 of file bibliography.bib
+ : @inproceedings{bertoli2009control
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 423 of file bibliography.bib
+ : @article{deng2013efficient
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 493 of file bibliography.bib
+ : @article{yoo2008web
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 502 of file bibliography.bib
+ : @inproceedings{chen2014qos
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 531 of file bibliography.bib
+ : @incollection{pop2010immune
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 551 of file bibliography.bib
+ : @inproceedings{xiang2011qos
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 589 of file bibliography.bib
+ : @incollection{moghaddam2014service
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 724 of file bibliography.bib
+ : @article{DBLP:journals/soca/BoustilMS14
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 784 of file bibliography.bib
+ : @inproceedings{zhang2013genetic
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 916 of file bibliography.bib
+ : @article{wang2014automated
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 965 of file bibliography.bib
+ : @incollection{sohrabi2009web
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1022 of file bibliography.bib
+ : @article{rodriguez2010composition
+ :                                  ,
+I'm skipping whatever remains of this entry
+You've used 81 entries,
+            2253 wiz_defined-function locations,
+            953 strings with 19881 characters,
+and the built_in function-call counts, 35090 in all, are:
+= -- 3509
+> -- 1612
+< -- 0
++ -- 682
+- -- 580
+* -- 2691
+:= -- 5310
+add.period$ -- 254
+call.type$ -- 81
+change.case$ -- 531
+chr.to.int$ -- 0
+cite$ -- 81
+duplicate$ -- 1391
+empty$ -- 2789
+format.name$ -- 580
+if$ -- 7577
+int.to.chr$ -- 0
+int.to.str$ -- 81
+missing$ -- 82
+newline$ -- 408
+num.names$ -- 162
+pop$ -- 611
+preamble$ -- 1
+purify$ -- 451
+quote$ -- 0
+skip$ -- 1004
+stack$ -- 0
+substring$ -- 2497
+swap$ -- 498
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 322
+warning$ -- 0
+while$ -- 358
+width$ -- 83
+write$ -- 864
+(There were 23 error messages)
