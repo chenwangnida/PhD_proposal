@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (Web2C 2013) (format=pdflatex 2015.2.6)  11 MAY 2015 14:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (Web2C 2013) (format=pdflatex 2015.2.6)  11 MAY 2015 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -88,7 +88,7 @@ VUW Honours reports modifications -- Mar 1995
 Modified to handle different degrees 2003
 Modified to handle duplex printing properly 2006
 \@abstract=\box28
-) (./proposal.aux (./introduction.aux) (./review.aux) (./preliminary_work.aux))
+) (./proposal.aux (./introduction.aux))
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -104,6 +104,7 @@ LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 56.
+
 (/usr/pkg/share/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
@@ -211,17 +212,12 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 
 ] [2
 
-] (./proposal.lof
-Overfull \hbox (0.37186pt too wide) in paragraph at lines 4--4
- [][] []\OT1/ppl/m/n/10.95 The dif-fer-ent prob-lem rep-re-sen-ta-tions em-ploy
-ed by biologically-inspired Web 
- []
-
-)
+] (./proposal.lof)
 \tf@lof=\write4
 \openout4 = `proposal.lof'.
 
- [3] [4
+
+[3] [4
 
 ]
 \openout2 = `introduction.aux'.
@@ -241,170 +237,37 @@ Overfull \hbox (9.28406pt too wide) in paragraph at lines 20--21
 -lu-tion-ary Com-pu-ta-tion workflow-
  []
 
-[2] [3] [4] [5]
+[2] [3] [4] [5] [6] <objectives.pdf, id=44, 403.13109pt x 303.57164pt>
+File: objectives.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `goal:extension' on page 6 undefined on input line 92.
-
-
-[6]
-Overfull \hbox (4.66318pt too wide) in paragraph at lines 97--99
-[]\OT1/ppl/m/n/10.95 Extending the op-ti-mi-sa-tion mech-a-nism of the tech-niq
-ue to han-dle a multi-objective
- []
-
-
-Overfull \hbox (14.8254pt too wide) in paragraph at lines 106--108
-\OT1/ppl/m/n/10.95 Once the tech-nique has been re-designed and is ca-pa-ble of
- han-dling non-deterministic
- []
-
-
-LaTeX Warning: Reference `goal:extension' on page 7 undefined on input line 110
-.
-
-
-LaTeX Warning: Reference `goal:non-deterministic' on page 7 undefined on input 
-line 110.
-
-[7]) [8]
-\openout2 = `review.aux'.
-
- (./review.tex
-Chapter 2.
-<compositionLifecycle.pdf, id=51, 502.61525pt x 315.7672pt>
-File: compositionLifecycle.pdf Graphic file (type pdf)
-
-<use compositionLifecycle.pdf>
-Package pdftex.def Info: compositionLifecycle.pdf used on input line 13.
-(pdftex.def)             Requested size: 398.33858pt x 250.2628pt.
-
-Overfull \hbox (6.95265pt too wide) in paragraph at lines 26--27
-\OT1/ppl/m/n/10.95 com-po-si-tion ap-proaches [[]]. The steps dis-cussed above 
-are typ-i-cal of a \OT1/ppl/b/n/10.95 semi-automated
- []
-
-[9
-
-
-
-] [10 <./compositionLifecycle.pdf>]
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
- [11] [12]
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [13]
-[14] [15]
-Overfull \hbox (0.71062pt too wide) in paragraph at lines 147--150
-\OT1/ppl/m/n/10.95 whose best next move has al-ready been vis-ited be-fore (i.e
-. pre-vent cyclic search moves).
- []
-
-[16]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 187.
-
- (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
+<use objectives.pdf>
+Package pdftex.def Info: objectives.pdf used on input line 99.
+(pdftex.def)             Requested size: 341.43306pt x 257.11067pt.
 )
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 187.
- [17] [18]
-Overfull \hbox (25.11769pt too wide) in paragraph at lines 274--276
-[]\OT1/ppl/m/it/10.95 Service dis-cov-ery: \OT1/ppl/m/n/10.95 Can-di-date con-c
-rete ser-vices that are func-tion-ally and non-functionally
- []
-
-[19] [20] [21] [22] [23] [24] [25]
-Overfull \hbox (1.8603pt too wide) in paragraph at lines 500--505
-\OT1/ppl/m/n/10.95 This pa-per pro-vides a sur-vey of the dif-fer-ent ap-proach
-es used for evo-lu-tion-ary schedul-
- []
-
-[26] [27] [28]
-Overfull \hbox (20.91412pt too wide) in paragraph at lines 566--566
-[]\OT1/ppl/b/n/14.4 Multi-objective, Top-K, and Sky-line Com-po-si-tion Ap-proa
-ches 
- []
-
-[29]
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [30]
-[31] [32]
-Overfull \hbox (0.7318pt too wide) in paragraph at lines 693--707
-\OT1/ppl/m/n/10.95 tributed "ser-vice com-mu-ni-ties" ac-cord-ing to their OWL-
-S se-man-tic de-scrip-tions, where
- []
-
-
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [33]
-[34] [35] [36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-[38]
-Overfull \hbox (0.14136pt too wide) in paragraph at lines 852--853
-\OT1/ppl/m/n/10.95 track-ing al-go-rithms (in-cre-men-tally build can-di-dates 
-to so-lu-tions, aban-don-ing par-
- []
-
-[39] [40]) [41]
-\openout2 = `preliminary_work.aux'.
-
- (./preliminary_work.tex [42
+ [7 <./objectives.pdf>] [8] (./proposal.bbl [9
 
 
 
-]
-Chapter 3.
-[43]) [44] (./proposal.bbl [45
-
-
-
-] [46] [47] [48] [49])
-
-! LaTeX Error: \begin{enumerate} on input line 57 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[50] (./proposal.aux (./introduction.aux) (./review.aux)
-(./preliminary_work.aux))
-
-LaTeX Warning: There were undefined references.
-
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 57 (\begingroup)
-### bottom level 
+]) [10] (./proposal.aux (./introduction.aux)) ) 
 Here is how much of TeX's memory you used:
- 2060 strings out of 493945
- 29040 string characters out of 6159097
- 87573 words of memory out of 5000000
- 5225 multiletter control sequences out of 15000+600000
- 32640 words of font info for 82 fonts, out of 8000000 for 9000
+ 1939 strings out of 493945
+ 27012 string characters out of 6159097
+ 83697 words of memory out of 5000000
+ 5133 multiletter control sequences out of 15000+600000
+ 27466 words of font info for 68 fonts, out of 8000000 for 9000
  774 hyphenation exceptions out of 8191
- 38i,6n,23p,2524b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pk
-g/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/pkg/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/pkg/share/texmf-dist/fo
-nts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/pa
-latino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
-fb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (56 pages, 337326 bytes).
+ 38i,6n,23p,1864b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/pkg/share/texmf-dist/fonts
+/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplb
+8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg
+/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/pkg/share/texmf-di
+st/fonts/type1/vuw/vuw20.pfb>
+Output written on proposal.pdf (16 pages, 273329 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 85 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
