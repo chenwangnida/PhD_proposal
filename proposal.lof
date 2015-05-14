@@ -1,2 +1,6 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Research questions and their corresponding objectives.}}{7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Typical steps in a workflow-based automated Web service composition solution \cite {moghaddam2014service}.}}{10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The different problem representations employed by biologically-inspired Web service composition approaches.}}{13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Basic example of Web service composition using the Graphplan algorithm.}}{20}

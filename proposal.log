@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (Web2C 2013) (format=pdflatex 2015.2.6)  11 MAY 2015 18:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (Web2C 2013) (format=pdflatex 2015.2.6)  14 MAY 2015 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -88,7 +88,7 @@ VUW Honours reports modifications -- Mar 1995
 Modified to handle different degrees 2003
 Modified to handle duplex printing properly 2006
 \@abstract=\box28
-) (./proposal.aux (./introduction.aux))
+) (./proposal.aux (./introduction.aux) (./review.aux))
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -212,12 +212,17 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 
 ] [2
 
-] (./proposal.lof)
+] (./proposal.lof
+Overfull \hbox (0.37186pt too wide) in paragraph at lines 5--5
+ [][] []\OT1/ppl/m/n/10.95 The dif-fer-ent prob-lem rep-re-sen-ta-tions em-ploy
+ed by biologically-inspired Web 
+ []
+
+)
 \tf@lof=\write4
 \openout4 = `proposal.lof'.
 
-
-[3] [4
+ [3] [4
 
 ]
 \openout2 = `introduction.aux'.
@@ -246,28 +251,99 @@ Package pdftex.def Info: objectives.pdf used on input line 99.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./objectives.pdf>] [8] (./proposal.bbl [9
+ [7 <./objectives.pdf>] [8]
+\openout2 = `review.aux'.
+
+ (./review.tex
+Chapter 2.
+<compositionLifecycle.pdf, id=63, 502.61525pt x 315.7672pt>
+File: compositionLifecycle.pdf Graphic file (type pdf)
+
+<use compositionLifecycle.pdf>
+Package pdftex.def Info: compositionLifecycle.pdf used on input line 13.
+(pdftex.def)             Requested size: 398.33858pt x 250.2628pt.
+ [9
 
 
 
-]) [10] (./proposal.aux (./introduction.aux)) ) 
+] [10 <./compositionLifecycle.pdf>]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
+ [11]
+<representations.pdf, id=79, 337.56111pt x 148.1535pt>
+File: representations.pdf Graphic file (type pdf)
+
+<use representations.pdf>
+Package pdftex.def Info: representations.pdf used on input line 55.
+(pdftex.def)             Requested size: 398.33858pt x 174.84221pt.
+ [12]
+Underfull \vbox (badness 2521) has occurred while \output is active []
+
+ [13 <./representations.pdf>] [14] [15]
+Overfull \hbox (6.37158pt too wide) in paragraph at lines 83--89
+\OT1/ppl/m/n/10.95 amongst a group of can-di-dates, typ-i-cally in prob-lems wh
+ere ex-haus-tive search is pro-hibitively
+ []
+
+[16] [17] [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+<graphplan.pdf, id=115, 438.32507pt x 149.39563pt>
+File: graphplan.pdf Graphic file (type pdf)
+ <use graphplan.pdf>
+Package pdftex.def Info: graphplan.pdf used on input line 129.
+(pdftex.def)             Requested size: 398.33858pt x 135.77014pt.
+ [20 <./graphplan.pdf>] [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+[23] [24]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 262.
+
+ (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 262.
+ [25] [26]
+[27]
+Overfull \hbox (0.51347pt too wide) in paragraph at lines 366--377
+\OT1/ppl/m/n/10.95 tions that are ca-pa-ble of evolv-ing and ad-just-ing them-s
+elves ac-cord-ing to un-ex-pected changes
+ []
+
+[28] [29]
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+ [30]
+[31]) [32] [33] [34
+
+
+] (./proposal.bbl [35
+
+] [36] [37] [38] [39] [40]) [41]
+(./proposal.aux (./introduction.aux) (./review.aux)) ) 
 Here is how much of TeX's memory you used:
- 1939 strings out of 493945
- 27012 string characters out of 6159097
- 83697 words of memory out of 5000000
- 5133 multiletter control sequences out of 15000+600000
- 27466 words of font info for 68 fonts, out of 8000000 for 9000
+ 2082 strings out of 493945
+ 29295 string characters out of 6159097
+ 87326 words of memory out of 5000000
+ 5247 multiletter control sequences out of 15000+600000
+ 33553 words of font info for 86 fonts, out of 8000000 for 9000
  774 hyphenation exceptions out of 8191
- 38i,6n,23p,1864b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/pkg/share/texmf-dist/fonts
-/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplb
-8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg
-/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/pkg/share/texmf-di
-st/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (16 pages, 273329 bytes).
+ 38i,6n,23p,2524b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/pkg/share/texmf-dis
+t/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr
+/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf
+-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type
+1/urw/palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb
+>
+Output written on proposal.pdf (47 pages, 740486 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 224 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

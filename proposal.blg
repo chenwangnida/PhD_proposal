@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99d (Web2C 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: proposal.aux
 A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: review.aux
 The style file: acm.bst
 Database file #1: bibliography.bib
 Repeated entry---line 262 of file bibliography.bib
@@ -20,6 +21,14 @@ Repeated entry---line 299 of file bibliography.bib
  : @incollection{lu2007web
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 308 of file bibliography.bib
+ : @inproceedings{saboohi2011world
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 322 of file bibliography.bib
+ : @article{martin2007bringing
+ :                            ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 333 of file bibliography.bib
  : @inproceedings{boustil2010web
  :                              ,
@@ -27,6 +36,22 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 342 of file bibliography.bib
  : @article{karakoc2009composing
  :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 353 of file bibliography.bib
+ : @inproceedings{gamha2008framework
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 362 of file bibliography.bib
+ : @book{lin2008web
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 369 of file bibliography.bib
+ : @inproceedings{marconi2006specifying
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 378 of file bibliography.bib
+ : @inproceedings{bertoli2009control
+ :                                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 423 of file bibliography.bib
  : @article{deng2013efficient
@@ -36,6 +61,18 @@ Repeated entry---line 493 of file bibliography.bib
  : @article{yoo2008web
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 502 of file bibliography.bib
+ : @inproceedings{chen2014qos
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 531 of file bibliography.bib
+ : @incollection{pop2010immune
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 551 of file bibliography.bib
+ : @inproceedings{xiang2011qos
+ :                            ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 589 of file bibliography.bib
  : @incollection{moghaddam2014service
  :                                   ,
@@ -43,6 +80,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 724 of file bibliography.bib
  : @article{DBLP:journals/soca/BoustilMS14
  :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 784 of file bibliography.bib
+ : @inproceedings{zhang2013genetic
+ :                                ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 916 of file bibliography.bib
  : @article{wang2014automated
@@ -56,45 +97,45 @@ Repeated entry---line 1022 of file bibliography.bib
  : @article{rodriguez2010composition
  :                                  ,
 I'm skipping whatever remains of this entry
-You've used 21 entries,
+You've used 96 entries,
             2253 wiz_defined-function locations,
-            661 strings with 8125 characters,
-and the built_in function-call counts, 8806 in all, are:
-= -- 900
-> -- 387
+            1040 strings with 22510 characters,
+and the built_in function-call counts, 40176 in all, are:
+= -- 4034
+> -- 1772
 < -- 0
-+ -- 166
-- -- 138
-* -- 689
-:= -- 1355
-add.period$ -- 68
-call.type$ -- 21
-change.case$ -- 132
++ -- 751
+- -- 632
+* -- 3039
+:= -- 6085
+add.period$ -- 302
+call.type$ -- 96
+change.case$ -- 600
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 324
-empty$ -- 697
-format.name$ -- 138
-if$ -- 1884
+cite$ -- 96
+duplicate$ -- 1616
+empty$ -- 3251
+format.name$ -- 632
+if$ -- 8695
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 21
-newline$ -- 108
-num.names$ -- 42
-pop$ -- 135
+int.to.str$ -- 96
+missing$ -- 99
+newline$ -- 483
+num.names$ -- 192
+pop$ -- 695
 preamble$ -- 1
-purify$ -- 111
+purify$ -- 507
 quote$ -- 0
-skip$ -- 230
+skip$ -- 1154
 stack$ -- 0
-substring$ -- 678
-swap$ -- 114
+substring$ -- 2865
+swap$ -- 568
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 378
 warning$ -- 0
-while$ -- 92
-width$ -- 23
-write$ -- 226
-(There were 13 error messages)
+while$ -- 417
+width$ -- 98
+write$ -- 1022
+(There were 23 error messages)
