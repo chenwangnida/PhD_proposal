@@ -11,8 +11,9 @@
 \contentsline {subsection}{\numberline {2.2.1}Biologically-Inspired Approaches}{12}
 \contentsline {subsubsection}{Graph Variations of GP}{14}
 \contentsline {subsection}{\numberline {2.2.2}Other Optimised Composition Approaches}{16}
-\contentsline {section}{\numberline {2.3}Multi-objective, Top-K, and Many-objective Composition Approaches}{17}
+\contentsline {section}{\numberline {2.3}Multi-objective, Top-K, and Many-objective Composition Approaches}{18}
 \contentsline {section}{\numberline {2.4}AI Planning-based Composition Approaches}{20}
 \contentsline {subsection}{\numberline {2.4.1}Hybrid Approaches}{22}
-\contentsline {section}{\numberline {2.5}Semantic Composition Approaches}{23}
-\contentsline {section}{\numberline {2.6}Dynamic, Distributed, and Cloud Composition}{28}
+\contentsline {section}{\numberline {2.5}Semantic Selection Approaches}{23}
+\contentsline {section}{\numberline {2.6}Dynamic Web Service Composition}{24}
+\contentsline {section}{\numberline {2.7}Summary}{26}
