@@ -10,9 +10,12 @@
               ]{report}
 
 
-\usepackage{float, enumerate, graphicx} % lets you have non-floating floats
+\usepackage{float, enumerate, graphicx, algorithm2e} % lets you have non-floating floats
 
 \usepackage{url} % for typesetting urls
+
+\SetAlgoCaptionSeparator{.\space}
+\renewcommand\AlCapFnt{\normalfont\scshape}
 
 %
 %  We don't want figures to float so we define
@@ -89,8 +92,7 @@ A short description of the project goes here.
 \include{introduction}
 \include{review}
 \include{preliminary_work}
-%\include{example}
-%\include{conclusion}
+\include{plan}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

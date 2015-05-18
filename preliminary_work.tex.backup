@@ -33,7 +33,8 @@ $T=\frac{\sum\limits^m_{n=1}t_n}{m}$ \hfill $C=\frac{\sum\limits^m_{n=1}c_n}{m}$
 $A=\prod\limits^m_{n=1}a_n$\\
 \space\hfill $R=\prod\limits^m_{n=1}r_n$\hfill\space\\[0.2cm]
 \end{tabular}}}
-\caption{Sequence construct and calculation of its QoS properties.}
+\caption{Sequence construct and calculation of its QoS properties
+\cite{silva2014graph}.}
 \label{fig:sequence}
 \vspace{0.3cm}
 
@@ -45,7 +46,8 @@ $A=\prod\limits^m_{n=1}a_n$\\
 $C=\frac{\sum\limits^m_{n=1}c_n}{m}$ \hfill $A=\prod\limits^m_{n=1}a_n$ \hfill
 $R=\prod\limits^m_{n=1}r_n$
 \end{tabular}}}
-\caption{Parallel construct and calculation of its QoS properties.}
+\caption{Parallel construct and calculation of its QoS properties
+\cite{silva2014graph}.}
 \label{fig:parallel}
 \vspace{0.3cm}
 
@@ -57,52 +59,10 @@ $T=\sum\limits^m_{n=1}p_{n} t_{n}$ \hfill $C=\sum\limits^m_{n=1}p_{n} c_{n}$\hfi
 $A=\sum\limits^m_{n=1}p_{n} a_{n}$\\
 \space\hfill$R=\sum\limits^m_{n=1}p_{n} r_{n}$\hfill\space\\[0.2cm]
 \end{tabular}}}
-\caption{Choice construct and calculation of its QoS properties.}
+\caption{Choice construct and calculation of its QoS properties
+\cite{sawczuk2015gp}.}
 \label{fig:conditional}
 \end{figure}
-
-\section{Fitness Function}
-The fitness function is used for optimising solutions according to their overall Quality of Service (QoS), and was based on the function shown in \cite{sawczuk2015gp}. This function measures the overall quality of a composition candidate by performing a weighted sum of the overall QoS attributes of a given candidate:
-
-\begin{equation}
- fitness_i = w_1A_i + w_2R_i + w_3(1 - T_i) + w_4(1 - C_i)
-\end{equation}
-
-where $\sum_{i=1}^4{w_i} = 1$ \\
-
-This function produces values in the range [0,1], where a fitness of 1 means the best possible quality, and a fitness of 0 means the worst. Because this is a maximising function, the Time $T$ and cost $C$ are offset by 1 in the formula, so that higher scores correspond to better qualities for these attributes as well. The overall quality attributes $A$, $R$, $T$, and $C$ of a composition are calculated according to formulae shown in Figures \ref{fig:sequence}, \ref{fig:parallel}, and \ref{fig:conditional}, and these values are then normalised to fit within the [0,1] range, according to Formulae \ref{availNormalise}, \ref{reliaNormalise}, \ref{timeNormalise}, and \ref{costNormalise}. These formulae are inspired by the work in \cite{ma2015hybrid}, and normalise the original overall composition values ($A_{orig}$, $R_{orig}$, $T_{orig}$, $C_{orig}$) by using the overall minimum and maximum values for each quality attribute over the entire service repository. In the formulae for calculating $T_i$ and $C_i$ the maximum values are multiplied by the total number $n$ of services in the repository, thus creating an upper bound for the normalisation. This is because a composition including all available candidate services would have the worst possible time and cost attributes.
-
-\begin{equation}
-A_i = \begin{cases}
-     \frac{A_{orig} - A_{min}}{A_{max} - A_{min}}, & \text{ if $A_{max} - A_{min} \neq 0$}.\\
-     1 & \text{ otherwise}.
-    \end{cases}
- \label{availNormalise}
-\end{equation}
-
-\begin{equation}
-R_i = \begin{cases}
-     \frac{R_{orig} - R_{min}}{R_{max} - R_{min}}, & \text{ if $R_{max} - R_{min} \neq 0$}.\\
-     1 & \text{ otherwise}.
-    \end{cases}
- \label{reliaNormalise}
-\end{equation}
-
-\begin{equation}
-T_i = \begin{cases}
-     \frac{T_{orig} - T_{min}}{nT_{max} - T_{min}}, & \text{ if $nT_{max} - T_{min} \neq 0$}.\\
-     0 & \text{ otherwise}.
-    \end{cases}
- \label{timeNormalise}
-\end{equation}
-
-\begin{equation}
-C_i = \begin{cases}
-     \frac{C_{orig} - C_{min}}{nC_{max} - C_{min}}, & \text{ if $nC_{max} - C_{min} \neq 0$}.\\
-     0 & \text{ otherwise}.
-    \end{cases}
- \label{costNormalise}
-\end{equation}
 
 \section{Conditional Tree Representation}
 
@@ -224,6 +184,35 @@ For reasons of brevity, the $toTree$ procedure shown in Algorithm \ref{toTree} f
 
 The crossover operator employed in the evolutionary process swaps any two leaf nodes (i.e. Web services), one from each candidate, provided that these two leaves are functionally equivalent in terms of input and output values but represent different Web services. This particular crossover operation implementation was chosen because it provides an effective mechanism for performing Web service selection, whose objective is to identify the best service to perform a task out of a set of candidates providing the same functionality.
 The mutation operator selects a node of the candidate tree at random, and using its input and output information produces a new subtree that may be structurally different yet provides the same functionality. The subtree is generated using Algorithm \ref{generation}, and is used to  replace the originally selected node in the candidate.
+
+
+\subsubsection{Fitness Function}\label{fitness}
+
+The fitness function is employed to measure the overall quality of a composition candidate. It does so by calculating the weighted sum of the four overall composition QoS attributes \cite{silva2014graph}, using the following function:
+
+\vspace{-0.6cm}
+\begin{equation}
+fitness_i = w_1(1 - A_i) + w_2(1 - R_i) + w_3T_i + w_4C_i
+\end{equation}
+\vspace{-0.3cm}
+\noindent where $\sum_{i=1}^{4} w_i = 1$
+\vspace{-0.3cm}
+\\\\
+
+This function produces values in the range [0, 1], with 0 representing the best possible quality and 1 the worst. The $A$, $R$, $T$, and $C$ values for each composition are calculated according to the formulae displayed in Figures \ref{fig:sequence}, \ref{fig:parallel}, and \ref{fig:conditional}. More specifically, the overall values are calculated starting from the tree leaves and working upwards towards the tree root. Since the resulting fitness value must be between 0 and 1, the weights used in the function must add up to 1, and the QoS values must be normalised to the [0, 1] range. As availability ($A$) and reliability ($R$) are probability values, they already meet this requirement. The time and cost values for each Web service, on the other hand, are normalised by using the smallest ($Min$) and largest ($Max$) respective values in the dataset, according to the following functions:
+\begin{equation}
+T_i = \begin{cases}
+     \frac{T_{orig} - T_{min}}{T_{max} - T_{min}}, & \text{ if $T_{max} - T_{min} \neq 0$}.\\
+     1 & \text{ otherwise}.
+    \end{cases}
+\end{equation}
+\begin{equation}
+C_i = \begin{cases}
+     \frac{C_{orig} - C_{min}}{C_{max} - C_{min}}, & \text{ if $C_{max} - C_{min} \neq 0$}.\\
+     1 & \text{ otherwise}.
+    \end{cases}
+\end{equation}
+Finally, $A$ and $R$ are offset by 1 in the fitness function. This is because $A$ and $R$ indicate the best qualities (i.e. the highest probabilities) with the highest possible values, whereas the fitness function indicates the best possible candidate quality with the lowest possible value (it is a minimising function).
 
 \subsubsection{GP Algorithm for Composition}
 When applying GP to the service composition problem, each candidate in the population represents a possible candidate solution. The initial population is created as described above, and the fitness of each candidate is evaluated using the fitness function. The fittest individuals are reproduced to the next generation, while other candidates are created in the next generation by applying the mutation and crossover operations to currently promising individuals. This new generation is then evaluated according to the fitness of candidates, and the process is repeated for a fixed number of generations. Lastly, the candidate with the highest fitness in the final population is chosen as the composition solution.
@@ -463,4 +452,49 @@ The procedures for performing the mutation and crossover operations are shown in
 
 In the case of $crossover$, the general idea is to reuse connection patterns from two existing candidates $G_1$ and $G_2$ in order to create a new child candidate that combines elements from these two parents. In order to do so, the original connections of $G_1$ and $G_2$ are abstracted into a map called $candMap$. This map can be queried to determine all the connections (from both parents) that can be made starting from a given node $x$, e.g. $x$ connects to $y_1$, $y_2$, and $y_3$ in $G_1$ and $G_2$. After having assembled this map, the $buildGraph$ procedure is invoked to create a child candidate. The difference is that the addition of candidates to the $candList$ is done by querying the $candMap$ to determine which services could be reached from the current node according to the connection patterns in the original parents. One of the advantages of this crossover implementation is that it allows for a flexible operation that reuses connection information from both parents. Additionally, this operation can be executed using the already existing graph-building algorithm with minimal changes.
 
+\subsubsection{Fitness function}
+The fitness function is used for optimising solutions according to their overall Quality of Service (QoS), and was based on the function shown in \cite{sawczuk2015gp}. This function measures the overall quality of a composition candidate by performing a weighted sum of the overall QoS attributes of a given candidate:
+
+\begin{equation}
+ fitness_i = w_1A_i + w_2R_i + w_3(1 - T_i) + w_4(1 - C_i)
+\end{equation}
+
+where $\sum_{i=1}^4{w_i} = 1$ \\
+
+This function produces values in the range [0,1], where a fitness of 1 means the best possible quality, and a fitness of 0 means the worst. Because this is a maximising function, the Time $T$ and cost $C$ are offset by 1 in the formula, so that higher scores correspond to better qualities for these attributes as well. The overall quality attributes $A$, $R$, $T$, and $C$ of a composition are calculated according to formulae shown in Figures \ref{fig:sequence}, \ref{fig:parallel}, and \ref{fig:conditional}, and these values are then normalised to fit within the [0,1] range, according to Formulae \ref{availNormalise}, \ref{reliaNormalise}, \ref{timeNormalise}, and \ref{costNormalise}. These formulae are inspired by the work in \cite{ma2015hybrid}, and normalise the original overall composition values ($A_{orig}$, $R_{orig}$, $T_{orig}$, $C_{orig}$) by using the overall minimum and maximum values for each quality attribute over the entire service repository. In the formulae for calculating $T_i$ and $C_i$ the maximum values are multiplied by the total number $n$ of services in the repository, thus creating an upper bound for the normalisation. This is because a composition including all available candidate services would have the worst possible time and cost attributes.
+
+\begin{equation}
+A_i = \begin{cases}
+     \frac{A_{orig} - A_{min}}{A_{max} - A_{min}}, & \text{ if $A_{max} - A_{min} \neq 0$}.\\
+     1 & \text{ otherwise}.
+    \end{cases}
+ \label{availNormalise}
+\end{equation}
+
+\begin{equation}
+R_i = \begin{cases}
+     \frac{R_{orig} - R_{min}}{R_{max} - R_{min}}, & \text{ if $R_{max} - R_{min} \neq 0$}.\\
+     1 & \text{ otherwise}.
+    \end{cases}
+ \label{reliaNormalise}
+\end{equation}
+
+\begin{equation}
+T_i = \begin{cases}
+     \frac{T_{orig} - T_{min}}{nT_{max} - T_{min}}, & \text{ if $nT_{max} - T_{min} \neq 0$}.\\
+     0 & \text{ otherwise}.
+    \end{cases}
+ \label{timeNormalise}
+\end{equation}
+
+\begin{equation}
+C_i = \begin{cases}
+     \frac{C_{orig} - C_{min}}{nC_{max} - C_{min}}, & \text{ if $nC_{max} - C_{min} \neq 0$}.\\
+     0 & \text{ otherwise}.
+    \end{cases}
+ \label{costNormalise}
+\end{equation}
+
 \section{Experiments}
+
+\section{Summary}

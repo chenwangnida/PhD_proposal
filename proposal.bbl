@@ -103,6 +103,13 @@
 \newblock {\em Practical Handbook Of Genetic Algorithms: Applications\/}
   (2001), 341--361.
 
+\bibitem{curbera2002unraveling}
+{\sc Curbera, F., Duftler, M., Khalaf, R., Nagy, W., Mukhi, N., and
+  Weerawarana, S.}
+\newblock Unraveling the web services web: an introduction to soap, wsdl, and
+  uddi.
+\newblock {\em IEEE Internet computing 6}, 2 (2002), 86--93.
+
 \bibitem{da2014graph}
 {\sc da~Silva, A.~S., Ma, H., and Zhang, M.}
 \newblock A graph-based particle swarm optimisation approach to qos-aware web
@@ -221,11 +228,6 @@
 \newblock In {\em Evolutionary Computation in Combinatorial Optimization}.
   Springer, 2015, pp.~114--125.
 
-\bibitem{jula2014cloud}
-{\sc Jula, A., Sundararajan, E., and Othman, Z.}
-\newblock Cloud computing service composition: A systematic literature review.
-\newblock {\em Expert Systems with Applications 41}, 8 (2014), 3809--3824.
-
 \bibitem{kantschik2002linear}
 {\sc Kantschik, W., and Banzhaf, W.}
 \newblock Linear-graph gp-a new gp structure.
@@ -273,13 +275,6 @@
 \newblock {\em International Journal of Web and Grid Services 10}, 1 (2014),
   80--99.
 
-\bibitem{li2014full}
-{\sc Li, J., Yan, Y., and Lemire, D.}
-\newblock Full solution indexing using database for qos-aware web service
-  composition.
-\newblock In {\em Services Computing (SCC), 2014 IEEE International Conference
-  on\/} (2014), IEEE, pp.~99--106.
-
 \bibitem{DBLP:journals/soca/LiZDSGL13}
 {\sc Li, M., Zhu, D., Deng, T., Sun, H., Guo, H., and Liu, X.}
 \newblock {GOS:} a global optimal selection strategies for qos-aware web
@@ -310,13 +305,6 @@
   based on multi-objective genetic algorithm.
 \newblock In {\em Grid and Cooperative Computing-GCC 2005}. Springer, 2005,
   pp.~84--89.
-
-\bibitem{liu2010location}
-{\sc Liu, Z., and Lu, T.}
-\newblock A location \& time related web service distributed selection approach
-  for composition.
-\newblock In {\em Grid and Cooperative Computing (GCC), 2010 9th International
-  Conference on\/} (2010), IEEE, pp.~296--301.
 
 \bibitem{lu2007web}
 {\sc Lu, J., Yu, Y., Roy, D., and Saha, D.}
@@ -355,6 +343,11 @@
 \newblock In {\em Environmental Software Systems. Frameworks of eEnvironment}.
   Springer, 2011, pp.~280--294.
 
+\bibitem{menasce2002qos}
+{\sc Menasce, D.}
+\newblock Qos issues in web services.
+\newblock {\em Internet Computing, IEEE 6}, 6 (2002), 72--75.
+
 \bibitem{milanovic2004current}
 {\sc Milanovic, N., and Malek, M.}
 \newblock Current solutions for web service composition.
@@ -382,13 +375,6 @@
 \newblock De novo drug design using multiobjective evolutionary graphs.
 \newblock {\em Journal of Chemical Information and Modeling 49}, 2 (2009),
   295--307.
-
-\bibitem{noor2013csce}
-{\sc Noor, T.~H., Sheng, Q.~Z., Alfazi, A., Ngu, A.~H., and Law, J.}
-\newblock Csce: A crawler engine for cloud services discovery on the world wide
-  web.
-\newblock In {\em Web Services (ICWS), 2013 IEEE 20th International Conference
-  on\/} (2013), IEEE, pp.~443--450.
 
 \bibitem{parejo2008qos}
 {\sc Parejo, J.~A., Fernandez, P., and Cort{\'e}s, A.~R.}
@@ -477,13 +463,6 @@
 \newblock In {\em Web Services, 2004. Proceedings. IEEE International
   Conference on\/} (2004), IEEE, pp.~368--375.
 
-\bibitem{upadhyaya2013approach}
-{\sc Upadhyaya, B., Tang, R., and Zou, Y.}
-\newblock An approach for mining service composition patterns from execution
-  logs.
-\newblock {\em Journal of Software: Evolution and Process 25}, 8 (2013),
-  841--870.
-
 \bibitem{wang2013genetic}
 {\sc Wang, A., Ma, H., and Zhang, M.}
 \newblock Genetic programming with greedy search for web service composition.
@@ -529,6 +508,11 @@
 \newblock {\em Service Oriented Computing and Applications 8}, 1 (2014),
   91--103.
 
+\bibitem{wohed2003analysis}
+{\sc Wohed, P., van~der Aalst, W.~M., Dumas, M., and Ter~Hofstede, A.~H.}
+\newblock Analysis of web services composition languages: The case of bpel4ws.
+\newblock In {\em Conceptual Modeling-ER 2003}. Springer, 2003, pp.~200--215.
+
 \bibitem{xia2013web}
 {\sc Xia, Y.-M., and Yang, Y.-B.}
 \newblock Web service composition integrating qos optimization and redundancy
@@ -563,18 +547,19 @@
   non-functional objectives and constraints.
 \newblock {\em algorithms 1\/} (2008), 7.
 
-\bibitem{yu2014optimizing}
-{\sc Yu, D., Li, C., and Yin, Y.}
-\newblock Optimizing web service composition for data-intensive applications.
-\newblock {\em International Journal of Database Theory \& Application 7}, 2
-  (2014).
-
 \bibitem{yu2013efficient}
 {\sc Yu, Q., and Bouguettaya, A.}
 \newblock Efficient service skyline computation for composite service
   selection.
 \newblock {\em Knowledge and Data Engineering, IEEE Transactions on 25}, 4
   (2013), 776--789.
+
+\bibitem{yu2013adaptive}
+{\sc Yu, Y., Ma, H., and Zhang, M.}
+\newblock An adaptive genetic programming approach to qos-aware web services
+  composition.
+\newblock In {\em Evolutionary Computation (CEC), 2013 IEEE Congress on\/}
+  (2013), IEEE, pp.~1740--1747.
 
 \bibitem{zhang2013selecting}
 {\sc Zhang, S., Dou, W., and Chen, J.}
@@ -596,11 +581,5 @@
   context space model.
 \newblock In {\em Web Services (ICWS), 2013 IEEE 20th International Conference
   on\/} (2013), IEEE, pp.~605--606.
-
-\bibitem{zhiling2013location}
-{\sc Zhiling, L., Ying, L., and Jianwei, Y.}
-\newblock Location: a feature for service selection in the era of big data.
-\newblock In {\em Web Services (ICWS), 2013 IEEE 20th International Conference
-  on\/} (2013), IEEE, pp.~515--522.
 
 \end{thebibliography}

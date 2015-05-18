@@ -4,3 +4,10 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Typical steps in a workflow-based automated Web service composition solution \cite {moghaddam2014service}.}}{10}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The different problem representations employed by biologically-inspired Web service composition approaches.}}{13}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Basic example of Web service composition using the Graphplan algorithm.}}{20}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A Web composition for an online book shopping system.}}{30}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sequence construct and calculation of its QoS properties.}}{31}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Parallel construct and calculation of its QoS properties.}}{31}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Choice construct and calculation of its QoS properties.}}{31}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of tree representation for Web service composition.}}{33}
+\addvspace {10\p@ }

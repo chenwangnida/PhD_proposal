@@ -1,21 +1,19 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.20)  17 MAY 2015 15:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (Web2C 2013) (format=pdflatex 2015.2.6)  18 MAY 2015 18:24
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **proposal.tex
-(C:\Users\Alex\git\proposal\proposal.tex
+(./proposal.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, uk
+rainian, turkish, swedish, spanish, slovenian, slovak, serbian, russian, romani
+an, portuguese, polish, bokmal, nynorsk, latin, italian, irish, indonesian, ice
+landic, hungarian, monogreek, greek, german, ngerman, french, finnish, estonian
+, esperanto, dutch, danish, czech, croatian, catalan, bulgarian, basque, loaded
+.
+(/usr/pkg/share/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+(/usr/pkg/share/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -31,7 +29,7 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/pkg/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count88
 \float@exts=\toks14
@@ -39,35 +37,35 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks15
 \@floatcapt=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+(/usr/pkg/share/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/pkg/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/pkg/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/pkg/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/pkg/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/pkg/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/pkg/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/pkg/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/pkg/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -75,113 +73,201 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(./algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count90
+ (/usr/pkg/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/pkg/share/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(/usr/pkg/share/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2003/07/04 ver 3.1
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip43
+\skiplinenumber=\skip44
+\skiprule=\skip45
+\skiphlne=\skip46
+\skiptext=\skip47
+\skiplength=\skip48
+\algomargin=\skip49
+\skipalgocfslide=\skip50
+\algowidth=\dimen105
+\inoutsize=\dimen106
+\inoutindent=\dimen107
+\interspacetitleruled=\dimen108
+\interspacealgoruled=\dimen109
+\interspacetitleboxruled=\dimen110
+\algocf@inoutbox=\box28
+\algocf@inputbox=\box29
+\AlCapSkip=\skip51
+\AlCapHSkip=\skip52
+\algoskipindent=\skip53
+\algocf@nlbox=\box30
+\algocf@hangingbox=\box31
+\algocf@untilbox=\box32
+\algocf@skipuntil=\skip54
+\algocf@capbox=\box33
+\algoheightruledefault=\skip55
+\algoheightrule=\skip56
+\algotitleheightruledefault=\skip57
+\algotitleheightrule=\skip58
+\c@algocfline=\count91
+\c@algocfproc=\count92
+\c@algocf=\count93
+\algocf@algoframe=\box34
+\algocf@algobox=\box35
+) (/usr/pkg/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 \@float@every@fig=\toks18
-\c@fig=\count90
-
-(C:\Users\Alex\git\proposal\vuwproject.sty
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathpazo.sty"
+\c@fig=\count94
+ (./vuwproject.sty
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-! Font \vuwf=vuw20 scaled 2074 not loadable: Metric (TFM) file not found.
-<to be read again> 
-                   \relax 
-l.76 \font\vuwf  = vuw20 scaled\magstep4
-                                        
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
 VUW Honours reports modifications -- Mar 1995
 Modified to handle different degrees 2003
 Modified to handle duplex printing properly 2006
-\@abstract=\box28
-) (C:\Users\Alex\git\proposal\proposal.aux
-(C:\Users\Alex\git\proposal\introduction.aux)
-(C:\Users\Alex\git\proposal\review.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 56.
+\@abstract=\box36
+) (./proposal.aux (./introduction.aux) (./review.aux) (./preliminary_work.aux
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+LaTeX Warning: Label `generation' multiply defined.
+
+) (./plan.aux))
+\openout1 = `proposal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 59.
+ (/usr/pkg/share/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/pkg/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen105
-\scratchbox=\box29
-\nofMPsegments=\count92
-\nofMParguments=\count93
+\scratchcounter=\count95
+\scratchdimen=\dimen111
+\scratchbox=\box37
+\nofMPsegments=\count96
+\nofMParguments=\count97
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen106
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen112
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
 \everyMPtoPDFconversion=\toks20
+) (/usr/pkg/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-\big@size=\dimen107
-Missing character: There is no V in font nullfont!
-Missing character: There is no U in font nullfont!
-Missing character: There is no W in font nullfont!
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 73.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd"
+(/usr/pkg/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/pkg/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/pkg/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/pkg/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/pkg/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/pkg/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/pkg/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/pkg/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/pkg/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\big@size=\dimen113
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 76.
+
+
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 76.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd"
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 73.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 76.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd"
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 76.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd"
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 76.
  [-1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [0]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [0]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 77.
-
-(C:\Users\Alex\git\proposal\proposal.toc)
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 80.
+ (./proposal.toc)
 \tf@toc=\write3
+\openout3 = `proposal.toc'.
+
  [1
 
 
 ] [2
 
-]
-(C:\Users\Alex\git\proposal\proposal.lof
+] (./proposal.lof
 Overfull \hbox (0.37186pt too wide) in paragraph at lines 5--5
  [][] []\OT1/ppl/m/n/10.95 The dif-fer-ent prob-lem rep-re-sen-ta-tions em-ploy
 ed by biologically-inspired Web 
@@ -189,9 +275,14 @@ ed by biologically-inspired Web
 
 )
 \tf@lof=\write4
+\openout4 = `proposal.lof'.
+
  [3] [4
 
-] (C:\Users\Alex\git\proposal\introduction.tex
+]
+\openout2 = `introduction.aux'.
+
+ (./introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
@@ -206,19 +297,30 @@ Overfull \hbox (9.28406pt too wide) in paragraph at lines 20--21
 -lu-tion-ary Com-pu-ta-tion workflow-
  []
 
-[2] [3] [4] [5] [6] <objectives.pdf, id=42, 403.13109pt x 303.57164pt>
+[2] [3] [4] [5] [6] <objectives.pdf, id=44, 403.13109pt x 303.57164pt>
 File: objectives.pdf Graphic file (type pdf)
 
 <use objectives.pdf>
 Package pdftex.def Info: objectives.pdf used on input line 99.
 (pdftex.def)             Requested size: 341.43306pt x 257.11067pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <C:/Users/Alex/git/proposal/objectives.pdf>] [8]
-(C:\Users\Alex\git\proposal\review.tex
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
+ [7 <./objectives.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 111.
+
+ (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
+) [8]
+\openout2 = `review.aux'.
+
+
+(./review.tex
 Chapter 2.
-<compositionLifecycle.pdf, id=61, 502.61525pt x 315.7672pt>
+<compositionLifecycle.pdf, id=64, 502.61525pt x 315.7672pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
 
 <use compositionLifecycle.pdf>
@@ -228,10 +330,11 @@ Package pdftex.def Info: compositionLifecycle.pdf used on input line 13.
 
 
 
-] [10 <C:/Users/Alex/git/proposal/compositionLifecycle.pdf>]
+] [10 <./compositionLifecycle.pdf>]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
- [11] <representations.pdf, id=77, 337.56111pt x 148.1535pt>
+ [11]
+<representations.pdf, id=80, 337.56111pt x 148.1535pt>
 File: representations.pdf Graphic file (type pdf)
 
 <use representations.pdf>
@@ -240,7 +343,7 @@ Package pdftex.def Info: representations.pdf used on input line 55.
  [12]
 Underfull \vbox (badness 2521) has occurred while \output is active []
 
- [13 <C:/Users/Alex/git/proposal/representations.pdf>] [14] [15]
+ [13 <./representations.pdf>] [14] [15]
 Overfull \hbox (6.37158pt too wide) in paragraph at lines 83--89
 \OT1/ppl/m/n/10.95 amongst a group of can-di-dates, typ-i-cally in prob-lems wh
 ere ex-haus-tive search is pro-hibitively
@@ -254,68 +357,927 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2035) has occurred while \output is active []
 
  [19]
-<graphplan.pdf, id=113, 438.32507pt x 149.39563pt>
+<graphplan.pdf, id=115, 438.32507pt x 149.39563pt>
 File: graphplan.pdf Graphic file (type pdf)
  <use graphplan.pdf>
 Package pdftex.def Info: graphplan.pdf used on input line 129.
 (pdftex.def)             Requested size: 398.33858pt x 135.77014pt.
- [20 <C:/Users/Alex/git/proposal/graphplan.pdf>] [21] [22]
-
-LaTeX Warning: Citation `curbera2002unraveling' on page 23 undefined on input l
-ine 158.
-
-
-LaTeX Warning: Citation `saboohi2011' on page 23 undefined on input line 160.
-
-
-LaTeX Warning: Citation `worldli2013towards' on page 23 undefined on input line
- 160.
-
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 162.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 162.
- [23]
-
-LaTeX Warning: Citation `DBLP:journals/soca/WenTLCLH1' on page 24 undefined on 
-input line 169.
-
-[24])
+ [20 <./graphplan.pdf>] [21] [22] [23] [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-[26] (C:\Users\Alex\git\proposal\proposal.bbl [27
+ [25])
+[26] [27]
+\openout2 = `preliminary_work.aux'.
+
+ (./preliminary_work.tex [28
 
 
 
-] [28] [29] [30] [31] [32])
-[33] (C:\Users\Alex\git\proposal\proposal.aux
-(C:\Users\Alex\git\proposal\introduction.aux)
-(C:\Users\Alex\git\proposal\review.aux))
+]
+Chapter 3.
+<motivation.pdf, id=155, 271.2007pt x 408.85248pt>
+File: motivation.pdf Graphic file (type pdf)
+ <use motivation.pdf>
+Package pdftex.def Info: motivation.pdf used on input line 9.
+(pdftex.def)             Requested size: 170.71652pt x 257.37254pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+[30 <./motivation.pdf>] <sequence.pdf, id=175, 286.78392pt x 72.27pt>
+File: sequence.pdf Graphic file (type pdf)
+
+<use sequence.pdf>
+Package pdftex.def Info: sequence.pdf used on input line 35.
+(pdftex.def)             Requested size: 101.17755pt x 25.49667pt.
+ <parallel.pdf, id=176, 201.56555pt x 108.06624pt>
+File: parallel.pdf Graphic file (type pdf)
+
+<use parallel.pdf>
+Package pdftex.def Info: parallel.pdf used on input line 47.
+(pdftex.def)             Requested size: 72.26999pt x 38.7455pt.
+ <conditional.pdf, id=177, 206.38354pt x 116.8365pt>
+File: conditional.pdf Graphic file (type pdf)
+
+<use conditional.pdf>
+Package pdftex.def Info: conditional.pdf used on input line 59.
+(pdftex.def)             Requested size: 72.26999pt x 40.913pt.
+
+
+LaTeX Warning: Citation `sawczuk2015gp' on page 31 undefined on input line 65.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+LaTeX Warning: Citation `ma2015hybrid' on page 31 undefined on input line 73.
+
+[31 <./sequence.pdf> <./parallel.pdf> <./conditional.pdf>]
+! Argument of \frac has an extra }.
+<inserted text> 
+                \par 
+l.77      \frac
+               {A_{orig} - A_{min}}{A_{max} - A_{min}}, & \text{ if $A_{max}...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \frac was complete.
+<to be read again> 
+                   \par 
+l.77      \frac
+               {A_{orig} - A_{min}}{A_{max} - A_{min}}, & \text{ if $A_{max}...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.77      \frac
+               {A_{orig} - A_{min}}{A_{max} - A_{min}}, & \text{ if $A_{max}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.77      \frac
+               {A_{orig} - A_{min}}{A_{max} - A_{min}}, & \text{ if $A_{max}...
+I'm guessing that you meant to end an alignment here.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.77      \frac
+               {A_{orig} - A_{min}}{A_{max} - A_{min}}, & \text{ if $A_{max}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.77 ...{A_{orig} - A_{min}}{A_{max} - A_{min}}, &
+                                                   \text{ if $A_{max} - A_{m...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.77 ...ig} - A_{min}}{A_{max} - A_{min}}, & \text
+                                                  { if $A_{max} - A_{min} \n...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.77 ...A_{min}}{A_{max} - A_{min}}, & \text{ if $
+                                                  A_{max} - A_{min} \neq 0$}.\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.77 ...A_{min}}{A_{max} - A_{min}}, & \text{ if $
+                                                  A_{max} - A_{min} \neq 0$}.\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   A
+l.77 ..._{min}}{A_{max} - A_{min}}, & \text{ if $A
+                                                  _{max} - A_{min} \neq 0$}.\\
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.77 ...{min}}{A_{max} - A_{min}}, & \text{ if $A_
+                                                  {max} - A_{min} \neq 0$}.\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+l.77 ...}, & \text{ if $A_{max} - A_{min} \neq 0$}
+                                                  .\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced alignment tab character &.
+l.78      1 &
+              \text{ otherwise}.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.78      1 & \text
+                   { otherwise}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{equation} on input line 75 ended by \end{cases}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79     \end{cases}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in horizontal mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.81 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \end{equation}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.81 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.81 \end{equation}
+                   
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.81 \end{equation}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+! Argument of \frac has an extra }.
+<inserted text> 
+                \par 
+l.85      \frac
+               {R_{orig} - R_{min}}{R_{max} - R_{min}}, & \text{ if $R_{max}...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \frac was complete.
+<to be read again> 
+                   \par 
+l.85      \frac
+               {R_{orig} - R_{min}}{R_{max} - R_{min}}, & \text{ if $R_{max}...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85      \frac
+               {R_{orig} - R_{min}}{R_{max} - R_{min}}, & \text{ if $R_{max}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.85      \frac
+               {R_{orig} - R_{min}}{R_{max} - R_{min}}, & \text{ if $R_{max}...
+I'm guessing that you meant to end an alignment here.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85      \frac
+               {R_{orig} - R_{min}}{R_{max} - R_{min}}, & \text{ if $R_{max}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.85 ...{R_{orig} - R_{min}}{R_{max} - R_{min}}, &
+                                                   \text{ if $R_{max} - R_{m...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.85 ...ig} - R_{min}}{R_{max} - R_{min}}, & \text
+                                                  { if $R_{max} - R_{min} \n...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.85 ...R_{min}}{R_{max} - R_{min}}, & \text{ if $
+                                                  R_{max} - R_{min} \neq 0$}.\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.85 ...R_{min}}{R_{max} - R_{min}}, & \text{ if $
+                                                  R_{max} - R_{min} \neq 0$}.\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   R
+l.85 ..._{min}}{R_{max} - R_{min}}, & \text{ if $R
+                                                  _{max} - R_{min} \neq 0$}.\\
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85 ...{min}}{R_{max} - R_{min}}, & \text{ if $R_
+                                                  {max} - R_{min} \neq 0$}.\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+l.85 ...}, & \text{ if $R_{max} - R_{min} \neq 0$}
+                                                  .\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced alignment tab character &.
+l.86      1 &
+              \text{ otherwise}.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.86      1 & \text
+                   { otherwise}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{equation} on input line 83 ended by \end{cases}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87     \end{cases}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in horizontal mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.89 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 \end{equation}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.89 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.89 \end{equation}
+                   
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.89 \end{equation}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+! Argument of \frac has an extra }.
+<inserted text> 
+                \par 
+l.93      \frac
+               {T_{orig} - T_{min}}{nT_{max} - T_{min}}, & \text{ if $nT_{ma...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \frac was complete.
+<to be read again> 
+                   \par 
+l.93      \frac
+               {T_{orig} - T_{min}}{nT_{max} - T_{min}}, & \text{ if $nT_{ma...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.93      \frac
+               {T_{orig} - T_{min}}{nT_{max} - T_{min}}, & \text{ if $nT_{ma...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.93      \frac
+               {T_{orig} - T_{min}}{nT_{max} - T_{min}}, & \text{ if $nT_{ma...
+I'm guessing that you meant to end an alignment here.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.93      \frac
+               {T_{orig} - T_{min}}{nT_{max} - T_{min}}, & \text{ if $nT_{ma...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.93 ...T_{orig} - T_{min}}{nT_{max} - T_{min}}, &
+                                                   \text{ if $nT_{max} - T_{...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.93 ...g} - T_{min}}{nT_{max} - T_{min}}, & \text
+                                                  { if $nT_{max} - T_{min} \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.93 ..._{min}}{nT_{max} - T_{min}}, & \text{ if $
+                                                  nT_{max} - T_{min} \neq 0$...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.93 ..._{min}}{nT_{max} - T_{min}}, & \text{ if $
+                                                  nT_{max} - T_{min} \neq 0$...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   n
+l.93 ...{min}}{nT_{max} - T_{min}}, & \text{ if $n
+                                                  T_{max} - T_{min} \neq 0$}.\\
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.93 ...in}}{nT_{max} - T_{min}}, & \text{ if $nT_
+                                                  {max} - T_{min} \neq 0$}.\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+l.93 ..., & \text{ if $nT_{max} - T_{min} \neq 0$}
+                                                  .\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced alignment tab character &.
+l.94      0 &
+              \text{ otherwise}.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.94      0 & \text
+                   { otherwise}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{equation} on input line 91 ended by \end{cases}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95     \end{cases}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in horizontal mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.97 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 \end{equation}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.97 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.97 \end{equation}
+                   
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.97 \end{equation}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+! Argument of \frac has an extra }.
+<inserted text> 
+                \par 
+l.101      \frac
+                {C_{orig} - C_{min}}{nC_{max} - C_{min}}, & \text{ if $nC_{m...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \frac was complete.
+<to be read again> 
+                   \par 
+l.101      \frac
+                {C_{orig} - C_{min}}{nC_{max} - C_{min}}, & \text{ if $nC_{m...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.101      \frac
+                {C_{orig} - C_{min}}{nC_{max} - C_{min}}, & \text{ if $nC_{m...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.101      \frac
+                {C_{orig} - C_{min}}{nC_{max} - C_{min}}, & \text{ if $nC_{m...
+I'm guessing that you meant to end an alignment here.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.101      \frac
+                {C_{orig} - C_{min}}{nC_{max} - C_{min}}, & \text{ if $nC_{m...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.101 ..._{orig} - C_{min}}{nC_{max} - C_{min}}, &
+                                                   \text{ if $nC_{max} - C_{...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.101 ...} - C_{min}}{nC_{max} - C_{min}}, & \text
+                                                  { if $nC_{max} - C_{min} \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.101 ...{min}}{nC_{max} - C_{min}}, & \text{ if $
+                                                  nC_{max} - C_{min} \neq 0$...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.101 ...{min}}{nC_{max} - C_{min}}, & \text{ if $
+                                                  nC_{max} - C_{min} \neq 0$...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   n
+l.101 ...min}}{nC_{max} - C_{min}}, & \text{ if $n
+                                                  C_{max} - C_{min} \neq 0$}.\\
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.101 ...n}}{nC_{max} - C_{min}}, & \text{ if $nC_
+                                                  {max} - C_{min} \neq 0$}.\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+l.101 ... & \text{ if $nC_{max} - C_{min} \neq 0$}
+                                                  .\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced alignment tab character &.
+l.102      0 &
+               \text{ otherwise}.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.102      0 & \text
+                    { otherwise}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{equation} on input line 99 ended by \end{cases}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103     \end{cases}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in horizontal mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.105 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.105 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.105 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.105 \end{equation}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+
+LaTeX Warning: Reference `fitness' on page 32 undefined on input line 111.
+
+<tree.pdf, id=200, 460.72125pt x 373.80905pt>
+File: tree.pdf Graphic file (type pdf)
+ <use tree.pdf>
+Package pdftex.def Info: tree.pdf used on input line 117.
+(pdftex.def)             Requested size: 239.00298pt x 193.9141pt.
+ [32] [33 <./tree.pdf>] [34] [35]
+
+LaTeX Warning: Citation `nguyen2005text' on page 36 undefined on input line 221
+.
+
+
+LaTeX Warning: Citation `sawczuk2015graphevol' on page 36 undefined on input li
+ne 243.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 260.
+
+LaTeX Warning: Citation `sawczuk2015graphevol' on page 36 undefined on input li
+ne 260.
+
+[36]
+
+LaTeX Warning: Citation `sawczuk2015graphevol' on page 37 undefined on input li
+ne 312.
+
+
+LaTeX Warning: Citation `sawczuk2015graphevol' on page 37 undefined on input li
+ne 312.
+
+
+Overfull \hbox (17.51448pt too wide) in paragraph at lines 318--319
+[]\OT1/ppl/m/n/10.95 Candidates are cre-ated us-ing the $\OML/zplm/m/it/10.95 b
+uildGraph$ \OT1/ppl/m/n/10.95 pro-ce-dure. This pro-ce-dure re-quires $\OML/zpl
+m/m/it/10.95 InputNode$\OT1/ppl/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (10.1445pt too wide) in paragraph at lines 365--367
+[]\OT1/ppl/m/n/10.95 Algorithm 5\OT1/cmtt/m/n/10.95 null \OT1/ppl/m/n/10.95 sho
+ws the $\OML/zplm/m/it/10.95 buildBranch$ \OT1/ppl/m/n/10.95 pro-ce-dure, which
+ re-cur-sively cre-ates the branched
+ []
+
+[37] [38] [39] [40]
+
+LaTeX Warning: Citation `sawczuk2015graphevol' on page 41 undefined on input li
+ne 458.
+
+[41]) [42]
+\openout2 = `plan.aux'.
+
+ (./plan.tex
+Chapter 4.
+) [43
+
+
+
+] [44
+
+
+] (./proposal.bbl [45
+
+] [46] [47] [48] [49] [50]) [51] (./proposal.aux (./introduction.aux) (./review
+.aux) (./preliminary_work.aux) (./plan.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 1733 strings out of 493921
- 23757 string characters out of 3147284
- 78049 words of memory out of 3000000
- 4978 multiletter control sequences out of 15000+200000
- 33530 words of font info for 85 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 27i,6n,23p,2524b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/mathpazo/fplmr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8
-a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on proposal.pdf (39 pages, 727012 bytes).
+ 3611 strings out of 493945
+ 50444 string characters out of 6159097
+ 137879 words of memory out of 5000000
+ 6733 multiletter control sequences out of 15000+600000
+ 39226 words of font info for 101 fonts, out of 8000000 for 9000
+ 774 hyphenation exceptions out of 8191
+ 38i,21n,35p,2524b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/pkg/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmtt10.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pf
+b></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/shar
+e/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fon
+ts/type1/urw/palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vu
+w20.pfb>
+Output written on proposal.pdf (57 pages, 1273948 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 204 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

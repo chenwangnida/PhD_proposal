@@ -3,139 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: proposal.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: review.aux
+A level-1 auxiliary file: preliminary_work.aux
 The style file: acm.bst
 Database file #1: bibliography.bib
-Repeated entry---line 262 of file bibliography.bib
- : @inproceedings{wang2012survey
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 271 of file bibliography.bib
- : @incollection{moghaddam2014service
- :                                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 280 of file bibliography.bib
- : @incollection{maue2011envision
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 299 of file bibliography.bib
- : @incollection{lu2007web
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 308 of file bibliography.bib
- : @inproceedings{saboohi2011world
- :                                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 322 of file bibliography.bib
- : @article{martin2007bringing
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 333 of file bibliography.bib
- : @inproceedings{boustil2010web
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 342 of file bibliography.bib
- : @article{karakoc2009composing
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 353 of file bibliography.bib
- : @inproceedings{gamha2008framework
- :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 362 of file bibliography.bib
- : @book{lin2008web
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 369 of file bibliography.bib
- : @inproceedings{marconi2006specifying
- :                                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 378 of file bibliography.bib
- : @inproceedings{bertoli2009control
- :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 423 of file bibliography.bib
- : @article{deng2013efficient
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 493 of file bibliography.bib
- : @article{yoo2008web
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 502 of file bibliography.bib
- : @inproceedings{chen2014qos
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 531 of file bibliography.bib
- : @incollection{pop2010immune
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 551 of file bibliography.bib
- : @inproceedings{xiang2011qos
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 589 of file bibliography.bib
- : @incollection{moghaddam2014service
- :                                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 724 of file bibliography.bib
- : @article{DBLP:journals/soca/BoustilMS14
- :                                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 784 of file bibliography.bib
- : @inproceedings{zhang2013genetic
- :                                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 916 of file bibliography.bib
- : @article{wang2014automated
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 965 of file bibliography.bib
- : @incollection{sohrabi2009web
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1022 of file bibliography.bib
- : @article{rodriguez2010composition
- :                                  ,
-I'm skipping whatever remains of this entry
-You've used 96 entries,
+Warning--I didn't find a database entry for "silva2014graph"
+Warning--I didn't find a database entry for "sawczuk2015gp"
+You've used 93 entries,
             2253 wiz_defined-function locations,
-            1040 strings with 22510 characters,
-and the built_in function-call counts, 40176 in all, are:
-= -- 4034
-> -- 1772
+            1031 strings with 22073 characters,
+and the built_in function-call counts, 39000 in all, are:
+= -- 3921
+> -- 1726
 < -- 0
-+ -- 751
-- -- 632
-* -- 3039
-:= -- 6085
-add.period$ -- 302
-call.type$ -- 96
-change.case$ -- 600
++ -- 731
+- -- 616
+* -- 2950
+:= -- 5915
+add.period$ -- 294
+call.type$ -- 93
+change.case$ -- 583
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 1616
-empty$ -- 3251
-format.name$ -- 632
-if$ -- 8695
+cite$ -- 93
+duplicate$ -- 1563
+empty$ -- 3147
+format.name$ -- 616
+if$ -- 8437
 int.to.chr$ -- 0
-int.to.str$ -- 96
-missing$ -- 99
-newline$ -- 483
-num.names$ -- 192
-pop$ -- 695
+int.to.str$ -- 93
+missing$ -- 96
+newline$ -- 468
+num.names$ -- 186
+pop$ -- 673
 preamble$ -- 1
-purify$ -- 507
+purify$ -- 493
 quote$ -- 0
-skip$ -- 1154
+skip$ -- 1117
 stack$ -- 0
-substring$ -- 2865
-swap$ -- 568
+substring$ -- 2780
+swap$ -- 550
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 378
+type$ -- 366
 warning$ -- 0
-while$ -- 417
-width$ -- 98
-write$ -- 1022
-(There were 23 error messages)
+while$ -- 405
+width$ -- 95
+write$ -- 992
+(There were 2 warnings)

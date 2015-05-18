@@ -16,4 +16,21 @@
 \contentsline {subsection}{\numberline {2.4.1}Hybrid Approaches}{22}
 \contentsline {section}{\numberline {2.5}Semantic Selection Approaches}{23}
 \contentsline {section}{\numberline {2.6}Dynamic Web Service Composition}{24}
-\contentsline {section}{\numberline {2.7}Summary}{26}
+\contentsline {section}{\numberline {2.7}Summary and Limitations}{26}
+\contentsline {chapter}{\numberline {3}Preliminary Work}{29}
+\contentsline {section}{\numberline {3.1}Problem Formalisation}{29}
+\contentsline {section}{\numberline {3.2}Language Constructs and QoS}{30}
+\contentsline {section}{\numberline {3.3}Fitness Function}{31}
+\contentsline {section}{\numberline {3.4}Conditional Tree Representation}{32}
+\contentsline {subsection}{\numberline {3.4.1}Movitation}{32}
+\contentsline {subsection}{\numberline {3.4.2}Proposed Approach}{32}
+\contentsline {subsubsection}{Population Initialisation}{33}
+\contentsline {subsubsection}{Mutation and Crossover}{36}
+\contentsline {subsubsection}{GP Algorithm for Composition}{36}
+\contentsline {section}{\numberline {3.5}Conditional Graph Representation}{36}
+\contentsline {subsection}{\numberline {3.5.1}Why Add Branches}{36}
+\contentsline {subsection}{\numberline {3.5.2}Proposed Representation}{36}
+\contentsline {subsubsection}{Graph building algorithm}{37}
+\contentsline {subsubsection}{Mutation and Crossover}{41}
+\contentsline {section}{\numberline {3.6}Experiments}{42}
+\contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{43}
