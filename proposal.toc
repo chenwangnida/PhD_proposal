@@ -1,36 +1,41 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Problem Statement}{1}
 \contentsline {section}{\numberline {1.2}Motivations}{2}
-\contentsline {section}{\numberline {1.3}Research Goals}{4}
-\contentsline {section}{\numberline {1.4}Published Papers}{8}
-\contentsline {section}{\numberline {1.5}Organisation of Proposal}{8}
-\contentsline {chapter}{\numberline {2}Literature Review}{9}
-\contentsline {section}{\numberline {2.1}An Overview of Web Service Composition}{9}
-\contentsline {subsection}{\numberline {2.1.1}Web Service Composition in Practice}{11}
-\contentsline {section}{\numberline {2.2}Single-Objective QoS-Aware Composition Approaches}{12}
-\contentsline {subsection}{\numberline {2.2.1}Biologically-Inspired Approaches}{12}
-\contentsline {subsubsection}{Graph Variations of GP}{14}
-\contentsline {subsection}{\numberline {2.2.2}Other Optimised Composition Approaches}{16}
-\contentsline {section}{\numberline {2.3}Multi-objective, Top-K, and Many-objective Composition Approaches}{18}
-\contentsline {section}{\numberline {2.4}AI Planning-based Composition Approaches}{20}
-\contentsline {subsection}{\numberline {2.4.1}Hybrid Approaches}{22}
-\contentsline {section}{\numberline {2.5}Semantic Selection Approaches}{23}
-\contentsline {section}{\numberline {2.6}Dynamic Web Service Composition}{24}
-\contentsline {section}{\numberline {2.7}Summary and Limitations}{26}
-\contentsline {chapter}{\numberline {3}Preliminary Work}{29}
-\contentsline {section}{\numberline {3.1}Problem Formalisation}{29}
-\contentsline {section}{\numberline {3.2}Language Constructs and QoS}{30}
-\contentsline {section}{\numberline {3.3}Fitness Function}{31}
-\contentsline {section}{\numberline {3.4}Conditional Tree Representation}{32}
-\contentsline {subsection}{\numberline {3.4.1}Movitation}{32}
-\contentsline {subsection}{\numberline {3.4.2}Proposed Approach}{32}
-\contentsline {subsubsection}{Population Initialisation}{33}
-\contentsline {subsubsection}{Mutation and Crossover}{36}
-\contentsline {subsubsection}{GP Algorithm for Composition}{36}
-\contentsline {section}{\numberline {3.5}Conditional Graph Representation}{36}
-\contentsline {subsection}{\numberline {3.5.1}Why Add Branches}{36}
-\contentsline {subsection}{\numberline {3.5.2}Proposed Representation}{36}
-\contentsline {subsubsection}{Graph building algorithm}{37}
-\contentsline {subsubsection}{Mutation and Crossover}{41}
-\contentsline {section}{\numberline {3.6}Experiments}{42}
-\contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{43}
+\contentsline {subsection}{\numberline {1.2.1}Limitations of Current Web Service Composition Approaches}{5}
+\contentsline {subsubsection}{Hybridisation of AI planning and EC composition Techniques}{5}
+\contentsline {subsubsection}{Multi-Objective Composition Optimisation}{5}
+\contentsline {subsubsection}{Semantic Web Service Selection}{5}
+\contentsline {subsubsection}{EC-based Dynamic Web Service Composition}{6}
+\contentsline {section}{\numberline {1.3}Research Goals}{6}
+\contentsline {section}{\numberline {1.4}Published Papers}{9}
+\contentsline {section}{\numberline {1.5}Organisation of Proposal}{9}
+\contentsline {chapter}{\numberline {2}Literature Review}{11}
+\contentsline {section}{\numberline {2.1}An Overview of Web Service Composition}{11}
+\contentsline {subsection}{\numberline {2.1.1}Web Service Composition in Practice}{13}
+\contentsline {section}{\numberline {2.2}Single-Objective QoS-Aware Composition Approaches}{14}
+\contentsline {subsection}{\numberline {2.2.1}Biologically-Inspired Approaches}{14}
+\contentsline {subsubsection}{Graph Variations of GP}{16}
+\contentsline {subsection}{\numberline {2.2.2}Other Optimised Composition Approaches}{18}
+\contentsline {section}{\numberline {2.3}Multi-objective, Top-K, and Many-objective Composition Approaches}{20}
+\contentsline {section}{\numberline {2.4}AI Planning-based Composition Approaches}{22}
+\contentsline {subsection}{\numberline {2.4.1}Hybrid Approaches}{24}
+\contentsline {section}{\numberline {2.5}Semantic Selection Approaches}{25}
+\contentsline {section}{\numberline {2.6}Dynamic Web Service Composition}{26}
+\contentsline {section}{\numberline {2.7}Summary and Limitations}{28}
+\contentsline {chapter}{\numberline {3}Preliminary Work}{31}
+\contentsline {section}{\numberline {3.1}Problem Formalisation}{31}
+\contentsline {section}{\numberline {3.2}Language Constructs and QoS}{32}
+\contentsline {section}{\numberline {3.3}Fitness Function}{33}
+\contentsline {section}{\numberline {3.4}Conditional Tree Representation}{34}
+\contentsline {subsection}{\numberline {3.4.1}Movitation}{34}
+\contentsline {subsection}{\numberline {3.4.2}Proposed Approach}{34}
+\contentsline {subsubsection}{Population Initialisation}{35}
+\contentsline {subsubsection}{Mutation and Crossover}{38}
+\contentsline {subsubsection}{GP Algorithm for Composition}{38}
+\contentsline {section}{\numberline {3.5}Conditional Graph Representation}{38}
+\contentsline {subsection}{\numberline {3.5.1}Why Add Branches}{38}
+\contentsline {subsection}{\numberline {3.5.2}Proposed Representation}{38}
+\contentsline {subsubsection}{Graph building algorithm}{39}
+\contentsline {subsubsection}{Mutation and Crossover}{43}
+\contentsline {section}{\numberline {3.6}Experiments}{44}
+\contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{45}

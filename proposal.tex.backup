@@ -10,9 +10,14 @@
               ]{report}
 
 
-\usepackage{float} % lets you have non-floating floats
+\usepackage{float,enumerate,graphicx,algorithm2e,amsmath,amssymb,url}
 
-\usepackage{url} % for typesetting urls
+\usepackage[english]{babel}
+
+\SetAlgoCaptionSeparator{.\space}
+\renewcommand\AlCapFnt{\normalfont\scshape}
+
+\hyphenation{ser-vice"-o-ri-en-ted}
 
 %
 %  We don't want figures to float so we define
@@ -22,7 +27,7 @@
 
 %% These are standard LaTeX definitions for the document
 %%                            
-\title{The Title}
+\title{Multifaceted Web Service Composition}
 \author{Alexandre Sawczuk da Silva}
 
 %% This file can be used for creating a wide range of reports
@@ -64,7 +69,7 @@
 
 \begin{abstract}
 
-A short description of the project goes here.
+Automated Web service composition is one of the holy grails of service-oriented computing, since it allows users to create an application simply by specifying the inputs the resulting application should require, the outputs it should produce, and any constraints it should respect. The composition problem has been handled using a variety of techniques, from AI planning to optimisation algorithms, however no work so far has focused on handling multiple composition facets simultaneously, producing solutions that are: (1) fully functional (i.e. fully executable, with semantically-matched inputs and outputs), (2) respect composition constraints (e.g. user can specify logical branching), (3) are optimised according to non-functional Quality of Service (QoS) measurements, and (4) respond to changes in a dynamic environment. The overall goal of this thesis is to propose a hybrid Web service composition approach that considers elements from all four facets described above when generating solutions. This approach combines elements of AI planning and of Evolutionary Computation to allow for the creation of compositions that meet all of these requirements.
 
 \end{abstract}
 
@@ -87,10 +92,9 @@ A short description of the project goes here.
 
 % individual chapters included here
 \include{introduction}
-%\include{using}
-%\include{example}
-%\include{conclusion}
-
+\include{review}
+\include{preliminary_work}
+\include{plan}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

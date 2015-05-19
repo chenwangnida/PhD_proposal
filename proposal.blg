@@ -4,13 +4,16 @@ The top-level auxiliary file: proposal.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: review.aux
 A level-1 auxiliary file: preliminary_work.aux
+A level-1 auxiliary file: plan.aux
 The style file: acm.bst
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "silva2014graph"
 Warning--I didn't find a database entry for "sawczuk2015gp"
+Warning--I didn't find a database entry for "ma2015hybrid"
+Warning--I didn't find a database entry for "nguyen2005text"
+Warning--I didn't find a database entry for "sawczuk2015graphevol"
 You've used 93 entries,
             2253 wiz_defined-function locations,
-            1031 strings with 22073 characters,
+            1034 strings with 22113 characters,
 and the built_in function-call counts, 39000 in all, are:
 = -- 3921
 > -- 1726
@@ -49,4 +52,4 @@ warning$ -- 0
 while$ -- 405
 width$ -- 95
 write$ -- 992
-(There were 2 warnings)
+(There were 4 warnings)

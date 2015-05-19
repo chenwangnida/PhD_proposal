@@ -74,23 +74,23 @@ This function produces values in the range [0,1], where a fitness of 1 means the
 
 \begin{equation}
 A_i = \begin{cases}
-     \frac{A_{orig} - A_{min}}{A_{max} - A_{min}}, & \text{ if $A_{max} - A_{min} \neq 0$}.\\
-     1 & \text{ otherwise}.
+     \frac{A_{orig} - A_{min}}{A_{max} - A_{min}}, & \text{ if }A_{max} - A_{min} \neq 0.\\
+     1 & \mathrm{ otherwise}.
     \end{cases}
  \label{availNormalise}
 \end{equation}
 
 \begin{equation}
 R_i = \begin{cases}
-     \frac{R_{orig} - R_{min}}{R_{max} - R_{min}}, & \text{ if $R_{max} - R_{min} \neq 0$}.\\
-     1 & \text{ otherwise}.
+     \frac{R_{orig} - R_{min}}{R_{max} - R_{min}}, & \text{ if }R_{max} - R_{min} \neq 0.\\
+     1 & \mathrm{ otherwise}.
     \end{cases}
  \label{reliaNormalise}
 \end{equation}
 
 \begin{equation}
 T_i = \begin{cases}
-     \frac{T_{orig} - T_{min}}{nT_{max} - T_{min}}, & \text{ if $nT_{max} - T_{min} \neq 0$}.\\
+     \frac{T_{orig} - T_{min}}{nT_{max} - T_{min}}, & \text{ if }nT_{max} - T_{min} \neq 0.\\
      0 & \text{ otherwise}.
     \end{cases}
  \label{timeNormalise}
@@ -98,7 +98,7 @@ T_i = \begin{cases}
 
 \begin{equation}
 C_i = \begin{cases}
-     \frac{C_{orig} - C_{min}}{nC_{max} - C_{min}}, & \text{ if $nC_{max} - C_{min} \neq 0$}.\\
+     \frac{C_{orig} - C_{min}}{nC_{max} - C_{min}}, & \text{ if }nC_{max} - C_{min} \neq 0.\\
      0 & \text{ otherwise}.
     \end{cases}
  \label{costNormalise}
