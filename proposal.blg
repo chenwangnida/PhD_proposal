@@ -7,49 +7,44 @@ A level-1 auxiliary file: preliminary_work.aux
 A level-1 auxiliary file: plan.aux
 The style file: acm.bst
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "sawczuk2015gp"
-Warning--I didn't find a database entry for "ma2015hybrid"
-Warning--I didn't find a database entry for "nguyen2005text"
-Warning--I didn't find a database entry for "sawczuk2015graphevol"
-You've used 93 entries,
+You've used 100 entries,
             2253 wiz_defined-function locations,
-            1034 strings with 22113 characters,
-and the built_in function-call counts, 39000 in all, are:
-= -- 3921
-> -- 1726
+            1063 strings with 23418 characters,
+and the built_in function-call counts, 41709 in all, are:
+= -- 4182
+> -- 1845
 < -- 0
-+ -- 731
-- -- 616
-* -- 2950
-:= -- 5915
-add.period$ -- 294
-call.type$ -- 93
-change.case$ -- 583
++ -- 783
+- -- 658
+* -- 3129
+:= -- 6330
+add.period$ -- 317
+call.type$ -- 100
+change.case$ -- 623
 chr.to.int$ -- 0
-cite$ -- 93
-duplicate$ -- 1563
-empty$ -- 3147
-format.name$ -- 616
-if$ -- 8437
+cite$ -- 100
+duplicate$ -- 1692
+empty$ -- 3380
+format.name$ -- 658
+if$ -- 9032
 int.to.chr$ -- 0
-int.to.str$ -- 93
-missing$ -- 96
-newline$ -- 468
-num.names$ -- 186
-pop$ -- 673
+int.to.str$ -- 100
+missing$ -- 105
+newline$ -- 503
+num.names$ -- 200
+pop$ -- 738
 preamble$ -- 1
-purify$ -- 493
+purify$ -- 528
 quote$ -- 0
-skip$ -- 1117
+skip$ -- 1203
 stack$ -- 0
-substring$ -- 2780
-swap$ -- 550
+substring$ -- 2922
+swap$ -- 590
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 366
+type$ -- 390
 warning$ -- 0
-while$ -- 405
-width$ -- 95
-write$ -- 992
-(There were 4 warnings)
+while$ -- 428
+width$ -- 103
+write$ -- 1069

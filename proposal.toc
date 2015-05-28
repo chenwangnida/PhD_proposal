@@ -24,18 +24,26 @@
 \contentsline {section}{\numberline {2.7}Summary and Limitations}{28}
 \contentsline {chapter}{\numberline {3}Preliminary Work}{31}
 \contentsline {section}{\numberline {3.1}Problem Formalisation}{31}
-\contentsline {section}{\numberline {3.2}Language Constructs and QoS}{32}
-\contentsline {section}{\numberline {3.3}Fitness Function}{33}
-\contentsline {section}{\numberline {3.4}Conditional Tree Representation}{34}
-\contentsline {subsection}{\numberline {3.4.1}Movitation}{34}
-\contentsline {subsection}{\numberline {3.4.2}Proposed Approach}{34}
-\contentsline {subsubsection}{Population Initialisation}{35}
-\contentsline {subsubsection}{Mutation and Crossover}{38}
-\contentsline {subsubsection}{GP Algorithm for Composition}{38}
-\contentsline {section}{\numberline {3.5}Conditional Graph Representation}{38}
-\contentsline {subsection}{\numberline {3.5.1}Why Add Branches}{38}
-\contentsline {subsection}{\numberline {3.5.2}Proposed Representation}{38}
-\contentsline {subsubsection}{Graph building algorithm}{39}
-\contentsline {subsubsection}{Mutation and Crossover}{43}
-\contentsline {section}{\numberline {3.6}Experiments}{44}
-\contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{45}
+\contentsline {section}{\numberline {3.2}EC-Based Composition Approaches}{31}
+\contentsline {section}{\numberline {3.3}Language Constructs and QoS}{32}
+\contentsline {section}{\numberline {3.4}Fitness Function}{33}
+\contentsline {section}{\numberline {3.5}Conditional Tree Representation}{34}
+\contentsline {subsection}{\numberline {3.5.1}Population Initialisation}{35}
+\contentsline {subsection}{\numberline {3.5.2}Mutation and Crossover}{38}
+\contentsline {section}{\numberline {3.6}Conditional Graph Representation}{38}
+\contentsline {subsection}{\numberline {3.6.1}Population Initialisation}{38}
+\contentsline {subsection}{\numberline {3.6.2}Mutation and Crossover}{43}
+\contentsline {section}{\numberline {3.7}Experiment Design}{44}
+\contentsline {subsection}{\numberline {3.7.1}Parameters}{44}
+\contentsline {section}{\numberline {3.8}Results}{44}
+\contentsline {subsection}{\numberline {3.8.1}Comparison Tests}{45}
+\contentsline {subsection}{\numberline {3.8.2}Convergence Test}{47}
+\contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{49}
+\contentsline {section}{\numberline {4.1}Proposed Contributions}{49}
+\contentsline {section}{\numberline {4.2}Overview of Project Plan}{49}
+\contentsline {section}{\numberline {4.3}Project Timeline}{50}
+\contentsline {section}{\numberline {4.4}Thesis Outline}{50}
+\contentsline {section}{\numberline {4.5}Resources Required}{52}
+\contentsline {subsection}{\numberline {4.5.1}Computing Resources}{52}
+\contentsline {subsection}{\numberline {4.5.2}Library Resources}{52}
+\contentsline {subsection}{\numberline {4.5.3}Conference Travel Grants}{52}

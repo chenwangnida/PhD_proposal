@@ -12,7 +12,7 @@ This thesis will contribute to the field of Evolutionary Computation by proposin
  \item Present an EC-based approach for the semantic selection of Web services in fully automated composition scenarios, as opposed to relying on the typical semi-automated usage where an abstract workflow has already been provided. This novel approach is expected to improve the selection performance of fully automated composition techniques, which currently rely on exhaustive similarity calculations.
 
  \item Introduce the use of Evolutionary Computation techniques in dynamic Web service composition scenarios, leveraging the population diversity intrinsic to these approaches.
- As the composition environment changes and solutions are re-optimised and adjusted, the use of EC techniques is expected to yield solutions with better quality levels than those produced by approaches that do not perform re-optimisation.
+ As the compoisition environment changes and solutions are re-optimised and adjusted, the use of EC techniques is expected to yield solutions with better quality levels than those produced by approaches that do not perform re-optimisation.
 \end{enumerate}
 
 \section{Overview of Project Plan}
@@ -91,7 +91,7 @@ The completed thesis will be organised into the following chapters:
  \item \textit{Chapter 5: Semantic Web Service Selection in a Planning-Based Composition Technique}\\
  A novel semantic approach for selecting which services are to be included in the composition will be proposed in this chapter. This approach focuses on selecting candidate services to be used in a planning-based composition technique without relying on precalculated semantic distances, as existing approaches have done. A comparison will be performed between this novel approach and the those that rely on precalculations.
  \item \textit{Chapter 6: EC-Based Compositions in a Dynamic Environment}\\
- This chapter will extend the composition technique discussed throughout this thesis to work in dynamic environments. Firstly, a way of re-optimising solutions as quality values fluctuate will be proposed, and then an approach for responding to service faults will be discussed. The extended technique will be compared against the existing dynamic composition approaches, which do not use EC techniques, to establish whether there are quality gains in the solutions produced.
+ This chapter will extend the composition technique discussed throughout this thesis to work in dynamic environments. Firstly, a way of reoptimising solutions as quality values fluctuate will be proposed, and then an approach for responding to service faults will be discussed. The extended technique will be compared against the existing dynamic composition approaches, which do not use EC techniques, to establish whether there are quality gains in the solutions produced.
  \item \textit{Chapter 7: Conclusions and Future Work}\\
  In this chapter, conclusions will be drawn from the analysis and experiments conducted in the different phases of this research, and the main findings for each one of them will be summarised. Additionally, future research directions will be discussed.
 \end{itemize}
@@ -106,4 +106,4 @@ An experimental approach will be adopted in this research, entailing the executi
 The majority of the material relevant to this research can be found online, using the university's electronic resources. Other works may either be acquired at the university's library, or by soliciting assistance from the Subject Librarian for the fields of engineering and computer science.
 
 \subsection{Conference Travel Grants}
-Publications to relevant venues in this field are expected throughout this project, therefore travel grants from the university are required for key conferences.
+Publications to relevant venues in this field are expected throughout this project, therefore travel grants from the univeristy are required for key conferences.

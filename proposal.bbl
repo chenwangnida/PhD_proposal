@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{alferez2013facing}
 {\sc Alf{\'e}rez, G.~H., and Pelechano, V.}
@@ -17,6 +17,12 @@
   compositions.
 \newblock {\em International Journal of Computer Systems Science \& Engineering
   21}, 4 (2006), 247--254.
+
+\bibitem{back2000evolutionary}
+{\sc B{\"a}ck, T., Fogel, D.~B., and Michalewicz, Z.}
+\newblock {\em Evolutionary computation 1: Basic algorithms and operators},
+  vol.~1.
+\newblock CRC Press, 2000.
 
 \bibitem{bader2010hypervolume}
 {\sc Bader, J.~M.}
@@ -70,6 +76,13 @@
   multiobjective evolution of median molecules.
 \newblock {\em Journal of chemical information and computer sciences 44}, 3
   (2004), 1079--1087.
+
+\bibitem{canfora2005approach}
+{\sc Canfora, G., Di~Penta, M., Esposito, R., and Villani, M.~L.}
+\newblock An approach for qos-aware service composition based on genetic
+  algorithms.
+\newblock In {\em Proceedings of the 7th annual conference on Genetic and
+  evolutionary computation\/} (2005), ACM, pp.~1069--1075.
 
 \bibitem{chen2014qos}
 {\sc Chen, M., and Yan, Y.}
@@ -268,6 +281,12 @@
 \newblock Sawsdl: Semantic annotations for wsdl and xml schema.
 \newblock {\em Internet Computing, IEEE 11}, 6 (2007), 60--67.
 
+\bibitem{koza1992genetic}
+{\sc Koza, J.~R.}
+\newblock {\em Genetic programming: on the programming of computers by means of
+  natural selection}, vol.~1.
+\newblock MIT press, 1992.
+
 \bibitem{li2014fault}
 {\sc Li, G., Liao, L., Song, D., and Zheng, Z.}
 \newblock A fault-tolerant framework for qos-aware web service composition via
@@ -311,6 +330,13 @@
 \newblock Web service composition: A reality check.
 \newblock In {\em Web Information Systems Engineering--WISE 2007}. Springer,
   2007, pp.~523--532.
+
+\bibitem{ma2015hybrid}
+{\sc Ma, H., Wang, A., and Zhang, M.}
+\newblock A hybrid approach using genetic programming and greedy search for
+  qos-aware web service composition.
+\newblock In {\em Transactions on Large-Scale Data-and Knowledge-Centered
+  Systems XVIII}. Springer, 2015, pp.~180--205.
 
 \bibitem{mabu2007graph}
 {\sc Mabu, S., Hirasawa, K., and Hu, J.}
@@ -370,6 +396,12 @@
   existing approaches.
 \newblock In {\em Web Services Foundations}. Springer, 2014, pp.~321--346.
 
+\bibitem{nguyen2005text}
+{\sc Nguyen, C.~D., Dung, T.~A., and Cao, T.~H.}
+\newblock Text classification for dag-structured categories.
+\newblock In {\em Advances in Knowledge Discovery and Data Mining}. Springer,
+  2005, pp.~290--300.
+
 \bibitem{nicolaou2009novo}
 {\sc Nicolaou, C.~A., Apostolakis, J., and Pattichis, C.~S.}
 \newblock De novo drug design using multiobjective evolutionary graphs.
@@ -387,6 +419,12 @@
 {\sc Parejo, J.~A., Segura, S., Fernandez, P., and Ruiz-Cort{\'e}s, A.}
 \newblock Qos-aware web services composition using grasp with path relinking.
 \newblock {\em Expert Systems with Applications 41}, 9 (2014), 4211--4223.
+
+\bibitem{pejman2012web}
+{\sc Pejman, E., Rastegari, Y., Esfahani, P.~M., and Salajegheh, A.}
+\newblock Web service composition methods: A survey.
+\newblock In {\em Proceedings of the International MultiConference of Engineers
+  and Computer Scientists\/} (2012), vol.~1.
 
 \bibitem{perrey2003service}
 {\sc Perrey, R., and Lycett, M.}
@@ -436,6 +474,13 @@
   techniques-a survey.
 \newblock In {\em The 7th International Conference on Semantic Web and Web
   Services (SWWS)\/} (2011), pp.~91--95.
+
+\bibitem{sawczuk2015gp}
+{\sc Sawczuk~da Silva, A., Ma, H., and Zhang, M.}
+\newblock A gp approach to qos-aware web service composition including
+  conditional constraints.
+\newblock In {\em Evolutionary Computation (CEC), 2015 IEEE Congress on\/} (in
+  press, 2015), IEEE.
 
 \bibitem{shin2007automated}
 {\sc Shin, D.-H., and Lee, K.-H.}

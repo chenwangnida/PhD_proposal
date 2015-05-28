@@ -5,9 +5,12 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The different problem representations employed by biologically-inspired Web service composition approaches.}}{15}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Basic example of Web service composition using the Graphplan algorithm.}}{22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A Web composition for an online book shopping system.}}{32}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sequence construct and calculation of its QoS properties.}}{33}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Parallel construct and calculation of its QoS properties.}}{33}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Choice construct and calculation of its QoS properties.}}{33}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of tree representation for Web service composition.}}{35}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequence construct and calculation of its QoS properties.}}{33}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Parallel construct and calculation of its QoS properties.}}{33}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Choice construct and calculation of its QoS properties.}}{33}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Example of tree representation for Web service composition.}}{35}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of graph representation for Web service composition.}}{40}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparison of the execution time of both approaches for each dataset, over 30 independent runs.}}{46}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Comparison of the best fitness of both approaches for each dataset, over 30 independent runs.}}{46}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Average fitness per generation with artificial optimum.}}{47}
 \addvspace {10\p@ }
