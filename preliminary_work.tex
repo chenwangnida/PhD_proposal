@@ -2,9 +2,57 @@
 
 This chapter presents the highlights of the initial work conducted on the creation of a Web service composition approach that combines a planning algorithm, for candidate creation and modification, with EC techniques, for optimising candidates according to their overall Quality of Service. In particular, two types of direct solution representations are explored, in alignment with Objective \ref{obj:rep}: a \textit{tree-based representation}, which is compatible with the existing Genetic Programming algorithm but may lead to service duplication problems, and a \textit{graph-based representation}, which prevents duplication issues but requires a more complex evolutionary algorithm. These two approaches are discussed and compared in the following sections.
 
+\section{Motivation}
+\section{Motivation and Problem Description}\label{Motivation and Problem Description}
+\subsection{Motivation}\label{Motivation}
+
+The aim of web service composition considered in this paper is to automatically compose optimal solutions in considering both QoS and semantic matchmaking quality based on a user's request. The request is to provide inputs and obtain outputs. The resulting composition of this request is a composition solution with an optimal comprehensive quality in terms of semantic matchmaking quality and QoS. A motivating example of this problem is shown in Fig \ref{motivation}. The figure shows a DAG that represents a solution with four web services involved for a request $R$ as a composition task, where inputs of the task are \{$TravelDepartureDate$, $HomeCity$, $ConferenceCity$, $TravelReturnDate$ \} and outputs are \{$BusTicket$, $FlightTicket$, $TouristMap$, $HotelReservation$ \}. This is a classic example of travel planning problem for people who seek for booking services of airplanes, buses and hotels reservation, and also generating tourist maps for the conference city. The graph also contains edges that marked with connected outputs and inputs of two connected atomic services, which represent valid semantic matches that the outputs of a web service can be passed as the inputs of its successors.
+
+\begin{figure}[h]
+\centering
+\fbox{\includegraphics[scale=.25]{motivation.pdf}}
+ \caption{ An example of a web service composition}
+ \label{motivation}
+\end{figure}
+
+Although obtaining a correct combination of web service is essential, there are many ways to connect multiple web services chosen from a service repository. These web services provide different QoS in terms of availability, price, reliability and response time. Moreover, valid semantic matches between two connected web services could also have different matchmaking quality. For example, $Generate Map$ service produce $StreetMap$ which is considered to be a valid semantic match to $TouristMap$, but $Bus Service$ produce $BusTicket$ which is considered to be a better valid semantic match to $BusTicket$. The descriptions of these matched resources are captured in a ontology depicted in Fig .\ref{taxonomy}, where all the inputs and the outputs related to the web services are described for the travel planning problem discuss here. For example, the concept $Map$ and its sub-concept $urbanMap$ are assigned with a $touristMap$ instance and $streetMap$ instance respectively in Fig .\ref{taxonomy}. The valid semantic match is considered that an instance of $urban Map$ can be an instance of $Map$, but not vice versa. To demonstrate the motivation of proposing a comprehensive quality, we give a simple example here. The service $GenerateMap$ with a output ($StreetMap$) and a price (``6.72") in the web service composition can be replace by a service $GenerateTouristMap$ with a different output ($TouristMap$) and a different price (``16.87") available in the service repository. This composition solution results in a better semantic matchmaking quality, but price negatively contributes to the QoS. Therefore, to reach the optimal solutions automatically, we need to measure these changes to the solutions considering matchmaking quality and QoS simultaneously. 
+
+
+
+\begin{figure}[h]
+\centering
+\fbox{\includegraphics[scale=.28]{taxonomy.pdf}}
+ \caption{ An ontology of a travel planning domain}
+ \label{taxonomy}
+\end{figure}
+
+
+
 \section{Problem Formalisation}
 
 More formally, a Web service composition that includes conditional constraints can be considered a reachability problem where, given a composition input set $I$, a group of services is assembled in order to produce multiple composition output sets $O_1$ to $O_m$, each output being dependent on a sequence of conditions $C_1$ to $C_n$ that leads to that outcome. Users often expect these services to be optimised according to their quality, giving higher weights to reflect the priority of quality attributes. Based on this understanding, a \textit{composition task} can be represented as a tuple $T = (P, W)$. $P$ is a collection of paths from the provided input $I$, going through some conditions $C$ to reach one of required output possibilities $O_i$, essentially forming a tree $P = \{\langle I,C,O_i\rangle\}$, and \textit{W} is the set of priority weights for each Quality of Service (QoS) attribute. A \textit{Web service} is a tuple $S_x = (I_x, O_x, Q_x)$, where $I_x$ is the set of inputs that must be provided in order to execute the service, $O_x$ is the set of outputs produced by the service after execution, and $Q_x$ are the service's QoS attributes. Finally, a \textit{Web service composition} is a minimal set of paths where all services appearing in a path are sequentially linked, and where interleaved conditional nodes are allowed. Thus, it can be described as $WSC = \{\langle I,(S,C_x)*,S,O_i\rangle\}$. The inputs of all services in the sequences $S$ are fully satisfied if all paths in the composition are considered, and the same is true for the various $O$ possibilities. A property of the paths in $WSC$ is that if all services are removed from a path $a \in WSC$, then its shortened version corresponds to a path in $P$ (i.e. $a_{short} \in P$).
+
+\subsection{Ontology-based Index Cached Optimisation}\label{indexCache}
+our PSO-based approach demands decoding processes from optimised queues to weighted DAGs, a bottleneck of efficiently constructing weighted DAGs lie in building required information of edges, which is related to the cost of $fullmatch$
+$(a \Rightarrow b)$ identifications and $sim(a, b)$ calculations between input-related and output-related concepts of service candidates. To efficiently construct weighted DAGs, we calculate $sim(a, b)$ of all $fullmatch(a \Rightarrow b)$ interleaving with the greedy search discussed in Sect \ref{PSO_based_approach}. This information is stored in a table structure with special $X$ value if no $fullmatch(a \Rightarrow b)$ is satisfied. Therefore, this optimised cache contributes to less and constant time for weighted DAG building through the evolutionary process.
+
+
+We utilise benchmark dataset web service challenge 2009 (WSC09) \cite{kona2009wsc} to perform the evaluation. WSC09 provides problems with five tasks corresponding to variable number of services, and ontologies. Therefore, it is a challenge dataset for measuring the scalability of our quality evaluation model. Table \ref{wsc09datasetTable} presents the features of the WSC’09 dataset. The number of concepts, individuals in the ontology and services in each data set is shown in the second, third, fourth column respectively. Also, we extend all the datasets with QoS attributes from service providers to enable our evaluation. 
+
+\begin{table}[]
+\centering
+\caption{Features of the WSC09 datasets}
+\label{wsc09datasetTable}
+\begin{tabular}{l|l|l|l}
+\hline
+\multicolumn{1}{c|}{Dataset} & No.Concept & No.Individual & No.Service \\ \hline
+WSC09 01                     & 1578       &3102           &572      \\ \hline
+WSC09 02                     & 12388      &24815          &4129      \\ \hline
+WSC09 03                     & 18573      &37316          &8138      \\ \hline
+WSC09 04                     & 18673      &37324          &8301      \\ \hline
+WSC09 05                     & 31044      &62132          &15211    \\ \hline
+\end{tabular}
+\end{table}
 
 \section{EC-Based Composition Approaches}
 
