@@ -440,6 +440,12 @@
 \newblock {\em Journal of Chemical Information and Modeling 49}, 2 (2009),
   295--307.
 
+\bibitem{o2005review}
+{\sc O'Leary, D.}
+\newblock Review: Ontologies: A silver bullet for knowledge management and
+  electronic commerce.
+\newblock {\em The Computer Journal 48}, 4 (2005), 498--498.
+
 \bibitem{overdick2007resource}
 {\sc Overdick, H.}
 \newblock The resource-oriented architecture.
@@ -662,6 +668,13 @@
   selection.
 \newblock {\em Knowledge and Data Engineering, IEEE Transactions on 25}, 4
   (2013), 776--789.
+
+\bibitem{yu2008deploying}
+{\sc Yu, Q., Liu, X., Bouguettaya, A., and Medjahed, B.}
+\newblock Deploying and managing web services: issues, solutions, and
+  directions.
+\newblock {\em The VLDB Journal—The International Journal on Very Large Data
+  Bases 17}, 3 (2008), 537--572.
 
 \bibitem{yu2013adaptive}
 {\sc Yu, Y., Ma, H., and Zhang, M.}

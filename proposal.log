@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.2.3)  30 APR 2017 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.2.3)  30 APR 2017 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,25 +417,25 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 
 
 ] [2]
-Overfull \hbox (9.28406pt too wide) in paragraph at lines 33--34
+Overfull \hbox (9.28406pt too wide) in paragraph at lines 31--32
 \OT1/ppl/m/n/10.95 bridises el-e-ments of AI planning-based ap-proaches and Evo
 -lu-tion-ary Com-pu-ta-tion workflow-
  []
 
 [3]
-Overfull \hbox (5.47404pt too wide) in paragraph at lines 41--42
+Overfull \hbox (5.47404pt too wide) in paragraph at lines 39--40
 []\OT1/ppl/b/n/10.95 Composition con-straints: \OT1/ppl/m/n/10.95 In ad-di-tion
  to con-sid-er-ing the func-tion-al-ity of ser-vices within
  []
 
 [4]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 49.
  [5] [6] <objectives.pdf, id=44, 415.289pt x 304.77615pt>
 File: objectives.pdf Graphic file (type pdf)
 
 <use objectives.pdf>
-Package pdftex.def Info: objectives.pdf used on input line 72.
+Package pdftex.def Info: objectives.pdf used on input line 70.
 (pdftex.def)             Requested size: 341.43306pt x 250.57376pt.
  [7 <./objectives.pdf>] [8]) [9] [10]
 \openout2 = `review.aux'.
@@ -619,7 +619,11 @@ Underfull \vbox (badness 1577) has occurred while \output is active []
 
 
 
-] [46] [47] [48] [49] [50] [51]) [52] (./proposal.aux
+] [46] [47] [48] [49] [50] [51]
+Missing character: There is no â in font pplri7t!
+Missing character: There is no € in font pplri7t!
+Missing character: There is no ” in font pplri7t!
+) [52] (./proposal.aux
 (./introduction.aux) (./review.aux) (./preliminary_work.aux) (./plan.aux))
 
 LaTeX Warning: There were undefined references.
@@ -629,10 +633,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5655 strings out of 493681
- 81502 string characters out of 6155713
+ 5657 strings out of 493681
+ 81532 string characters out of 6155713
  172882 words of memory out of 5000000
- 8850 multiletter control sequences out of 15000+600000
+ 8852 multiletter control sequences out of 15000+600000
  47960 words of font info for 131 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  42i,19n,41p,2601b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -645,7 +649,7 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (58 pages, 894496 bytes).
+Output written on proposal.pdf (58 pages, 894945 bytes).
 PDF statistics:
  414 PDF objects out of 1000 (max. 8388607)
  281 compressed objects within 3 object streams

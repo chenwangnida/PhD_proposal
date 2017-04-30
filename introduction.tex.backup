@@ -1,6 +1,20 @@
 \chapter{Introduction}\label{C:intro}
 
 \section{Problem Statement}
+Service-oriented computing (SOC) is a novel computing paradigm that employs services as fundamental elements to achieve the agile development of cost-efficient and integrable enterprise applications in heterogeneous environments \cite{papazoglou2003service, papazoglou2006p}. One of the primary purposes of SOC is to overcome conflicts due to diverse platforms and programming languages to make integrable and seamless communication among those existing or newly built independent services. Service Oriented Architecture (SOA)  could abstractly realise service-oriented paradigm of computing, this accomplishment has been contributing to reuse of software components, from the concept of functions to units and from units to services during the evolution of development in SOA \cite{booth2004web, overdick2007resource}. 
+
+One of the most typical realisations of SOA is \textit{web service}, which designated as "modular, self-describing, self-contained applications that are available on the Internet" \cite{curbera2001web}. Several standards play a significant role in registering, enquiring and grounding web services, such as UDDI, WSDL and SOAP \cite{fensel2011semantic}. 
+
+\textit{Web service composition} aims to loosely couple a set of web services to provide a value-added composite service that accommodates complex functional and non-functional requirements of service users. 
+Two most notable challenges for web service composition are ensuring interoperability of services and achieving Quality of Service (QoS) optimisation \cite{fensel2011semantic}. \textit{Interoperability} of web services presents challenge in syntactic and semantic dimensions. The syntactic dimension is covered by the XML-based technologies \cite{yu2008deploying}, such as $WSDL$, $SOAP$. The semantic dimension enables a better collaboration through ontology-based semantics \cite{o2005review}, such as OWL-S, WSML, and SAWSDL \cite{petrie2016web}. 
+
+\textit{Semantic web services composition} is distinguished from the syntactic service composition, the resources of semantic web services are described semantically to enable a better interoperability for chaining web services. Another challenge is related to QoS optimisation. This problem gives birth to \textit{QoS-aware service composition} that aims to find composition solutions with optimised QoS.
+
+Existing works on service composition focus mainly on addressing only one challenge above. In these works, huge efforts have been devoted to QoS-aware web service compositions assuming a pre-defined abstract workflow is given. This is generally considered as a \textit{semi-automated web service composition} approach. Generating composition plans automatically in discovering and selecting suitable web services is a NP-hard problem \cite{moghaddam2014service}. In the past few years, many approaches \cite{gupta2015optimization,ma2015hybrid,qi2010combining,da2016particle,da2015graphevol,yu2013adaptive} to QoS-aware web service composition employ Evolutionary Computation (EC) techniques to automatically generate composition solutions. Genetic Programming (GP) based approaches produce promising results, but these approaches often require repairing or penalising the solutions \cite{ma2015hybrid,yu2013adaptive}. However, Particle Swarm Optimisation (PSO) is considered to be an easy way to maintain the correctness of solutions in solving combinatorial optimisation problems \cite{da2016particle}. All these works have enabled an \textit{automatic web service composition}, but do not optimise QoS and quality of semantic matchmaking simultaneously to achieve a desirable balance on both sides.
+
+
+
+
 As applications increasingly interact with the Web, the concept of Service-Oriented Architecture (SOA) \cite{perrey2003service}
 emerges as a popular solution. The key components of SOA are Web services, which are functionality modules that
 provide operations accessible over the network via a standard communication protocol \cite{gottschalk2002introduction}. One of the greatest strengths of Web services is their modularity, because it allows the reuse of independent services that provide a
@@ -50,7 +64,16 @@ When building a candidate composition solution, atomic services must be selected
 Evolutionary Computation (EC) approaches to Web service composition have been extensively investigated in static scenarios, where the quality and availability of services are assumed to remain constant, however the use of these techniques has only been superficially explored in dynamic scenarios. Despite this lack of research, EC-based approaches show promise in the area of dynamic Web service composition for two reasons: firstly, they allow a composite service system to \textit{self-heal} by maintaining a population of solutions and using them as alternative compositions in the case of failure; secondly, they support \textit{dynamic adaptation} by allowing solutions to be further evolved in order to account for changes in the QoS values of atomic services. Given these advantages, it is desirable to investigate the use of EC approaches in a dynamic composition context.
 
 \section{Research Goals}
-The overall goal of this thesis is to propose a hybrid  Web service composition approach that considers elements from all four facets described above when generating solutions. More specifically, this approach combines elements of AI planning, to ensure functional correctness and constraint fulfilment, and of Evolutionary Computation, to evolve a population of near-optimised solutions from a QoS standpoint. The research aims to determine a flexible way in which planning and EC can be combined to allow the creation of solutions to solve composition problems that require multiple execution paths. The research goal described above can be achieved by completing the following set of objectives, which are intended to be used as research guides throughout this project:
+The overall goal of this thesis is to propose a hybrid  Web service composition approach that considers elements from all four facets described above when generating solutions. More specifically, this approach combines elements of AI planning, to ensure functional correctness and constraint fulfilment, and of Evolutionary Computation, to evolve a population of near-optimised solutions from a QoS standpoint. The research aims to determine a flexible way in which planning and EC can be combined to allow the creation of solutions to solve composition problems that require multiple execution paths. The research goal described above can be achieved by completing the following set of objectives, outlined in Figure \ref{fig:objectives}, which are intended to be used as research guides throughout this project:
+
+ \begin{figure}
+\centerline{
+\fbox{
+\includegraphics[width=12cm]{objectives.pdf}
+}}
+\caption{Research objectives and sub-objectives.}
+\label{fig:objectives}
+\end{figure}
 
 \begin{enumerate}
 
@@ -71,10 +94,8 @@ The overall goal of this thesis is to propose a hybrid  Web service composition 
     \item \label{obj:simple-mo} \textit{Propose an unconstrained MO approach for independently optimising the execution paths of a Web service composition solution with conditional constraints.}\\
     The challenge in optimising compositions with multiple execution paths, while at the same time considering several independent quality measures, is the number of dimensions that must be considered simultaneously. On the one hand, encoding each individual quality measure of each execution path as an independent value provides the a very expressive representation of the problem; on the other hand, MO optimisation with a large number of dimensions may result in a solution set that contains many unremarkable solutions. Thus, the proposed approach must handle this issue.
     \item \label{obj:sla-mo} \textit{Extend this MO approach to also consider SLA constraints.}\\
-    
+    Once the fundamental MO optimisation approach has been proposed, it should be extended to observe SLA constraints. Note that these constraints must be enforced for each execution path individually, to ensure that all runtime options have been optimised according to the quality parameters of the composition requestor.
    \end{enumerate}
-   
- Given these two factors, a many-objective technique should be employed in order to optimise the quality of solutions while at the same time considering these two factors independently.
  
  \item \label{obj:semantic} Develop an EC technique for performing semantic Web service selection in the context of a planning-based composition technique. As discussed in Objective \ref{obj:rep}, the composition technique investigated in this thesis combines elements of AI planning and of EC approaches to achieve compositions that are correct, have conditional constraints, and can be optimised according to their QoS attributes. In planning-based approaches to service composition, however, the semantic selection process of candidate atomic services is inefficient, since there are many possible service matches to consider at each planning step. In fact, it may be unfeasible to consider all possible service matches in an exhaustive manner when handling larger service repositories, which invites the use of non-exhaustive approaches such as EC techniques to accomplish this task. Thus, this objective entails the use of an optimisation technique to discover semantically matching services to be included in a composition candidate. Note that this objective aims to investigate the use of an optimisation technique nested within the service selection step of the planning/EC approach.
  
@@ -89,26 +110,15 @@ The overall goal of this thesis is to propose a hybrid  Web service composition 
  
 \end{enumerate}
 
- \begin{figure}
-\centerline{
-\fbox{
-\includegraphics[width=12cm]{objectives.pdf}
-}}
-\caption{Research questions and their corresponding objectives.}
-\label{fig:objectives}
-\end{figure}
+%\section{Published Papers}
 
-As shown in Figure \ref{fig:objectives}, Objectives \ref{obj:direct}, \ref{obj:indirect}, and \ref{obj:hybrid} are the core of this project, and answer research question (\ref{goal:core}) by providing the basis for an optimisation technique that admits Web service composition solutions with multiple execution branches. Objective \ref{obj:mo}, on the other hand, answers research question (\ref{goal:qos}), which aims to determine the ways in which the branches of a solution with conditional constraints can be independently optimised. Objective \ref{obj:semantic} answers research question (\ref{goal:semantic}), leading to the investigation of a semantic selection approach for planning-based composition techniques. Finally, Objective \ref{obj:dynamic} answers question (\ref{goal:dynamic}) by proposing one way in which EC-based techniques can be used in a dynamic Web service composition scenario.
+%During the initial stage of this research, some investigation was carried out on the suitability of different candidate representations for EC-based Web service composition. This culminated in the publication of the following papers:
 
-\section{Published Papers}
-
-During the initial stage of this research, some investigation was carried out on the suitability of different candidate representations for EC-based Web service composition. This culminated in the publication of the following papers:
-
-\begin{itemize}
- \item Alexandre Sawczuk Da Silva, Hui Ma and Mengjie Zhang. "A GP Approach to QoS-Aware Web Service Composition and Selection". \textit{Proceedings of the 10th International Conference on Simulated Evolution and Learning (SEAL 2014). Lecture Notes in Computer Science}. \textbf{Vol. 8886}. Dunedin, New Zealand. December 15-18, 2014. pp. 180-191.
- \item Alexandre Sawczuk da Silva, Hui Ma and Mengjie Zhang. "A GP Approach to QoS-Aware Web Service Composition including Conditional Constraints". \textit{Proceedings of 2015 IEEE Congress on Evolutionary Computation (CEC 2015)}. Sendai, Japan. 25-28 May, 2015 (To Appear)
- \item
-\end{itemize}
+%\begin{itemize}
+% \item Alexandre Sawczuk Da Silva, Hui Ma and Mengjie Zhang. "A GP Approach to QoS-Aware Web Service Composition and Selection". \textit{Proceedings of the 10th International Conference on Simulated Evolution and Learning (SEAL 2014). Lecture Notes in Computer Science}. Vol. 8886. Dunedin, New Zealand. December 15-18, 2014. pp. 180-191.
+% \item Alexandre Sawczuk da Silva, Hui Ma and Mengjie Zhang. "A GP Approach to QoS-Aware Web Service Composition including Conditional Constraints". \textit{Proceedings of 2015 IEEE Congress on Evolutionary Computation (CEC 2015)}. Sendai, Japan. 25-28 May, 2015 (To Appear)
+% \item Alexandre Sawczuk da Silva, Hui Ma and Mengjie Zhang. "GraphEvol: A Graph Evolution Technique for Web Service Composition". \textit{Proceedings of the 26th International Conference on Database and Expert System Applications (DEXA 2015)}. Valencia, Spain. 1-4 September, 2015 (Accepted)
+%\end{itemize}
 
 
 \section{Organisation of Proposal}

@@ -63,6 +63,14 @@ Repeated entry---line 1034 of file bibliography.bib
  : @book{fensel2011semantic
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1046 of file bibliography.bib
+ : @article{yu2008deploying
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1066 of file bibliography.bib
+ : @article{o2005review
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1132 of file bibliography.bib
  : @incollection{moghaddam2014service
  :                                   ,
@@ -259,6 +267,14 @@ Repeated entry---line 3292 of file bibliography.bib
  : @book{fensel2011semantic
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3304 of file bibliography.bib
+ : @article{yu2008deploying
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3324 of file bibliography.bib
+ : @article{o2005review
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 3390 of file bibliography.bib
  : @incollection{moghaddam2014service
  :                                   ,
@@ -343,45 +359,45 @@ Repeated entry---line 4086 of file bibliography.bib
  : @article{shet2012new
  :                     ,
 I'm skipping whatever remains of this entry
-You've used 111 entries,
+You've used 113 entries,
             2253 wiz_defined-function locations,
-            1111 strings with 25227 characters,
-and the built_in function-call counts, 46184 in all, are:
-= -- 4616
-> -- 2022
+            1125 strings with 25642 characters,
+and the built_in function-call counts, 46861 in all, are:
+= -- 4685
+> -- 2051
 < -- 0
-+ -- 857
-- -- 720
-* -- 3424
-:= -- 6973
-add.period$ -- 347
-call.type$ -- 111
-change.case$ -- 684
++ -- 869
+- -- 730
+* -- 3486
+:= -- 7083
+add.period$ -- 353
+call.type$ -- 113
+change.case$ -- 695
 chr.to.int$ -- 0
-cite$ -- 111
-duplicate$ -- 1909
-empty$ -- 3774
-format.name$ -- 720
-if$ -- 10037
+cite$ -- 113
+duplicate$ -- 1927
+empty$ -- 3828
+format.name$ -- 730
+if$ -- 10173
 int.to.chr$ -- 0
-int.to.str$ -- 111
-missing$ -- 116
-newline$ -- 557
-num.names$ -- 222
-pop$ -- 831
+int.to.str$ -- 113
+missing$ -- 118
+newline$ -- 567
+num.names$ -- 226
+pop$ -- 838
 preamble$ -- 1
-purify$ -- 579
+purify$ -- 588
 quote$ -- 0
-skip$ -- 1375
+skip$ -- 1385
 stack$ -- 0
-substring$ -- 3211
-swap$ -- 672
+substring$ -- 3271
+swap$ -- 676
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 432
+type$ -- 440
 warning$ -- 0
-while$ -- 475
-width$ -- 114
-write$ -- 1183
-(There were 84 error messages)
+while$ -- 483
+width$ -- 116
+write$ -- 1203
+(There were 88 error messages)
