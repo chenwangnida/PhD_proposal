@@ -18,12 +18,6 @@
 \newblock {\em International Journal of Computer Systems Science \& Engineering
   21}, 4 (2006), 247--254.
 
-\bibitem{back2000evolutionary}
-{\sc B{\"a}ck, T., Fogel, D.~B., and Michalewicz, Z.}
-\newblock {\em Evolutionary computation 1: Basic algorithms and operators},
-  vol.~1.
-\newblock CRC Press, 2000.
-
 \bibitem{bader2010hypervolume}
 {\sc Bader, J.~M.}
 \newblock {\em Hypervolume-based search for multiobjective optimization: theory
@@ -55,6 +49,12 @@
 \newblock Fast planning through planning graph analysis.
 \newblock {\em Artificial intelligence 90}, 1 (1997), 281--300.
 
+\bibitem{booth2004web}
+{\sc Booth, D., Haas, H., McCabe, F., Newcomer, E., Champion, M., Ferris, C.,
+  and Orchard, D.}
+\newblock Web services architecture. w3c working note.
+\newblock {\em W3C Working Notes\/} (2004).
+
 \bibitem{DBLP:journals/soca/BoustilMS14}
 {\sc Boustil, A., Maamri, R., and Sahnoun, Z.}
 \newblock A semantic selection approach for composite web services using
@@ -76,13 +76,6 @@
   multiobjective evolution of median molecules.
 \newblock {\em Journal of chemical information and computer sciences 44}, 3
   (2004), 1079--1087.
-
-\bibitem{canfora2005approach}
-{\sc Canfora, G., Di~Penta, M., Esposito, R., and Villani, M.~L.}
-\newblock An approach for qos-aware service composition based on genetic
-  algorithms.
-\newblock In {\em Proceedings of the 7th annual conference on Genetic and
-  evolutionary computation\/} (2005), ACM, pp.~1069--1075.
 
 \bibitem{chen2014qos}
 {\sc Chen, M., and Yan, Y.}
@@ -123,12 +116,44 @@
   uddi.
 \newblock {\em IEEE Internet computing 6}, 2 (2002), 86--93.
 
+\bibitem{curbera2001web}
+{\sc Curbera, F., Nagy, W., and Weerawarana, S.}
+\newblock Web services: Why and how.
+\newblock In {\em Workshop on Object-Oriented Web Services-OOPSLA\/} (2001),
+  vol.~2001.
+
+\bibitem{da2015graphevol}
+{\sc da~Silva, A., Ma, H., and Zhang, M.}
+\newblock Graphevol: A graph evolution technique for web service composition.
+\newblock In {\em Database and Expert Systems Applications}, vol.~9262.
+  Springer International Publishing, 2015, pp.~134--142.
+
 \bibitem{da2014graph}
 {\sc da~Silva, A.~S., Ma, H., and Zhang, M.}
 \newblock A graph-based particle swarm optimisation approach to qos-aware web
   service composition and selection.
-\newblock In {\em Evolutionary Computation (CEC), 2014 IEEE Congress on\/}
+\newblock In {\em 2014 IEEE Congress on Evolutionary Computation (CEC)\/}
   (2014), IEEE, pp.~3127--3134.
+
+\bibitem{da2015gp}
+{\sc da~Silva, A.~S., Ma, H., and Zhang, M.}
+\newblock A gp approach to qos-aware web service composition including
+  conditional constraints.
+\newblock In {\em Evolutionary Computation (CEC), 2015 IEEE Congress on\/}
+  (2015), IEEE, pp.~2113--2120.
+
+\bibitem{da2016genetic}
+{\sc da~Silva, A.~S., Ma, H., and Zhang, M.}
+\newblock Genetic programming for qos-aware web service composition and
+  selection.
+\newblock {\em Soft Computing\/} (2016), 1--17.
+
+\bibitem{da2016particle}
+{\sc da~Silva, A.~S., Mei, Y., Ma, H., and Zhang, M.}
+\newblock Particle swarm optimisation with sequence-like indirect
+  representation for web service composition.
+\newblock In {\em European Conference on Evolutionary Computation in
+  Combinatorial Optimization\/} (2016), Springer, pp.~202--218.
 
 \bibitem{de2010many}
 {\sc de~Campos, A., Pozo, A.~T., Vergilio, S.~R., and Savegnago, T.}
@@ -160,6 +185,11 @@
 \newblock Dynamic service composition with service-dependent qos attributes.
 \newblock In {\em Web Services (ICWS), 2013 IEEE 20th International Conference
   on\/} (2013), IEEE, pp.~10--17.
+
+\bibitem{fensel2011semantic}
+{\sc Fensel, D., Facca, F.~M., Simperl, E., and Toma, I.}
+\newblock {\em Semantic web services}.
+\newblock Springer Science \& Business Media, 2011.
 
 \bibitem{ferrara2004web}
 {\sc Ferrara, A.}
@@ -209,6 +239,13 @@
 \newblock In {\em Information Science and Engineering (ISISE), 2010
   International Symposium on\/} (2010), IEEE, pp.~630--634.
 
+\bibitem{gupta2015optimization}
+{\sc Gupta, I.~K., Kumar, J., and Rai, P.}
+\newblock Optimization to quality-of-service-driven web service composition
+  using modified genetic algorithm.
+\newblock In {\em Computer, Communication and Control (IC4), 2015 International
+  Conference on\/} (2015), IEEE, pp.~1--6.
+
 \bibitem{hart2005evolutionary}
 {\sc Hart, E., Ross, P., and Corne, D.}
 \newblock Evolutionary scheduling: A review.
@@ -218,8 +255,8 @@
 \bibitem{huang2009effective}
 {\sc Huang, Z., Jiang, W., Hu, S., and Liu, Z.}
 \newblock Effective pruning algorithm for qos-aware service composition.
-\newblock In {\em Commerce and Enterprise Computing, 2009. CEC'09. IEEE
-  Conference on\/} (2009), IEEE, pp.~519--522.
+\newblock In {\em 2009 IEEE Conference on Commerce and Enterprise Computing\/}
+  (2009), IEEE, pp.~519--522.
 
 \bibitem{hwang1981lecture}
 {\sc Hwang, C.-L., and Yoon, K.}
@@ -287,6 +324,12 @@
   natural selection}, vol.~1.
 \newblock MIT press, 1992.
 
+\bibitem{lecue2009optimizing}
+{\sc L{\'e}cu{\'e}, F.}
+\newblock Optimizing qos-aware semantic web service composition.
+\newblock In {\em International Semantic Web Conference\/} (2009), Springer,
+  pp.~375--391.
+
 \bibitem{li2014fault}
 {\sc Li, G., Liao, L., Song, D., and Zheng, Z.}
 \newblock A fault-tolerant framework for qos-aware web service composition via
@@ -322,8 +365,8 @@
 {\sc Liu, S., Liu, Y., Jing, N., Tang, G., and Tang, Y.}
 \newblock A dynamic web service selection strategy with qos global optimization
   based on multi-objective genetic algorithm.
-\newblock In {\em Grid and Cooperative Computing-GCC 2005}. Springer, 2005,
-  pp.~84--89.
+\newblock In {\em International Conference on Grid and Cooperative Computing\/}
+  (2005), Springer, pp.~84--89.
 
 \bibitem{lu2007web}
 {\sc Lu, J., Yu, Y., Roy, D., and Saha, D.}
@@ -369,11 +412,6 @@
 \newblock In {\em Environmental Software Systems. Frameworks of eEnvironment}.
   Springer, 2011, pp.~280--294.
 
-\bibitem{menasce2002qos}
-{\sc Menasce, D.}
-\newblock Qos issues in web services.
-\newblock {\em Internet Computing, IEEE 6}, 6 (2002), 72--75.
-
 \bibitem{milanovic2004current}
 {\sc Milanovic, N., and Malek, M.}
 \newblock Current solutions for web service composition.
@@ -396,17 +434,35 @@
   existing approaches.
 \newblock In {\em Web Services Foundations}. Springer, 2014, pp.~321--346.
 
-\bibitem{nguyen2005text}
-{\sc Nguyen, C.~D., Dung, T.~A., and Cao, T.~H.}
-\newblock Text classification for dag-structured categories.
-\newblock In {\em Advances in Knowledge Discovery and Data Mining}. Springer,
-  2005, pp.~290--300.
-
 \bibitem{nicolaou2009novo}
 {\sc Nicolaou, C.~A., Apostolakis, J., and Pattichis, C.~S.}
 \newblock De novo drug design using multiobjective evolutionary graphs.
 \newblock {\em Journal of Chemical Information and Modeling 49}, 2 (2009),
   295--307.
+
+\bibitem{overdick2007resource}
+{\sc Overdick, H.}
+\newblock The resource-oriented architecture.
+\newblock In {\em Services, 2007 IEEE Congress on\/} (2007), IEEE,
+  pp.~340--347.
+
+\bibitem{paolucci2002semantic}
+{\sc Paolucci, M., Kawamura, T., Payne, T.~R., and Sycara, K.}
+\newblock Semantic matching of web services capabilities.
+\newblock In {\em International Semantic Web Conference\/} (2002), Springer,
+  pp.~333--347.
+
+\bibitem{papazoglou2003service}
+{\sc Papazoglou, M.~P.}
+\newblock Service-oriented computing: Concepts, characteristics and directions.
+\newblock In {\em Web Information Systems Engineering, 2003. WISE 2003.
+  Proceedings of the Fourth International Conference on\/} (2003), IEEE,
+  pp.~3--12.
+
+\bibitem{papazoglou2006p}
+{\sc Papazoglou, M.~T.}
+\newblock P., dustdar, s., leymann, f.. service-oriented computing. research
+  roadmap, 2006.
 
 \bibitem{parejo2008qos}
 {\sc Parejo, J.~A., Fernandez, P., and Cort{\'e}s, A.~R.}
@@ -420,17 +476,16 @@
 \newblock Qos-aware web services composition using grasp with path relinking.
 \newblock {\em Expert Systems with Applications 41}, 9 (2014), 4211--4223.
 
-\bibitem{pejman2012web}
-{\sc Pejman, E., Rastegari, Y., Esfahani, P.~M., and Salajegheh, A.}
-\newblock Web service composition methods: A survey.
-\newblock In {\em Proceedings of the International MultiConference of Engineers
-  and Computer Scientists\/} (2012), vol.~1.
-
 \bibitem{perrey2003service}
 {\sc Perrey, R., and Lycett, M.}
 \newblock Service-oriented architecture.
 \newblock In {\em Applications and the Internet Workshops, 2003. Proceedings.
   2003 Symposium on\/} (2003), IEEE, pp.~116--119.
+
+\bibitem{petrie2016web}
+{\sc Petrie, C.~J.}
+\newblock {\em Web Service Composition}.
+\newblock Springer, 2016.
 
 \bibitem{poli1996parallel}
 {\sc Poli, R.}
@@ -457,6 +512,13 @@
 \newblock In {\em Parallel and Distributed Computing (ISPDC), 2011 10th
   International Symposium on\/} (2011), IEEE, pp.~274--277.
 
+\bibitem{qi2010combining}
+{\sc Qi, L., Tang, Y., Dou, W., and Chen, J.}
+\newblock Combining local optimization and enumeration for qos-aware web
+  service composition.
+\newblock In {\em Web Services (ICWS), 2010 IEEE International Conference on\/}
+  (2010), IEEE, pp.~34--41.
+
 \bibitem{rao2005survey}
 {\sc Rao, J., and Su, X.}
 \newblock A survey of automated web service composition methods.
@@ -475,12 +537,17 @@
 \newblock In {\em The 7th International Conference on Semantic Web and Web
   Services (SWWS)\/} (2011), pp.~91--95.
 
-\bibitem{sawczuk2015gp}
-{\sc Sawczuk~da Silva, A., Ma, H., and Zhang, M.}
-\newblock A gp approach to qos-aware web service composition including
-  conditional constraints.
-\newblock In {\em Evolutionary Computation (CEC), 2015 IEEE Congress on\/} (in
-  press, 2015), IEEE.
+\bibitem{shet2012new}
+{\sc Shet, K., Acharya, U.~D., et~al.}
+\newblock A new similarity measure for taxonomy based on edge counting.
+\newblock {\em arXiv preprint arXiv:1211.4709\/} (2012).
+
+\bibitem{shi2001particle}
+{\sc Shi, Y., et~al.}
+\newblock Particle swarm optimization: developments, applications and
+  resources.
+\newblock In {\em evolutionary computation, 2001. Proceedings of the 2001
+  Congress on\/} (2001), vol.~1, IEEE, pp.~81--86.
 
 \bibitem{shin2007automated}
 {\sc Shin, D.-H., and Lee, K.-H.}
@@ -511,8 +578,8 @@
 \bibitem{wang2013genetic}
 {\sc Wang, A., Ma, H., and Zhang, M.}
 \newblock Genetic programming with greedy search for web service composition.
-\newblock In {\em Database and Expert Systems Applications\/} (2013), Springer,
-  pp.~9--17.
+\newblock In {\em International Conference on Database and Expert Systems
+  Applications\/} (2013), Springer, pp.~9--17.
 
 \bibitem{wang2014novel}
 {\sc Wang, D., Huang, H., and Xie, C.}
@@ -553,11 +620,6 @@
 \newblock {\em Service Oriented Computing and Applications 8}, 1 (2014),
   91--103.
 
-\bibitem{wohed2003analysis}
-{\sc Wohed, P., van~der Aalst, W.~M., Dumas, M., and Ter~Hofstede, A.~H.}
-\newblock Analysis of web services composition languages: The case of bpel4ws.
-\newblock In {\em Conceptual Modeling-ER 2003}. Springer, 2003, pp.~200--215.
-
 \bibitem{xia2013web}
 {\sc Xia, Y.-M., and Yang, Y.-B.}
 \newblock Web service composition integrating qos optimization and redundancy
@@ -590,7 +652,9 @@
 {\sc Yoo, J. J.-W., Kumara, S., Lee, D., and Oh, S.-C.}
 \newblock A web service composition framework using integer programming with
   non-functional objectives and constraints.
-\newblock {\em algorithms 1\/} (2008), 7.
+\newblock In {\em 2008 10th IEEE Conference on E-Commerce Technology and the
+  Fifth IEEE Conference on Enterprise Computing, E-Commerce and E-Services\/}
+  (2008), IEEE, pp.~347--350.
 
 \bibitem{yu2013efficient}
 {\sc Yu, Q., and Bouguettaya, A.}
@@ -603,8 +667,14 @@
 {\sc Yu, Y., Ma, H., and Zhang, M.}
 \newblock An adaptive genetic programming approach to qos-aware web services
   composition.
-\newblock In {\em Evolutionary Computation (CEC), 2013 IEEE Congress on\/}
-  (2013), IEEE, pp.~1740--1747.
+\newblock In {\em 2013 IEEE Congress on Evolutionary Computation\/} (2013),
+  IEEE, pp.~1740--1747.
+
+\bibitem{zeng2003quality}
+{\sc Zeng, L., Benatallah, B., Dumas, M., Kalagnanam, J., and Sheng, Q.~Z.}
+\newblock Quality driven web services composition.
+\newblock In {\em Proceedings of the 12th international conference on World
+  Wide Web\/} (2003), ACM, pp.~411--421.
 
 \bibitem{zhang2013selecting}
 {\sc Zhang, S., Dou, W., and Chen, J.}

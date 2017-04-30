@@ -1,16 +1,12 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Research objectives and sub-objectives.}}{6}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Research objectives and sub-objectives.\relax }}{7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Typical steps in a workflow-based automated Web service composition solution \cite {moghaddam2014service}.}}{12}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The different problem representations employed by biologically-inspired Web service composition approaches.}}{15}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Basic example of Web service composition using the Graphplan algorithm.}}{22}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Typical steps in a workflow-based automated Web service composition solution \cite {moghaddam2014service}.\relax }}{12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The different problem representations employed by biologically-inspired Web service composition approaches.\relax }}{15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Basic example of Web service composition using the Graphplan algorithm.\relax }}{22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sequence construct and calculation of its QoS properties.}}{33}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Parallel construct and calculation of its QoS properties.}}{33}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Choice construct and calculation of its QoS properties.}}{33}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Example of tree representation for Web service composition.}}{35}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of graph representation for Web service composition.}}{40}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparison of the execution time of both approaches for each dataset, over 30 independent runs.}}{46}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Comparison of the best fitness of both approaches for each dataset, over 30 independent runs.}}{46}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Average fitness per generation with artificial optimum.}}{47}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An example of a web service composition\relax }}{32}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces An ontology of a travel planning domain\relax }}{32}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces An overview of our PSO-based approach to comprehensive quality-aware automated semantic web service composition.\relax }}{35}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces An example for the comparison of the best solutions obtained based on the QoS model and on the comprehensive quality model for Task 3.\relax }}{40}
 \addvspace {10\p@ }
