@@ -288,3 +288,118 @@ To analyse the effectiveness of achieving a good comprehensive quality at the ex
  \caption{An example for the comparison of the best solutions obtained based on the QoS model and on the comprehensive quality model for Task 3.}
  \label{comparisontest}
 \end{figure}
+
+
+
+
+
+The modified main algorithm $toTree()$ in Algorithm \ref{toTree} consisting of two stages: $cN$ is located at $Start$ and $cN$ isn't located at $start$. In the first stage, two cases are considered according to the size of $cN$'s outgoing edges. If the size equals 1 (line 3-4), a sequence node is created with a specific $Start$ service node as a right child, and a returned node of $getNextNode()$ (line 26) as a left child. Otherwise(line 5-6), a same sequence node is created with a different left child, a returned node of $parallelNode()$ (line 38). In the second stage, there are two cases (line 13-18 and line 19-24) are involved in according to the size of $cN$'s outgoing edges without considering those target $End$. Each case are considered under two conditions (line 14 and 20) that there exists one outgoing edge of $cN$ targets $End$ or not. Therefore, same sequence nodes discussed in the first stage are created with different service node $cN$ as a right child, rather than $Start$. If the opposite condition  (line 16 and 22) holds, those sequence nodes in the first condition are wrapped as right child of a $parallelNode$, whose left child is a sequence node with a $cN$ service node as its left child and a $End$ service node as right child. We also present the functions for creating sequence node: $seqNode()$ and creating parallel nodes: $parallelNode()$ in Algorithm \ref{toTree}.
+%createServiceNode: a service node is created as a terminal node representing web service from the graph.createSequenceNode: a sequence node is created as a functional node with only two children, a left child and a right child. The required inputs and outputs of the sequence node is measured using synthesis rules discussed before.
+%createParallelNode: a parallel node is created as a functional node with more than one child. The required inputs and outputs of the parallel node is also measured using synthesis rules discussed before.
+\begin{algorithm}
+ \setlength\hsize{0.9\linewidth}
+ \SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
+ \SetKwFunction{parallelNode}{parallelNode}\SetKwFunction{toTree}{toTree}
+ \SetKwFunction{seqNode}{seqNode}\SetKwFunction{serNode}{servNode}\SetKwFunction{getNextNode}{getNextNode}
+ \SetKwProg{Procedure}{Procedure}{}{}
+ \LinesNumbered
+ \SetNlSty{}{}{:}
+ \Procedure{\toTree{}}{
+ \Input{current node $cN$}
+ \Output{tree $T$}
+  \uIf{$cN$ == Start}{
+    \eIf{$|cN.outGoingEdge| = 1$}{
+      $T \leftarrow \seqNode(\serNode ("Start"), \getNextNode(cN.next))$\;
+    }{
+      $T \leftarrow \seqNode(\serNode("Start"), \parallelNode(cN))$\;
+    }
+  }
+  \uElse{
+  	 \ForEach{$oEdge$ in $cN.outGoingEdges$}{
+      \uIf{$oEdge.target == endNode$}{
+       $L \leftarrow \seqNode(\serNode(cN), \serNode("O"))$\;   
+       $remove(oEdge)$\;  
+       break\;  
+    }
+   }
+     \If{$|cN.outGoingEdge| = 1$}{
+      \eIf{$remove(oEdge)==null$}{
+     % $R \leftarrow \seqNode(\serNode(cN), \getNextNode(cN.Next))$\; 
+     % $T \leftarrow \parallelNode(L, R)$\;
+       $T \leftarrow \seqNode(\serNode(cN), \getNextNode(cN.Next))$\; 
+
+      }{
+     % $T \leftarrow \seqNode(\serNode(cN), \getNextNode(cN.Next))$\; 
+       $R \leftarrow \seqNode(\serNode(cN), \getNextNode(cN.Next))$\; 
+       $T \leftarrow \parallelNode(L, R)$\;  
+      }
+    }
+      \If{$|cN.outGoingEdge| > 1$}{
+      \eIf{$remove(oEdge)==null$}{
+      $T \leftarrow \seqNode(\serNode(cN), \parallelNode(cN))$\; 
+      }{
+      $L \leftarrow \seqNode(\serNode(cN), \parallelNode(cN))$\; 
+      $T \leftarrow \parallelNode(L, R)$\;  
+
+      }
+    }
+  }
+  \KwRet $T$\;
+  }
+ \Procedure{\getNextNode{}}{
+ \Input{$cN$}
+ \Output{tree $T$}
+    \uIf{$cN$ is endNode}{
+       \KwRet $ \seqNode(\serNode(cN), \serNode("End"))$\;
+	}
+	\uElse{
+	 $\toTree()$\;
+	}
+	
+ }
+%  \caption{\footnotesize Converting a weighted graph into tree representation.}
+%\label{toTree}
+%\end{algorithm} 
+ 
+% \begin{algorithm}
+ \setlength\hsize{0.9\linewidth}
+ \SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
+ \SetKwFunction{parallelNode}{parallelNode}\SetKwFunction{toTree}{toTree}
+ \SetKwFunction{seqNode}{seqNode}\SetKwFunction{serNode}{servNode}\SetKwFunction{getNextNode}{getNextNode}
+ \SetKwProg{Procedure}{Procedure}{}{}
+ \LinesNumbered
+ \SetNlSty{}{}{:}
+ 
+ 
+%  \Procedure{\serNode{}}{
+%  \Input{$cN$}
+%  \Output{ServiceNode $N$}
+%    \KwRet new $ServiceNode$\;
+% }
+  \Procedure{\seqNode{}}{
+  \Input{$lChild$, $rChild$} \Output{sequenceNode $N$}
+    $N \leftarrow$ new $seqNode$()\;
+    $N.child[0] = lChild$\;
+    $lChild.parent = N$\;
+    $N.child[1] = rChild$\;
+    $rChild.parent = N$\;
+    \KwRet $N$\;
+ }
+  \Procedure{\parallelNode{}}{
+  \Input{$cn, cn.outGoingEdges$}
+  \Output{parallelNode $N$}
+    $N \leftarrow$ new $ParallelNode$()\;
+    $N.children[$  $] \leftarrow$ new ArrayList[$cn.outGoingEdge.size$]\;
+ \ForEach{$c$ in $N.children[$  $]$}{
+    $c \leftarrow\getNextNode(c.Next)$\;
+ }
+    \KwRet $N$\;
+ }
+ \caption{\footnotesize Converting a weighted graph into tree representation.}
+\label{toTree}
+\end{algorithm} 
+
+
+
+
+
