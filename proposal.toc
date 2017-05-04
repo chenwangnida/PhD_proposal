@@ -36,12 +36,12 @@
 \contentsline {subsection}{\numberline {3.5.1}Comparison Test for GP-based vs. PSO-based approach}{38}
 \contentsline {subsection}{\numberline {3.5.2}Comparison Test for Comprehensive Quality Model vs. QoS Model}{39}
 \contentsline {subsection}{\numberline {3.5.3}Further Discussion}{39}
-\contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{41}
-\contentsline {section}{\numberline {4.1}Proposed Contributions}{41}
-\contentsline {section}{\numberline {4.2}Overview of Project Plan}{41}
-\contentsline {section}{\numberline {4.3}Project Timeline}{42}
-\contentsline {section}{\numberline {4.4}Thesis Outline}{42}
-\contentsline {section}{\numberline {4.5}Resources Required}{44}
-\contentsline {subsection}{\numberline {4.5.1}Computing Resources}{44}
-\contentsline {subsection}{\numberline {4.5.2}Library Resources}{44}
-\contentsline {subsection}{\numberline {4.5.3}Conference Travel Grants}{44}
+\contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{43}
+\contentsline {section}{\numberline {4.1}Proposed Contributions}{43}
+\contentsline {section}{\numberline {4.2}Overview of Project Plan}{43}
+\contentsline {section}{\numberline {4.3}Project Timeline}{44}
+\contentsline {section}{\numberline {4.4}Thesis Outline}{44}
+\contentsline {section}{\numberline {4.5}Resources Required}{46}
+\contentsline {subsection}{\numberline {4.5.1}Computing Resources}{46}
+\contentsline {subsection}{\numberline {4.5.2}Library Resources}{46}
+\contentsline {subsection}{\numberline {4.5.3}Conference Travel Grants}{46}
