@@ -227,11 +227,6 @@
 \newblock Tabu search-part i.
 \newblock {\em ORSA Journal on computing 1}, 3 (1989), 190--206.
 
-\bibitem{gottschalk2002introduction}
-{\sc Gottschalk, K., Graham, S., Kreger, H., and Snell, J.}
-\newblock Introduction to web services architecture.
-\newblock {\em IBM systems Journal 41}, 2 (2002), 170--177.
-
 \bibitem{guo2010four}
 {\sc Guo, G., Yu, F., Chen, Z., and Xie, D.}
 \newblock A four-level matching model for semantic web service selection based
@@ -324,6 +319,12 @@
   natural selection}, vol.~1.
 \newblock MIT press, 1992.
 
+\bibitem{lausen2005w3c}
+{\sc Lausen, H., Polleres, A., and Roman, D.}
+\newblock W3c member submission-web service modeling ontology (wsmo).
+\newblock {\em W3C. Available at< URL: http://www. w3. org/Submission/WSMO\/}
+  (2005).
+
 \bibitem{lecue2009optimizing}
 {\sc L{\'e}cu{\'e}, F.}
 \newblock Optimizing qos-aware semantic web service composition.
@@ -400,17 +401,17 @@
 \newblock In {\em Software Engineering and Formal Methods, 2006. SEFM 2006.
   Fourth IEEE International Conference on\/} (2006), IEEE, pp.~147--156.
 
+\bibitem{martin2004owl}
+{\sc Martin, D., Burstein, M., Hobbs, J., Lassila, O., McDermott, D.,
+  McIlraith, S., Narayanan, S., Paolucci, M., Parsia, B., Payne, T., et~al.}
+\newblock Owl-s: Semantic markup for web services.
+\newblock {\em W3C member submission 22\/} (2004), 2007--04.
+
 \bibitem{martin2007bringing}
 {\sc Martin, D., Burstein, M., Mcdermott, D., Mcilraith, S., Paolucci, M.,
   Sycara, K., Mcguinness, D.~L., Sirin, E., and Srinivasan, N.}
 \newblock Bringing semantics to web services with owl-s.
 \newblock {\em World Wide Web 10}, 3 (2007), 243--277.
-
-\bibitem{maue2011envision}
-{\sc Mau{\'e}, P., and Roman, D.}
-\newblock The envision environmental portal and services infrastructure.
-\newblock In {\em Environmental Software Systems. Frameworks of eEnvironment}.
-  Springer, 2011, pp.~280--294.
 
 \bibitem{milanovic2004current}
 {\sc Milanovic, N., and Malek, M.}
@@ -452,6 +453,11 @@
 \newblock In {\em Services, 2007 IEEE Congress on\/} (2007), IEEE,
   pp.~340--347.
 
+\bibitem{paliwal2012semantics}
+{\sc Paliwal, A.~V., Shafiq, B., Vaidya, J., Xiong, H., and Adam, N.}
+\newblock Semantics-based automated service discovery.
+\newblock {\em IEEE Transactions on Services Computing 5}, 2 (2012), 260--275.
+
 \bibitem{paolucci2002semantic}
 {\sc Paolucci, M., Kawamura, T., Payne, T.~R., and Sycara, K.}
 \newblock Semantic matching of web services capabilities.
@@ -481,12 +487,6 @@
 {\sc Parejo, J.~A., Segura, S., Fernandez, P., and Ruiz-Cort{\'e}s, A.}
 \newblock Qos-aware web services composition using grasp with path relinking.
 \newblock {\em Expert Systems with Applications 41}, 9 (2014), 4211--4223.
-
-\bibitem{perrey2003service}
-{\sc Perrey, R., and Lycett, M.}
-\newblock Service-oriented architecture.
-\newblock In {\em Applications and the Internet Workshops, 2003. Proceedings.
-  2003 Symposium on\/} (2003), IEEE, pp.~116--119.
 
 \bibitem{petrie2016web}
 {\sc Petrie, C.~J.}
