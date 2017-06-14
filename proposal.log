@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.2.3)  14 JUN 2017 17:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.2.3)  14 JUN 2017 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,16 +423,7 @@ om-po-si-tion prob-lems dis-cussed
  []
 
 
-Overfull \hbox (14.8683pt too wide) in paragraph at lines 17--18
-\OT1/ppl/m/n/10.95 ser-vice com-po-si-tion prob-lems, such as many-construct we
-b ser-vice com-pos-tion, multi-objective
- []
-
-
-Overfull \hbox (1.70728pt too wide) in paragraph at lines 23--24
-\OT1/ppl/m/n/10.95 Existing works on ser-vice com-po-si-tion fo-cus mainly on a
-d-dress-ing only one chal-lenge above.
- []
+LaTeX Warning: Reference `limitations' on page 2 undefined on input line 20.
 
 [2] [3]
 Overfull \hbox (1.21448pt too wide) in paragraph at lines 38--39
@@ -440,7 +431,10 @@ Overfull \hbox (1.21448pt too wide) in paragraph at lines 38--39
 to con-sid-er-ing the func-tion-al-ity of ser-vices within
  []
 
-[4]
+
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [4]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 47.
 
@@ -455,14 +449,14 @@ File: objectives.pdf Graphic file (type pdf)
 Package pdftex.def Info: objectives.pdf used on input line 75.
 (pdftex.def)             Requested size: 341.43306pt x 250.57376pt.
 
-[7 <./objectives.pdf>] [8]) [9]
+[7 <./objectives.pdf>] [8])
+Underfull \vbox (badness 3058) has occurred while \output is active []
+
+ [9]
+[10]
 \openout2 = `review.aux'.
 
- (./review.tex [10
-
-
-
-]
+ (./review.tex
 Chapter 2.
 <compositionLifecycle.pdf, id=69, 502.61525pt x 315.7672pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
@@ -470,7 +464,11 @@ File: compositionLifecycle.pdf Graphic file (type pdf)
 <use compositionLifecycle.pdf>
 Package pdftex.def Info: compositionLifecycle.pdf used on input line 13.
 (pdftex.def)             Requested size: 398.33858pt x 250.2628pt.
- [11] [12 <./compositionLifecycle.pdf>] [13]
+ [11
+
+
+
+] [12 <./compositionLifecycle.pdf>] [13]
 <representations.pdf, id=86, 337.56111pt x 148.1535pt>
 File: representations.pdf Graphic file (type pdf)
 
@@ -661,10 +659,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5674 strings out of 493681
- 81689 string characters out of 6155713
+ 5675 strings out of 493681
+ 81702 string characters out of 6155713
  172882 words of memory out of 5000000
- 8867 multiletter control sequences out of 15000+600000
+ 8868 multiletter control sequences out of 15000+600000
  48464 words of font info for 134 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  42i,23n,41p,2600b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -678,7 +676,7 @@ g/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/share/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (60 pages, 909957 bytes).
+Output written on proposal.pdf (60 pages, 910348 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  288 compressed objects within 3 object streams
