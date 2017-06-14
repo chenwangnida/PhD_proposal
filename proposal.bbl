@@ -30,6 +30,12 @@
 \newblock {\em Journal of Theoretical and Applied Information Technology 9}, 1
   (2009), 10--15.
 
+\bibitem{bansal2016generalized}
+{\sc Bansal, S., Bansal, A., Gupta, G., and Blake, M.~B.}
+\newblock Generalized semantic web service composition.
+\newblock {\em Service Oriented Computing and Applications 10}, 2 (2016),
+  111--133.
+
 \bibitem{berg2013revenue}
 {\sc Berg, H. v.~d., et~al.}
 \newblock Revenue optimization of service compositions using conditional
@@ -54,6 +60,13 @@
   and Orchard, D.}
 \newblock Web services architecture. w3c working note.
 \newblock {\em W3C Working Notes\/} (2004).
+
+\bibitem{boustil2014semantic}
+{\sc Boustil, A., Maamri, R., and Sahnoun, Z.}
+\newblock A semantic selection approach for composite web services using owl-dl
+  and rules.
+\newblock {\em Service Oriented Computing and Applications 8}, 3 (2014),
+  221--238.
 
 \bibitem{DBLP:journals/soca/BoustilMS14}
 {\sc Boustil, A., Maamri, R., and Sahnoun, Z.}
@@ -234,13 +247,6 @@
 \newblock In {\em Information Science and Engineering (ISISE), 2010
   International Symposium on\/} (2010), IEEE, pp.~630--634.
 
-\bibitem{gupta2015optimization}
-{\sc Gupta, I.~K., Kumar, J., and Rai, P.}
-\newblock Optimization to quality-of-service-driven web service composition
-  using modified genetic algorithm.
-\newblock In {\em Computer, Communication and Control (IC4), 2015 International
-  Conference on\/} (2015), IEEE, pp.~1--6.
-
 \bibitem{hart2005evolutionary}
 {\sc Hart, E., Ross, P., and Corne, D.}
 \newblock Evolutionary scheduling: A review.
@@ -309,15 +315,20 @@
 \newblock {\em Journal of Systems and Software 81}, 11 (2008), 2079--2090.
 
 \bibitem{kopecky2007sawsdl}
-{\sc Kopecky, J., Vitvar, T., Bournez, C., and Farrell, J.}
+{\sc Kopeck{\`y}, J., Vitvar, T., Bournez, C., and Farrell, J.}
 \newblock Sawsdl: Semantic annotations for wsdl and xml schema.
-\newblock {\em Internet Computing, IEEE 11}, 6 (2007), 60--67.
+\newblock {\em IEEE Internet Computing 11}, 6 (2007).
 
 \bibitem{koza1992genetic}
 {\sc Koza, J.~R.}
 \newblock {\em Genetic programming: on the programming of computers by means of
   natural selection}, vol.~1.
 \newblock MIT press, 1992.
+
+\bibitem{lausen2007semantic}
+{\sc Lausen, H., and Farrell, J.}
+\newblock Semantic annotations for wsdl and xml schema.
+\newblock {\em W3C recommendation, W3C\/} (2007), 749--758.
 
 \bibitem{lausen2005w3c}
 {\sc Lausen, H., Polleres, A., and Roman, D.}
@@ -413,10 +424,10 @@
 \newblock Bringing semantics to web services with owl-s.
 \newblock {\em World Wide Web 10}, 3 (2007), 243--277.
 
-\bibitem{milanovic2004current}
-{\sc Milanovic, N., and Malek, M.}
-\newblock Current solutions for web service composition.
-\newblock {\em IEEE Internet Computing 8}, 6 (2004), 51--59.
+\bibitem{mier2015integrated}
+{\sc Mier, P.~R., Pedrinaci, C., Lama, M., and Mucientes, M.}
+\newblock An integrated semantic web service discovery and composition
+  framework.
 
 \bibitem{miller2000cartesian}
 {\sc Miller, J.~F., and Thomson, P.}
@@ -517,13 +528,6 @@
   composition.
 \newblock In {\em Parallel and Distributed Computing (ISPDC), 2011 10th
   International Symposium on\/} (2011), IEEE, pp.~274--277.
-
-\bibitem{qi2010combining}
-{\sc Qi, L., Tang, Y., Dou, W., and Chen, J.}
-\newblock Combining local optimization and enumeration for qos-aware web
-  service composition.
-\newblock In {\em Web Services (ICWS), 2010 IEEE International Conference on\/}
-  (2010), IEEE, pp.~34--41.
 
 \bibitem{rao2005survey}
 {\sc Rao, J., and Su, X.}
@@ -675,13 +679,6 @@
   directions.
 \newblock {\em The VLDB Journal—The International Journal on Very Large Data
   Bases 17}, 3 (2008), 537--572.
-
-\bibitem{yu2013adaptive}
-{\sc Yu, Y., Ma, H., and Zhang, M.}
-\newblock An adaptive genetic programming approach to qos-aware web services
-  composition.
-\newblock In {\em 2013 IEEE Congress on Evolutionary Computation\/} (2013),
-  IEEE, pp.~1740--1747.
 
 \bibitem{zeng2003quality}
 {\sc Zeng, L., Benatallah, B., Dumas, M., Kalagnanam, J., and Sheng, Q.~Z.}
