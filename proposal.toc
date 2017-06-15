@@ -1,11 +1,11 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Problem Statement}{1}
 \contentsline {section}{\numberline {1.2}Motivations}{2}
-\contentsline {subsubsection}{Requirement}{3}
-\contentsline {subsection}{\numberline {1.2.1}Limitations of Current Web Service Composition Approaches}{5}
-\contentsline {subsubsection}{Hybridisation of Quality of Semantic Matchmaking and Quality of Service}{5}
-\contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{5}
-\contentsline {subsubsection}{Hybridisation of AI planning and EC composition Techniques}{5}
+\contentsline {subsubsection}{Hybridisation of Quality of Semantic Matchmaking and Quality of Service}{3}
+\contentsline {subsubsection}{Multi-Objective Composition Optimisation}{3}
+\contentsline {subsubsection}{Hybridisation of AI planning and EC composition Techniques}{3}
+\contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{3}
+\contentsline {subsection}{\numberline {1.2.1}Limitations of Current Web Service Composition Approaches}{6}
 \contentsline {subsubsection}{Multi-Objective Composition Optimisation}{6}
 \contentsline {subsubsection}{Semantic Web Service Selection}{6}
 \contentsline {subsubsection}{EC-based Dynamic Web Service Composition}{6}
