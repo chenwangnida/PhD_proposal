@@ -308,12 +308,6 @@
 \newblock {\em International Journal of Computer Science and Artificial
   Intelligence\/} (2012).
 
-\bibitem{ko2008quality}
-{\sc Ko, J.~M., Kim, C.~O., and Kwon, I.-H.}
-\newblock Quality-of-service oriented web service composition algorithm and
-  planning architecture.
-\newblock {\em Journal of Systems and Software 81}, 11 (2008), 2079--2090.
-
 \bibitem{kopecky2007sawsdl}
 {\sc Kopeck{\`y}, J., Vitvar, T., Bournez, C., and Farrell, J.}
 \newblock Sawsdl: Semantic annotations for wsdl and xml schema.
