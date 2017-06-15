@@ -585,6 +585,12 @@
 \newblock In {\em Web Services, 2004. Proceedings. IEEE International
   Conference on\/} (2004), IEEE, pp.~368--375.
 
+\bibitem{wada2012e3}
+{\sc Wada, H., Suzuki, J., Yamano, Y., and Oba, K.}
+\newblock E$^3$: A multiobjective optimization framework for sla-aware service
+  composition.
+\newblock {\em IEEE Transactions on Services Computing 5}, 3 (2012), 358--372.
+
 \bibitem{wang2013genetic}
 {\sc Wang, A., Ma, H., and Zhang, M.}
 \newblock Genetic programming with greedy search for web service composition.

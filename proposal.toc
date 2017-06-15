@@ -3,12 +3,12 @@
 \contentsline {section}{\numberline {1.2}Motivations}{2}
 \contentsline {subsubsection}{Hybridisation of Quality of Semantic Matchmaking and Quality of Service}{3}
 \contentsline {subsubsection}{Multi-Objective Composition Optimisation}{3}
-\contentsline {subsubsection}{Hybridisation of AI planning and EC composition Techniques}{3}
-\contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{3}
+\contentsline {subsubsection}{Hybridisation of AI planning and EC composition Techniques}{4}
+\contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{4}
 \contentsline {subsection}{\numberline {1.2.1}Limitations of Current Web Service Composition Approaches}{6}
 \contentsline {subsubsection}{Multi-Objective Composition Optimisation}{6}
 \contentsline {subsubsection}{Semantic Web Service Selection}{6}
-\contentsline {subsubsection}{EC-based Dynamic Web Service Composition}{6}
+\contentsline {subsubsection}{EC-based Dynamic Web Service Composition}{7}
 \contentsline {section}{\numberline {1.3}Research Goals}{7}
 \contentsline {section}{\numberline {1.4}Organisation of Proposal}{10}
 \contentsline {chapter}{\numberline {2}Literature Review}{11}
