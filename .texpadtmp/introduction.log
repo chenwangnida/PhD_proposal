@@ -1,0 +1,385 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdftex 2016.10.19)  16 JUN 2017 14:59
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**introduction.tex
+(./introduction.tex
+./introduction.tex:1: Undefined control sequence.
+l.1 \chapter
+            {Introduction}\label{C:intro}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:1: Undefined control sequence.
+l.1 \chapter{Introduction}\label
+                                {C:intro}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:3: Undefined control sequence.
+l.3 \section
+            {Problem Statement}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 \emph
+         {Service-oriented computing} (SOC) is a novel computing paradigm th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 ...cations in heterogeneous environments \cite
+                                                  {papazoglou2003service, pa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 ... or newly built independent services. \emph
+                                                  {Service Oriented Architec...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 ...g the evolution of development in SOA \cite
+                                                  {booth2004web, overdick200...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 ...most typical implementation of SOA is \emph
+                                                  {web service}, which desig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 ...s that are available on the Internet" \cite
+                                                  {curbera2001web}. Several ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 ...services across the web, such as UDDI \cite
+                                                  {curbera2002unraveling}, W...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 ...DI \cite{curbera2002unraveling}, WSDL \cite
+                                                  {lausen2007semantic} and S...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 ...DL \cite{lausen2007semantic} and SOAP \cite
+                                                  {fensel2011semantic}. \emp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:4: Undefined control sequence.
+l.4 ...} and SOAP \cite{fensel2011semantic}. \emph
+                                                  {Web service composition} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...Quality of Service (QoS) optimisation \cite
+                                                  {fensel2011semantic}. \emp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...timisation \cite{fensel2011semantic}. \emph
+                                                  {Interoperability} of web ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...covered by the XML-based technologies \cite
+                                                  {yu2008deploying}, such as...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...tion through ontology-based semantics \cite
+                                                  {o2005review}, in which ma...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...lished in this dimension. E.g., OWL-S \cite
+                                                  {martin2004owl}, Web Servi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ... Web Service Modeling Ontology (WSMO) \cite
+                                                  {lausen2005w3c}, SAWSDL \c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...y (WSMO) \cite{lausen2005w3c}, SAWSDL \cite
+                                                  {kopecky2007sawsdl}, Seman...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...Semantic Web Services Ontology (SWSO) \cite
+                                                  {petrie2016web}. This dime...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...e, these two challenges give birth to \emph
+                                                  {Semantic web services com...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...emantic web services composition} and \emph
+                                                  {QoS-aware service composi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...\emph{QoS-aware service composition}. \emph
+                                                  {Semantic web services com...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:6: Undefined control sequence.
+l.6 ...iability. This problem gives birth to \emph
+                                                  {QoS-aware service composi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:8: Undefined control sequence.
+l.8 ...anging in the real world, rather than \emph
+                                                  {static}. E.g, QoS values ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:8: Undefined control sequence.
+l.8 ...at the runtime. Most of importance is \emph
+                                                  {static web service compos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:8: Undefined control sequence.
+l.8 ...ted composition solutions. Therefore, \emph
+                                                  {Dynamic web service compo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:11: Undefined control sequence.
+l.11 ...classified into two main categories: \emph
+                                                  {semi-automated web servic...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:11: Undefined control sequence.
+l.11 ...tomated web service composition} and \emph
+                                                  {fully automated web servi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:14: Undefined control sequence.
+l.14 ...le web services is a NP-hard problem \cite
+                                                  {moghaddam2014service}, wh...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:14: Undefined control sequence.
+l.14 ...on times in a large searching space. \emph
+                                                  {Artificial Intelligence (...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:14: Undefined control sequence.
+l.14 ...nce (AI) planning-based approaches}, \emph
+                                                  {Evolutionary Computation ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:14: Undefined control sequence.
+l.14 ...e been effectively proposed to solve \emph
+                                                  {QoS-aware web service com...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+./introduction.tex:18: Undefined control sequence.
+l.18 \section
+             {Motivations}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:20: Undefined control sequence.
+l.20 \begin
+           {enumerate*}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:21: Undefined control sequence.
+<argument> \emph 
+                 \enspace 
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+\textindent #1->\indent \llap {#1\enspace }
+                                           \ignorespaces 
+l.21  \item \emph
+                 {Quality of service composition}: previous studies have sug...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:22: Undefined control sequence.
+<argument> \emph 
+                 \enspace 
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+\textindent #1->\indent \llap {#1\enspace }
+                                           \ignorespaces 
+l.22  \item \emph
+                 {Composition constructs}:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./introduction.tex:23: Undefined control sequence.
+<argument> \emph 
+                 \enspace 
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+\textindent #1->\indent \llap {#1\enspace }
+                                           \ignorespaces 
+l.23  \item \emph
+                 {dynamic service composition}:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2] )</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/introduction.pdf (2 pages, 39257 bytes).
+PDF statistics:
+ 19 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
