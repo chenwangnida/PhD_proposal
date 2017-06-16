@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.2.3)  16 JUN 2017 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.2.3)  16 JUN 2017 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,25 +430,26 @@ Overfull \hbox (0.76048pt too wide) in paragraph at lines 11--12
 om-po-si-tion prob-lems dis-cussed
  []
 
-[2] [3]
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 65.
- [4] <objectives.pdf, id=39, 415.289pt x 304.77615pt>
+[2] [3] [4] <objectives.pdf, id=39, 415.289pt x 304.77615pt>
 File: objectives.pdf Graphic file (type pdf)
 
 <use objectives.pdf>
-Package pdftex.def Info: objectives.pdf used on input line 85.
+Package pdftex.def Info: objectives.pdf used on input line 78.
 (pdftex.def)             Requested size: 341.43306pt x 250.57376pt.
- [5] [6 <./objectives.pdf>]
-Overfull \hbox (0.10808pt too wide) in paragraph at lines 107--109
+ [5 <./objectives.pdf>]
+Overfull \hbox (0.10808pt too wide) in paragraph at lines 100--102
 []\OT1/ppl/m/it/10.95 Propose an un-con-strained MO ap-proach for in-de-pen-den
 tly op-ti-mis-ing the ex-e-cu-tion paths
  []
 
-[7]) [8]
+[6]) [7]
 \openout2 = `review.aux'.
 
- (./review.tex
+ (./review.tex [8
+
+
+
+]
 Chapter 2.
 <compositionLifecycle.pdf, id=64, 502.61525pt x 315.7672pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
@@ -456,11 +457,10 @@ File: compositionLifecycle.pdf Graphic file (type pdf)
 <use compositionLifecycle.pdf>
 Package pdftex.def Info: compositionLifecycle.pdf used on input line 13.
 (pdftex.def)             Requested size: 398.33858pt x 250.2628pt.
- [9
-
-
-
-] [10 <./compositionLifecycle.pdf>] [11]
+ [9] [10 <./compositionLifecycle.pdf>]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
+ [11]
 <representations.pdf, id=80, 337.56111pt x 148.1535pt>
 File: representations.pdf Graphic file (type pdf)
 
@@ -632,7 +632,7 @@ Underfull \vbox (badness 1577) has occurred while \output is active []
 
 
 ] [46] [47]
-Underfull \hbox (badness 1997) in paragraph at lines 328--332
+Underfull \hbox (badness 1997) in paragraph at lines 323--327
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
@@ -668,7 +668,7 @@ g/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/share/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (58 pages, 905782 bytes).
+Output written on proposal.pdf (58 pages, 903363 bytes).
 PDF statistics:
  418 PDF objects out of 1000 (max. 8388607)
  284 compressed objects within 3 object streams
