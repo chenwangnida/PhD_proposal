@@ -44,8 +44,7 @@ Most of the approaches to automated web service composition are approached throu
 In a  dynamic environment, QoS of the atomic services in service repository is a moving target. Static service composition solution is no longer enough, and requisite measures must be taken if the composition solution may decrease in QoS or not be executable if any service involved goes offline. Therefore, dynamic Web service composition is proposed to monitor and update composition solutions when they are antiquated \cite{li2014fault}. 
 
 
-Evolutionary Computation (EC) approaches to Web service composition have been extensively investigated in static scenarios, where the quality and availability of services are assumed to remain constant, however the use of these techniques has only been superficially explored in dynamic scenarios. Despite this lack of research, EC-based approaches show promise in the area of dynamic Web service composition for two reasons: firstly, they allow a composite service system to \emph{self-heal} by maintaining a population of solutions and using them as alternative compositions in the case of failure; secondly, they support \emph{dynamic adaptation} by allowing solutions to be further evolved in order to account for changes in the QoS values of atomic services. Given these advantages, it is desirable to investigate the use of EC approaches in a dynamic composition context.
-
+The majority of techniques endeavoured to update antiquated or incorrect compositions allow for dynamic adaptation of the solutions based on variability model  \cite{alferez2014dynamic}.  However, most of the EC-based approaches to web service composition have been studied in static scenarios, rather than dynamic ones. Although a lack of research in this field, they have been showing its promise for the confidence of its behaviour for handling dynamic web service composition: a proper amount of population stored could be used for retrieving an alternative composition solution in the case of failure. Also, The stored population could be further evolved while taking changes of QoS into account. This self-heal process supports the adaption of a dynamic environment. Presented those benefits, it is advisable to study the effectiveness of EC approaches in a dynamic composition context.
 
 
 
@@ -66,6 +65,21 @@ Evolutionary Computation (EC) approaches to Web service composition have been ex
 
 
 %Traditionally, AI planning and EC have been employed separately to solve the problem of Web service composition. On the one hand, AI planning techniques are outstanding at ensuring the creation of composition solutions that have appropriate connections between the outputs and inputs of the composing services, and also at ensuring the creation of branches according to the constraints provided. On the other hand, EC techniques are ideal for encountering solutions with a good overall quality amongst a very large array of possibilities. Given the strengths of each set of techniques, it would be advantageous to combine these two composition strategies into a single approach that offers both sets of capabilities, and thus considers more service composition facets simultaneously. In this hybrid approach, users would be able to specify the conditions of when branching should occur, the order in which these conditions should be observed, and the outputs each execution branch should produce; the technique would then return a suitable solution. Despite being a promising approach, this area has currently not been investigated in depth.
+
+
+
+
+
+\vspace{5cm}
+
+
+
+
+
+
+
+
+
 
 
 \section{Research Goals}
