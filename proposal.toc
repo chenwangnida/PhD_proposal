@@ -4,6 +4,7 @@
 \contentsline {subsubsection}{Hybridisation of Quality of Semantic Matchmaking and Quality of Service}{3}
 \contentsline {subsubsection}{Multi-Objective Composition Optimisation}{3}
 \contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{4}
+\contentsline {subsubsection}{Dynamic Semantic Web Service Composition}{4}
 \contentsline {subsection}{\numberline {1.2.1}Limitations of Current Web Service Composition Approaches}{4}
 \contentsline {subsubsection}{Multi-Objective Composition Optimisation}{5}
 \contentsline {subsubsection}{Semantic Web Service Selection}{5}
