@@ -68,43 +68,22 @@ The major techniques endeavoured to update outdated or incorrect compositions al
 
 %Traditionally, AI planning and EC have been employed separately to solve the problem of Web service composition. On the one hand, AI planning techniques are outstanding at ensuring the creation of composition solutions that have appropriate connections between the outputs and inputs of the composing services, and also at ensuring the creation of branches according to the constraints provided. On the other hand, EC techniques are ideal for encountering solutions with a good overall quality amongst a very large array of possibilities. Given the strengths of each set of techniques, it would be advantageous to combine these two composition strategies into a single approach that offers both sets of capabilities, and thus considers more service composition facets simultaneously. In this hybrid approach, users would be able to specify the conditions of when branching should occur, the order in which these conditions should be observed, and the outputs each execution branch should produce; the technique would then return a suitable solution. Despite being a promising approach, this area has currently not been investigated in depth.
 
-
-
-
-
 \vspace{5cm}
 
-
-
-
-
-
-
-
-
-
-
 \section{Research Goals}
-The overall goal of this thesis is to propose a hybrid  Web service composition approach that considers elements from all four facets described above when generating solutions. More specifically, this approach combines elements of AI planning, to ensure functional correctness and constraint fulfilment, and of Evolutionary Computation, to evolve a population of near-optimised solutions from a QoS standpoint. The research aims to determine a flexible way in which planning and EC can be combined to allow the creation of solutions to solve composition problems that require multiple execution paths. The research goal described above can be achieved by completing the following set of objectives, outlined in Figure \ref{fig:objectives}, which are intended to be used as research guides throughout this project:
+The overall goal of this thesis is to develop new and effective approaches to comprehensive quality-aware automated semantic web service composition. More specifically, the focus will be on developing approaches that could explicitly support a proposed comprehensive quality for jointly optimising QoS and semantic matchmaking quality, developing multi-objective approach for optimising the quality criteria that involved in the decision making of composition solutions selection, developing approaches for semantic web service composition, particularly, considering precondition and effects, and developing hybrid composition techniques to dynamic service composition for handling changes of composition environment. This research aim to develop a hybridisation of AI planning and EC-based composition techniques for effectively handling the serveral service composition problems discussed above. The research goal described above can be achieved by completing the following set of objectives:
 
- \begin{figure}
-\centerline{
-\fbox{
-\includegraphics[width=12cm]{objectives.pdf}
-}}
-\caption{Research objectives and sub-objectives.}
-\label{fig:objectives}
-\end{figure}
 
 \begin{enumerate}
-   \item multiple constructs 
- \item multiple constructs. quality for precondition and effects
-  \item \label{obj:rep} Create a hybrid QoS-aware Web service composition technique that combines elements of AI planning and evolutionary computation to allow for the optimisation of composition solutions with conditional constraints. One of the key aspects of this technique is the representation of each composition solution. Undoubtedly the simplest model would be that of a linear vector, with each element being a service that should be included into the composition, however this linear structure does not satisfactorily encode the relationships and links between different services. Another problem with a vector is that the EC techniques which use such a representation do not allow for structures of varying lengths, a requirement when performing fully automated composition. The search for a suitable solution representation leads to the following three sub-objectives:
+  \item Create an automated approach to comprehensive quality-aware automated web service composition that simultaneously optimises both QoS and semantic matchmaking quality. Particularly, we extend existing works on QoS-aware service composition by considering jointly optimising the both quality aspects, which is proposed as a comprehensive quality model. On the other hand, representations of the composition solutions are the key aspect of the approaches, and they must satisfactorily cope with the comprehensive quality. Therefore, we will investigate the following sub-objectives to handle this objective.
+  
   
   \begin{enumerate}
-    \item \label{obj:direct} \emph{Propose a direct solution representation for the planning and EC-based Web service composition technique.}\\
+    \item \emph{To propose a comprehensive quality model that addresses QoS and semantic matchmaking quality simultaneously with a desirable balance on both sides.}\\
+
+    \item \emph{Propose a direct/indirect solution representation for the planning and EC-based web service composition technique.}\\
     A tree or graph representation is well-suited to represent Web service composition solutions with conditional constraints, since such structures are naturally capable of representing the links between the composing services and multiple execution paths. These structures may be referred to as \emph{direct representations} of solutions, since the genotype and the phenotype of each solution are the same, meaning that solutions are represented directly as they should be interpreted. Proposing a representation based on these structures involves some trade-offs that must be carefully considered, such as the existence of EC techniques that support that structure and the computational cost they incur.
-    \item \label{obj:indirect} \emph{Propose an indirect solution representation for the planning and EC-based Web service composition technique.}\\
+    \item  \emph{Propose an indirect solution representation for the planning and EC-based Web service composition technique.}\\
     Despite the intuitiveness of direct representations, it has been argued in the problem domain of scheduling that indirect representations, where the final result must be decoded from a population candidate, have been shown to have better search performance than their direct counterparts \cite{hart2005evolutionary,craenen2001handle}. Due to this evidence, an indirect candidate representation should be proposed and compared to the direct representation. This indirect representation could be based on the Web service composition Particle Swarm Optimisation (PSO) approach proposed in \cite{da2014graph}.
     \item \label{obj:hybrid} \emph{Propose a hybrid solution representation for the planning and EC-based Web service composition technique.}\\
     In case there is a trade-off between the execution time and the quality of the solutions produced by the direct and indirect representations developed in Objectives \ref{obj:direct} and \ref{obj:indirect}, a hybrid representation should be proposed to combine the strengths of these two approaches. This representation could comprise the structure used in the direct representation with the addition of weights from the indirect representation. Comparisons should be performed to determine whether the hybrid solution presents any performance or quality gains.

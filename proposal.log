@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.2.3)  16 JUN 2017 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.2.3)  19 JUN 2017 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,7 +399,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 \openout3 = `proposal.toc'.
 
  [2] (./proposal.lof
-Overfull \hbox (0.37186pt too wide) in paragraph at lines 5--5
+Overfull \hbox (0.37186pt too wide) in paragraph at lines 4--4
  [][] []\OT1/ppl/m/n/10.95 The dif-fer-ent prob-lem rep-re-sen-ta-tions em-ploy
 ed by biologically-inspired Web 
  []
@@ -430,38 +430,49 @@ Overfull \hbox (0.76048pt too wide) in paragraph at lines 11--12
 om-po-si-tion prob-lems dis-cussed
  []
 
-[2] [3] [4] <objectives.pdf, id=39, 415.289pt x 304.77615pt>
-File: objectives.pdf Graphic file (type pdf)
+[2] [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use objectives.pdf>
-Package pdftex.def Info: objectives.pdf used on input line 92.
-(pdftex.def)             Requested size: 341.43306pt x 250.57376pt.
- [5 <./objectives.pdf>]
-Overfull \hbox (0.10808pt too wide) in paragraph at lines 114--116
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+LaTeX Warning: Reference `obj:direct' on page 5 undefined on input line 89.
+
+
+LaTeX Warning: Reference `obj:indirect' on page 5 undefined on input line 89.
+
+[5]
+Overfull \hbox (0.10808pt too wide) in paragraph at lines 95--97
 []\OT1/ppl/m/it/10.95 Propose an un-con-strained MO ap-proach for in-de-pen-den
 tly op-ti-mis-ing the ex-e-cu-tion paths
  []
 
-[6]) [7] [8]
+
+LaTeX Warning: Reference `obj:rep' on page 6 undefined on input line 101.
+
+[6]) [7]
 \openout2 = `review.aux'.
 
- (./review.tex
+ (./review.tex [8
+
+
+
+]
 Chapter 2.
-<compositionLifecycle.pdf, id=64, 502.61525pt x 315.7672pt>
+<compositionLifecycle.pdf, id=52, 502.61525pt x 315.7672pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
 
 <use compositionLifecycle.pdf>
 Package pdftex.def Info: compositionLifecycle.pdf used on input line 13.
 (pdftex.def)             Requested size: 398.33858pt x 250.2628pt.
- [9
-
-
-
-] [10 <./compositionLifecycle.pdf>]
+ [9] [10 <./compositionLifecycle.pdf>]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
  [11]
-<representations.pdf, id=80, 337.56111pt x 148.1535pt>
+<representations.pdf, id=68, 337.56111pt x 148.1535pt>
 File: representations.pdf Graphic file (type pdf)
 
 <use representations.pdf>
@@ -484,7 +495,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2035) has occurred while \output is active []
 
  [19]
-<graphplan.pdf, id=115, 438.32507pt x 149.39563pt>
+<graphplan.pdf, id=103, 438.32507pt x 149.39563pt>
 File: graphplan.pdf Graphic file (type pdf)
  <use graphplan.pdf>
 Package pdftex.def Info: graphplan.pdf used on input line 129.
@@ -510,7 +521,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 3.
-<motivation.pdf, id=155, 1322.9425pt x 595.22375pt>
+<motivation.pdf, id=143, 1322.9425pt x 595.22375pt>
 File: motivation.pdf Graphic file (type pdf)
  <use motivation.pdf>
 Package pdftex.def Info: motivation.pdf used on input line 13.
@@ -519,7 +530,7 @@ Package pdftex.def Info: motivation.pdf used on input line 13.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29] <taxonomy.pdf, id=159, 991.705pt x 380.42125pt>
+[29] <taxonomy.pdf, id=147, 991.705pt x 380.42125pt>
 File: taxonomy.pdf Graphic file (type pdf)
  <use taxonomy.pdf>
 Package pdftex.def Info: taxonomy.pdf used on input line 24.
@@ -537,7 +548,7 @@ m/it/10.95 Start\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 S[]\OT1/ppl/m/n/10.95
 T1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 End\OMS/zplm/m/n/10.95 g$
  []
 
-[31] <overview.pdf, id=229, 853.1875pt x 341.275pt>
+[31] <overview.pdf, id=217, 853.1875pt x 341.275pt>
 File: overview.pdf Graphic file (type pdf)
  <use overview.pdf>
 Package pdftex.def Info: overview.pdf used on input line 106.
@@ -557,10 +568,12 @@ LaTeX Warning: Reference `Comprehensive_Quality_Model' on page 32 undefined on
 input line 120.
 
 [32] [33 <./overview.pdf>] [34]
+
+LaTeX Warning: Reference `obj:rep' on page 35 undefined on input line 193.
+
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 205.
@@ -583,7 +596,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 260.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 260.
-[37] <comparisontest.pdf, id=297, 1137.24875pt x 735.74875pt>
+[37] <comparisontest.pdf, id=285, 1137.24875pt x 735.74875pt>
 File: comparisontest.pdf Graphic file (type pdf)
 
 <use comparisontest.pdf>
@@ -651,10 +664,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5968 strings out of 493681
- 86576 string characters out of 6155713
- 178355 words of memory out of 5000000
- 9157 multiletter control sequences out of 15000+600000
+ 5962 strings out of 493681
+ 86471 string characters out of 6155713
+ 178319 words of memory out of 5000000
+ 9152 multiletter control sequences out of 15000+600000
  48464 words of font info for 134 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  42i,23n,41p,2568b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -668,10 +681,10 @@ g/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/share/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (58 pages, 903752 bytes).
+Output written on proposal.pdf (58 pages, 732446 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
+ 406 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
