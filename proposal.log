@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.6.13)  20 JUN 2017 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.6.13)  20 JUN 2017 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -431,25 +431,25 @@ om-po-si-tion prob-lems dis-cussed
  []
 
 [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
 [5]
 
-LaTeX Warning: Reference `obj:direct' on page 6 undefined on input line 89.
+LaTeX Warning: Reference `obj:direct' on page 6 undefined on input line 88.
 
 
-LaTeX Warning: Reference `obj:indirect' on page 6 undefined on input line 89.
+LaTeX Warning: Reference `obj:indirect' on page 6 undefined on input line 88.
 
 
-Overfull \hbox (0.10808pt too wide) in paragraph at lines 95--97
+Overfull \hbox (0.10808pt too wide) in paragraph at lines 94--96
 []\OT1/ppl/m/it/10.95 Propose an un-con-strained MO ap-proach for in-de-pen-den
 tly op-ti-mis-ing the ex-e-cu-tion paths
  []
 
 
-LaTeX Warning: Reference `obj:rep' on page 6 undefined on input line 101.
+LaTeX Warning: Reference `obj:rep' on page 6 undefined on input line 100.
 
 [6]) [7]
 \openout2 = `review.aux'.
@@ -679,7 +679,7 @@ g/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/share/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (58 pages, 733208 bytes).
+Output written on proposal.pdf (58 pages, 733270 bytes).
 PDF statistics:
  406 PDF objects out of 1000 (max. 8388607)
  277 compressed objects within 3 object streams
