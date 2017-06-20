@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.2.3)  19 JUN 2017 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.6.13)  20 JUN 2017 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,21 +430,19 @@ Overfull \hbox (0.76048pt too wide) in paragraph at lines 11--12
 om-po-si-tion prob-lems dis-cussed
  []
 
-[2] [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+[2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-
-LaTeX Warning: Reference `obj:direct' on page 5 undefined on input line 89.
-
-
-LaTeX Warning: Reference `obj:indirect' on page 5 undefined on input line 89.
-
 [5]
+
+LaTeX Warning: Reference `obj:direct' on page 6 undefined on input line 89.
+
+
+LaTeX Warning: Reference `obj:indirect' on page 6 undefined on input line 89.
+
+
 Overfull \hbox (0.10808pt too wide) in paragraph at lines 95--97
 []\OT1/ppl/m/it/10.95 Propose an un-con-strained MO ap-proach for in-de-pen-den
 tly op-ti-mis-ing the ex-e-cu-tion paths
@@ -664,10 +662,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5962 strings out of 493681
- 86471 string characters out of 6155713
- 178319 words of memory out of 5000000
- 9152 multiletter control sequences out of 15000+600000
+ 5963 strings out of 493681
+ 86492 string characters out of 6155712
+ 178324 words of memory out of 5000000
+ 9153 multiletter control sequences out of 15000+600000
  48464 words of font info for 134 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  42i,23n,41p,2568b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -681,7 +679,7 @@ g/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/share/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (58 pages, 732446 bytes).
+Output written on proposal.pdf (58 pages, 733208 bytes).
 PDF statistics:
  406 PDF objects out of 1000 (max. 8388607)
  277 compressed objects within 3 object streams

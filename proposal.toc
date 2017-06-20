@@ -1,6 +1,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Problem Statement}{1}
 \contentsline {section}{\numberline {1.2}Motivations}{2}
+\contentsline {subsubsection}{Hybridisation of AI planning and EC-based approaches}{3}
 \contentsline {subsubsection}{Hybridisation of Quality of Semantic Matchmaking and Quality of Service}{3}
 \contentsline {subsubsection}{Multi-Objective Composition Optimisation}{3}
 \contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{4}

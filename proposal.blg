@@ -107,6 +107,10 @@ Repeated entry---line 1897 of file bibliography.bib
  : @inproceedings{liu2005dynamic
  :                              ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1927 of file bibliography.bib
+ : @inproceedings{lecue2008optimizing
+ :                                   ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1941 of file bibliography.bib
  : @inproceedings{lecue2009optimizing
  :                                   ,
@@ -327,6 +331,10 @@ Repeated entry---line 5271 of file bibliography.bib
  : @inproceedings{liu2005dynamic
  :                              ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 5301 of file bibliography.bib
+ : @inproceedings{lecue2008optimizing
+ :                                   ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 5315 of file bibliography.bib
  : @inproceedings{lecue2009optimizing
  :                                   ,
@@ -392,45 +400,45 @@ Repeated entry---line 5839 of file bibliography.bib
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in mier2015integrated
-You've used 113 entries,
+You've used 114 entries,
             2253 wiz_defined-function locations,
-            1117 strings with 25600 characters,
-and the built_in function-call counts, 46426 in all, are:
-= -- 4615
-> -- 2116
+            1122 strings with 25747 characters,
+and the built_in function-call counts, 46864 in all, are:
+= -- 4658
+> -- 2133
 < -- 0
-+ -- 895
-- -- 756
-* -- 3505
-:= -- 7092
-add.period$ -- 351
-call.type$ -- 113
-change.case$ -- 707
++ -- 902
+- -- 762
+* -- 3534
+:= -- 7154
+add.period$ -- 354
+call.type$ -- 114
+change.case$ -- 713
 chr.to.int$ -- 0
-cite$ -- 114
-duplicate$ -- 1855
-empty$ -- 3731
-format.name$ -- 756
-if$ -- 10000
+cite$ -- 115
+duplicate$ -- 1877
+empty$ -- 3770
+format.name$ -- 762
+if$ -- 10099
 int.to.chr$ -- 0
-int.to.str$ -- 113
-missing$ -- 118
-newline$ -- 566
-num.names$ -- 226
-pop$ -- 829
+int.to.str$ -- 114
+missing$ -- 119
+newline$ -- 571
+num.names$ -- 228
+pop$ -- 839
 preamble$ -- 1
-purify$ -- 600
+purify$ -- 605
 quote$ -- 0
-skip$ -- 1324
+skip$ -- 1340
 stack$ -- 0
-substring$ -- 3183
-swap$ -- 639
+substring$ -- 3212
+swap$ -- 647
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 440
+type$ -- 444
 warning$ -- 1
-while$ -- 472
-width$ -- 116
-write$ -- 1192
-(There were 96 error messages)
+while$ -- 477
+width$ -- 117
+write$ -- 1202
+(There were 98 error messages)
