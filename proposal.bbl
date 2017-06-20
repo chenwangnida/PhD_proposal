@@ -411,6 +411,12 @@
 \newblock In {\em Software Engineering and Formal Methods, 2006. SEFM 2006.
   Fourth IEEE International Conference on\/} (2006), IEEE, pp.~147--156.
 
+\bibitem{markou2015non}
+{\sc Markou, G., and Refanidis, I.}
+\newblock Non-deterministic planning methods for automated web service
+  composition.
+\newblock {\em Artificial Intelligence Research 5}, 1 (2015), 14.
+
 \bibitem{martin2004owl}
 {\sc Martin, D., Burstein, M., Hobbs, J., Lassila, O., McDermott, D.,
   McIlraith, S., Narayanan, S., Paolucci, M., Parsia, B., Payne, T., et~al.}
@@ -497,6 +503,11 @@
 {\sc Parejo, J.~A., Segura, S., Fernandez, P., and Ruiz-Cort{\'e}s, A.}
 \newblock Qos-aware web services composition using grasp with path relinking.
 \newblock {\em Expert Systems with Applications 41}, 9 (2014), 4211--4223.
+
+\bibitem{peer2005web}
+{\sc Peer, J.}
+\newblock Web service composition as ai planning-a survey.
+\newblock {\em University of St. Gallen\/} (2005).
 
 \bibitem{petrie2016web}
 {\sc Petrie, C.~J.}
