@@ -534,6 +534,12 @@
 \newblock In {\em Semantic Web Services and Web Process Composition}. Springer,
   2005, pp.~43--54.
 
+\bibitem{renders1996hybrid}
+{\sc Renders, J.-M., and Flasse, S.~P.}
+\newblock Hybrid methods using genetic algorithms for global optimization.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics, Part B
+  (Cybernetics) 26}, 2 (1996), 243--258.
+
 \bibitem{rodriguez2010composition}
 {\sc Rodriguez-Mier, P., Mucientes, M., Lama, M., and Couto, M.~I.}
 \newblock Composition of web services through genetic programming.
