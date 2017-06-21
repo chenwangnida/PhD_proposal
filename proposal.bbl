@@ -182,6 +182,12 @@
 \newblock In {\em Neural Networks (SBRN), 2010 Eleventh Brazilian Symposium
   on\/} (2010), IEEE, pp.~152--157.
 
+\bibitem{deb2002fast}
+{\sc Deb, K., Pratap, A., Agarwal, S., and Meyarivan, T.}
+\newblock A fast and elitist multiobjective genetic algorithm: Nsga-ii.
+\newblock {\em IEEE transactions on evolutionary computation 6}, 2 (2002),
+  182--197.
+
 \bibitem{deng2014top}
 {\sc Deng, S., Huang, L., Tan, W., and Wu, Z.}
 \newblock Top- {\rm k} automatic service composition: A parallel method for
