@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.6.13)  21 JUN 2017 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (Web2C 2016) (preloaded format=pdflatex 2017.6.13)  22 JUN 2017 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,36 +425,41 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 
 
 ]
-Overfull \hbox (0.76048pt too wide) in paragraph at lines 11--12
+Overfull \hbox (0.76048pt too wide) in paragraph at lines 13--14
 []\OT1/ppl/m/n/10.95 Different ap-proaches have been pro-posed to solve those c
 om-po-si-tion prob-lems dis-cussed
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
+[2]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-
-[3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-[5]
-Overfull \hbox (6.86671pt too wide) in paragraph at lines 75--76
+ [3] [4] [5]
+Overfull \hbox (6.86671pt too wide) in paragraph at lines 77--78
 []\OT1/ppl/b/n/10.95 Develop multi-objective ob-jec-tive ap-proaches to op-ti-m
 is-ing the com-pre-hen-sive qual-
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
+Overfull \hbox (1.67343pt too wide) in paragraph at lines 80--81
+[]\OT1/ppl/m/it/10.95 Develop fully au-to-mated multi-objective com-pre-hen-siv
+e qual-ity se-man-tic web ser-vice com-
  []
 
 
-LaTeX Warning: Reference `obj:rep' on page 7 undefined on input line 89.
+Overfull \hbox (1.67343pt too wide) in paragraph at lines 82--83
+[]\OT1/ppl/m/it/10.95 Develop fully au-to-mated multi-objective com-pre-hen-siv
+e qual-ity se-man-tic web ser-vice com-
+ []
+
+
+Overfull \hbox (1.5868pt too wide) in paragraph at lines 82--83
+\OT1/ppl/m/n/10.95 fully au-to-mated Muti-objective com-pre-hen-sive qual-ity s
+e-man-tic web ser-vice com-
+ []
+
+
+LaTeX Warning: Reference `obj:rep' on page 7 undefined on input line 88.
 
 [7]) [8]
 \openout2 = `review.aux'.
@@ -667,10 +672,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5969 strings out of 493681
- 86588 string characters out of 6155712
- 178343 words of memory out of 5000000
- 9159 multiletter control sequences out of 15000+600000
+ 5970 strings out of 493681
+ 86608 string characters out of 6155712
+ 178344 words of memory out of 5000000
+ 9160 multiletter control sequences out of 15000+600000
  48464 words of font info for 134 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  42i,23n,41p,2568b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -684,7 +689,7 @@ g/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/share/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (59 pages, 737669 bytes).
+Output written on proposal.pdf (59 pages, 738343 bytes).
 PDF statistics:
  409 PDF objects out of 1000 (max. 8388607)
  279 compressed objects within 3 object streams

@@ -596,6 +596,12 @@
 \newblock In {\em The 7th International Conference on Semantic Web and Web
   Services (SWWS)\/} (2011), pp.~91--95.
 
+\bibitem{sahai2002automated}
+{\sc Sahai, A., Machiraju, V., Sayal, M., Van~Moorsel, A., and Casati, F.}
+\newblock Automated sla monitoring for web services.
+\newblock In {\em International Workshop on Distributed Systems: Operations and
+  Management\/} (2002), Springer, pp.~28--41.
+
 \bibitem{shet2012new}
 {\sc Shet, K., Acharya, U.~D., et~al.}
 \newblock A new similarity measure for taxonomy based on edge counting.
@@ -706,6 +712,13 @@
   manufacturing system.
 \newblock {\em Central European Journal of Operations Research 22}, 4 (2014),
   663--685.
+
+\bibitem{yao2009qos}
+{\sc Yao, Y., and Chen, H.}
+\newblock Qos-aware service composition using nsga-ii 1.
+\newblock In {\em Proceedings of the 2nd International Conference on
+  Interaction Sciences: Information Technology, Culture and Human\/} (2009),
+  ACM, pp.~358--363.
 
 \bibitem{yin2014hybrid}
 {\sc Yin, H., Zhang, C., Zhang, B., Guo, Y., and Liu, T.}
