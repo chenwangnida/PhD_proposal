@@ -90,6 +90,12 @@
 \newblock {\em Journal of chemical information and computer sciences 44}, 3
   (2004), 1079--1087.
 
+\bibitem{chan2009fault}
+{\sc Chan, K., Bishop, J., Steyn, J., Baresi, L., and Guinea, S.}
+\newblock A fault taxonomy for web service composition.
+\newblock In {\em Service-oriented computing-ICSOC 2007 Workshops\/} (2009),
+  Springer, pp.~363--375.
+
 \bibitem{chen2014qos}
 {\sc Chen, M., and Yan, Y.}
 \newblock Qos-aware service composition over graphplan through graph
@@ -761,6 +767,13 @@
 \newblock In {\em Proceedings of the 12th international conference on World
   Wide Web\/} (2003), ACM, pp.~411--421.
 
+\bibitem{zhang2007moea}
+{\sc Zhang, Q., and Li, H.}
+\newblock Moea/d: A multiobjective evolutionary algorithm based on
+  decomposition.
+\newblock {\em IEEE Transactions on evolutionary computation 11}, 6 (2007),
+  712--731.
+
 \bibitem{zhang2013selecting}
 {\sc Zhang, S., Dou, W., and Chen, J.}
 \newblock Selecting top-k composite web services using preference-aware
@@ -781,5 +794,9 @@
   context space model.
 \newblock In {\em Web Services (ICWS), 2013 IEEE 20th International Conference
   on\/} (2013), IEEE, pp.~605--606.
+
+\bibitem{zitzler2001spea2}
+{\sc Zitzler, E., Laumanns, M., Thiele, L., et~al.}
+\newblock Spea2: Improving the strength pareto evolutionary algorithm, 2001.
 
 \end{thebibliography}
