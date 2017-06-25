@@ -83,7 +83,8 @@ The overall goal of this thesis is to develop new and effective hybrid approache
  \item \textbf{Develop hybrid techniques to handle dynamic semantic web service composition effectively}. The objectives one and two are proposed assuming the environment of service composition is static. In this scenario, environments refer to the availability of registered services and their QoS attributes remain constant, as well as the ontology utilised for describing the resources of web services. Apart from that,  the proposed hybrid approaches are executed only once for a given composition task. However, QoS values of services being composed of are fluctuating over time, service chosen at the planning stage may not available to be invoked at the runtime, or newly registered service may need to be considered for reconstructing a plan. To  effectively handle these changes, two studies are performed as two sub-objectives as follows:
 
   \begin{enumerate}
- \item \emph{Develop hybrid techniques to re-optimise solution candidates for changes in QoS and Ontology.} Traditionally, initial population is created with solution candidates that are further evolved for searching optimal solutions. During the evolutionary computation process, most of service candidates are discarded excluding the best service candidate found. Those discarded solutions candidates may be promising, since some of the solutions may be alternative best option when the QoS or quality of semantic matchmaking changes. Instead of discarding the solution candidates, it would be very motivated to keep the 
+ \item \emph{Develop hybrid techniques to re-optimise solution candidates for changes in QoS and Ontology.} Traditionally, initial population is created with solution candidates that are further evolved for searching optimal solutions. During the evolutionary computation process, most of service candidates are discarded excluding the best service candidate found. Those discarded solutions candidates may be promising, since some of the solutions may be alternative best option when the QoS or quality of semantic matchmaking changes. Instead of discarding the solution candidates, it would be very motivated to keep the discard solution candidates, since those candidates preserve both diversity and elitism, and they should be maintained for further use.
+  
  
  
  
@@ -91,15 +92,7 @@ The overall goal of this thesis is to develop new and effective hybrid approache
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  
  %Usually, EC approaches dedicated to Web service composition create a population of candidates, optimise this population, and identify the best solution candidate, discarding the others in the process. In a dynamic scenario, disposing of the remaining candidates would be wasteful, since some of these alternative solutions may become promising as quality values change. Instead of destroying the population, the extended technique should maintain it for future re-optimisation. A key challenge in this approach is striking a balance between population diversity and effective optimisation.
