@@ -1,11 +1,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Typical steps in a workflow-based automated Web service composition solution \cite {moghaddam2014service}.\relax }}{10}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The different problem representations employed by biologically-inspired Web service composition approaches.\relax }}{13}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Basic example of Web service composition using the Graphplan algorithm.\relax }}{20}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Typical steps in a workflow-based automated Web service composition solution \cite {moghaddam2014service}.\relax }}{12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The different problem representations employed by biologically-inspired Web service composition approaches.\relax }}{15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Basic example of Web service composition using the Graphplan algorithm.\relax }}{22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces An example of a web service composition\relax }}{30}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces An ontology of a travel planning domain\relax }}{30}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces An overview of our PSO-based approach to comprehensive quality-aware automated semantic web service composition.\relax }}{33}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces An example for the comparison of the best solutions obtained based on the QoS model and on the comprehensive quality model for Task 3.\relax }}{38}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An example of a web service composition\relax }}{32}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces An ontology of a travel planning domain\relax }}{32}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces An overview of our PSO-based approach to comprehensive quality-aware automated semantic web service composition.\relax }}{35}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces An example for the comparison of the best solutions obtained based on the QoS model and on the comprehensive quality model for Task 3.\relax }}{40}
 \addvspace {10\p@ }
