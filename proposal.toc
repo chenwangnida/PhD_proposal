@@ -16,12 +16,13 @@
 \contentsline {subsection}{\numberline {2.2.1}Biologically-Inspired Approaches}{14}
 \contentsline {subsubsection}{Graph Variations of GP}{16}
 \contentsline {subsection}{\numberline {2.2.2}Other Optimised Composition Approaches}{18}
-\contentsline {section}{\numberline {2.3}Multi-objective, Top-K, and Many-objective Composition Approaches}{20}
+\contentsline {section}{\numberline {2.3}Multi-objective, and Many-objective Composition Approaches}{20}
+\contentsline {subsection}{\numberline {2.3.1}Multi-objective}{20}
 \contentsline {section}{\numberline {2.4}AI Planning-based Composition Approaches}{22}
 \contentsline {subsection}{\numberline {2.4.1}Hybrid Approaches}{24}
 \contentsline {section}{\numberline {2.5}Semantic Selection Approaches}{25}
 \contentsline {section}{\numberline {2.6}Dynamic Web Service Composition}{26}
-\contentsline {section}{\numberline {2.7}Summary and Limitations}{28}
+\contentsline {section}{\numberline {2.7}Summary and Limitations}{27}
 \contentsline {chapter}{\numberline {3}Preliminary Work}{31}
 \contentsline {section}{\numberline {3.1}Motivation and Problem Description}{31}
 \contentsline {subsection}{\numberline {3.1.1}Motivation}{31}

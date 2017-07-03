@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  27 JUN 2017 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  3 JUL 2017 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,7 +299,11 @@ VUW Honours reports modifications -- Mar 1995
 Modified to handle different degrees 2003
 Modified to handle duplex printing properly 2006
 \@abstract=\box39
-) (./proposal.aux (./introduction.aux) (./review.aux) (./preliminary_work.aux
+) (./proposal.aux (./introduction.aux) (./review.aux
+
+LaTeX Warning: Label `MultiObjective' multiply defined.
+
+) (./preliminary_work.aux
 
 LaTeX Warning: Label `overview' multiply defined.
 
@@ -436,24 +440,20 @@ om-po-si-tion prob-lems dis-cussed
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
- [3] [4]
-Underfull \vbox (badness 2261) has occurred while \output is active []
-
- [5]
-[6]
+ [3] [4] [5] [6]
 Overfull \hbox (2.0136pt too wide) in paragraph at lines 76--77
 \OT1/ppl/m/it/10.95 man-tic web ser-vice com-po-si-tion\OT1/ppl/m/n/10.95 . Her
 e we de-velop hy-brid multi-objective ap-proaches
  []
 
 [7]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 115.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 114.
 
  (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
 ) [8] [9]
 \openout2 = `review.aux'.
 
@@ -492,26 +492,42 @@ ere ex-haus-tive search is pro-hibitively
  []
 
 [18]
+Overfull \hbox (0.44005pt too wide) in paragraph at lines 96--96
+[]\OT1/ppl/b/n/14.4 Multi-objective, and Many-objective Com-po-si-tion Ap-proac
+hes 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
+Missing character: There is no ï in font pplr7t!
+Missing character: There is no ¼ in font pplr7t!
+Missing character: There is no ˆ in font pplr7t!
+
 [20]
-Underfull \vbox (badness 2035) has occurred while \output is active []
+Overfull \hbox (12.8214pt too wide) in paragraph at lines 119--120
+\OT1/ppl/m/n/10.95 of a group of ants for op-ti-mis-ing the tra-versed for-ag-i
+ng path, where the strength of pheromones
+ []
 
- [21]
-<graphplan.pdf, id=109, pagebox=cropbox, 438.32507pt x 149.39563pt>
-File: graphplan.pdf Graphic file (type pdf)
-<use graphplan.pdf>
-Package pdftex.def Info: graphplan.pdf  used on input line 129. on input line 1
-29.
-Package pdftex.def Info: Requested size: 398.33858pt x 135.77014pt on input lin
-e 129.
 
-[22 <./graphplan.pdf>] [23] [24] [25] [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27])
-[28] [29]
+ [21]
+<graphplan.pdf, id=108, pagebox=cropbox, 438.32507pt x 149.39563pt>
+File: graphplan.pdf Graphic file (type pdf)
+<use graphplan.pdf>
+Package pdftex.def Info: graphplan.pdf  used on input line 155. on input line 1
+55.
+Package pdftex.def Info: Requested size: 398.33858pt x 135.77014pt on input lin
+e 155.
+
+[22 <./graphplan.pdf>] [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+[25] [26] [27]) [28] [29]
 \openout2 = `preliminary_work.aux'.
 
  (./preliminary_work.tex [30
@@ -520,7 +536,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 3.
-<motivation.pdf, id=149, pagebox=cropbox, 1322.9425pt x 595.22375pt>
+<motivation.pdf, id=148, pagebox=cropbox, 1322.9425pt x 595.22375pt>
 File: motivation.pdf Graphic file (type pdf)
 <use motivation.pdf>
 Package pdftex.def Info: motivation.pdf  used on input line 13. on input line 1
@@ -531,7 +547,7 @@ e 13.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [31]
-<taxonomy.pdf, id=154, pagebox=cropbox, 991.705pt x 380.42125pt>
+<taxonomy.pdf, id=153, pagebox=cropbox, 991.705pt x 380.42125pt>
 File: taxonomy.pdf Graphic file (type pdf)
 <use taxonomy.pdf>
 Package pdftex.def Info: taxonomy.pdf  used on input line 24. on input line 24.
@@ -651,18 +667,18 @@ Underfull \vbox (badness 1577) has occurred while \output is active []
 
 
 
-] [48] [49] [50]
-Underfull \hbox (badness 1997) in paragraph at lines 360--364
+] [48] [49]
+Underfull \hbox (badness 1997) in paragraph at lines 337--341
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[51] [52] [53] [54]
+[50] [51] [52] [53] [54]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
-) [55] (./proposal.aux (./introduction.aux) (./review.aux)
-(./preliminary_work.aux) (./plan.aux))
+) [55] (./proposal.aux (./introduction.aux)
+(./review.aux) (./preliminary_work.aux) (./plan.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -671,10 +687,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5956 strings out of 493675
- 86602 string characters out of 6155645
- 174523 words of memory out of 5000000
- 9151 multiletter control sequences out of 15000+600000
+ 5952 strings out of 493675
+ 86531 string characters out of 6155645
+ 174505 words of memory out of 5000000
+ 9147 multiletter control sequences out of 15000+600000
  48464 words of font info for 134 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  42i,23n,41p,2524b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -688,7 +704,7 @@ g/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/share/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (61 pages, 740626 bytes).
+Output written on proposal.pdf (61 pages, 738181 bytes).
 PDF statistics:
  416 PDF objects out of 1000 (max. 8388607)
  284 compressed objects within 3 object streams
