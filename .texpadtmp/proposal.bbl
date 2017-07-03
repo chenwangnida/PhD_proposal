@@ -249,6 +249,11 @@
 \newblock In {\em Services-Part I, 2008. IEEE Congress on\/} (2008), IEEE,
   pp.~384--388.
 
+\bibitem{garey1979guide}
+{\sc Garey, M.~R., and Johnson, D.~S.}
+\newblock A guide to the theory of np-completeness.
+\newblock {\em WH Freemann, New York 70\/} (1979).
+
 \bibitem{globus1999automatic}
 {\sc Globus, A., Lawton, J., and Wipke, T.}
 \newblock Automatic molecular design using evolutionary techniques.
