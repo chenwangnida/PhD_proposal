@@ -18,12 +18,6 @@
 \newblock {\em International Journal of Computer Systems Science \& Engineering
   21}, 4 (2006), 247--254.
 
-\bibitem{bader2010hypervolume}
-{\sc Bader, J.~M.}
-\newblock {\em Hypervolume-based search for multiobjective optimization: theory
-  and methods}.
-\newblock Johannes Bader, 2010.
-
 \bibitem{bahadori2009optimal}
 {\sc Bahadori, S., Kafi, S., Far, K., and Khayyambashi, M.}
 \newblock Optimal web service composition using hybrid ga-tabu search.
@@ -181,25 +175,11 @@
 \newblock In {\em European Conference on Evolutionary Computation in
   Combinatorial Optimization\/} (2016), Springer, pp.~202--218.
 
-\bibitem{de2010many}
-{\sc de~Campos, A., Pozo, A.~T., Vergilio, S.~R., and Savegnago, T.}
-\newblock Many-objective evolutionary algorithms in the composition of web
-  services.
-\newblock In {\em Neural Networks (SBRN), 2010 Eleventh Brazilian Symposium
-  on\/} (2010), IEEE, pp.~152--157.
-
 \bibitem{deb2002fast}
 {\sc Deb, K., Pratap, A., Agarwal, S., and Meyarivan, T.}
 \newblock A fast and elitist multiobjective genetic algorithm: Nsga-ii.
 \newblock {\em IEEE transactions on evolutionary computation 6}, 2 (2002),
   182--197.
-
-\bibitem{deng2014top}
-{\sc Deng, S., Huang, L., Tan, W., and Wu, Z.}
-\newblock Top- {\rm k} automatic service composition: A parallel method for
-  large-scale service sets.
-\newblock {\em Automation Science and Engineering, IEEE Transactions on 11}, 3
-  (July 2014), 891--905.
 
 \bibitem{deng2013efficient}
 {\sc Deng, S., Wu, B., Yin, J., and Wu, Z.}
@@ -295,14 +275,6 @@
 \newblock Qsynth: A tool for qos-aware automatic service composition.
 \newblock In {\em Web Services (ICWS), 2010 IEEE International Conference on\/}
   (2010), IEEE, pp.~42--49.
-
-\bibitem{joshi2015improving}
-{\sc Joshi, A., Rowe, J.~E., and Zarges, C.}
-\newblock Improving the performance of the germinal center artificial immune
-  system using$\backslash$ epsilon-dominance: A multi-objective knapsack
-  problem case study.
-\newblock In {\em Evolutionary Computation in Combinatorial Optimization}.
-  Springer, 2015, pp.~114--125.
 
 \bibitem{kantschik2002linear}
 {\sc Kantschik, W., and Banzhaf, W.}
@@ -778,13 +750,6 @@
   decomposition.
 \newblock {\em IEEE Transactions on evolutionary computation 11}, 6 (2007),
   712--731.
-
-\bibitem{zhang2013selecting}
-{\sc Zhang, S., Dou, W., and Chen, J.}
-\newblock Selecting top-k composite web services using preference-aware
-  dominance relationship.
-\newblock In {\em Web Services (ICWS), 2013 IEEE 20th International Conference
-  on\/} (2013), IEEE, pp.~75--82.
 
 \bibitem{zhang2010qos}
 {\sc Zhang, W., Chang, C.~K., Feng, T., and Jiang, H.-y.}

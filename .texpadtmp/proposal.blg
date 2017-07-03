@@ -427,46 +427,47 @@ Repeated entry---line 6026 of file ../bibliography.bib
  : @article{bansal2016generalized
  :                               ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "yu2007efficient"
 Warning--empty journal in mier2015integrated
-You've used 129 entries,
+You've used 124 entries,
             2253 wiz_defined-function locations,
-            1194 strings with 28554 characters,
-and the built_in function-call counts, 53017 in all, are:
-= -- 5263
-> -- 2403
+            1172 strings with 27538 characters,
+and the built_in function-call counts, 50970 in all, are:
+= -- 5060
+> -- 2318
 < -- 0
-+ -- 1018
-- -- 858
-* -- 3980
-:= -- 8068
-add.period$ -- 398
-call.type$ -- 129
-change.case$ -- 805
++ -- 983
+- -- 828
+* -- 3836
+:= -- 7761
+add.period$ -- 382
+call.type$ -- 124
+change.case$ -- 776
 chr.to.int$ -- 0
-cite$ -- 130
-duplicate$ -- 2142
-empty$ -- 4279
-format.name$ -- 858
-if$ -- 11445
+cite$ -- 125
+duplicate$ -- 2050
+empty$ -- 4106
+format.name$ -- 828
+if$ -- 10992
 int.to.chr$ -- 0
-int.to.str$ -- 129
-missing$ -- 133
-newline$ -- 645
-num.names$ -- 258
-pop$ -- 955
+int.to.str$ -- 124
+missing$ -- 127
+newline$ -- 620
+num.names$ -- 248
+pop$ -- 914
 preamble$ -- 1
-purify$ -- 682
+purify$ -- 657
 quote$ -- 0
-skip$ -- 1540
+skip$ -- 1475
 stack$ -- 0
-substring$ -- 3620
-swap$ -- 745
+substring$ -- 3486
+swap$ -- 713
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 504
+type$ -- 486
 warning$ -- 1
-while$ -- 539
-width$ -- 132
-write$ -- 1357
+while$ -- 519
+width$ -- 127
+write$ -- 1303
 (There were 105 error messages)
