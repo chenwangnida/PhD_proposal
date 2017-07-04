@@ -1,6 +1,6 @@
 %% $RCSfile: proj_report_outline.tex,v $
-%% $Revision: 1.2 $
-%% $Date: 2010/04/23 02:40:16 $
+%% $Revision: 1.3 $
+%% $Date: 2016/06/10 03:41:54 $
 %% $Author: kevin $
 
 \documentclass[11pt
@@ -10,16 +10,9 @@
               ]{report}
 
 
-\usepackage{float,enumerate,graphicx,amsmath,amssymb,url}
-\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
-\usepackage{color,graphicx,epstopdf,changepage,amsmath,multirow}
-\usepackage[justification=centering]{caption}
-\usepackage[inline]{enumitem}
+\usepackage{float} % lets you have non-floating floats
 
-
-\SetAlgoCaptionSeparator{.\space}
-\renewcommand\AlCapFnt{\normalfont\scshape}
-
+\usepackage{url} % for typesetting urls
 
 %
 %  We don't want figures to float so we define
@@ -28,7 +21,10 @@
 \floatname{fig}{Figure}
 
 %% These are standard LaTeX definitions for the document
-%%                            
+%%      
+%% Personal package
+\usepackage[inline]{enumitem}
+                      
 \title{Comprehensive Quality-Aware Semantic Web Service Composition}
 \author{Chen Wang}
 
@@ -93,9 +89,9 @@
 
 % individual chapters included here
 \include{introduction}
-\include{review}
-\include{preliminary_work}
-\include{plan}
+%\include{review}
+%\include{preliminary_work}
+%\include{plan}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

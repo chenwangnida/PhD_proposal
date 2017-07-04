@@ -10,9 +10,9 @@
 %% Now in the ECS CVS as of 2010-04-23, following some reworking
 %%
 %% $RCSfile: vuwproject.sty,v $
-%% $Revision: 1.5 $
-%% $Date: 2013/04/10 23:35:38 $
-%% $Author: root $
+%% $Revision: 1.8 $
+%% $Date: 2016/06/10 05:20:39 $
+%% $Author: kevin $
 %%
 % INSTRUCTIONS
 %
@@ -51,6 +51,12 @@
 \gdef\Ecs@degree{Bachelor of Science with Honours in Computer Science}}
 \DeclareOption{mcompsci}{%
 \gdef\Ecs@degree{Master of Computer Science}}
+
+\DeclareOption{sms}{%
+\gdef\Ecs@school{School of Mathematics and Statistics\\ \pali Te Kura M\=atai Tatauranga}%
+\gdef\Ecs@schoolacronymlower{sms}
+\gdef\Ecs@fromnetaddr{sms-office@vuw.ac.nz}
+}
 
 \DeclareOption{image}{\Ecs@imagetrue}
 \DeclareOption{font}{\Ecs@imagefalse}
@@ -105,6 +111,11 @@
 \@ifundefined{Ecs@school}{\gdef\Ecs@school{School: NOT STATED}}{}
 \@ifundefined{Ecs@schoolacronymlower}{\gdef\Ecs@schoolacronymlower{whichschool}}{}
 
+\@ifundefined{Ecs@fromnetaddr}{%
+\gdef\Ecs@fromnetaddr{office@\Ecs@schoolacronymlower.vuw.ac.nz}
+}{}
+\def\netaddr#1{\gdef\Ecs@fromnetaddr{#1}}
+
 \def\supervisor#1{\gdef\@supervisor{Supervisor: #1}}
 \def\supervisors#1{\gdef\@supervisor{Supervisors: #1}}
 \gdef\@supervisor{Supervisor: NOT STATED}
@@ -133,6 +144,7 @@ u\t@t i}\\*[8pt]
 \else
 {\vuwf VUW}\\*[8pt]
 \fi
+\addtolength{\baselineskip}{6pt}
 {\pal \Ecs@school}
 \end{center}
 
@@ -148,7 +160,7 @@ New Zealand}\hfill
 \flushright
 Tel:    +64 4 463 5341\\
 Fax:    +64 4 463 5045\\
-Internet: office@\Ecs@schoolacronymlower.vuw.ac.nz}
+Internet: \Ecs@fromnetaddr}
 }
 \parbox{3mm}{\mbox{}}
 
