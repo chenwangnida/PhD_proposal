@@ -4,8 +4,8 @@
 \contentsline {subsubsection}{Various Techniques of Hybridisation}{3}
 \contentsline {subsubsection}{Hybridisation of Quality of Semantic Matchmaking and Quality of Service}{3}
 \contentsline {subsubsection}{Multi-Objective Composition Optimisation}{4}
-\contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{5}
 \contentsline {subsubsection}{Dynamic Semantic Web Service Composition}{5}
+\contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{5}
 \contentsline {section}{\numberline {1.3}Research Goals}{6}
 \contentsline {section}{\numberline {1.4}Published Papers}{9}
 \contentsline {section}{\numberline {1.5}Organisation of Proposal}{9}
