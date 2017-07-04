@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  3 JUL 2017 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  4 JUL 2017 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,20 +441,32 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
  [3] [4] [5] [6]
-Overfull \hbox (2.0136pt too wide) in paragraph at lines 76--77
-\OT1/ppl/m/it/10.95 man-tic web ser-vice com-po-si-tion\OT1/ppl/m/n/10.95 . Her
-e we de-velop hy-brid multi-objective ap-proaches
+Overfull \hbox (3.01076pt too wide) in paragraph at lines 79--80
+[]\OT1/ppl/m/n/10.95 Here we de-velop a fun-da-men-tal muti-objective op-ti-mi-
+sa-tion ap-proach us-ing some
  []
 
-[7]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 114.
+
+Overfull \hbox (8.84749pt too wide) in paragraph at lines 79--80
+\OT1/ppl/m/n/10.95 multi-objective EC-based al-go-rithm. (e.g, NSGA-II [[]], SP
+EA2 [[]] and MOEA/D
+ []
+
+
+Overfull \hbox (5.68224pt too wide) in paragraph at lines 79--80
+\OT1/ppl/m/n/10.95 [[]]), where dif-fer-ent rep-re-sen-ta-tions and mod-i-fied 
+multi-objective EC al-go-rithms
+ []
+
+[7] [8]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 121.
 
  (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
-) [8] [9]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
+) [9]
 \openout2 = `review.aux'.
 
 
@@ -501,42 +513,25 @@ hes
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-Missing character: There is no ï in font pplr7t!
-Missing character: There is no ¼ in font pplr7t!
-Missing character: There is no ˆ in font pplr7t!
-
 [20]
-Overfull \hbox (12.8214pt too wide) in paragraph at lines 119--120
-\OT1/ppl/m/n/10.95 of a group of ants for op-ti-mis-ing the tra-versed for-ag-i
-ng path, where the strength of pheromones
- []
+
+LaTeX Warning: Citation `yu2007efficient' on page 21 undefined on input line 11
+7.
+
+
+LaTeX Warning: Reference `fig:graphplan' on page 21 undefined on input line 145
+.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<graphplan.pdf, id=108, pagebox=cropbox, 438.32507pt x 149.39563pt>
-File: graphplan.pdf Graphic file (type pdf)
-<use graphplan.pdf>
-Package pdftex.def Info: graphplan.pdf  used on input line 155. on input line 1
-55.
-Package pdftex.def Info: Requested size: 398.33858pt x 135.77014pt on input lin
-e 155.
-
-[22 <./graphplan.pdf>] [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
-[25] [26] [27]) [28] [29]
+[22] [23] [24] [25] [26] [27]) [28]
 \openout2 = `preliminary_work.aux'.
 
- (./preliminary_work.tex [30
-
-
-
-]
+ (./preliminary_work.tex
 Chapter 3.
-<motivation.pdf, id=148, pagebox=cropbox, 1322.9425pt x 595.22375pt>
+<motivation.pdf, id=130, pagebox=cropbox, 1322.9425pt x 595.22375pt>
 File: motivation.pdf Graphic file (type pdf)
 <use motivation.pdf>
 Package pdftex.def Info: motivation.pdf  used on input line 13. on input line 1
@@ -546,15 +541,19 @@ e 13.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31]
-<taxonomy.pdf, id=153, pagebox=cropbox, 991.705pt x 380.42125pt>
+[29
+
+
+
+]
+<taxonomy.pdf, id=134, pagebox=cropbox, 991.705pt x 380.42125pt>
 File: taxonomy.pdf Graphic file (type pdf)
 <use taxonomy.pdf>
 Package pdftex.def Info: taxonomy.pdf  used on input line 24. on input line 24.
 
 Package pdftex.def Info: Requested size: 277.6755pt x 106.51721pt on input line
  24.
- [32 <./motivation.pdf> <./taxonomy.pdf>]
+ [30 <./motivation.pdf> <./taxonomy.pdf>]
 Overfull \hbox (52.83954pt too wide) in paragraph at lines 49--52
 \OT1/ppl/m/n/10.95 with ser-vices $\OML/zplm/m/it/10.95 S[]\OT1/ppl/m/n/10.95 ,
  [] , \OML/zplm/m/it/10.95 S[]$ \OT1/ppl/m/n/10.95 by a weighted DAG, $\OML/zpl
@@ -566,8 +565,8 @@ m/it/10.95 Start\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 S[]\OT1/ppl/m/n/10.95
 T1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 End\OMS/zplm/m/n/10.95 g$
  []
 
-[33]
-<overview.pdf, id=223, pagebox=cropbox, 853.1875pt x 341.275pt>
+[31]
+<overview.pdf, id=205, pagebox=cropbox, 853.1875pt x 341.275pt>
 File: overview.pdf Graphic file (type pdf)
 <use overview.pdf>
 Package pdftex.def Info: overview.pdf  used on input line 106. on input line 10
@@ -579,18 +578,18 @@ e 106.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `problemDes' on page 34 undefined on input line 111.
+LaTeX Warning: Reference `problemDes' on page 32 undefined on input line 111.
 
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-LaTeX Warning: Reference `Comprehensive_Quality_Model' on page 34 undefined on 
+LaTeX Warning: Reference `Comprehensive_Quality_Model' on page 32 undefined on 
 input line 120.
 
-[34] [35 <./overview.pdf>] [36]
+[32] [33 <./overview.pdf>] [34]
 
-LaTeX Warning: Reference `obj:rep' on page 37 undefined on input line 193.
+LaTeX Warning: Reference `obj:rep' on page 35 undefined on input line 193.
 
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
@@ -599,12 +598,12 @@ Missing character: There is no ™ in font pplr7t!
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 205.
 
-[37]
+[35]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 233.
 
-[38]
+[36]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 255.
@@ -617,8 +616,8 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 260.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 260.
-[39]
-<comparisontest.pdf, id=291, pagebox=cropbox, 1137.24875pt x 735.74875pt>
+[37]
+<comparisontest.pdf, id=273, pagebox=cropbox, 1137.24875pt x 735.74875pt>
 File: comparisontest.pdf Graphic file (type pdf)
 <use comparisontest.pdf>
 Package pdftex.def Info: comparisontest.pdf  used on input line 287. on input l
@@ -629,10 +628,10 @@ e 287.
 
 LaTeX Warning: Float too large for page by 78.68646pt on input line 400.
 
-) [40 <./comparisontest.pdf>] [41]
+) [38 <./comparisontest.pdf>] [39]
 \openout2 = `plan.aux'.
 
- (./plan.tex [42
+ (./plan.tex [40
 
 
 
@@ -644,7 +643,7 @@ Overfull \hbox (8.3095pt too wide) in paragraph at lines 14--16
 i-ver-sity in-trin-sic to these ap-proaches.
  []
 
-[43]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 []\OT1/ppl/m/n/10 Investigating un-con-strained
  []
@@ -659,25 +658,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 []\OT1/ppl/m/n/10 Extending plan-ning/EC ap-
  []
 
-[44]
+[42]
 Underfull \vbox (badness 1577) has occurred while \output is active []
 
- [45])
-[46] (./proposal.bbl [47
+ [43])
+[44] (./proposal.bbl [45
 
 
 
-] [48] [49]
+] [46] [47]
 Underfull \hbox (badness 1997) in paragraph at lines 337--341
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[50] [51] [52] [53] [54]
+[48] [49] [50] [51] [52]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
-) [55] (./proposal.aux (./introduction.aux)
+) [53] (./proposal.aux (./introduction.aux)
 (./review.aux) (./preliminary_work.aux) (./plan.aux))
 
 LaTeX Warning: There were undefined references.
@@ -687,10 +686,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5952 strings out of 493675
- 86531 string characters out of 6155645
- 174505 words of memory out of 5000000
- 9147 multiletter control sequences out of 15000+600000
+ 5949 strings out of 493675
+ 86455 string characters out of 6155645
+ 174507 words of memory out of 5000000
+ 9145 multiletter control sequences out of 15000+600000
  48464 words of font info for 134 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  42i,23n,41p,2524b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -704,10 +703,10 @@ g/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/share/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (61 pages, 738181 bytes).
+Output written on proposal.pdf (59 pages, 570295 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
+ 397 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

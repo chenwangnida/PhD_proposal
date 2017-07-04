@@ -138,20 +138,20 @@ Many multi-objective techniques \cite{liu2005dynamic,zhang2010qos,yu2013efficien
 
 
 
-
+\vspace{4cm}
 
 \section{AI Planning-based Composition Approaches}\label{planning}
 
 AI planning approaches to Web service composition ensure feasibility by building a composition solution step by step. This solution is represented as a graph, a may either be built to enforce a set of user constraints, or it may be used to find an optimal solution in terms of QoS. A number of works in this area \cite{feng2013dynamic,wang2013genetic,xia2013web,wang2014automated} have been based on a fast planning algorithm named Graphplan \cite{blum1997fast}. In this algorithm, a solution is constructed gradually, at each time adding a new atomic service to the composition. A service may only be added to the solution if all of its conditions are met, that is, all of its inputs are fulfilled. Finally, the execution of Graphplan is stopped once an atomic service has been added that leads to meeting the overall composition objectives (i.e. the composition now produces all of the required outputs). Figure \ref{fig:graphplan} shows a basic example run of Graphplan applied to Web service composition. In step 1, a start node is added to the graph structure. This node produces the overall input values provided by the composition requestor, $ZipCode$ and $Date$. In step 2, the service $LocationByZip$ is connected, since its input of $ZipCode$ can be fulfilled by the existing structure. However, the algorithm continues to execute, since the overall output has only been partially fulfilled (i.e. only $City$ can be produced). Finally, in step 3, the service $Weather$ is connected, since its inputs are fulfilled by both the start nodes and the $LocationByZip$ service. As the overall output has been fulfilled, the graph's end node is also connected to the structure.
 
-\begin{figure}
-\centerline{
-\fbox{
-\includegraphics[width=14cm]{graphplan.pdf}
-}}
-\caption{Basic example of Web service composition using the Graphplan algorithm.}
-\label{fig:graphplan}
-\end{figure}
+%\begin{figure}
+%\centerline{
+%\fbox{
+%\includegraphics[width=14cm]{graphplan.pdf}
+%}}
+%\caption{Basic example of Web service composition using the Graphplan algorithm.}
+%\label{fig:graphplan}
+%\end{figure}
 
 In \cite{chen2014qos}, authors combine a planning algorithm and a graph search algorithm to achieve both QoS optimisation and feasibility in Web service compositions. The generic Graphplan algorithm first builds a representation of the search space as a planning graph, then finds a solution within this graph by traversing it backwards. This standard planning approach is modified to use Dijkstra's algorithm \cite{skiena1990dijkstra} when performing the backwards traversal, thus finding an optimised solution. The planning graph is extended to include labels associated with each proposition (i.e. each intermediate action between two vertices), where each label contains a layer number and associated execution costs. Dijkstra's algorithm is used to calculate the upcoming costs of each node in the graph. Then, a backtracking algorithm uses this information to determine the optimal solution.
 

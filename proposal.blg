@@ -427,10 +427,11 @@ Repeated entry---line 6026 of file bibliography.bib
  : @article{bansal2016generalized
  :                               ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "yu2007efficient"
 Warning--empty journal in mier2015integrated
 You've used 124 entries,
             2253 wiz_defined-function locations,
-            1171 strings with 27400 characters,
+            1172 strings with 27415 characters,
 and the built_in function-call counts, 50970 in all, are:
 = -- 5060
 > -- 2318
