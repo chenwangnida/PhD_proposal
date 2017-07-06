@@ -5,10 +5,6 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: review.aux
 The style file: acm.bst
 Database file #1: bibliography.bib
-Repeated entry---line 1076 of file bibliography.bib
- : @inproceedings{wang2013genetic
- :                               ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 1092 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
@@ -101,21 +97,9 @@ Repeated entry---line 2128 of file bibliography.bib
  : @inproceedings{lecue2009optimizing
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2176 of file bibliography.bib
- : @inproceedings{yoo2008web
- :                          ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 2276 of file bibliography.bib
  : @inproceedings{yu2013adaptive
  :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2292 of file bibliography.bib
- : @inproceedings{wang2013genetic
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2308 of file bibliography.bib
- : @inproceedings{da2014graph
- :                           ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 2324 of file bibliography.bib
  : @incollection{ma2015hybrid
@@ -129,16 +113,8 @@ Repeated entry---line 2500 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2520 of file bibliography.bib
- : @inproceedings{huang2009effective
- :                                  ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 2536 of file bibliography.bib
  : @inproceedings{feng2013dynamic
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2552 of file bibliography.bib
- : @inproceedings{wang2013genetic
  :                               ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 2568 of file bibliography.bib
@@ -149,25 +125,13 @@ Repeated entry---line 2588 of file bibliography.bib
  : @inproceedings{sahai2002automated
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2604 of file bibliography.bib
- : @article{rodriguez2010composition
- :                                  ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 2652 of file bibliography.bib
  : @article{bansal2016generalized
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2856 of file bibliography.bib
- : @article{yoo2008web
- :                    ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 3116 of file bibliography.bib
  : @incollection{moghaddam2014service
  :                                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3252 of file bibliography.bib
- : @inproceedings{huang2009effective
- :                                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 3350 of file bibliography.bib
  : @article{parejo2008qos
@@ -189,29 +153,9 @@ Repeated entry---line 4136 of file bibliography.bib
  : @incollection{liu2005dynamic
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4230 of file bibliography.bib
- : @inproceedings{da2014graph
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4248 of file bibliography.bib
- : @article{aversano2006genetic
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4268 of file bibliography.bib
- : @article{rodriguez2010composition
- :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4332 of file bibliography.bib
- : @article{bahadori2009optimal
- :                             ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 4436 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4670 of file bibliography.bib
- : @inproceedings{wang2013genetic
- :                               ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 4688 of file bibliography.bib
  : @article{curbera2002unraveling
@@ -313,21 +257,9 @@ Repeated entry---line 5502 of file bibliography.bib
  : @inproceedings{lecue2009optimizing
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5550 of file bibliography.bib
- : @inproceedings{yoo2008web
- :                          ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 5650 of file bibliography.bib
  : @inproceedings{yu2013adaptive
  :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5666 of file bibliography.bib
- : @inproceedings{wang2013genetic
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5682 of file bibliography.bib
- : @inproceedings{da2014graph
- :                           ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5698 of file bibliography.bib
  : @incollection{ma2015hybrid
@@ -341,16 +273,8 @@ Repeated entry---line 5874 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5894 of file bibliography.bib
- : @inproceedings{huang2009effective
- :                                  ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 5910 of file bibliography.bib
  : @inproceedings{feng2013dynamic
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5926 of file bibliography.bib
- : @inproceedings{wang2013genetic
  :                               ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5942 of file bibliography.bib
@@ -361,55 +285,51 @@ Repeated entry---line 5962 of file bibliography.bib
  : @inproceedings{sahai2002automated
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5978 of file bibliography.bib
- : @article{rodriguez2010composition
- :                                  ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 6026 of file bibliography.bib
  : @article{bansal2016generalized
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "yu2007efficient"
 Warning--empty journal in mier2015integrated
-You've used 118 entries,
+You've used 57 entries,
             2253 wiz_defined-function locations,
-            1143 strings with 26413 characters,
-and the built_in function-call counts, 48491 in all, are:
-= -- 4815
-> -- 2216
+            840 strings with 14831 characters,
+and the built_in function-call counts, 22107 in all, are:
+= -- 2163
+> -- 1069
 < -- 0
-+ -- 939
-- -- 792
-* -- 3668
-:= -- 7397
-add.period$ -- 364
-call.type$ -- 118
-change.case$ -- 743
++ -- 453
+- -- 382
+* -- 1713
+:= -- 3455
+add.period$ -- 172
+call.type$ -- 57
+change.case$ -- 358
 chr.to.int$ -- 0
-cite$ -- 119
-duplicate$ -- 1934
-empty$ -- 3896
-format.name$ -- 792
-if$ -- 10440
+cite$ -- 58
+duplicate$ -- 835
+empty$ -- 1744
+format.name$ -- 382
+if$ -- 4680
 int.to.chr$ -- 0
-int.to.str$ -- 118
-missing$ -- 120
-newline$ -- 590
-num.names$ -- 236
-pop$ -- 867
+int.to.str$ -- 57
+missing$ -- 57
+newline$ -- 285
+num.names$ -- 114
+pop$ -- 397
 preamble$ -- 1
-purify$ -- 629
+purify$ -- 303
 quote$ -- 0
-skip$ -- 1383
+skip$ -- 583
 stack$ -- 0
-substring$ -- 3326
-swap$ -- 669
+substring$ -- 1428
+swap$ -- 271
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 464
+type$ -- 224
 warning$ -- 1
-while$ -- 495
-width$ -- 121
-write$ -- 1238
-(There were 91 error messages)
+while$ -- 222
+width$ -- 59
+write$ -- 584
+(There were 71 error messages)
