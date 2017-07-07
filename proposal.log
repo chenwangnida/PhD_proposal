@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  6 JUL 2017 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  7 JUL 2017 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,9 +209,6 @@ Modified to handle duplex printing properly 2006
 LaTeX Warning: Label `matchmaking' multiply defined.
 
 
-LaTeX Warning: Label `matchmaking' multiply defined.
-
-
 LaTeX Warning: Label `MultiObjective' multiply defined.
 
 ))
@@ -400,12 +397,6 @@ Overfull \hbox (1.26808pt too wide) in paragraph at lines 44--45
  []
 
 [4] [5] [6]
-Overfull \hbox (11.91246pt too wide) in paragraph at lines 74--76
-\OT1/ppl/m/n/10.95 good in-ves-ti-ga-tion on fully au-to-mated ap-proaches util
--is-ing those al-go-rithms (e.g, NSGA-
- []
-
-
 Overfull \hbox (3.01076pt too wide) in paragraph at lines 79--80
 []\OT1/ppl/m/n/10.95 Here we de-velop a fun-da-men-tal muti-objective op-ti-mi-
 sa-tion ap-proach us-ing some
@@ -464,51 +455,56 @@ LaTeX Warning: Reference `' on page 11 undefined on input line 3.
 
 LaTeX Warning: Reference `' on page 11 undefined on input line 3.
 
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 11.
-<compositionLifecycle.pdf, id=58, pagebox=cropbox, 778.91pt x 466.74374pt>
-File: compositionLifecycle.pdf Graphic file (type pdf)
-<use compositionLifecycle.pdf>
-Package pdftex.def Info: compositionLifecycle.pdf  used on input line 20. on in
-put line 20.
-Package pdftex.def Info: Requested size: 398.33858pt x 238.69138pt on input lin
-e 20.
-
-Overfull \hbox (0.44005pt too wide) in paragraph at lines 110--110
-[]\OT1/ppl/b/n/14.4 Multi-objective, and Many-objective Com-po-si-tion Ap-proac
-hes 
- []
-
 [11
 
 
 
-] [12 <./compositionLifecycle.pdf>]
+]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 30.
+<compositionLifecycle.pdf, id=61, pagebox=cropbox, 778.91pt x 466.74374pt>
+File: compositionLifecycle.pdf Graphic file (type pdf)
+<use compositionLifecycle.pdf>
+Package pdftex.def Info: compositionLifecycle.pdf  used on input line 37. on in
+put line 37.
+Package pdftex.def Info: Requested size: 398.33858pt x 238.69138pt on input lin
+e 37.
+ [12 <./compositionLifecycle.pdf>]
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ‹ in font pplr7t!
+ [13]
+Overfull \hbox (0.44005pt too wide) in paragraph at lines 128--128
+[]\OT1/ppl/b/n/14.4 Multi-objective, and Many-objective Com-po-si-tion Ap-proac
+hes 
+ []
 
-LaTeX Warning: Citation `yu2007efficient' on page 13 undefined on input line 13
-1.
+[14]
 
-[13]) [14] (./proposal.bbl [15
+LaTeX Warning: Citation `yu2007efficient' on page 15 undefined on input line 14
+9.
+
+[15]) [16] (./proposal.bbl [17
 
 
 
 ]
-Underfull \hbox (badness 1033) in paragraph at lines 149--153
+Underfull \hbox (badness 1033) in paragraph at lines 159--163
 []\OT1/ppl/m/sc/10.95 Lausen, H., Polleres, A., and Ro-man, D.  \OT1/ppl/m/n/10
 .95 W3c mem-ber submission-web
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 149--153
+Underfull \hbox (badness 2726) in paragraph at lines 159--163
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[16] [17]
+[18] [19]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
-) [18] (./proposal.aux (./introduction.aux) (./review.aux))
+ [20]) [21] (./proposal.aux (./introduction.aux) (./review.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -517,23 +513,23 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4519 strings out of 493675
- 61342 string characters out of 6155645
- 144873 words of memory out of 5000000
- 7777 multiletter control sequences out of 15000+600000
+ 4523 strings out of 493675
+ 61398 string characters out of 6155645
+ 144905 words of memory out of 5000000
+ 7781 multiletter control sequences out of 15000+600000
  34380 words of font info for 91 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
- 41i,6n,26p,2498b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,26p,2638b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/pkg/share/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (24 pages, 162852 bytes).
+Output written on proposal.pdf (27 pages, 168342 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
