@@ -4,12 +4,23 @@ In this chapter, we first introduce the background of web service composition in
 \section{Semantic Web Service}\label{sevice}
 
 
-Herein we utilse the formal definition from \cite{agarwal2010d5} to describe web service semantically: \textbf{a labelled transition system (LTS)} is established to present the actual behaviour of web services, which consists of a series of states. 
+Herein we utilise the formal definition from \cite{agarwal2010d5} to describe web service semantically: \textbf{a labelled transition system (LTS)}. A labeled transition system $L = (S,T,\rightarrow)$ comprises a set $S$ of states, a set $T$ of transition labels and a labeled transition relation $\rightarrow \subseteq S \times T \times S$. This transition system is established to present the actual behaviour of web services, which consists of a series of states. 
+
+\begin{figure}
+\centerline{
+\fbox{
+\includegraphics[width=14cm]{LTS.pdf}
+}}
+\caption{ The functionality of a Web Service \cite{agarwal2010d5}.}
+\label{fig:lts}
+\end{figure}
+
+
 \begin{enumerate}
 
 \item $S_i$ Start state includes knowledge available to web service before the web service is invoked by inputs; 
 \item $S_w$ state includes the input parameters additional to the knowledge in (1); 
-\item A series of state $S_1$ to $S_n$ proceed with corresponding actions that only occurred if each related condition is approved. 
+\item A series of state $S_1$ to $S_n$ proceed with corresponding actions $f_n$ that only occurred if each related condition $[w_i]$ is approved to be true. 
 \item $S_o$ state contains all the output parameters. 
 \item $S_e$ is the end state.  The four properties in the proposed web service model are inputs, state after input, state before outputs, and outputs. 
 \end{enumerate}
@@ -46,7 +57,7 @@ Typical steps in a workflow-based automated Web service composition solution are
 
  \item \textit{Service execution:} the process instance is monitored for any changes or services failures during service execution. In this stage, some actions are to be taken for adapting the changes.
 \end{enumerate}
-The web service lifecycle discussed above is a typical \emph{semi-automated approach}. There is a distinction semi-automated and fully automated approaches. On the one hand, during the goal specification stage of semi-automated approach, the abstract work is already provided.  On the other hand, an abstract workflow is not provided at the stage of goal specification for \emph{fully automated service composition}. Often, fully automated service composition rely on some algorithms (e.g., Graphplan algorithm \cite{blum1997fast}) to achieve service composition, during which service workflow is gradually built up along with the service discovery and service selection at the same time. In this proposal, I concentrate on developing methods for fully automated service composition since it has been shown the flexibility. Also, herein service discovery and service selection are considered as interrelated tasks that are interleaved with the composition algorithm.
+The web service lifecycle discussed above is a typical \emph{semi-automated approach}. There is a distinction between semi-automated and fully automated approaches. On the one hand, during the goal specification stage of semi-automated approach, the abstract work is already provided.  On the other hand, an abstract workflow is not provided at the stage of goal specification for \emph{fully automated service composition}. Often, fully automated service composition rely on some algorithms (e.g., Graphplan algorithm \cite{blum1997fast}) to achieve service composition, during which service workflow is gradually built up along with the service discovery and service selection at the same time. In this proposal, I concentrate on developing methods for fully automated service composition since it has been shown the flexibility. Also, herein service discovery and service selection are considered as interrelated tasks that are interleaved with the composition algorithm.
 
 
 \subsection{I/O Matchmaking}\label{matchmaking}

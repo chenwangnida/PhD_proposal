@@ -1,5 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{agarwal2009d5}
+{\sc Agarwal, S., Junghans, M., Fabre, O., Toma, I., and Lorre, J.-P.}
+\newblock D5. 3.1 first service discovery prototype.
+\newblock {\em Deliverable D5 3\/} (2009).
+
+\bibitem{agarwal2010d5}
+{\sc Agarwal, S., Junghans, M., and Norton, B.}
+\newblock D5. 3.2 second service discovery prototype.
+\newblock {\em Deliverable D5 3\/} (2009).
+
 \bibitem{alferez2014dynamic}
 {\sc Alf{\'e}rez, G.~H., Pelechano, V., Mazo, R., Salinesi, C., and Diaz, D.}
 \newblock Dynamic adaptation of service compositions with variability models.
@@ -116,6 +126,12 @@
   using modified genetic algorithm.
 \newblock In {\em Computer, Communication and Control (IC4), 2015 International
   Conference on\/} (2015), IEEE, pp.~1--6.
+
+\bibitem{hwang1981lecture}
+{\sc Hwang, C.-L., and Yoon, K.}
+\newblock Lecture notes in economics and mathematical systems.
+\newblock {\em Multiple Objective Decision Making, Methods and Applications: A
+  State-of-the-Art Survey 164\/} (1981).
 
 \bibitem{kona2009wsc}
 {\sc Kona, S., Bansal, A., Blake, M.~B., Bleul, S., and Weise, T.}
@@ -270,6 +286,13 @@
 \newblock E$^3$: A multiobjective optimization framework for sla-aware service
   composition.
 \newblock {\em IEEE Transactions on Services Computing 5}, 3 (2012), 358--372.
+
+\bibitem{wang2014novel}
+{\sc Wang, D., Huang, H., and Xie, C.}
+\newblock A novel adaptive web service selection algorithm based on ant colony
+  optimization for dynamic web service composition.
+\newblock In {\em Algorithms and Architectures for Parallel Processing}.
+  Springer, 2014, pp.~391--399.
 
 \bibitem{wang2014automated}
 {\sc Wang, P., Ding, Z., Jiang, C., and Zhou, M.}

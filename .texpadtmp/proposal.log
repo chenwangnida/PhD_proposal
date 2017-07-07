@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  4 JUL 2017 23:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  7 JUL 2017 16:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -45,194 +45,61 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks18
 \enit@inbox=\box28
 \enitdp@description=\count90
-) (./vuwproject.sty (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
-Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
-\symupright=\mathgroup4
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
-./vuwproject.sty:82: Font \vuwf=vuw20 scaled 2074 not loadable: Metric (TFM) file not found.
-<to be read again> 
-                   \relax 
-l.82 \font\vuwf  = vuw20 scaled\magstep4
-                                        
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-VUW Honours reports modifications -- Mar 1995
-Modified to handle different degrees 2003
-Modified to handle duplex printing properly 2006
-\@abstract=\box29
-) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux))
-\openout1 = `proposal.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 59.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ppl.fd
-File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+Package graphics Info: Driver file: pdftex.def on input line 96.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+ (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\big@size=\dimen104
-Missing character: There is no V in font nullfont!
-Missing character: There is no U in font nullfont!
-Missing character: There is no W in font nullfont!
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 75.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
-File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen106
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 75.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
-File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
-)
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 75.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
-File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
-)
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 75.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 75.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 75.
- [-1
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [0]
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 79.
- (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.toc)
-\tf@toc=\write3
-\openout3 = `proposal.toc'.
-
- [1
-
-
-] [2
-
-] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.lof)
-\tf@lof=\write4
-\openout4 = `proposal.lof'.
-
- [3] [4
-
-]
-\openout2 = `introduction.aux'.
-
- (./introduction.tex
-Chapter 1.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
-[1
-
-
-]
-Overfull \hbox (0.76048pt too wide) in paragraph at lines 13--14
-[]\OT1/ppl/m/n/10.95 Different ap-proaches have been pro-posed to solve those com-po-si-tion prob-lems dis-cussed
- []
-
-[2]
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-
-Underfull \vbox (badness 1210) has occurred while \output is active []
-
- [3]
-Overfull \hbox (1.26808pt too wide) in paragraph at lines 44--45
-\OT1/ppl/m/n/10.95 de-pend-ing on an op-ti-mi-sa-tion for a sin-gle ob-jec-tive or mul-ti-ple ob-jec-tives. In single-objective
- []
-
-[4] [5] [6]
-Overfull \hbox (11.91246pt too wide) in paragraph at lines 74--76
-\OT1/ppl/m/n/10.95 good in-ves-ti-ga-tion on fully au-to-mated ap-proaches util-is-ing those al-go-rithms (e.g, NSGA-
- []
-
-
-Overfull \hbox (3.01076pt too wide) in paragraph at lines 79--80
-[]\OT1/ppl/m/n/10.95 Here we de-velop a fun-da-men-tal muti-objective op-ti-mi-sa-tion ap-proach us-ing some
- []
-
-
-Overfull \hbox (3.3725pt too wide) in paragraph at lines 79--80
-\OT1/ppl/m/n/10.95 multi-objective EC-based al-go-rithm. (e.g, NSGA-II [[]], SPEA2 [[]] and MOEA/D
- []
-
-
-Overfull \hbox (0.20724pt too wide) in paragraph at lines 79--80
-\OT1/ppl/m/n/10.95 [[]]), where dif-fer-ent rep-re-sen-ta-tions and mod-i-fied multi-objective EC al-go-rithms
- []
-
-[7] [8]
-Overfull \hbox (6.09898pt too wide) in paragraph at lines 106--107
-\OT1/ppl/m/n/10.95 mech-a-nism of sat-is-fac-tory on pre-con-di-tions and ef-fects to in-clude loops and choice.
- []
-
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 118.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
-
-
-LaTeX Warning: Reference `C:review' on page 9 undefined on input line 122.
-
-
-LaTeX Warning: Reference `C:preliminary' on page 9 undefined on input line 122.
-
-
-LaTeX Warning: Reference `C:plan' on page 9 undefined on input line 122.
-
-) [9] [10] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.bbl [11
-
-
-
-]
-Underfull \hbox (badness 1033) in paragraph at lines 143--147
-[]\OT1/ppl/m/sc/10.95 Lausen, H., Polleres, A., and Ro-man, D.  \OT1/ppl/m/n/10.95 W3c mem-ber submission-web
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 143--147
-\OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 W3C. Avail-able at< URL: http://www. w3.
- []
-
-[12] [13]
-Missing character: There is no â in font pplri7t!
-Missing character: There is no € in font pplri7t!
-Missing character: There is no ” in font pplri7t!
-) [14] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
-Here is how much of TeX's memory you used:
- 1015 strings out of 493014
- 15143 string characters out of 6133350
- 72019 words of memory out of 5000000
- 4561 multiletter control sequences out of 15000+600000
- 29502 words of font info for 73 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 25i,4n,24p,2338b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (20 pages, 118533 bytes).
-PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count97
+\c@MaxMatrixC
