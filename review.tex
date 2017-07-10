@@ -1,7 +1,17 @@
 \chapter{Literature Review}\label{C:review}
 
 In this chapter, we first introduce the background of web service composition in Section \ref{overview}.  Followed that Section \ref{} discuss the single-objective service composition for both EC and non-EC based approaches. Section  \ref{} reviews existing works in muti-objective approaches and many-objective approaches.  Dynamic web service composition is covered in Section \ref{}. Section \ref{}  discussed most AI planning-based approaches to semantic service composition. Lastly, Section \ref{} summarises some critical points discussed in this chapter as well as some inadequacies or limitations in the literature review. 
-\section{Semantic Web Service}\label{sevice}
+\section{Web Service}\label{sevice}
+Firstly, we use formalism to demonstrate the web services using a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly. 
+
+\begin{figure}
+\centerline{
+\fbox{
+\includegraphics[width=8cm]{ws.pdf}
+}}
+\caption{ Property-Based Web Service Formal Model \cite{agarwal2010d5}.}
+\label{fig:ws}
+\end{figure}
 
 
 Herein we utilise the formal definition from \cite{agarwal2010d5} to describe web service semantically: \textbf{a labelled transition system (LTS)}. A labeled transition system $L = (S,T,\rightarrow)$ comprises a set $S$ of states, a set $T$ of transition labels and a labeled transition relation $\rightarrow \subseteq S \times T \times S$. This transition system is established to present the actual behaviour of web services, which consists of a series of states. 
