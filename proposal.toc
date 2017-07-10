@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.2.4}Composition Optimisation}{14}
 \contentsline {section}{\numberline {2.3}Multi-objective, and Many-objective Composition Approaches}{14}
 \contentsline {subsection}{\numberline {2.3.1}Multi-objective approaches}{14}
-\contentsline {subsubsection}{Multi-objective techniques with GA}{14}
+\contentsline {subsubsection}{Multi-objective techniques with GA}{15}
 \contentsline {subsubsection}{Multi-objective techniques with PSO}{15}
 \contentsline {subsubsection}{Multi-objective techniques with ACO}{15}
 \contentsline {subsection}{\numberline {2.3.2}Many-objective approaches}{16}

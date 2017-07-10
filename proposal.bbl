@@ -21,6 +21,13 @@
 \newblock {\em Service Oriented Computing and Applications 10}, 2 (2016),
   111--133.
 
+\bibitem{bentley1997finding}
+{\sc Bentley, P.~J., and Wakefield, J.~P.}
+\newblock Finding acceptable solutions in the pareto-optimal range using
+  multiobjective genetic algorithms.
+\newblock {\em Soft computing in engineering design and manufacturing 5\/}
+  (1997), 231--240.
+
 \bibitem{blum1997fast}
 {\sc Blum, A.~L., and Furst, M.~L.}
 \newblock Fast planning through planning graph analysis.
@@ -98,6 +105,13 @@
 \newblock In {\em European Conference on Evolutionary Computation in
   Combinatorial Optimization\/} (2016), Springer, pp.~202--218.
 
+\bibitem{de2010many}
+{\sc de~Campos, A., Pozo, A.~T., Vergilio, S.~R., and Savegnago, T.}
+\newblock Many-objective evolutionary algorithms in the composition of web
+  services.
+\newblock In {\em Neural Networks (SBRN), 2010 Eleventh Brazilian Symposium
+  on\/} (2010), IEEE, pp.~152--157.
+
 \bibitem{deb2002fast}
 {\sc Deb, K., Pratap, A., Agarwal, S., and Meyarivan, T.}
 \newblock A fast and elitist multiobjective genetic algorithm: Nsga-ii.
@@ -132,6 +146,12 @@
 \newblock Lecture notes in economics and mathematical systems.
 \newblock {\em Multiple Objective Decision Making, Methods and Applications: A
   State-of-the-Art Survey 164\/} (1981).
+
+\bibitem{ishibuchi2008evolutionary}
+{\sc Ishibuchi, H., Tsukamoto, N., and Nojima, Y.}
+\newblock Evolutionary many-objective optimization: A short review.
+\newblock In {\em IEEE congress on evolutionary computation\/} (2008),
+  pp.~2419--2426.
 
 \bibitem{kona2009wsc}
 {\sc Kona, S., Bansal, A., Blake, M.~B., Bleul, S., and Weise, T.}
@@ -281,6 +301,12 @@
 \newblock In {\em International Workshop on Distributed Systems: Operations and
   Management\/} (2002), Springer, pp.~28--41.
 
+\bibitem{van2000measuring}
+{\sc Van~Veldhuizen, D.~A., and Lamont, G.~B.}
+\newblock On measuring multiobjective evolutionary algorithm performance.
+\newblock In {\em Evolutionary Computation, 2000. Proceedings of the 2000
+  Congress on\/} (2000), vol.~1, IEEE, pp.~204--211.
+
 \bibitem{wada2012e3}
 {\sc Wada, H., Suzuki, J., Yamano, Y., and Oba, K.}
 \newblock E$^3$: A multiobjective optimization framework for sla-aware service
@@ -355,6 +381,17 @@
   optimization.
 \newblock In {\em Computer Software and Applications Conference (COMPSAC), 2010
   IEEE 34th Annual\/} (2010), IEEE, pp.~493--502.
+
+\bibitem{zitzler1999evolutionary}
+{\sc Zitzler, E.}
+\newblock Evolutionary algorithms for multiobjective optimization: Methods and
+  applications.
+
+\bibitem{zitzler2000comparison}
+{\sc Zitzler, E., Deb, K., and Thiele, L.}
+\newblock Comparison of multiobjective evolutionary algorithms: Empirical
+  results.
+\newblock {\em Evolutionary computation 8}, 2 (2000), 173--195.
 
 \bibitem{zitzler2001spea2}
 {\sc Zitzler, E., Laumanns, M., Thiele, L., et~al.}
