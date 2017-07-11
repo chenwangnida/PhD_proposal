@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  11 JUL 2017 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  12 JUL 2017 00:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -334,11 +334,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 
 ] [2
 
-] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.lof
-
-LaTeX Warning: Citation `agarwalts2010d5' on page iii undefined on input line 5.
-
-)
+] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.lof)
 \tf@lof=\write4
 \openout4 = `proposal.lof'.
 
@@ -429,44 +425,35 @@ File: ws.pdf Graphic file (type pdf)
  <use ws.pdf>
 Package pdftex.def Info: ws.pdf used on input line 16.
 (pdftex.def)             Requested size: 227.62204pt x 137.83443pt.
- <LTS.pdf, id=58, 744.7825pt x 66.2475pt>
+ <LTS.pdf, id=58, 744.7825pt x 223.83624pt>
 File: LTS.pdf Graphic file (type pdf)
  <use LTS.pdf>
 Package pdftex.def Info: LTS.pdf used on input line 28.
-(pdftex.def)             Requested size: 398.33858pt x 35.43245pt.
+(pdftex.def)             Requested size: 398.33858pt x 119.71875pt.
  [11
 
 
 
-] <ABSLTS.pdf, id=65, 508.90125pt x 88.33pt>
-File: ABSLTS.pdf Graphic file (type pdf)
- <use ABSLTS.pdf>
-Package pdftex.def Info: ABSLTS.pdf used on input line 49.
-(pdftex.def)             Requested size: 256.0748pt x 44.44792pt.
-
-
-LaTeX Warning: Citation `agarwalts2010d5' on page 12 undefined on input line 50.
-
-[12 <./ws.pdf> <./LTS.pdf> <./ABSLTS.pdf>]
+] [12 <./ws.pdf> <./LTS.pdf>]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 66.
- <compositionLifecycle.pdf, id=120, 778.91pt x 466.74374pt>
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 58.
+ <compositionLifecycle.pdf, id=111, 778.91pt x 466.74374pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
  <use compositionLifecycle.pdf>
-Package pdftex.def Info: compositionLifecycle.pdf used on input line 73.
+Package pdftex.def Info: compositionLifecycle.pdf used on input line 65.
 (pdftex.def)             Requested size: 398.33858pt x 238.69138pt.
  [13 <./compositionLifecycle.pdf>]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ‹ in font pplr7t!
  [14]
-Overfull \hbox (0.44005pt too wide) in paragraph at lines 164--164
+Overfull \hbox (0.44005pt too wide) in paragraph at lines 156--156
 []\OT1/ppl/b/n/14.4 Multi-objective, and Many-objective Com-po-si-tion Ap-proaches 
  []
 
 [15]
 
-LaTeX Warning: Citation `yu2007efficient' on page 16 undefined on input line 185.
+LaTeX Warning: Citation `yu2007efficient' on page 16 undefined on input line 177.
 
 [16]) [17] [18
 
@@ -496,18 +483,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4599 strings out of 493014
- 64457 string characters out of 6133350
- 150997 words of memory out of 5000000
- 8025 multiletter control sequences out of 15000+600000
- 34614 words of font info for 91 fonts, out of 8000000 for 9000
+ 4593 strings out of 493014
+ 64366 string characters out of 6133350
+ 150986 words of memory out of 5000000
+ 8019 multiletter control sequences out of 15000+600000
+ 34914 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,26p,2638b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (29 pages, 200328 bytes).
+Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (29 pages, 197933 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
+ 193 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

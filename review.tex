@@ -5,9 +5,9 @@ In this chapter, we first introduce the background of web service composition in
 \section{Web Service}\label{service}
 Web services are self-describing modules offering functionalities over the internet. The functionalities of web services are often specified by their functional attributes, which satisfy users' functional requirements and provide mechanisms to allow users to search desired service. In realistic scenarios, the non-functional are also important. For example, users may not prefer a service with higher cost with the same functionality provided by another one. Apart from those, web services are not only provide data information, but also make changes in the knowledge. For example, a PayPal service will cause a deduction in the balance of users' bank account. As discussed above, the functional attributes determine what service really does, while the non-functional attributes often refers to some quality criteria, which is considered for raking services \cite{agarwal2009making}. 
 
-Firstly, we formalise web services using a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly.
+Firstly, we explain web services using a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly. A
 
-Here a finite set of property types of web services ($\wp$) and a finite set of values sets ($\vartheta$) are considered. 
+\textbf{A Formal Model of Web Service} Here a finite set of property types of web services ($\wp$) and a finite set of values sets ($\vartheta$) are considered. Each property type is associated with a value set. We view a Web service as a finite set of property instances $Q$with each property instance $q \in Q$ being of a property type$t(q) \in \wp$ that is associated with a value $v_q \in \vartheta_{t(q)}$. 
 
 \begin{figure}
 \centerline{
@@ -40,16 +40,8 @@ Herein we utilise the formal definition from \cite{agarwal2010d5} to describe we
 \item $S_e$ is the end state.  The four properties in the proposed web service model are inputs, state after input, state before outputs, and outputs. 
 \end{enumerate}
 
-The model presented above is not completely demonstrated, as the services provider does not want reveal all the internal functions, and it is not feasible to  
+The model presented above is not completely demonstrated for the internal actions, as the services provider does not want reveal all the internal functions, and it is not feasible to list a global set of property name. Therefore, an abstract functionality of a web service is modelled by eliminating all the intermediate properties. Since the functionality is one of the most important properties of a web service, they also model the properties of web services according to the properties in WSML. which enables employing ontology reasoner to reason about the properties of web services
 
-\begin{figure}
-\centerline{
-\fbox{
-\includegraphics[width=9cm]{ABSLTS.pdf}
-}}
-\caption{The Abstract functionality of a Web Service \cite{agarwalts2010d5}.}
-\label{fig:absl}
-\end{figure}
 
 
 To distinguish the changes between the pre-state and post-state, we model these changes using property instances. For example, inputs and outputs assigned with variable names and further referenced in pre and postcondition can be distinguished as instances from those exist in provider's knowledge bases. Therefore, the precondition using logic formula is assigned to the description of requirements of inputs( input types, relationships among them, or conditions on the value ) and conditions that must hold in the state after inputs. Similarly, the postcondition is restricted to the description of constraints on returned output, relationships between inputs and outputs, and changes caused by the service in service providers' knowledge bases. In the second model of the service request, it is expressed by logic expressions where both constraints on the nonfunctional property and functional property are also taken into account interpreted as A-Box statement.

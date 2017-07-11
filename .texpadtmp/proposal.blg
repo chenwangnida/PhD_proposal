@@ -297,13 +297,12 @@ Repeated entry---line 6139 of file ../bibliography.bib
  : @article{bansal2016generalized
  :                               ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "agarwalts2010d5"
 Warning--I didn't find a database entry for "yu2007efficient"
 Warning--empty journal in mier2015integrated
 Warning--empty journal in zitzler1999evolutionary
 You've used 66 entries,
             2253 wiz_defined-function locations,
-            887 strings with 16689 characters,
+            886 strings with 16674 characters,
 and the built_in function-call counts, 25378 in all, are:
 = -- 2488
 > -- 1217
