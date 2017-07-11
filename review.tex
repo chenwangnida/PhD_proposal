@@ -1,15 +1,18 @@
 \chapter{Literature Review}\label{C:review}
 
-In this chapter, we first introduce the background of web service composition in Section \ref{overview}.  Followed that Section \ref{} discuss the single-objective service composition for both EC and non-EC based approaches. Section  \ref{} reviews existing works in muti-objective approaches and many-objective approaches.  Dynamic web service composition is covered in Section \ref{}. Section \ref{}  discussed most AI planning-based approaches to semantic service composition. Lastly, Section \ref{} summarises some critical points discussed in this chapter as well as some inadequacies or limitations in the literature review. 
-\section{Web Service}\label{sevice}
-Firstly, we use formalism to demonstrate the web services using a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly. 
+In this chapter, we first introduce the background of web service composition in Section \ref{overview}.  Followed that Section \ref{} discuss the single-objective service composition for both EC and non-EC based approaches. Section  \ref{} reviews existing works in muti-objective approaches and many-objective approaches.  Dynamic web service composition is covered in Section \ref{}. Section \ref{}  discussed most AI planning-based approaches to semantic service composition. Lastly, Section \ref{} summarises some critical points discussed in this chapter as well as some inadequacies or limitations in the literature review.
+
+\section{Web Service}\label{service}
+Web services are self-describing modules offering functionalities over the internet. The functionalities of web services are often specified by their functional attributes, which satisfy users' functional requirements and provide mechanisms to allow users to search desired service. In realistic scenarios, the non-functional are also important. For example, users may not prefer a service with higher cost with the same functionality provided by another one. Apart from those, web services are not only provide data information, but also make changes in the knowledge. For example, a PayPal service will cause a deduction in the balance of users' bank account. As discussed above, the functional attributes determine what service really does, while the non-functional attributes often refers to some quality criteria, which is considered for raking services \cite{agarwal2009making}. 
+
+Firstly, we formalise web services using a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly.
 
 \begin{figure}
 \centerline{
 \fbox{
 \includegraphics[width=8cm]{ws.pdf}
 }}
-\caption{ Property-Based Web Service Formal Model \cite{agarwal2010d5}.}
+\caption{Property-Based Web Service Formal Model \cite{agarwal2010d5}.}
 \label{fig:ws}
 \end{figure}
 
@@ -35,6 +38,16 @@ Herein we utilise the formal definition from \cite{agarwal2010d5} to describe we
 \item $S_e$ is the end state.  The four properties in the proposed web service model are inputs, state after input, state before outputs, and outputs. 
 \end{enumerate}
 
+The model presented above is not completely demonstrated, as the services provider does not want reveal all the internal functions, and it is not feasible to  
+
+\begin{figure}
+\centerline{
+\fbox{
+\includegraphics[width=9cm]{ABSLTS.pdf}
+}}
+\caption{The Abstract functionality of a Web Service \cite{agarwalts2010d5}.}
+\label{fig:absl}
+\end{figure}
 
 
 To distinguish the changes between the pre-state and post-state, we model these changes using property instances. For example, inputs and outputs assigned with variable names and further referenced in pre and postcondition can be distinguished as instances from those exist in provider's knowledge bases. Therefore, the precondition using logic formula is assigned to the description of requirements of inputs( input types, relationships among them, or conditions on the value ) and conditions that must hold in the state after inputs. Similarly, the postcondition is restricted to the description of constraints on returned output, relationships between inputs and outputs, and changes caused by the service in service providers' knowledge bases. In the second model of the service request, it is expressed by logic expressions where both constraints on the nonfunctional property and functional property are also taken into account interpreted as A-Box statement.
