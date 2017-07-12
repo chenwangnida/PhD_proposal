@@ -3,11 +3,10 @@
 In this chapter, we first introduce the background of web service composition in Section \ref{overview}.  Followed that Section \ref{} discuss the single-objective service composition for both EC and non-EC based approaches. Section  \ref{} reviews existing works in muti-objective approaches and many-objective approaches.  Dynamic web service composition is covered in Section \ref{}. Section \ref{}  discussed most AI planning-based approaches to semantic service composition. Lastly, Section \ref{} summarises some critical points discussed in this chapter as well as some inadequacies or limitations in the literature review.
 
 \section{Web Service}\label{service}
-Web services are self-describing modules offering functionalities over the internet. The functionalities of web services are often specified by their functional attributes, which satisfy users' functional requirements and provide mechanisms to allow users to search desired service. In realistic scenarios, the non-functional are also important. For example, users may not prefer a service with higher cost with the same functionality provided by another one. Apart from those, web services are not only provide data information, but also make changes in the knowledge. For example, a PayPal service will cause a deduction in the balance of users' bank account. As discussed above, the functional attributes determine what service really does, while the non-functional attributes often refers to some quality criteria, which is considered for raking services \cite{agarwal2009making}. 
+Web services are self-describing modules offering functionalities over the internet. The functionalities of web services are often specified by their functional attributes, which satisfy users' functional requirements and provide mechanisms to allow users to search desired service. In realistic scenarios, the non-functional are also important. For example, users may not prefer a service with higher cost with the same functionality provided by another one. Apart from those, web services are not only provide data information, but also make changes in the knowledge. For example, a PayPal service will cause a deduction in the balance of users' bank account. As demonstrated above, the functional attributes determine what service really does, while the non-functional attributes often refers to some quality criteria, which is considered for raking services \cite{agarwal2009making}. In this section, we first explain web services using a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly. Further, A Labelled Transition System \cite{agarwal2009making} is addressed for demonstrating the behaviours of web services, which emphasizes on side of the functional attributes. After demonstrating these two models, we extract and map the four functional properties from these models to a updated web services model utilised in the thesis.
 
-Firstly, we explain web services using a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly. A
 
-\textbf{A Formal Model of Web Service} Here a finite set of property types of web services ($\wp$) and a finite set of values sets ($\vartheta$) are considered. Each property type is associated with a value set. We view a Web service as a finite set of property instances $Q$with each property instance $q \in Q$ being of a property type$t(q) \in \wp$ that is associated with a value $v_q \in \vartheta_{t(q)}$. See Fig. \ref{fig:ws}
+\textbf{A Formal Model of Web Service}. Given a finite set $\wp$ of property types of web services and a finite set $\vartheta$ of values sets. Each property type is associated with a value set. We view a Web service as a finite set $Q$ of property instances with each property instance $q \in Q$ being of a property type$t(q) \in \wp$ that is associated with a value $v_q \in \vartheta_{t(q)}$. See Fig. \ref{fig:ws}
 
 \begin{figure}
 \centerline{
@@ -19,7 +18,7 @@ Firstly, we explain web services using a formal model from \cite{agarwal2010d5},
 \end{figure}
 
 
-\textbf{A Labelled Transition System (LTS)} Herein we utilise the formal definition from \cite{agarwal2010d5} to describe web service semantically: A labeled transition system $L = (S,T,\rightarrow)$ comprises a set $S$ of states, a set $T$ of transition labels and a labeled transition relation $\rightarrow \subseteq S \times T \times S$. This transition system is established to present the actual behaviour of web services, which consists of a series of states. See Fig. \ref{fig:lts}.
+\textbf{A Labelled Transition System (LTS)}. $L = (S,T,\rightarrow)$ comprises a set $S$ of states, a set $T$ of transition labels and a labeled transition relation $\rightarrow \subseteq S \times T \times S$. This transition system is established to present the actual behaviour of web services, which consists of a series of states. See Fig. \ref{fig:lts}.
 
 \begin{figure}
 \centerline{
@@ -40,13 +39,9 @@ Firstly, we explain web services using a formal model from \cite{agarwal2010d5},
 \item $S_e$ is the end state, which is equivalent to $S_o$, since the knowledge base is not changed.
 \end{enumerate}
 
-The model presented above is not completely demonstrated for the internal actions, as the services provider does not want reveal all the internal functions, and it is not feasible to list a global set of property name. Therefore, an abstract functionality of a web service is modelled by eliminating all the intermediate properties. Since the functionality is one of the most important properties of a web service, they also model the properties of web services according to the properties in WSML, which enables employing ontology reasoner to reason about the properties of web services.
+The model presented above is not completely demonstrated for the internal actions, as the services provider does not want reveal all the internal functions, and it is not feasible to list a global set of property name. Therefore, an abstract functionality of a web service is modelled by eliminating all the intermediate properties. To employ ontology reasoner to reason about the properties of web services, we further model the four functional properties according to the properties in WSML. 
 
 \textbf{Updated Model for the Functionality of Web Service } The functionality of a web service can be modelled as four properties. That is, inputs, precondition, outputs and postcondition. To distinguish the changes between before and after execution, we model these changes using property instances. For example, inputs and outputs assigned with variable names and further referenced in pre and postcondition can be distinguished as instances from those exist in provider's knowledge bases. Therefore, the precondition using logic formula is assigned to the description of requirements of inputs( input types, relationships among them, or conditions on the value ) and conditions that must hold in the state after inputs. Similarly, the postcondition is restricted to the description of constraints on returned output, relationships between inputs and outputs, and changes caused by the service in service providers' knowledge bases. In the second model of the service request, it is expressed by logic expressions where both constraints on the nonfunctional property and functional property are also taken into account interpreted as A-Box statement.
-
-
-
-
 
 \section{Web Service Composition}\label{overview}
 

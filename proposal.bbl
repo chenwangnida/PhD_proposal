@@ -10,6 +10,13 @@
 \newblock D5. 3.2 second service discovery prototype.
 \newblock {\em Deliverable D5 3\/} (2009).
 
+\bibitem{agarwal2009making}
+{\sc Agarwal, S., Lamparter, S., and Studer, R.}
+\newblock Making web services tradable: A policy-based approach for specifying
+  preferences on web service properties.
+\newblock {\em Web Semantics: Science, Services and Agents on the World Wide
+  Web 7}, 1 (2009), 11--20.
+
 \bibitem{alferez2014dynamic}
 {\sc Alf{\'e}rez, G.~H., Pelechano, V., Mazo, R., Salinesi, C., and Diaz, D.}
 \newblock Dynamic adaptation of service compositions with variability models.
@@ -367,6 +374,12 @@
   composition.
 \newblock In {\em 2013 IEEE Congress on Evolutionary Computation\/} (2013),
   IEEE, pp.~1740--1747.
+
+\bibitem{zeng2003quality}
+{\sc Zeng, L., Benatallah, B., Dumas, M., Kalagnanam, J., and Sheng, Q.~Z.}
+\newblock Quality driven web services composition.
+\newblock In {\em Proceedings of the 12th international conference on World
+  Wide Web\/} (2003), ACM, pp.~411--421.
 
 \bibitem{zhang2007moea}
 {\sc Zhang, Q., and Li, H.}
