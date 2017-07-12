@@ -7,7 +7,7 @@ Web services are self-describing modules offering functionalities over the inter
 
 Firstly, we explain web services using a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly. A
 
-\textbf{A Formal Model of Web Service} Here a finite set of property types of web services ($\wp$) and a finite set of values sets ($\vartheta$) are considered. Each property type is associated with a value set. We view a Web service as a finite set of property instances $Q$with each property instance $q \in Q$ being of a property type$t(q) \in \wp$ that is associated with a value $v_q \in \vartheta_{t(q)}$. 
+\textbf{A Formal Model of Web Service} Here a finite set of property types of web services ($\wp$) and a finite set of values sets ($\vartheta$) are considered. Each property type is associated with a value set. We view a Web service as a finite set of property instances $Q$with each property instance $q \in Q$ being of a property type$t(q) \in \wp$ that is associated with a value $v_q \in \vartheta_{t(q)}$. See Fig. \ref{fig:ws}
 
 \begin{figure}
 \centerline{
@@ -19,7 +19,7 @@ Firstly, we explain web services using a formal model from \cite{agarwal2010d5},
 \end{figure}
 
 
-Herein we utilise the formal definition from \cite{agarwal2010d5} to describe web service semantically: \textbf{a labelled transition system (LTS)}. A labeled transition system $L = (S,T,\rightarrow)$ comprises a set $S$ of states, a set $T$ of transition labels and a labeled transition relation $\rightarrow \subseteq S \times T \times S$. This transition system is established to present the actual behaviour of web services, which consists of a series of states. 
+\textbf{A Labelled Transition System (LTS)} Herein we utilise the formal definition from \cite{agarwal2010d5} to describe web service semantically: A labeled transition system $L = (S,T,\rightarrow)$ comprises a set $S$ of states, a set $T$ of transition labels and a labeled transition relation $\rightarrow \subseteq S \times T \times S$. This transition system is established to present the actual behaviour of web services, which consists of a series of states. See Fig. \ref{fig:lts}.
 
 \begin{figure}
 \centerline{
@@ -34,17 +34,15 @@ Herein we utilise the formal definition from \cite{agarwal2010d5} to describe we
 \begin{enumerate}
 
 \item $S_i$ Start state includes knowledge available to web service before the web service is invoked by inputs; 
-\item $S_w$ state includes the input parameters additional to the knowledge in (1); 
+\item $S_w$ state includes the inputs additional to the knowledge in 1; 
 \item A series of state $S_1$ to $S_n$ proceed with corresponding actions $f_n$ that only occurred if each related condition $[w_i]$ is approved to be true. 
-\item $S_o$ state contains all the output parameters. 
-\item $S_e$ is the end state.  The four properties in the proposed web service model are inputs, state after input, state before outputs, and outputs. 
+\item $S_o$ state contains all the outputs and all the changes performed in the knowledge base. 
+\item $S_e$ is the end state, which is equivalent to $S_o$, since the knowledge base is not changed.
 \end{enumerate}
 
-The model presented above is not completely demonstrated for the internal actions, as the services provider does not want reveal all the internal functions, and it is not feasible to list a global set of property name. Therefore, an abstract functionality of a web service is modelled by eliminating all the intermediate properties. Since the functionality is one of the most important properties of a web service, they also model the properties of web services according to the properties in WSML. which enables employing ontology reasoner to reason about the properties of web services
+The model presented above is not completely demonstrated for the internal actions, as the services provider does not want reveal all the internal functions, and it is not feasible to list a global set of property name. Therefore, an abstract functionality of a web service is modelled by eliminating all the intermediate properties. Since the functionality is one of the most important properties of a web service, they also model the properties of web services according to the properties in WSML, which enables employing ontology reasoner to reason about the properties of web services.
 
-
-
-To distinguish the changes between the pre-state and post-state, we model these changes using property instances. For example, inputs and outputs assigned with variable names and further referenced in pre and postcondition can be distinguished as instances from those exist in provider's knowledge bases. Therefore, the precondition using logic formula is assigned to the description of requirements of inputs( input types, relationships among them, or conditions on the value ) and conditions that must hold in the state after inputs. Similarly, the postcondition is restricted to the description of constraints on returned output, relationships between inputs and outputs, and changes caused by the service in service providers' knowledge bases. In the second model of the service request, it is expressed by logic expressions where both constraints on the nonfunctional property and functional property are also taken into account interpreted as A-Box statement.
+\textbf{Updated Model for the Functionality of Web Service } The functionality of a web service can be modelled as four properties. That is, inputs, precondition, outputs and postcondition. To distinguish the changes between before and after execution, we model these changes using property instances. For example, inputs and outputs assigned with variable names and further referenced in pre and postcondition can be distinguished as instances from those exist in provider's knowledge bases. Therefore, the precondition using logic formula is assigned to the description of requirements of inputs( input types, relationships among them, or conditions on the value ) and conditions that must hold in the state after inputs. Similarly, the postcondition is restricted to the description of constraints on returned output, relationships between inputs and outputs, and changes caused by the service in service providers' knowledge bases. In the second model of the service request, it is expressed by logic expressions where both constraints on the nonfunctional property and functional property are also taken into account interpreted as A-Box statement.
 
 
 
