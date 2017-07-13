@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  13 JUL 2017 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  13 JUL 2017 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -463,45 +463,40 @@ File: ws.pdf Graphic file (type pdf)
 Package pdftex.def Info: ws.pdf  used on input line 17. on input line 17.
 Package pdftex.def Info: Requested size: 227.62204pt x 137.83443pt on input lin
 e 17.
-<LTS.pdf, id=64, pagebox=cropbox, 744.7825pt x 223.83624pt>
+<LTS.pdf, id=64, pagebox=cropbox, 764.8575pt x 329.23pt>
 File: LTS.pdf Graphic file (type pdf)
 <use LTS.pdf>
 Package pdftex.def Info: LTS.pdf  used on input line 29. on input line 29.
-Package pdftex.def Info: Requested size: 398.33858pt x 119.71875pt on input lin
-e 29.
+Package pdftex.def Info: Requested size: 398.33858pt x 171.4618pt on input line
+ 29.
  [12 <./ws.pdf> <./LTS.pdf>]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 47.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 56.
+ [13]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ‹ in font pplr7t!
- [13]
-<compositionLifecycle.pdf, id=116, pagebox=cropbox, 778.91pt x 466.74374pt>
+<compositionLifecycle.pdf, id=122, pagebox=cropbox, 778.91pt x 466.74374pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
 <use compositionLifecycle.pdf>
-Package pdftex.def Info: compositionLifecycle.pdf  used on input line 72. on in
-put line 72.
+Package pdftex.def Info: compositionLifecycle.pdf  used on input line 81. on in
+put line 81.
 Package pdftex.def Info: Requested size: 398.33858pt x 238.69138pt on input lin
-e 72.
- [14 <./compositionLifecycle.pdf>]
-Overfull \hbox (0.44005pt too wide) in paragraph at lines 155--155
+e 81.
+ [14]
+Overfull \hbox (0.44005pt too wide) in paragraph at lines 164--164
 []\OT1/ppl/b/n/14.4 Multi-objective, and Many-objective Com-po-si-tion Ap-proac
 hes 
  []
 
-[15]
+[15 <./compositionLifecycle.pdf>] [16]
 
-LaTeX Warning: Citation `yu2007efficient' on page 16 undefined on input line 17
-6.
+LaTeX Warning: Citation `yu2007efficient' on page 17 undefined on input line 18
+5.
 
-[16])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-[18
+[17]) [18] (./proposal.bbl [19
 
 
-] (./proposal.bbl [19
 
 ] [20]
 Underfull \hbox (badness 1033) in paragraph at lines 186--190
@@ -530,7 +525,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4544 strings out of 493675
  61732 string characters out of 6155645
- 145946 words of memory out of 5000000
+ 144946 words of memory out of 5000000
  7798 multiletter control sequences out of 15000+600000
  34937 words of font info for 93 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
@@ -543,10 +538,10 @@ o/fplmri.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></u
 sr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/tex
 mf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/t
 ype1/vuw/vuw20.pfb>
-Output written on proposal.pdf (29 pages, 208832 bytes).
+Output written on proposal.pdf (29 pages, 214490 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 203 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
