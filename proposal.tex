@@ -26,6 +26,17 @@
 \usepackage[inline]{enumitem}
 \usepackage{graphicx,amsmath,amssymb,url}
 \usepackage[ruled,vlined]{algorithm2e}
+
+\makeatother
+
+\newcommand{\cse}{C}
+\newcommand{\gra}{\mathcal{G}}
+\newcommand{\tree}{\mathcal{T}}
+\newcommand{\rin}{\mathcal{I}}%should we skip the subscript r (for atomic services required inputs are just the inputs)?
+\newcommand{\rout}{\mathcal{O}}%should we skip the subscript r (for atomic services required outputs are just the outputs)?
+\newcommand{\prin}{\mathcal{PI}}%should we call them available inputs (rather than provided inputs)?
+
+
 %% We don't want figures to float so we define
 \newfloat{fig}{thp}{lof}[chapter]
 \floatname{fig}{Figure}

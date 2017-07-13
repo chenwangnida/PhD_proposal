@@ -136,6 +136,12 @@
 \newblock {\em Semantic web services}.
 \newblock Springer Science \& Business Media, 2011.
 
+\bibitem{fox2003pddl2}
+{\sc Fox, M., and Long, D.}
+\newblock Pddl2. 1: An extension to pddl for expressing temporal planning
+  domains.
+\newblock {\em Journal of artificial intelligence research\/} (2003).
+
 \bibitem{garey1979guide}
 {\sc Garey, M.~R., and Johnson, D.~S.}
 \newblock A guide to the theory of np-completeness.
@@ -212,6 +218,12 @@
   based on multi-objective genetic algorithm.
 \newblock In {\em International Conference on Grid and Cooperative Computing\/}
   (2005), Springer, pp.~84--89.
+
+\bibitem{ma2012formal}
+{\sc Ma, H., Schewe, K.-D., Thalheim, B., and Wang, Q.}
+\newblock A formal model for the interoperability of service clouds.
+\newblock {\em Service Oriented Computing and Applications 6}, 3 (2012),
+  189--205.
 
 \bibitem{ma2015hybrid}
 {\sc Ma, H., Wang, A., and Zhang, M.}
@@ -379,6 +391,12 @@
   composition.
 \newblock In {\em 2013 IEEE Congress on Evolutionary Computation\/} (2013),
   IEEE, pp.~1740--1747.
+
+\bibitem{zeng2003quality}
+{\sc Zeng, L., Benatallah, B., Dumas, M., Kalagnanam, J., and Sheng, Q.~Z.}
+\newblock Quality driven web services composition.
+\newblock In {\em Proceedings of the 12th international conference on World
+  Wide Web\/} (2003), ACM, pp.~411--421.
 
 \bibitem{zhang2007moea}
 {\sc Zhang, Q., and Li, H.}
