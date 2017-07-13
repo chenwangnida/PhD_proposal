@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  12 JUL 2017 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  13 JUL 2017 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -205,9 +205,6 @@ Modified to handle different degrees 2003
 Modified to handle duplex printing properly 2006
 \@abstract=\box39
 ) (./proposal.aux (./introduction.aux) (./review.aux
-
-LaTeX Warning: Label `matchmaking' multiply defined.
-
 
 LaTeX Warning: Label `MultiObjective' multiply defined.
 
@@ -455,42 +452,39 @@ LaTeX Warning: Reference `' on page 11 undefined on input line 3.
 
 LaTeX Warning: Reference `' on page 11 undefined on input line 3.
 
-<ws.pdf, id=58, pagebox=cropbox, 470.75874pt x 285.065pt>
-File: ws.pdf Graphic file (type pdf)
-<use ws.pdf>
-Package pdftex.def Info: ws.pdf  used on input line 15. on input line 15.
-Package pdftex.def Info: Requested size: 227.62204pt x 137.83443pt on input lin
-e 15.
-<LTS.pdf, id=59, pagebox=cropbox, 744.7825pt x 223.83624pt>
-File: LTS.pdf Graphic file (type pdf)
-<use LTS.pdf>
-Package pdftex.def Info: LTS.pdf  used on input line 27. on input line 27.
-Package pdftex.def Info: Requested size: 398.33858pt x 119.71875pt on input lin
-e 27.
 [11
 
 
 
-] [12 <./ws.pdf> <./LTS.pdf>]
-
-LaTeX Warning: Citation `zeng2003quality' on page 13 undefined on input line 46
-.
-
+]
+<ws.pdf, id=63, pagebox=cropbox, 470.75874pt x 285.065pt>
+File: ws.pdf Graphic file (type pdf)
+<use ws.pdf>
+Package pdftex.def Info: ws.pdf  used on input line 17. on input line 17.
+Package pdftex.def Info: Requested size: 227.62204pt x 137.83443pt on input lin
+e 17.
+<LTS.pdf, id=64, pagebox=cropbox, 744.7825pt x 223.83624pt>
+File: LTS.pdf Graphic file (type pdf)
+<use LTS.pdf>
+Package pdftex.def Info: LTS.pdf  used on input line 29. on input line 29.
+Package pdftex.def Info: Requested size: 398.33858pt x 119.71875pt on input lin
+e 29.
+ [12 <./ws.pdf> <./LTS.pdf>]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 56.
-<compositionLifecycle.pdf, id=112, pagebox=cropbox, 778.91pt x 466.74374pt>
-File: compositionLifecycle.pdf Graphic file (type pdf)
-<use compositionLifecycle.pdf>
-Package pdftex.def Info: compositionLifecycle.pdf  used on input line 63. on in
-put line 63.
-Package pdftex.def Info: Requested size: 398.33858pt x 238.69138pt on input lin
-e 63.
-[13]
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 47.
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ‹ in font pplr7t!
+ [13]
+<compositionLifecycle.pdf, id=116, pagebox=cropbox, 778.91pt x 466.74374pt>
+File: compositionLifecycle.pdf Graphic file (type pdf)
+<use compositionLifecycle.pdf>
+Package pdftex.def Info: compositionLifecycle.pdf  used on input line 72. on in
+put line 72.
+Package pdftex.def Info: Requested size: 398.33858pt x 238.69138pt on input lin
+e 72.
  [14 <./compositionLifecycle.pdf>]
-Overfull \hbox (0.44005pt too wide) in paragraph at lines 154--154
+Overfull \hbox (0.44005pt too wide) in paragraph at lines 155--155
 []\OT1/ppl/b/n/14.4 Multi-objective, and Many-objective Com-po-si-tion Ap-proac
 hes 
  []
@@ -498,9 +492,13 @@ hes
 [15]
 
 LaTeX Warning: Citation `yu2007efficient' on page 16 undefined on input line 17
-5.
+6.
 
-[16]) [17] [18
+[16])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+[18
 
 
 ] (./proposal.bbl [19
@@ -530,13 +528,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4545 strings out of 493675
- 61739 string characters out of 6155645
- 145955 words of memory out of 5000000
- 7799 multiletter control sequences out of 15000+600000
+ 4544 strings out of 493675
+ 61732 string characters out of 6155645
+ 145946 words of memory out of 5000000
+ 7798 multiletter control sequences out of 15000+600000
  34937 words of font info for 93 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
- 41i,6n,26p,2638b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,26p,2498b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr10.pfb></usr/pkg/share/texmf-dist/fonts/type1/publ
@@ -545,7 +543,7 @@ o/fplmri.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></u
 sr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/tex
 mf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/t
 ype1/vuw/vuw20.pfb>
-Output written on proposal.pdf (29 pages, 209217 bytes).
+Output written on proposal.pdf (29 pages, 208832 bytes).
 PDF statistics:
  197 PDF objects out of 1000 (max. 8388607)
  137 compressed objects within 2 object streams

@@ -232,6 +232,11 @@
 \newblock Owl-s: Semantic markup for web services.
 \newblock {\em W3C member submission 22\/} (2004), 2007--04.
 
+\bibitem{mcilraith2001semantic}
+{\sc McIlraith, S.~A., Son, T.~C., and Zeng, H.}
+\newblock Semantic web services.
+\newblock {\em IEEE intelligent systems 16}, 2 (2001), 46--53.
+
 \bibitem{mier2015integrated}
 {\sc Mier, P.~R., Pedrinaci, C., Lama, M., and Mucientes, M.}
 \newblock An integrated semantic web service discovery and composition
@@ -374,12 +379,6 @@
   composition.
 \newblock In {\em 2013 IEEE Congress on Evolutionary Computation\/} (2013),
   IEEE, pp.~1740--1747.
-
-\bibitem{zeng2003quality}
-{\sc Zeng, L., Benatallah, B., Dumas, M., Kalagnanam, J., and Sheng, Q.~Z.}
-\newblock Quality driven web services composition.
-\newblock In {\em Proceedings of the 12th international conference on World
-  Wide Web\/} (2003), ACM, pp.~411--421.
 
 \bibitem{zhang2007moea}
 {\sc Zhang, Q., and Li, H.}
