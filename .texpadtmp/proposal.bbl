@@ -22,6 +22,12 @@
 \newblock Dynamic adaptation of service compositions with variability models.
 \newblock {\em Journal of Systems and Software 91\/} (2014), 24--47.
 
+\bibitem{back1997evolutionary}
+{\sc Back, T., Hammel, U., and Schwefel, H.-P.}
+\newblock Evolutionary computation: Comments on the history and current state.
+\newblock {\em IEEE transactions on Evolutionary Computation 1}, 1 (1997),
+  3--17.
+
 \bibitem{bansal2016generalized}
 {\sc Bansal, S., Bansal, A., Gupta, G., and Blake, M.~B.}
 \newblock Generalized semantic web service composition.

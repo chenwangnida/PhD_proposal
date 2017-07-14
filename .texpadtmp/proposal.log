@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  14 JUL 2017 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  14 JUL 2017 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -442,11 +442,7 @@ File: compositionLifecycle.pdf Graphic file (type pdf)
  <use compositionLifecycle.pdf>
 Package pdftex.def Info: compositionLifecycle.pdf used on input line 86.
 (pdftex.def)             Requested size: 398.33858pt x 238.69138pt.
- [15 <./compositionLifecycle.pdf>] [16]
-
-LaTeX Warning: Citation `back1997evolutionary' on page 17 undefined on input line 164.
-
-[17]
+ [15 <./compositionLifecycle.pdf>] [16] [17]
 Overfull \hbox (0.44005pt too wide) in paragraph at lines 246--246
 []\OT1/ppl/b/n/14.4 Multi-objective, and Many-objective Com-po-si-tion Ap-proaches 
  []
@@ -461,12 +457,12 @@ LaTeX Warning: Citation `yu2007efficient' on page 20 undefined on input line 267
 ] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.bbl [23
 
 ] [24]
-Underfull \hbox (badness 1033) in paragraph at lines 205--209
+Underfull \hbox (badness 1033) in paragraph at lines 211--215
 []\OT1/ppl/m/sc/10.95 Lausen, H., Polleres, A., and Ro-man, D.  \OT1/ppl/m/n/10.95 W3c mem-ber submission-web
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 205--209
+Underfull \hbox (badness 2726) in paragraph at lines 211--215
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 W3C. Avail-able at< URL: http://www. w3.
  []
 
@@ -485,13 +481,13 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4635 strings out of 493014
  64834 string characters out of 6133350
- 155121 words of memory out of 5000000
+ 155125 words of memory out of 5000000
  8051 multiletter control sequences out of 15000+600000
  40583 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,19n,26p,2498b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (34 pages, 234273 bytes).
+Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (34 pages, 234593 bytes).
 PDF statistics:
  223 PDF objects out of 1000 (max. 8388607)
  155 compressed objects within 2 object streams
