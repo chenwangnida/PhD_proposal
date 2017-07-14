@@ -22,6 +22,12 @@
 \newblock Dynamic adaptation of service compositions with variability models.
 \newblock {\em Journal of Systems and Software 91\/} (2014), 24--47.
 
+\bibitem{back1997evolutionary}
+{\sc Back, T., Hammel, U., and Schwefel, H.-P.}
+\newblock Evolutionary computation: Comments on the history and current state.
+\newblock {\em IEEE transactions on Evolutionary Computation 1}, 1 (1997),
+  3--17.
+
 \bibitem{bansal2016generalized}
 {\sc Bansal, S., Bansal, A., Gupta, G., and Blake, M.~B.}
 \newblock Generalized semantic web service composition.
@@ -136,6 +142,11 @@
 \newblock {\em Semantic web services}.
 \newblock Springer Science \& Business Media, 2011.
 
+\bibitem{fleming2002evolutionary}
+{\sc Fleming, P.~J., and Purshouse, R.~C.}
+\newblock Evolutionary algorithms in control systems engineering: a survey.
+\newblock {\em Control engineering practice 10}, 11 (2002), 1223--1241.
+
 \bibitem{fox2003pddl2}
 {\sc Fox, M., and Long, D.}
 \newblock Pddl2. 1: An extension to pddl for expressing temporal planning
@@ -166,6 +177,12 @@
 \newblock In {\em IEEE congress on evolutionary computation\/} (2008),
   pp.~2419--2426.
 
+\bibitem{kennedy1995particle}
+{\sc KENNEDY, J., and EBERHART, R.}
+\newblock Particle swarm optimization.
+\newblock In {\em IEEE International Conference on Neural Networks\/} (1995),
+  IEEE, pp.~1942--1948.
+
 \bibitem{kona2009wsc}
 {\sc Kona, S., Bansal, A., Blake, M.~B., Bleul, S., and Weise, T.}
 \newblock Wsc-2009: a quality of service-oriented web services challenge.
@@ -176,6 +193,12 @@
 {\sc Kopeck{\`y}, J., Vitvar, T., Bournez, C., and Farrell, J.}
 \newblock Sawsdl: Semantic annotations for wsdl and xml schema.
 \newblock {\em IEEE Internet Computing 11}, 6 (2007).
+
+\bibitem{koza1992genetic}
+{\sc Koza, J.~R.}
+\newblock {\em Genetic programming: on the programming of computers by means of
+  natural selection}, vol.~1.
+\newblock MIT press, 1992.
 
 \bibitem{kuster2008opossum}
 {\sc K{\"u}ster, U., K{\"o}nig-Ries, B., and Krug, A.}
@@ -378,6 +401,11 @@
 \newblock Automated web service composition supporting conditional branch
   structures.
 \newblock {\em Enterprise Information Systems 8}, 1 (2014), 121--146.
+
+\bibitem{whitley1994genetic}
+{\sc Whitley, D.}
+\newblock A genetic algorithm tutorial.
+\newblock {\em Statistics and computing 4}, 2 (1994), 65--85.
 
 \bibitem{xiang2014qos}
 {\sc Xiang, F., Hu, Y., Yu, Y., and Wu, H.}
