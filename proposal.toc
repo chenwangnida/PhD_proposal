@@ -11,13 +11,16 @@
 \contentsline {section}{\numberline {1.5}Organisation of Proposal}{10}
 \contentsline {chapter}{\numberline {2}Literature Review}{11}
 \contentsline {section}{\numberline {2.1}Web Service}{11}
-\contentsline {subsection}{\numberline {2.1.1}Nonfunctional Properties of Web Services}{13}
-\contentsline {subsection}{\numberline {2.1.2}Web Service Discovery}{14}
-\contentsline {section}{\numberline {2.2}Web Service Composition}{15}
+\contentsline {subsection}{\numberline {2.1.1}Functional Properties of Web services}{12}
+\contentsline {subsection}{\numberline {2.1.2}Nonfunctional Properties of Web services}{13}
+\contentsline {subsection}{\numberline {2.1.3}Web Service Discovery}{14}
+\contentsline {section}{\numberline {2.2}Web Service Composition}{14}
 \contentsline {subsection}{\numberline {2.2.1}Web Service Composition Lifecycle}{15}
-\contentsline {section}{\numberline {2.3}Multi-objective, and Many-objective Composition Approaches}{16}
-\contentsline {subsection}{\numberline {2.3.1}Multi-objective approaches}{17}
-\contentsline {subsubsection}{Multi-objective techniques with GA}{17}
-\contentsline {subsubsection}{Multi-objective techniques with PSO}{17}
-\contentsline {subsubsection}{Multi-objective techniques with ACO}{18}
-\contentsline {subsection}{\numberline {2.3.2}Many-objective approaches}{18}
+\contentsline {subsection}{\numberline {2.2.2}Functional Properties of Web Service Composition}{16}
+\contentsline {subsection}{\numberline {2.2.3}Nonfunctional Properties of Web Service Composition}{17}
+\contentsline {section}{\numberline {2.3}Multi-objective, and Many-objective Composition Approaches}{18}
+\contentsline {subsection}{\numberline {2.3.1}Multi-objective approaches}{18}
+\contentsline {subsubsection}{Multi-objective techniques with GA}{18}
+\contentsline {subsubsection}{Multi-objective techniques with PSO}{19}
+\contentsline {subsubsection}{Multi-objective techniques with ACO}{19}
+\contentsline {subsection}{\numberline {2.3.2}Many-objective approaches}{19}

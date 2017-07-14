@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  13 JUL 2017 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  14 JUL 2017 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -460,45 +460,44 @@ LaTeX Warning: Reference `' on page 11 undefined on input line 3.
 <ws.pdf, id=63, pagebox=cropbox, 470.75874pt x 285.065pt>
 File: ws.pdf Graphic file (type pdf)
 <use ws.pdf>
-Package pdftex.def Info: ws.pdf  used on input line 17. on input line 17.
+Package pdftex.def Info: ws.pdf  used on input line 16. on input line 16.
 Package pdftex.def Info: Requested size: 227.62204pt x 137.83443pt on input lin
-e 17.
+e 16.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 21.
 <LTS.pdf, id=64, pagebox=cropbox, 764.8575pt x 329.23pt>
 File: LTS.pdf Graphic file (type pdf)
 <use LTS.pdf>
 Package pdftex.def Info: LTS.pdf  used on input line 29. on input line 29.
 Package pdftex.def Info: Requested size: 398.33858pt x 171.4618pt on input line
  29.
- [12 <./ws.pdf> <./LTS.pdf>]
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 55.
- [13]
+ [12 <./ws.pdf> <./LTS.pdf>] [13]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ‹ in font pplr7t!
  [14]
-<compositionLifecycle.pdf, id=126, pagebox=cropbox, 778.91pt x 466.74374pt>
+<compositionLifecycle.pdf, id=125, pagebox=cropbox, 778.91pt x 466.74374pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
 <use compositionLifecycle.pdf>
-Package pdftex.def Info: compositionLifecycle.pdf  used on input line 108. on i
-nput line 108.
+Package pdftex.def Info: compositionLifecycle.pdf  used on input line 86. on in
+put line 86.
 Package pdftex.def Info: Requested size: 398.33858pt x 238.69138pt on input lin
-e 108.
- [15]
-Overfull \hbox (0.44005pt too wide) in paragraph at lines 191--191
+e 86.
+ [15 <./compositionLifecycle.pdf>]
+[16]
+Overfull \hbox (0.44005pt too wide) in paragraph at lines 235--235
 []\OT1/ppl/b/n/14.4 Multi-objective, and Many-objective Com-po-si-tion Ap-proac
 hes 
  []
 
-[16 <./compositionLifecycle.pdf>] [17]
+[17] [18]
 
-LaTeX Warning: Citation `yu2007efficient' on page 18 undefined on input line 21
-2.
+LaTeX Warning: Citation `yu2007efficient' on page 19 undefined on input line 25
+6.
 
-[18]) [19] [20
+[19]) [20] (./proposal.bbl [21
 
 
-] (./proposal.bbl [21
 
 ] [22]
 Underfull \hbox (badness 1033) in paragraph at lines 192--196
@@ -525,26 +524,26 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4564 strings out of 493675
- 61912 string characters out of 6155645
- 147016 words of memory out of 5000000
- 7810 multiletter control sequences out of 15000+600000
- 37810 words of font info for 101 fonts, out of 8000000 for 9000
+ 4582 strings out of 493675
+ 62129 string characters out of 6155645
+ 149071 words of memory out of 5000000
+ 7826 multiletter control sequences out of 15000+600000
+ 40606 words of font info for 110 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
- 41i,10n,26p,2498b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,19n,26p,2498b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/pkg/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/mathpaz
-o/fplmr.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><
-/usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/t
-exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/
-type1/urw/palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20
-.pfb>
-Output written on proposal.pdf (31 pages, 225175 bytes).
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/pkg/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pf
+b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
+hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
+fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
+palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
+Output written on proposal.pdf (31 pages, 240057 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 218 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

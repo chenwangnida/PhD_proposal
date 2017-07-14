@@ -200,10 +200,23 @@
 \newblock In {\em International Semantic Web Conference\/} (2009), Springer,
   pp.~375--391.
 
+\bibitem{lecue2007making}
+{\sc L{\'e}cu{\'e}, F., and Delteil, A.}
+\newblock Making the difference in semantic web service composition.
+\newblock In {\em Proceedings of the National Conference on Artificial
+  Intelligence\/} (2007), vol.~22, Menlo Park, CA; Cambridge, MA; London; AAAI
+  Press; MIT Press; 1999, p.~1383.
+
 \bibitem{lecue2008optimizing}
 {\sc L{\'e}cu{\'e}, F., Delteil, A., and L{\'e}ger, A.}
 \newblock Optimizing causal link based web service composition.
 \newblock In {\em ECAI\/} (2008), pp.~45--49.
+
+\bibitem{lecue2006formal}
+{\sc L{\'e}cu{\'e}, F., and L{\'e}ger, A.}
+\newblock A formal model for semantic web service composition.
+\newblock In {\em International Semantic Web Conference\/} (2006), Springer,
+  pp.~385--398.
 
 \bibitem{li2014fault}
 {\sc Li, G., Liao, L., Song, D., and Zheng, Z.}
@@ -277,6 +290,12 @@
 \newblock Semantics-based automated service discovery.
 \newblock {\em IEEE Transactions on Services Computing 5}, 2 (2012), 260--275.
 
+\bibitem{paolucci2002semantic}
+{\sc Paolucci, M., Kawamura, T., Payne, T.~R., and Sycara, K.}
+\newblock Semantic matching of web services capabilities.
+\newblock In {\em International Semantic Web Conference\/} (2002), Springer,
+  pp.~333--347.
+
 \bibitem{papazoglou2003service}
 {\sc Papazoglou, M.~P.}
 \newblock Service-oriented computing: Concepts, characteristics and directions.
@@ -313,6 +332,11 @@
 \newblock In {\em Web Services (ICWS), 2010 IEEE International Conference on\/}
   (2010), IEEE, pp.~34--41.
 
+\bibitem{rao2005semantic}
+{\sc Rao, J., and Su, X.}
+\newblock Semantic web services and web process composition, volume 3387 of
+  lncs, chapter a survey of automated web service composition methods, 2005.
+
 \bibitem{renders1996hybrid}
 {\sc Renders, J.-M., and Flasse, S.~P.}
 \newblock Hybrid methods using genetic algorithms for global optimization.
@@ -324,6 +348,11 @@
 \newblock Automated sla monitoring for web services.
 \newblock In {\em International Workshop on Distributed Systems: Operations and
   Management\/} (2002), Springer, pp.~28--41.
+
+\bibitem{shet2012new}
+{\sc Shet, K., Acharya, U.~D., et~al.}
+\newblock A new similarity measure for taxonomy based on edge counting.
+\newblock {\em arXiv preprint arXiv:1211.4709\/} (2012).
 
 \bibitem{van2000measuring}
 {\sc Van~Veldhuizen, D.~A., and Lamont, G.~B.}

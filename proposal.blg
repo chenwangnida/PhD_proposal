@@ -5,6 +5,10 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: review.aux
 The style file: acm.bst
 Database file #1: bibliography.bib
+Repeated entry---line 1085 of file bibliography.bib
+ : @inproceedings{paolucci2002semantic
+ :                                    ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1267 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
@@ -85,6 +89,14 @@ Repeated entry---line 2175 of file bibliography.bib
  : @book{petrie2016web
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2187 of file bibliography.bib
+ : @inproceedings{lecue2006formal
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2203 of file bibliography.bib
+ : @inproceedings{paolucci2002semantic
+ :                                    ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2219 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
@@ -117,6 +129,14 @@ Repeated entry---line 2515 of file bibliography.bib
  : @article{martin2004owl
  :                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2561 of file bibliography.bib
+ : @inproceedings{paolucci2002semantic
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2617 of file bibliography.bib
+ : @inproceedings{lecue2007making
+ :                               ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2675 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
@@ -132,6 +152,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 2763 of file bibliography.bib
  : @inproceedings{sahai2002automated
  :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2799 of file bibliography.bib
+ : @article{shet2012new
+ :                     ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 2827 of file bibliography.bib
  : @article{bansal2016generalized
@@ -253,6 +277,14 @@ Repeated entry---line 5549 of file bibliography.bib
  : @book{petrie2016web
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 5561 of file bibliography.bib
+ : @inproceedings{lecue2006formal
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5577 of file bibliography.bib
+ : @inproceedings{paolucci2002semantic
+ :                                    ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 5593 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
@@ -285,6 +317,14 @@ Repeated entry---line 5889 of file bibliography.bib
  : @article{martin2004owl
  :                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 5935 of file bibliography.bib
+ : @inproceedings{paolucci2002semantic
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5991 of file bibliography.bib
+ : @inproceedings{lecue2007making
+ :                               ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 6049 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
@@ -301,52 +341,57 @@ Repeated entry---line 6137 of file bibliography.bib
  : @inproceedings{sahai2002automated
  :                                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 6173 of file bibliography.bib
+ : @article{shet2012new
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 6201 of file bibliography.bib
  : @article{bansal2016generalized
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "yu2007efficient"
+Warning--can't use both volume and number fields in lecue2007making
 Warning--empty journal in mier2015integrated
 Warning--empty journal in zitzler1999evolutionary
-You've used 70 entries,
+You've used 75 entries,
             2253 wiz_defined-function locations,
-            904 strings with 17184 characters,
-and the built_in function-call counts, 26882 in all, are:
-= -- 2635
-> -- 1295
+            926 strings with 18043 characters,
+and the built_in function-call counts, 28727 in all, are:
+= -- 2814
+> -- 1370
 < -- 0
-+ -- 547
-- -- 462
-* -- 2087
-:= -- 4204
-add.period$ -- 210
-call.type$ -- 70
-change.case$ -- 437
++ -- 580
+- -- 488
+* -- 2207
+:= -- 4474
+add.period$ -- 224
+call.type$ -- 75
+change.case$ -- 464
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 1012
-empty$ -- 2116
-format.name$ -- 462
-if$ -- 5685
+cite$ -- 78
+duplicate$ -- 1100
+empty$ -- 2276
+format.name$ -- 488
+if$ -- 6097
 int.to.chr$ -- 0
-int.to.str$ -- 70
-missing$ -- 70
-newline$ -- 349
-num.names$ -- 140
-pop$ -- 475
+int.to.str$ -- 75
+missing$ -- 74
+newline$ -- 373
+num.names$ -- 150
+pop$ -- 514
 preamble$ -- 1
-purify$ -- 369
+purify$ -- 391
 quote$ -- 0
-skip$ -- 709
+skip$ -- 781
 stack$ -- 0
-substring$ -- 1743
-swap$ -- 330
+substring$ -- 1842
+swap$ -- 365
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 276
-warning$ -- 2
-while$ -- 270
-width$ -- 72
-write$ -- 712
-(There were 75 error messages)
+type$ -- 296
+warning$ -- 3
+while$ -- 287
+width$ -- 77
+write$ -- 763
+(There were 86 error messages)
