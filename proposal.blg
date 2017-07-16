@@ -169,6 +169,10 @@ Repeated entry---line 2773 of file bibliography.bib
  : @inproceedings{sahai2002automated
  :                                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2789 of file bibliography.bib
+ : @article{rodriguez2010composition
+ :                                  ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2809 of file bibliography.bib
  : @article{shet2012new
  :                     ,
@@ -200,6 +204,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 4321 of file bibliography.bib
  : @incollection{liu2005dynamic
  :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4453 of file bibliography.bib
+ : @article{rodriguez2010composition
+ :                                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 4621 of file bibliography.bib
  : @article{blum1997fast
@@ -377,6 +385,10 @@ Repeated entry---line 6147 of file bibliography.bib
  : @inproceedings{sahai2002automated
  :                                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 6163 of file bibliography.bib
+ : @article{rodriguez2010composition
+ :                                  ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 6183 of file bibliography.bib
  : @article{shet2012new
  :                     ,
@@ -393,45 +405,45 @@ while executing---line 1133 of file acm.bst
 Warning--can't use both volume and number fields in lecue2007making
 Warning--empty journal in mier2015integrated
 Warning--empty journal in zitzler1999evolutionary
-You've used 80 entries,
+You've used 82 entries,
             2253 wiz_defined-function locations,
-            953 strings with 18747 characters,
-and the built_in function-call counts, 30385 in all, are:
-= -- 2984
-> -- 1425
+            963 strings with 19089 characters,
+and the built_in function-call counts, 31184 in all, are:
+= -- 3064
+> -- 1459
 < -- 0
-+ -- 604
-- -- 506
-* -- 2333
-:= -- 4729
-add.period$ -- 239
-call.type$ -- 80
-change.case$ -- 487
++ -- 619
+- -- 518
+* -- 2396
+:= -- 4850
+add.period$ -- 245
+call.type$ -- 82
+change.case$ -- 499
 chr.to.int$ -- 0
-cite$ -- 83
-duplicate$ -- 1165
-empty$ -- 2422
-format.name$ -- 506
-if$ -- 6451
+cite$ -- 85
+duplicate$ -- 1196
+empty$ -- 2488
+format.name$ -- 518
+if$ -- 6622
 int.to.chr$ -- 0
-int.to.str$ -- 80
-missing$ -- 80
-newline$ -- 398
-num.names$ -- 160
-pop$ -- 538
+int.to.str$ -- 82
+missing$ -- 82
+newline$ -- 408
+num.names$ -- 164
+pop$ -- 551
 preamble$ -- 1
-purify$ -- 410
+purify$ -- 420
 quote$ -- 0
-skip$ -- 825
+skip$ -- 846
 stack$ -- 0
-substring$ -- 1974
-swap$ -- 385
+substring$ -- 2034
+swap$ -- 395
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 314
+type$ -- 322
 warning$ -- 3
-while$ -- 306
-width$ -- 82
-write$ -- 815
-(There were 97 error messages)
+while$ -- 315
+width$ -- 84
+write$ -- 836
+(There were 100 error messages)

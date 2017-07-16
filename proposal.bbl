@@ -355,6 +355,12 @@
 \newblock In {\em Web Services (ICWS), 2010 IEEE International Conference on\/}
   (2010), IEEE, pp.~34--41.
 
+\bibitem{rao2004survey}
+{\sc Rao, J., and Su, X.}
+\newblock A survey of automated web service composition methods.
+\newblock In {\em International Workshop on Semantic Web Services and Web
+  Process Composition\/} (2004), Springer, pp.~43--54.
+
 \bibitem{rao2005semantic}
 {\sc Rao, J., and Su, X.}
 \newblock Semantic web services and web process composition, volume 3387 of
@@ -365,6 +371,11 @@
 \newblock Hybrid methods using genetic algorithms for global optimization.
 \newblock {\em IEEE Transactions on Systems, Man, and Cybernetics, Part B
   (Cybernetics) 26}, 2 (1996), 243--258.
+
+\bibitem{rodriguez2010composition}
+{\sc Rodriguez-Mier, P., Mucientes, M., Lama, M., and Couto, M.~I.}
+\newblock Composition of web services through genetic programming.
+\newblock {\em Evolutionary Intelligence 3}, 3-4 (2010), 171--186.
 
 \bibitem{sahai2002automated}
 {\sc Sahai, A., Machiraju, V., Sayal, M., Van~Moorsel, A., and Casati, F.}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  14 JUL 2017 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  16 JUL 2017 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -377,60 +377,57 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 [1
 
 
-]
-Overfull \hbox (0.76048pt too wide) in paragraph at lines 13--14
-[]\OT1/ppl/m/n/10.95 Different ap-proaches have been pro-posed to solve those c
-om-po-si-tion prob-lems dis-cussed
- []
-
-[2]
+] [2]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
+
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
  [3]
-Overfull \hbox (1.26808pt too wide) in paragraph at lines 44--45
+Overfull \hbox (1.26808pt too wide) in paragraph at lines 42--43
 \OT1/ppl/m/n/10.95 de-pend-ing on an op-ti-mi-sa-tion for a sin-gle ob-jec-tive
  or mul-ti-ple ob-jec-tives. In single-objective
  []
 
 [4] [5] [6]
-Overfull \hbox (3.01076pt too wide) in paragraph at lines 79--80
+Overfull \hbox (3.01076pt too wide) in paragraph at lines 77--78
 []\OT1/ppl/m/n/10.95 Here we de-velop a fun-da-men-tal muti-objective op-ti-mi-
 sa-tion ap-proach us-ing some
  []
 
 
-Overfull \hbox (3.3725pt too wide) in paragraph at lines 79--80
+Overfull \hbox (3.3725pt too wide) in paragraph at lines 77--78
 \OT1/ppl/m/n/10.95 multi-objective EC-based al-go-rithm. (e.g, NSGA-II [[]], SP
 EA2 [[]] and MOEA/D
  []
 
 
-Overfull \hbox (0.20724pt too wide) in paragraph at lines 79--80
+Overfull \hbox (0.20724pt too wide) in paragraph at lines 77--78
 \OT1/ppl/m/n/10.95 [[]]), where dif-fer-ent rep-re-sen-ta-tions and mod-i-fied 
 multi-objective EC al-go-rithms
  []
 
 [7] [8]
-Overfull \hbox (6.09898pt too wide) in paragraph at lines 107--108
+Overfull \hbox (6.09898pt too wide) in paragraph at lines 105--106
 \OT1/ppl/m/n/10.95 mech-a-nism of sat-is-fac-tory on pre-con-di-tions and ef-fe
 cts to in-clude loops and choice.
  []
 
 [9]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 119.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 117.
 
  (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 123.
+LaTeX Warning: Reference `' on page 10 undefined on input line 121.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 123.
+LaTeX Warning: Reference `' on page 10 undefined on input line 121.
 
 ) [10]
 \openout2 = `review.aux'.
@@ -525,10 +522,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4589 strings out of 493675
- 62260 string characters out of 6155645
- 150113 words of memory out of 5000000
- 7833 multiletter control sequences out of 15000+600000
+ 4591 strings out of 493675
+ 62301 string characters out of 6155645
+ 150124 words of memory out of 5000000
+ 7835 multiletter control sequences out of 15000+600000
  40606 words of font info for 110 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  41i,19n,26p,2498b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -541,7 +538,7 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (34 pages, 244386 bytes).
+Output written on proposal.pdf (34 pages, 244717 bytes).
 PDF statistics:
  227 PDF objects out of 1000 (max. 8388607)
  158 compressed objects within 2 object streams
