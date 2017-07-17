@@ -22,6 +22,11 @@
 \newblock Dynamic adaptation of service compositions with variability models.
 \newblock {\em Journal of Systems and Software 91\/} (2014), 24--47.
 
+\bibitem{andrews2003business}
+{\sc Andrews, T., Curbera, F., Dholakia, H., Goland, Y., Klein, J., Leymann,
+  F., Liu, K., Roller, D., Smith, D., Thatte, S., et~al.}
+\newblock Business process execution language for web services, 2003.
+
 \bibitem{back1997evolutionary}
 {\sc Back, T., Hammel, U., and Schwefel, H.-P.}
 \newblock Evolutionary computation: Comments on the history and current state.
@@ -33,6 +38,12 @@
 \newblock Generalized semantic web service composition.
 \newblock {\em Service Oriented Computing and Applications 10}, 2 (2016),
   111--133.
+
+\bibitem{baresi2011self}
+{\sc Baresi, L., and Guinea, S.}
+\newblock Self-supervising bpel processes.
+\newblock {\em IEEE Transactions on Software Engineering 37}, 2 (2011),
+  247--263.
 
 \bibitem{bentley1997finding}
 {\sc Bentley, P.~J., and Wakefield, J.~P.}
@@ -195,6 +206,11 @@
 \newblock Wsc-2009: a quality of service-oriented web services challenge.
 \newblock In {\em 2009 IEEE Conference on Commerce and Enterprise Computing\/}
   (2009), IEEE, pp.~487--490.
+
+\bibitem{koning2009vxbpel}
+{\sc Koning, M., Sun, C.-a., Sinnema, M., and Avgeriou, P.}
+\newblock Vxbpel: Supporting variability for web services in bpel.
+\newblock {\em Information and Software Technology 51}, 2 (2009), 258--269.
 
 \bibitem{kopecky2007sawsdl}
 {\sc Kopeck{\`y}, J., Vitvar, T., Bournez, C., and Farrell, J.}

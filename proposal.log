@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  17 JUL 2017 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  17 JUL 2017 20:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,7 +381,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
- [3] [4] [5] [6]
+ [3] [4] [5] [6] [7]
 Overfull \hbox (3.01076pt too wide) in paragraph at lines 76--77
 []\OT1/ppl/m/n/10.95 Here we de-velop a fun-da-men-tal muti-objective op-ti-mi-
 sa-tion ap-proach us-ing some
@@ -399,16 +399,15 @@ Overfull \hbox (0.20724pt too wide) in paragraph at lines 76--77
 multi-objective EC al-go-rithms
  []
 
-[7] [8]
+[8] [9]
 Overfull \hbox (6.09898pt too wide) in paragraph at lines 104--105
 \OT1/ppl/m/n/10.95 mech-a-nism of sat-is-fac-tory on pre-con-di-tions and ef-fe
 cts to in-clude loops and choice.
  []
 
-[9]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 116.
 
- (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
+(/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
@@ -489,22 +488,22 @@ LaTeX Warning: Citation `yu2007efficient' on page 20 undefined on input line 24
 ] (./proposal.bbl [23
 
 ] [24]
-Underfull \hbox (badness 1033) in paragraph at lines 222--226
+Underfull \hbox (badness 1033) in paragraph at lines 238--242
 []\OT1/ppl/m/sc/10.95 Lausen, H., Polleres, A., and Ro-man, D.  \OT1/ppl/m/n/10
 .95 W3c mem-ber submission-web
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 222--226
+Underfull \hbox (badness 2726) in paragraph at lines 238--242
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[25] [26]
+[25] [26] [27]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
- [27]) [28] (./proposal.aux (./introduction.aux) (./review.aux))
+) [28] (./proposal.aux (./introduction.aux) (./review.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -513,10 +512,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4594 strings out of 493675
- 62350 string characters out of 6155645
- 150148 words of memory out of 5000000
- 7838 multiletter control sequences out of 15000+600000
+ 4597 strings out of 493675
+ 62405 string characters out of 6155645
+ 150160 words of memory out of 5000000
+ 7841 multiletter control sequences out of 15000+600000
  40606 words of font info for 110 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  41i,19n,26p,2498b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -529,7 +528,7 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (34 pages, 245545 bytes).
+Output written on proposal.pdf (34 pages, 246959 bytes).
 PDF statistics:
  227 PDF objects out of 1000 (max. 8388607)
  158 compressed objects within 2 object streams
