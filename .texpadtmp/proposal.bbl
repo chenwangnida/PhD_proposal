@@ -22,6 +22,11 @@
 \newblock Dynamic adaptation of service compositions with variability models.
 \newblock {\em Journal of Systems and Software 91\/} (2014), 24--47.
 
+\bibitem{andrews2003business}
+{\sc Andrews, T., Curbera, F., Dholakia, H., Goland, Y., Klein, J., Leymann,
+  F., Liu, K., Roller, D., Smith, D., Thatte, S., et~al.}
+\newblock Business process execution language for web services, 2003.
+
 \bibitem{back1997evolutionary}
 {\sc Back, T., Hammel, U., and Schwefel, H.-P.}
 \newblock Evolutionary computation: Comments on the history and current state.
@@ -33,6 +38,12 @@
 \newblock Generalized semantic web service composition.
 \newblock {\em Service Oriented Computing and Applications 10}, 2 (2016),
   111--133.
+
+\bibitem{baresi2011self}
+{\sc Baresi, L., and Guinea, S.}
+\newblock Self-supervising bpel processes.
+\newblock {\em IEEE Transactions on Software Engineering 37}, 2 (2011),
+  247--263.
 
 \bibitem{bentley1997finding}
 {\sc Bentley, P.~J., and Wakefield, J.~P.}
@@ -98,13 +109,6 @@
 \newblock In {\em Database and Expert Systems Applications}, vol.~9262.
   Springer International Publishing, 2015, pp.~134--142.
 
-\bibitem{da2014graph}
-{\sc da~Silva, A.~S., Ma, H., and Zhang, M.}
-\newblock A graph-based particle swarm optimisation approach to qos-aware web
-  service composition and selection.
-\newblock In {\em 2014 IEEE Congress on Evolutionary Computation (CEC)\/}
-  (2014), IEEE, pp.~3127--3134.
-
 \bibitem{da2016genetic}
 {\sc da~Silva, A.~S., Ma, H., and Zhang, M.}
 \newblock Genetic programming for qos-aware web service composition and
@@ -149,6 +153,11 @@
 \newblock {\em Semantic web services}.
 \newblock Springer Science \& Business Media, 2011.
 
+\bibitem{fleming2002evolutionary}
+{\sc Fleming, P.~J., and Purshouse, R.~C.}
+\newblock Evolutionary algorithms in control systems engineering: a survey.
+\newblock {\em Control engineering practice 10}, 11 (2002), 1223--1241.
+
 \bibitem{fox2003pddl2}
 {\sc Fox, M., and Long, D.}
 \newblock Pddl2. 1: An extension to pddl for expressing temporal planning
@@ -179,11 +188,29 @@
 \newblock In {\em IEEE congress on evolutionary computation\/} (2008),
   pp.~2419--2426.
 
+\bibitem{kennedy1995particle}
+{\sc KENNEDY, J., and EBERHART, R.}
+\newblock Particle swarm optimization.
+\newblock In {\em IEEE International Conference on Neural Networks\/} (1995),
+  IEEE, pp.~1942--1948.
+
+\bibitem{kim2006adaptive}
+{\sc Kim, I.~Y., and De~Weck, O.}
+\newblock Adaptive weighted sum method for multiobjective optimization: a new
+  method for pareto front generation.
+\newblock {\em Structural and multidisciplinary optimization 31}, 2 (2006),
+  105--116.
+
 \bibitem{kona2009wsc}
 {\sc Kona, S., Bansal, A., Blake, M.~B., Bleul, S., and Weise, T.}
 \newblock Wsc-2009: a quality of service-oriented web services challenge.
 \newblock In {\em 2009 IEEE Conference on Commerce and Enterprise Computing\/}
   (2009), IEEE, pp.~487--490.
+
+\bibitem{koning2009vxbpel}
+{\sc Koning, M., Sun, C.-a., Sinnema, M., and Avgeriou, P.}
+\newblock Vxbpel: Supporting variability for web services in bpel.
+\newblock {\em Information and Software Technology 51}, 2 (2009), 258--269.
 
 \bibitem{kopecky2007sawsdl}
 {\sc Kopeck{\`y}, J., Vitvar, T., Bournez, C., and Farrell, J.}
@@ -351,6 +378,12 @@
 \newblock In {\em Web Services (ICWS), 2010 IEEE International Conference on\/}
   (2010), IEEE, pp.~34--41.
 
+\bibitem{rao2004survey}
+{\sc Rao, J., and Su, X.}
+\newblock A survey of automated web service composition methods.
+\newblock In {\em International Workshop on Semantic Web Services and Web
+  Process Composition\/} (2004), Springer, pp.~43--54.
+
 \bibitem{rao2005semantic}
 {\sc Rao, J., and Su, X.}
 \newblock Semantic web services and web process composition, volume 3387 of
@@ -361,6 +394,11 @@
 \newblock Hybrid methods using genetic algorithms for global optimization.
 \newblock {\em IEEE Transactions on Systems, Man, and Cybernetics, Part B
   (Cybernetics) 26}, 2 (1996), 243--258.
+
+\bibitem{rodriguez2010composition}
+{\sc Rodriguez-Mier, P., Mucientes, M., Lama, M., and Couto, M.~I.}
+\newblock Composition of web services through genetic programming.
+\newblock {\em Evolutionary Intelligence 3}, 3-4 (2010), 171--186.
 
 \bibitem{sahai2002automated}
 {\sc Sahai, A., Machiraju, V., Sayal, M., Van~Moorsel, A., and Casati, F.}
@@ -397,6 +435,11 @@
 \newblock Automated web service composition supporting conditional branch
   structures.
 \newblock {\em Enterprise Information Systems 8}, 1 (2014), 121--146.
+
+\bibitem{whitley1994genetic}
+{\sc Whitley, D.}
+\newblock A genetic algorithm tutorial.
+\newblock {\em Statistics and computing 4}, 2 (1994), 65--85.
 
 \bibitem{xiang2014qos}
 {\sc Xiang, F., Hu, Y., Yu, Y., and Wu, H.}
