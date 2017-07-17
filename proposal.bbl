@@ -183,6 +183,13 @@
 \newblock In {\em IEEE International Conference on Neural Networks\/} (1995),
   IEEE, pp.~1942--1948.
 
+\bibitem{kim2006adaptive}
+{\sc Kim, I.~Y., and De~Weck, O.}
+\newblock Adaptive weighted sum method for multiobjective optimization: a new
+  method for pareto front generation.
+\newblock {\em Structural and multidisciplinary optimization 31}, 2 (2006),
+  105--116.
+
 \bibitem{kona2009wsc}
 {\sc Kona, S., Bansal, A., Blake, M.~B., Bleul, S., and Weise, T.}
 \newblock Wsc-2009: a quality of service-oriented web services challenge.
