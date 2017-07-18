@@ -10,22 +10,22 @@
 \contentsline {section}{\numberline {1.4}Published Papers}{10}
 \contentsline {section}{\numberline {1.5}Organisation of Proposal}{10}
 \contentsline {chapter}{\numberline {2}Literature Review}{11}
-\contentsline {section}{\numberline {2.1}Web Service}{11}
-\contentsline {subsection}{\numberline {2.1.1}Functional Properties of Web services}{12}
-\contentsline {subsection}{\numberline {2.1.2}Nonfunctional Properties of Web services}{13}
-\contentsline {subsection}{\numberline {2.1.3}Web Service Discovery}{14}
-\contentsline {section}{\numberline {2.2}Web Service Composition}{14}
-\contentsline {subsection}{\numberline {2.2.1}Web Service Composition Lifecycle}{15}
-\contentsline {subsection}{\numberline {2.2.2}Functional Properties of Web Service Composition}{16}
-\contentsline {subsection}{\numberline {2.2.3}Nonfunctional Properties of Web Service Composition}{17}
-\contentsline {section}{\numberline {2.3}Evolutionary Computation Techniques Overview}{17}
-\contentsline {section}{\numberline {2.4}Single-Objective Web Service Composition Approaches}{18}
-\contentsline {subsection}{\numberline {2.4.1}EC-based Composition Approaches}{18}
-\contentsline {subsection}{\numberline {2.4.2}Non-EC Based Approaches}{21}
-\contentsline {section}{\numberline {2.5}Multi-objective, and Many-objective Composition Approaches}{21}
-\contentsline {subsection}{\numberline {2.5.1}Multi-objective approaches}{22}
-\contentsline {subsubsection}{Multi-objective techniques with GA}{22}
-\contentsline {subsubsection}{Multi-objective techniques with PSO}{22}
-\contentsline {subsubsection}{Multi-objective techniques with ACO}{23}
-\contentsline {subsection}{\numberline {2.5.2}Many-objective approaches}{23}
-\contentsline {section}{\numberline {2.6}Semantic Web Service Composition Approaches}{24}
+\contentsline {section}{\numberline {2.1}Background}{11}
+\contentsline {subsection}{\numberline {2.1.1}Web Service}{11}
+\contentsline {subsubsection}{Functional Properties of Web services}{12}
+\contentsline {subsubsection}{Nonfunctional Properties of Web services}{13}
+\contentsline {subsubsection}{Web Service Discovery}{14}
+\contentsline {subsection}{\numberline {2.1.2}Web Service Composition}{14}
+\contentsline {subsubsection}{Web Service Composition Lifecycle}{15}
+\contentsline {subsubsection}{Functional Properties of Web Service Composition}{16}
+\contentsline {subsubsection}{Nonfunctional Properties of Web Service Composition}{17}
+\contentsline {subsection}{\numberline {2.1.3}Evolutionary Computation Techniques Overview}{17}
+\contentsline {section}{\numberline {2.2}Related Work}{18}
+\contentsline {subsection}{\numberline {2.2.1}Single-Objective Web Service Composition Approaches}{18}
+\contentsline {subsubsection}{EC-based Composition Approaches}{18}
+\contentsline {subsubsection}{Non-EC Based Approaches}{21}
+\contentsline {subsection}{\numberline {2.2.2}Multi-objective, and Many-objective Composition Approaches}{21}
+\contentsline {subsubsection}{Multi-objective approaches}{22}
+\contentsline {subsubsection}{Many-objective approaches}{23}
+\contentsline {subsection}{\numberline {2.2.3}Dynamic Web Service Composition Approaches}{24}
+\contentsline {subsection}{\numberline {2.2.4}Semantic Web Service Composition Approaches}{24}
