@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{agarwal2009d5}
 {\sc Agarwal, S., Junghans, M., Fabre, O., Toma, I., and Lorre, J.-P.}
@@ -83,6 +83,13 @@
   {OWL-DL} and rules.
 \newblock {\em Service Oriented Computing and Applications 8}, 3 (2014),
   221--238.
+
+\bibitem{canfora2005approach}
+{\sc Canfora, G., Di~Penta, M., Esposito, R., and Villani, M.~L.}
+\newblock An approach for qos-aware service composition based on genetic
+  algorithms.
+\newblock In {\em Proceedings of the 7th annual conference on Genetic and
+  evolutionary computation\/} (2005), ACM, pp.~1069--1075.
 
 \bibitem{chan2009fault}
 {\sc Chan, K., Bishop, J., Steyn, J., Baresi, L., and Guinea, S.}
@@ -456,6 +463,18 @@
 \newblock A new similarity measure for taxonomy based on edge counting.
 \newblock {\em arXiv preprint arXiv:1211.4709\/} (2012).
 
+\bibitem{srinivas1994genetic}
+{\sc Srinivas, M., and Patnaik, L.~M.}
+\newblock Genetic algorithms: A survey.
+\newblock {\em computer 27}, 6 (1994), 17--26.
+
+\bibitem{tang2010hybrid}
+{\sc Tang, M., and Ai, L.}
+\newblock A hybrid genetic algorithm for the optimal constrained web service
+  selection problem in web service composition.
+\newblock In {\em Evolutionary Computation (CEC), 2010 IEEE Congress on\/}
+  (2010), IEEE, pp.~1--8.
+
 \bibitem{van2000measuring}
 {\sc Van~Veldhuizen, D.~A., and Lamont, G.~B.}
 \newblock On measuring multiobjective evolutionary algorithm performance.
@@ -474,6 +493,12 @@
   optimization for dynamic web service composition.
 \newblock In {\em Algorithms and Architectures for Parallel Processing}.
   Springer, 2014, pp.~391--399.
+
+\bibitem{wang2012survey}
+{\sc Wang, L., Shen, J., and Yong, J.}
+\newblock A survey on bio-inspired algorithms for web service composition.
+\newblock In {\em Computer Supported Cooperative Work in Design (CSCWD), 2012
+  IEEE 16th International Conference on\/} (2012), IEEE, pp.~569--574.
 
 \bibitem{wang2014automated}
 {\sc Wang, P., Ding, Z., Jiang, C., and Zhou, M.}
