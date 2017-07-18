@@ -229,10 +229,6 @@ Repeated entry---line 4647 of file bibliography.bib
  : @incollection{liu2005dynamic
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4759 of file bibliography.bib
- : @article{aversano2006genetic
- :                             ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 4779 of file bibliography.bib
  : @article{rodriguez2010composition
  :                                  ,
@@ -445,45 +441,45 @@ while executing---line 1133 of file acm.bst
 Warning--can't use both volume and number fields in lecue2007making
 Warning--empty journal in mier2015integrated
 Warning--empty journal in zitzler1999evolutionary
-You've used 101 entries,
+You've used 100 entries,
             2253 wiz_defined-function locations,
-            1055 strings with 22990 characters,
-and the built_in function-call counts, 39243 in all, are:
-= -- 3855
-> -- 1857
+            1049 strings with 22760 characters,
+and the built_in function-call counts, 38886 in all, are:
+= -- 3819
+> -- 1840
 < -- 0
-+ -- 788
-- -- 662
-* -- 3035
-:= -- 6082
-add.period$ -- 301
-call.type$ -- 101
-change.case$ -- 627
++ -- 780
+- -- 656
+* -- 3002
+:= -- 6024
+add.period$ -- 298
+call.type$ -- 100
+change.case$ -- 621
 chr.to.int$ -- 0
-cite$ -- 104
-duplicate$ -- 1497
-empty$ -- 3114
-format.name$ -- 662
-if$ -- 8335
+cite$ -- 103
+duplicate$ -- 1488
+empty$ -- 3087
+format.name$ -- 656
+if$ -- 8264
 int.to.chr$ -- 0
-int.to.str$ -- 101
-missing$ -- 100
-newline$ -- 502
-num.names$ -- 202
-pop$ -- 694
+int.to.str$ -- 100
+missing$ -- 99
+newline$ -- 497
+num.names$ -- 200
+pop$ -- 690
 preamble$ -- 1
-purify$ -- 529
+purify$ -- 524
 quote$ -- 0
-skip$ -- 1065
+skip$ -- 1060
 stack$ -- 0
-substring$ -- 2595
-swap$ -- 501
+substring$ -- 2564
+swap$ -- 499
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 398
+type$ -- 394
 warning$ -- 3
-while$ -- 396
-width$ -- 104
-write$ -- 1032
-(There were 110 error messages)
+while$ -- 392
+width$ -- 103
+write$ -- 1022
+(There were 109 error messages)
