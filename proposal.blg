@@ -5,395 +5,411 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: review.aux
 The style file: acm.bst
 Database file #1: bibliography.bib
-Repeated entry---line 1209 of file bibliography.bib
+Repeated entry---line 1353 of file bibliography.bib
  : @inproceedings{paolucci2002semantic
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1391 of file bibliography.bib
+Repeated entry---line 1535 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1527 of file bibliography.bib
+Repeated entry---line 1671 of file bibliography.bib
  : @article{martin2004owl
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1593 of file bibliography.bib
+Repeated entry---line 1737 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1815 of file bibliography.bib
+Repeated entry---line 1863 of file bibliography.bib
+ : @inproceedings{pop2009immune
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1959 of file bibliography.bib
  : @article{lausen2007semantic
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1841 of file bibliography.bib
+Repeated entry---line 1985 of file bibliography.bib
  : @article{martin2004owl
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1857 of file bibliography.bib
+Repeated entry---line 2001 of file bibliography.bib
  : @inproceedings{kuster2008opossum
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1963 of file bibliography.bib
+Repeated entry---line 2107 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2007 of file bibliography.bib
+I was expecting a `,' or a `}'---line 2151 of file bibliography.bib
  :   publisher={IEEE}
  :                   @article{blum1997fast,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2007 of file bibliography.bib
+Repeated entry---line 2151 of file bibliography.bib
  :   publisher={IEEE}@article{blum1997fast
  :                                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2061 of file bibliography.bib
+Repeated entry---line 2205 of file bibliography.bib
  : @inproceedings{papazoglou2003service
  :                                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2077 of file bibliography.bib
+Repeated entry---line 2221 of file bibliography.bib
  : @misc{papazoglou2006p
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2087 of file bibliography.bib
+Repeated entry---line 2231 of file bibliography.bib
  : @article{booth2004web
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2099 of file bibliography.bib
+Repeated entry---line 2243 of file bibliography.bib
  : @inproceedings{overdick2007resource
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2115 of file bibliography.bib
+Repeated entry---line 2259 of file bibliography.bib
  : @inproceedings{curbera2001web
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2129 of file bibliography.bib
+Repeated entry---line 2273 of file bibliography.bib
  : @book{fensel2011semantic
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2141 of file bibliography.bib
+Repeated entry---line 2285 of file bibliography.bib
  : @article{yu2008deploying
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2161 of file bibliography.bib
+Repeated entry---line 2305 of file bibliography.bib
  : @article{o2005review
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2227 of file bibliography.bib
+Repeated entry---line 2371 of file bibliography.bib
  : @incollection{moghaddam2014service
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2263 of file bibliography.bib
+Repeated entry---line 2407 of file bibliography.bib
  : @inproceedings{zeng2003quality
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2279 of file bibliography.bib
+Repeated entry---line 2423 of file bibliography.bib
  : @article{fleming2002evolutionary
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2299 of file bibliography.bib
+Repeated entry---line 2443 of file bibliography.bib
  : @book{petrie2016web
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2311 of file bibliography.bib
+Repeated entry---line 2455 of file bibliography.bib
  : @inproceedings{lecue2006formal
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2327 of file bibliography.bib
+Repeated entry---line 2471 of file bibliography.bib
  : @inproceedings{paolucci2002semantic
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2343 of file bibliography.bib
+Repeated entry---line 2487 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2383 of file bibliography.bib
+Repeated entry---line 2527 of file bibliography.bib
  : @inproceedings{liu2005dynamic
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2399 of file bibliography.bib
+Repeated entry---line 2543 of file bibliography.bib
  : @inproceedings{ishibuchi2008evolutionary
  :                                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2413 of file bibliography.bib
+Repeated entry---line 2557 of file bibliography.bib
  : @inproceedings{lecue2008optimizing
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2427 of file bibliography.bib
+Repeated entry---line 2571 of file bibliography.bib
  : @inproceedings{lecue2009optimizing
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2523 of file bibliography.bib
+Repeated entry---line 2619 of file bibliography.bib
+ : @inproceedings{yoo2008web
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2667 of file bibliography.bib
  : @article{whitley1994genetic
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2543 of file bibliography.bib
+Repeated entry---line 2687 of file bibliography.bib
  : @book{koza1992genetic
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2557 of file bibliography.bib
+Repeated entry---line 2701 of file bibliography.bib
  : @inproceedings{kennedy1995particle
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2575 of file bibliography.bib
+Repeated entry---line 2719 of file bibliography.bib
  : @inproceedings{yu2013adaptive
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2623 of file bibliography.bib
+Repeated entry---line 2767 of file bibliography.bib
  : @incollection{ma2015hybrid
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2639 of file bibliography.bib
+Repeated entry---line 2783 of file bibliography.bib
  : @article{martin2004owl
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2685 of file bibliography.bib
+Repeated entry---line 2829 of file bibliography.bib
  : @inproceedings{paolucci2002semantic
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2741 of file bibliography.bib
+Repeated entry---line 2885 of file bibliography.bib
  : @inproceedings{lecue2007making
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2799 of file bibliography.bib
+Repeated entry---line 2943 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2835 of file bibliography.bib
+Repeated entry---line 2979 of file bibliography.bib
  : @inproceedings{feng2013dynamic
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2867 of file bibliography.bib
+Repeated entry---line 3011 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2887 of file bibliography.bib
+Repeated entry---line 3031 of file bibliography.bib
  : @inproceedings{sahai2002automated
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2903 of file bibliography.bib
+Repeated entry---line 3047 of file bibliography.bib
  : @article{rodriguez2010composition
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2923 of file bibliography.bib
+Repeated entry---line 3067 of file bibliography.bib
  : @article{shet2012new
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2951 of file bibliography.bib
+Repeated entry---line 3095 of file bibliography.bib
  : @article{bansal2016generalized
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3415 of file bibliography.bib
+Repeated entry---line 3299 of file bibliography.bib
+ : @article{yoo2008web
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3559 of file bibliography.bib
  : @incollection{moghaddam2014service
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3649 of file bibliography.bib
+Repeated entry---line 3793 of file bibliography.bib
  : @article{parejo2008qos
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3709 of file bibliography.bib
+Repeated entry---line 3853 of file bibliography.bib
  : @article{kopecky2007sawsdl
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4325 of file bibliography.bib
+Repeated entry---line 4469 of file bibliography.bib
  : @inproceedings{feng2013dynamic
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4373 of file bibliography.bib
+Repeated entry---line 4517 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4435 of file bibliography.bib
+Repeated entry---line 4579 of file bibliography.bib
  : @incollection{liu2005dynamic
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4567 of file bibliography.bib
+Repeated entry---line 4711 of file bibliography.bib
  : @article{rodriguez2010composition
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4735 of file bibliography.bib
+Repeated entry---line 4879 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4987 of file bibliography.bib
+Repeated entry---line 5131 of file bibliography.bib
  : @article{curbera2002unraveling
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5031 of file bibliography.bib
+Repeated entry---line 5175 of file bibliography.bib
  : @inproceedings{yu2013adaptive
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5133 of file bibliography.bib
+Repeated entry---line 5277 of file bibliography.bib
  : @book{koza1992genetic
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5149 of file bibliography.bib
+Repeated entry---line 5293 of file bibliography.bib
  : @incollection{ma2015hybrid
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5201 of file bibliography.bib
+Repeated entry---line 5345 of file bibliography.bib
  : @article{lausen2007semantic
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5227 of file bibliography.bib
+Repeated entry---line 5371 of file bibliography.bib
  : @article{martin2004owl
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5243 of file bibliography.bib
+Repeated entry---line 5387 of file bibliography.bib
  : @inproceedings{kona2009wsc
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5277 of file bibliography.bib
+Repeated entry---line 5421 of file bibliography.bib
  : @incollection{da2015graphevol
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5337 of file bibliography.bib
+Repeated entry---line 5481 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5357 of file bibliography.bib
+Repeated entry---line 5501 of file bibliography.bib
  : @inproceedings{da2016particle
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5373 of file bibliography.bib
+Repeated entry---line 5517 of file bibliography.bib
  : @article{mier2015integrated
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5381 of file bibliography.bib
+Repeated entry---line 5525 of file bibliography.bib
  :   publisher={IEEE}@article{blum1997fast
  :                                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5435 of file bibliography.bib
+Repeated entry---line 5579 of file bibliography.bib
  : @inproceedings{papazoglou2003service
  :                                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5451 of file bibliography.bib
+Repeated entry---line 5595 of file bibliography.bib
  : @misc{papazoglou2006p
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5461 of file bibliography.bib
+Repeated entry---line 5605 of file bibliography.bib
  : @article{booth2004web
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5473 of file bibliography.bib
+Repeated entry---line 5617 of file bibliography.bib
  : @inproceedings{overdick2007resource
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5489 of file bibliography.bib
+Repeated entry---line 5633 of file bibliography.bib
  : @inproceedings{curbera2001web
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5503 of file bibliography.bib
+Repeated entry---line 5647 of file bibliography.bib
  : @book{fensel2011semantic
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5515 of file bibliography.bib
+Repeated entry---line 5659 of file bibliography.bib
  : @article{yu2008deploying
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5535 of file bibliography.bib
+Repeated entry---line 5679 of file bibliography.bib
  : @article{o2005review
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5601 of file bibliography.bib
+Repeated entry---line 5745 of file bibliography.bib
  : @incollection{moghaddam2014service
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5637 of file bibliography.bib
+Repeated entry---line 5781 of file bibliography.bib
  : @inproceedings{zeng2003quality
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5653 of file bibliography.bib
+Repeated entry---line 5797 of file bibliography.bib
  : @article{fleming2002evolutionary
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5673 of file bibliography.bib
+Repeated entry---line 5817 of file bibliography.bib
  : @book{petrie2016web
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5685 of file bibliography.bib
+Repeated entry---line 5829 of file bibliography.bib
  : @inproceedings{lecue2006formal
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5701 of file bibliography.bib
+Repeated entry---line 5845 of file bibliography.bib
  : @inproceedings{paolucci2002semantic
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5717 of file bibliography.bib
+Repeated entry---line 5861 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5757 of file bibliography.bib
+Repeated entry---line 5901 of file bibliography.bib
  : @inproceedings{liu2005dynamic
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5773 of file bibliography.bib
+Repeated entry---line 5917 of file bibliography.bib
  : @inproceedings{ishibuchi2008evolutionary
  :                                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5787 of file bibliography.bib
+Repeated entry---line 5931 of file bibliography.bib
  : @inproceedings{lecue2008optimizing
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5801 of file bibliography.bib
+Repeated entry---line 5945 of file bibliography.bib
  : @inproceedings{lecue2009optimizing
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5897 of file bibliography.bib
+Repeated entry---line 5993 of file bibliography.bib
+ : @inproceedings{yoo2008web
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6041 of file bibliography.bib
  : @article{whitley1994genetic
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5917 of file bibliography.bib
+Repeated entry---line 6061 of file bibliography.bib
  : @book{koza1992genetic
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5931 of file bibliography.bib
+Repeated entry---line 6075 of file bibliography.bib
  : @inproceedings{kennedy1995particle
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5949 of file bibliography.bib
+Repeated entry---line 6093 of file bibliography.bib
  : @inproceedings{yu2013adaptive
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5997 of file bibliography.bib
+Repeated entry---line 6141 of file bibliography.bib
  : @incollection{ma2015hybrid
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6013 of file bibliography.bib
+Repeated entry---line 6157 of file bibliography.bib
  : @article{martin2004owl
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6059 of file bibliography.bib
+Repeated entry---line 6203 of file bibliography.bib
  : @inproceedings{paolucci2002semantic
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6115 of file bibliography.bib
+Repeated entry---line 6259 of file bibliography.bib
  : @inproceedings{lecue2007making
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6173 of file bibliography.bib
+Repeated entry---line 6317 of file bibliography.bib
  : @article{blum1997fast
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6209 of file bibliography.bib
+Repeated entry---line 6353 of file bibliography.bib
  : @inproceedings{feng2013dynamic
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6241 of file bibliography.bib
+Repeated entry---line 6385 of file bibliography.bib
  : @article{wang2014automated
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6261 of file bibliography.bib
+Repeated entry---line 6405 of file bibliography.bib
  : @inproceedings{sahai2002automated
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6277 of file bibliography.bib
+Repeated entry---line 6421 of file bibliography.bib
  : @article{rodriguez2010composition
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6297 of file bibliography.bib
+Repeated entry---line 6441 of file bibliography.bib
  : @article{shet2012new
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6325 of file bibliography.bib
+Repeated entry---line 6469 of file bibliography.bib
  : @article{bansal2016generalized
  :                               ,
 I'm skipping whatever remains of this entry
@@ -405,45 +421,45 @@ while executing---line 1133 of file acm.bst
 Warning--can't use both volume and number fields in lecue2007making
 Warning--empty journal in mier2015integrated
 Warning--empty journal in zitzler1999evolutionary
-You've used 86 entries,
+You've used 96 entries,
             2253 wiz_defined-function locations,
-            985 strings with 19876 characters,
-and the built_in function-call counts, 32730 in all, are:
-= -- 3208
-> -- 1562
+            1029 strings with 21951 characters,
+and the built_in function-call counts, 37170 in all, are:
+= -- 3645
+> -- 1777
 < -- 0
-+ -- 661
-- -- 556
-* -- 2538
-:= -- 5110
-add.period$ -- 256
-call.type$ -- 86
-change.case$ -- 529
++ -- 751
+- -- 634
+* -- 2881
+:= -- 5777
+add.period$ -- 286
+call.type$ -- 96
+change.case$ -- 598
 chr.to.int$ -- 0
-cite$ -- 89
-duplicate$ -- 1231
-empty$ -- 2592
-format.name$ -- 556
-if$ -- 6925
+cite$ -- 99
+duplicate$ -- 1409
+empty$ -- 2939
+format.name$ -- 634
+if$ -- 7882
 int.to.chr$ -- 0
-int.to.str$ -- 86
-missing$ -- 85
-newline$ -- 427
-num.names$ -- 172
-pop$ -- 580
+int.to.str$ -- 96
+missing$ -- 95
+newline$ -- 477
+num.names$ -- 192
+pop$ -- 660
 preamble$ -- 1
-purify$ -- 446
+purify$ -- 505
 quote$ -- 0
-skip$ -- 870
+skip$ -- 1002
 stack$ -- 0
-substring$ -- 2129
-swap$ -- 403
+substring$ -- 2434
+swap$ -- 469
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 338
+type$ -- 378
 warning$ -- 3
-while$ -- 329
-width$ -- 88
-write$ -- 874
-(There were 100 error messages)
+while$ -- 373
+width$ -- 98
+write$ -- 979
+(There were 104 error messages)

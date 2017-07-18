@@ -109,11 +109,25 @@
 \newblock In {\em Database and Expert Systems Applications}, vol.~9262.
   Springer International Publishing, 2015, pp.~134--142.
 
+\bibitem{da2015gp}
+{\sc da~Silva, A.~S., Ma, H., and Zhang, M.}
+\newblock A gp approach to qos-aware web service composition including
+  conditional constraints.
+\newblock In {\em Evolutionary Computation (CEC), 2015 IEEE Congress on\/}
+  (2015), IEEE, pp.~2113--2120.
+
 \bibitem{da2016genetic}
 {\sc da~Silva, A.~S., Ma, H., and Zhang, M.}
 \newblock Genetic programming for qos-aware web service composition and
   selection.
 \newblock {\em Soft Computing\/} (2016), 1--17.
+
+\bibitem{da2016handling}
+{\sc da~Silva, A.~S., Ma, H., Zhang, M., and Hartmann, S.}
+\newblock Handling branched web service composition with a qos-aware
+  graph-based method.
+\newblock In {\em International Conference on Electronic Commerce and Web
+  Technologies\/} (2016), Springer, pp.~154--169.
 
 \bibitem{da2016memetic}
 {\sc da~Silva, A.~S., Mei, Y., Ma, H., and Zhang, M.}
@@ -135,6 +149,12 @@
   services.
 \newblock In {\em Neural Networks (SBRN), 2010 Eleventh Brazilian Symposium
   on\/} (2010), IEEE, pp.~152--157.
+
+\bibitem{de2002learning}
+{\sc De~Castro, L.~N., and Von~Zuben, F.~J.}
+\newblock Learning and optimization using the clonal selection principle.
+\newblock {\em IEEE transactions on evolutionary computation 6}, 3 (2002),
+  239--251.
 
 \bibitem{deb2002fast}
 {\sc Deb, K., Pratap, A., Agarwal, S., and Meyarivan, T.}
@@ -163,6 +183,12 @@
 \newblock Pddl2. 1: An extension to pddl for expressing temporal planning
   domains.
 \newblock {\em Journal of artificial intelligence research\/} (2003).
+
+\bibitem{gao2005web}
+{\sc Gao, A., Yang, D., Tang, S., and Zhang, M.}
+\newblock Web service composition using integer programming-based models.
+\newblock In {\em e-Business Engineering, 2005. ICEBE 2005. IEEE International
+  Conference on\/} (2005), IEEE, pp.~603--606.
 
 \bibitem{garey1979guide}
 {\sc Garey, M.~R., and Johnson, D.~S.}
@@ -271,6 +297,11 @@
 \newblock {\em International Journal of Web and Grid Services 10}, 1 (2014),
   80--99.
 
+\bibitem{li2016full}
+{\sc Li, J., Yan, Y., and Lemire, D.}
+\newblock Full solution indexing for top-k web service composition.
+\newblock {\em IEEE Transactions on Services Computing\/} (2016).
+
 \bibitem{liu2005dynamic}
 {\sc Liu, S., Liu, Y., Jing, N., Tang, G., and Tang, Y.}
 \newblock A dynamic web service selection strategy with qos global optimization
@@ -371,6 +402,13 @@
 \newblock {\em Web Service Composition}.
 \newblock Springer, 2016.
 
+\bibitem{pop2009immune}
+{\sc Pop, C.~B., Chifu, V.~R., Salomie, I., and Dinsoreanu, M.}
+\newblock Immune-inspired method for selecting the optimal solution in web
+  service composition.
+\newblock In {\em International Workshop on Resource Discovery\/} (2009),
+  Springer, pp.~1--17.
+
 \bibitem{qi2010combining}
 {\sc Qi, L., Tang, Y., Dou, W., and Chen, J.}
 \newblock Combining local optimization and enumeration for qos-aware web
@@ -449,6 +487,25 @@
 \newblock {\em Central European Journal of Operations Research 22}, 4 (2014),
   663--685.
 
+\bibitem{xu2012towards}
+{\sc Xu, B., Luo, S., Yan, Y., and Sun, K.}
+\newblock Towards efficiency of qos-driven semantic web service composition for
+  large-scale service-oriented systems.
+\newblock {\em Service Oriented Computing and Applications 6}, 1 (2012), 1--13.
+
+\bibitem{xu2010semantic}
+{\sc Xu, C., Liang, P., Wang, T., Wang, Q., and Sheu, P.~C.}
+\newblock Semantic web services annotation and composition based on er model.
+\newblock In {\em Sensor Networks, Ubiquitous, and Trustworthy Computing
+  (SUTC), 2010 IEEE International Conference on\/} (2010), IEEE, pp.~413--420.
+
+\bibitem{yan2006immune}
+{\sc Yan, G., Jun, N., Bin, Z., Lei, Y., Qiang, G., and Yu, D.}
+\newblock Immune algorithm for selecting optimum services in web services
+  composition.
+\newblock {\em Wuhan University Journal of Natural Sciences 11}, 1 (2006),
+  221--225.
+
 \bibitem{yao2009qos}
 {\sc Yao, Y., and Chen, H.}
 \newblock Qos-aware service composition using nsga-ii 1.
@@ -461,6 +518,14 @@
 \newblock A hybrid multiobjective discrete particle swarm optimization
   algorithm for a sla-aware service composition problem.
 \newblock {\em Mathematical Problems in Engineering 2014\/} (2014).
+
+\bibitem{yoo2008web}
+{\sc Yoo, J. J.-W., Kumara, S., Lee, D., and Oh, S.-C.}
+\newblock A web service composition framework using integer programming with
+  non-functional objectives and constraints.
+\newblock In {\em 2008 10th IEEE Conference on E-Commerce Technology and the
+  Fifth IEEE Conference on Enterprise Computing, E-Commerce and E-Services\/}
+  (2008), IEEE, pp.~347--350.
 
 \bibitem{yu2013efficient}
 {\sc Yu, Q., and Bouguettaya, A.}
