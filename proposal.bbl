@@ -27,6 +27,13 @@
   F., Liu, K., Roller, D., Smith, D., Thatte, S., et~al.}
 \newblock Business process execution language for web services, 2003.
 
+\bibitem{aversano2006genetic}
+{\sc Aversano, L., Di~Penta, M., and Taneja, K.}
+\newblock A genetic programming approach to support the design of service
+  compositions.
+\newblock {\em International Journal of Computer Systems Science \& Engineering
+  21}, 4 (2006), 247--254.
+
 \bibitem{back1997evolutionary}
 {\sc Back, T., Hammel, U., and Schwefel, H.-P.}
 \newblock Evolutionary computation: Comments on the history and current state.

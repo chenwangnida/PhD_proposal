@@ -217,6 +217,10 @@ Repeated entry---line 4579 of file bibliography.bib
  : @incollection{liu2005dynamic
  :                             ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 4691 of file bibliography.bib
+ : @article{aversano2006genetic
+ :                             ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 4711 of file bibliography.bib
  : @article{rodriguez2010composition
  :                                  ,
@@ -421,45 +425,45 @@ while executing---line 1133 of file acm.bst
 Warning--can't use both volume and number fields in lecue2007making
 Warning--empty journal in mier2015integrated
 Warning--empty journal in zitzler1999evolutionary
-You've used 96 entries,
+You've used 97 entries,
             2253 wiz_defined-function locations,
-            1029 strings with 21951 characters,
-and the built_in function-call counts, 37170 in all, are:
-= -- 3645
-> -- 1777
+            1035 strings with 22181 characters,
+and the built_in function-call counts, 37527 in all, are:
+= -- 3681
+> -- 1794
 < -- 0
-+ -- 751
-- -- 634
-* -- 2881
-:= -- 5777
-add.period$ -- 286
-call.type$ -- 96
-change.case$ -- 598
++ -- 759
+- -- 640
+* -- 2914
+:= -- 5835
+add.period$ -- 289
+call.type$ -- 97
+change.case$ -- 604
 chr.to.int$ -- 0
-cite$ -- 99
-duplicate$ -- 1409
-empty$ -- 2939
-format.name$ -- 634
-if$ -- 7882
+cite$ -- 100
+duplicate$ -- 1418
+empty$ -- 2966
+format.name$ -- 640
+if$ -- 7953
 int.to.chr$ -- 0
-int.to.str$ -- 96
-missing$ -- 95
-newline$ -- 477
-num.names$ -- 192
-pop$ -- 660
+int.to.str$ -- 97
+missing$ -- 96
+newline$ -- 482
+num.names$ -- 194
+pop$ -- 664
 preamble$ -- 1
-purify$ -- 505
+purify$ -- 510
 quote$ -- 0
-skip$ -- 1002
+skip$ -- 1007
 stack$ -- 0
-substring$ -- 2434
-swap$ -- 469
+substring$ -- 2465
+swap$ -- 471
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 378
+type$ -- 382
 warning$ -- 3
-while$ -- 373
-width$ -- 98
-write$ -- 979
-(There were 104 error messages)
+while$ -- 377
+width$ -- 99
+write$ -- 989
+(There were 105 error messages)
