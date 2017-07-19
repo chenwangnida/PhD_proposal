@@ -309,12 +309,27 @@
 \newblock Full solution indexing for top-k web service composition.
 \newblock {\em IEEE Transactions on Services Computing\/} (2016).
 
+\bibitem{liu2007hybrid}
+{\sc Liu, J., Li, J., Liu, K., and Wei, W.}
+\newblock A hybrid genetic and particle swarm algorithm for service
+  composition.
+\newblock In {\em Advanced Language Processing and Web Information Technology,
+  2007. ALPIT 2007. Sixth International Conference on\/} (2007), IEEE,
+  pp.~564--567.
+
 \bibitem{liu2005dynamic}
 {\sc Liu, S., Liu, Y., Jing, N., Tang, G., and Tang, Y.}
 \newblock A dynamic web service selection strategy with qos global optimization
   based on multi-objective genetic algorithm.
 \newblock In {\em International Conference on Grid and Cooperative Computing\/}
   (2005), Springer, pp.~84--89.
+
+\bibitem{long2009environment}
+{\sc Long, J., and Gui, W.}
+\newblock An environment-aware particle swarm optimization algorithm for
+  services composition.
+\newblock In {\em Computational Intelligence and Software Engineering, 2009.
+  CiSE 2009. International Conference on\/} (2009), IEEE, pp.~1--4.
 
 \bibitem{ma2012formal}
 {\sc Ma, H., Schewe, K.-D., Thalheim, B., and Wang, Q.}
