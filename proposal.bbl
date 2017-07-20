@@ -484,6 +484,19 @@
 \newblock A new similarity measure for taxonomy based on edge counting.
 \newblock {\em arXiv preprint arXiv:1211.4709\/} (2012).
 
+\bibitem{sirin2004htn}
+{\sc Sirin, E., Parsia, B., Wu, D., Hendler, J., and Nau, D.}
+\newblock Htn planning for web service composition using shop2.
+\newblock {\em Web Semantics: Science, Services and Agents on the World Wide
+  Web 1}, 4 (2004), 377--396.
+
+\bibitem{sohrabi2009web}
+{\sc Sohrabi, S., Prokoshyna, N., and McIlraith, S.~A.}
+\newblock Web service composition via the customization of golog programs with
+  user preferences.
+\newblock In {\em Conceptual Modeling: Foundations and Applications}. Springer,
+  2009, pp.~319--334.
+
 \bibitem{srinivas1994genetic}
 {\sc Srinivas, M., and Patnaik, L.~M.}
 \newblock Genetic algorithms: A survey.
