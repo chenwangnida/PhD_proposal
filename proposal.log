@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  20 JUL 2017 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  20 JUL 2017 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -504,11 +504,11 @@ Underfull \hbox (badness 1997) in paragraph at lines 277--281
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[30] [31] [32]
+[30] [31] [32] [33]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
- [33]) [34] (./proposal.aux (./introduction.aux) (./review.aux))
+) [34] (./proposal.aux (./introduction.aux) (./review.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -517,10 +517,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4621 strings out of 493675
- 62766 string characters out of 6155645
- 150305 words of memory out of 5000000
- 7865 multiletter control sequences out of 15000+600000
+ 4625 strings out of 493675
+ 62826 string characters out of 6155645
+ 150325 words of memory out of 5000000
+ 7869 multiletter control sequences out of 15000+600000
  40606 words of font info for 110 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  41i,19n,26p,2389b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -533,7 +533,7 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (40 pages, 265890 bytes).
+Output written on proposal.pdf (40 pages, 268770 bytes).
 PDF statistics:
  248 PDF objects out of 1000 (max. 8388607)
  173 compressed objects within 2 object streams

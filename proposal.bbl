@@ -378,6 +378,18 @@
   existing approaches.
 \newblock In {\em Web Services Foundations}. Springer, 2014, pp.~321--346.
 
+\bibitem{mohanty2010web}
+{\sc Mohanty, R., Ravi, V., and Patra, M.~R.}
+\newblock Web-services classification using intelligent techniques.
+\newblock {\em Expert Systems with Applications 37}, 7 (2010), 5484--5490.
+
+\bibitem{nasridinov2012qos}
+{\sc Nasridinov, A., Byun, J.-Y., and Park, Y.-H.}
+\newblock A qos-aware performance prediction for self-healing web service
+  composition.
+\newblock In {\em Cloud and Green Computing (CGC), 2012 Second International
+  Conference on\/} (2012), IEEE, pp.~799--803.
+
 \bibitem{o2005review}
 {\sc O'Leary, D.}
 \newblock Review: Ontologies: A silver bullet for knowledge management and
@@ -478,6 +490,13 @@
 \newblock Automated sla monitoring for web services.
 \newblock In {\em International Workshop on Distributed Systems: Operations and
   Management\/} (2002), Springer, pp.~28--41.
+
+\bibitem{salas2006ws}
+{\sc Salas, J., Perez-Sorrosal, F., Pati{\~n}o-Mart{\'\i}nez, M., and
+  Jim{\'e}nez-Peris, R.}
+\newblock Ws-replication: a framework for highly available web services.
+\newblock In {\em Proceedings of the 15th international conference on World
+  Wide Web\/} (2006), ACM, pp.~357--366.
 
 \bibitem{shet2012new}
 {\sc Shet, K., Acharya, U.~D., et~al.}
@@ -590,6 +609,13 @@
 \newblock A hybrid multiobjective discrete particle swarm optimization
   algorithm for a sla-aware service composition problem.
 \newblock {\em Mathematical Problems in Engineering 2014\/} (2014).
+
+\bibitem{yin2010qos}
+{\sc Yin, Y., Zhang, B., and Zhang, X.}
+\newblock Qos-driven transactional web service reselection for reliable
+  execution.
+\newblock In {\em Information Science and Management Engineering (ISME), 2010
+  International Conference of\/} (2010), vol.~2, IEEE, pp.~79--82.
 
 \bibitem{yoo2008web}
 {\sc Yoo, J. J.-W., Kumara, S., Lee, D., and Oh, S.-C.}
