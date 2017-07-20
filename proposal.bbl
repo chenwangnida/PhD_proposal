@@ -209,6 +209,12 @@
 \newblock In {\em Computer, Communication and Control (IC4), 2015 International
   Conference on\/} (2015), IEEE, pp.~1--6.
 
+\bibitem{huang2009effective}
+{\sc Huang, Z., Jiang, W., Hu, S., and Liu, Z.}
+\newblock Effective pruning algorithm for qos-aware service composition.
+\newblock In {\em 2009 IEEE Conference on Commerce and Enterprise Computing\/}
+  (2009), IEEE, pp.~519--522.
+
 \bibitem{hwang1981lecture}
 {\sc Hwang, C.-L., and Yoon, K.}
 \newblock Lecture notes in economics and mathematical systems.
@@ -438,6 +444,13 @@
 \newblock In {\em Web Services (ICWS), 2010 IEEE International Conference on\/}
   (2010), IEEE, pp.~34--41.
 
+\bibitem{rao2006mixed}
+{\sc Rao, J., Dimitrov, D., Hofmann, P., and Sadeh, N.}
+\newblock A mixed initiative approach to semantic web service discovery and
+  composition: Sap's guided procedures framework.
+\newblock In {\em 2006 IEEE International Conference on Web Services
+  (ICWS'06)\/} (2006), IEEE, pp.~401--410.
+
 \bibitem{rao2004survey}
 {\sc Rao, J., and Su, X.}
 \newblock A survey of automated web service composition methods.
@@ -494,6 +507,12 @@
 \newblock E$^3$: A multiobjective optimization framework for sla-aware service
   composition.
 \newblock {\em IEEE Transactions on Services Computing 5}, 3 (2012), 358--372.
+
+\bibitem{wang2013genetic}
+{\sc Wang, A., Ma, H., and Zhang, M.}
+\newblock Genetic programming with greedy search for web service composition.
+\newblock In {\em International Conference on Database and Expert Systems
+  Applications\/} (2013), Springer, pp.~9--17.
 
 \bibitem{wang2014novel}
 {\sc Wang, D., Huang, H., and Xie, C.}
