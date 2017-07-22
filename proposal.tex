@@ -23,9 +23,19 @@
 %% These are standard LaTeX definitions for the document
 %%      
 %% Personal package
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{color,graphicx,epstopdf,changepage,amsmath,amsthm,multirow}
+\usepackage[justification=centering]{caption}
+\usepackage{blindtext}
 \usepackage[inline]{enumitem}
-\usepackage{graphicx,amsmath,amssymb,url}
-\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{xcolor}
+\SetAlgoCaptionSeparator{.\space}
+\renewcommand\AlCapFnt{\normalfont\scshape}
+\setlength{\algomargin}{0.7cm}
+\newtheorem{example}{Example}
+
+
+
 
 \makeatother
 
@@ -106,7 +116,7 @@
 % individual chapters included here
 \include{introduction}
 \include{review}
-%\include{preliminary_work}
+\include{preliminary_work}
 %\include{plan}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -116,7 +126,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%\bibliographystyle{ieeetr}
 \bibliographystyle{acm}
 \bibliography{bibliography}
 

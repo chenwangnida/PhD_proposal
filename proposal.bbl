@@ -521,6 +521,13 @@
 \newblock A new similarity measure for taxonomy based on edge counting.
 \newblock {\em arXiv preprint arXiv:1211.4709\/} (2012).
 
+\bibitem{shi2001particle}
+{\sc Shi, Y., et~al.}
+\newblock Particle swarm optimization: developments, applications and
+  resources.
+\newblock In {\em evolutionary computation, 2001. Proceedings of the 2001
+  Congress on\/} (2001), vol.~1, IEEE, pp.~81--86.
+
 \bibitem{sirin2004htn}
 {\sc Sirin, E., Parsia, B., Wu, D., Hendler, J., and Nau, D.}
 \newblock Htn planning for web service composition using shop2.
@@ -568,6 +575,13 @@
 \newblock Genetic programming with greedy search for web service composition.
 \newblock In {\em International Conference on Database and Expert Systems
   Applications\/} (2013), Springer, pp.~9--17.
+
+\bibitem{wang2017comprehensive}
+{\sc Wang, C., Ma, H., Chen, A., and Hartmann, S.}
+\newblock Comprehensive quality-aware automated semantic web service
+  composition.
+\newblock In {\em Australasian Joint Conference on Artificial Intelligence (To
+  appear)\/} (2017).
 
 \bibitem{wang2014novel}
 {\sc Wang, D., Huang, H., and Xie, C.}
