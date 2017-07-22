@@ -29,6 +29,6 @@
 \contentsline {subsubsection}{Multi-objective approaches}{25}
 \contentsline {subsubsection}{Many-objective approaches}{26}
 \contentsline {subsection}{\numberline {2.2.3}Dynamic Web Service Composition Approaches}{26}
-\contentsline {subsubsection}{Dynamic Approaches For Changes in QoS}{27}
-\contentsline {subsubsection}{Dynamic Approaches For Service Failure}{27}
+\contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Changes in QoS}{27}
+\contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Service Failure}{27}
 \contentsline {subsection}{\numberline {2.2.4}Semantic Web Service Composition Approaches}{28}

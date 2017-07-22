@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  22 JUL 2017 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  22 JUL 2017 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -516,13 +516,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4631 strings out of 493675
- 62938 string characters out of 6155645
- 150371 words of memory out of 5000000
- 7875 multiletter control sequences out of 15000+600000
+ 4632 strings out of 493675
+ 62956 string characters out of 6155645
+ 150376 words of memory out of 5000000
+ 7876 multiletter control sequences out of 15000+600000
  40606 words of font info for 110 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
- 41i,19n,26p,2389b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,19n,26p,2530b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/pkg/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/texmf-dist/fonts/type1/pub
@@ -532,7 +532,7 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (42 pages, 272255 bytes).
+Output written on proposal.pdf (42 pages, 272971 bytes).
 PDF statistics:
  254 PDF objects out of 1000 (max. 8388607)
  177 compressed objects within 2 object streams

@@ -558,6 +558,11 @@
   composition.
 \newblock {\em IEEE Transactions on Services Computing 5}, 3 (2012), 358--372.
 
+\bibitem{wagner2016robust}
+{\sc Wagner, F., Ishikawa, F., and Honiden, S.}
+\newblock Robust service compositions with functional and location diversity.
+\newblock {\em IEEE Transactions on Services Computing 9}, 2 (2016), 277--290.
+
 \bibitem{wang2013genetic}
 {\sc Wang, A., Ma, H., and Zhang, M.}
 \newblock Genetic programming with greedy search for web service composition.
