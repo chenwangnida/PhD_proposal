@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  21 JUL 2017 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  22 JUL 2017 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -207,9 +207,6 @@ Modified to handle duplex printing properly 2006
 ) (./proposal.aux (./introduction.aux) (./review.aux
 
 LaTeX Warning: Label `MultiObjective' multiply defined.
-
-
-LaTeX Warning: Label `servicefalure' multiply defined.
 
 
 LaTeX Warning: Label `Semantic' multiply defined.
@@ -425,65 +422,65 @@ LaTeX Warning: Reference `' on page 10 undefined on input line 123.
 
 LaTeX Warning: Reference `' on page 10 undefined on input line 123.
 
-) [10]
+) [10] [11]
 \openout2 = `review.aux'.
 
- (./review.tex
-Chapter 2.
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 3.
-
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 3.
-
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 3.
-
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 3.
-
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 3.
-
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 6.
-[11
+ (./review.tex [12
 
 
 
 ]
-<ws.pdf, id=61, pagebox=cropbox, 470.75874pt x 285.065pt>
+Chapter 2.
+
+LaTeX Warning: Reference `' on page 13 undefined on input line 3.
+
+
+LaTeX Warning: Reference `' on page 13 undefined on input line 3.
+
+
+LaTeX Warning: Reference `' on page 13 undefined on input line 3.
+
+
+LaTeX Warning: Reference `' on page 13 undefined on input line 3.
+
+
+LaTeX Warning: Reference `' on page 13 undefined on input line 3.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 6.
+[13]
+<ws.pdf, id=68, pagebox=cropbox, 470.75874pt x 285.065pt>
 File: ws.pdf Graphic file (type pdf)
 <use ws.pdf>
 Package pdftex.def Info: ws.pdf  used on input line 17. on input line 17.
 Package pdftex.def Info: Requested size: 227.62204pt x 137.83443pt on input lin
 e 17.
-<LTS.pdf, id=62, pagebox=cropbox, 764.8575pt x 329.23pt>
+<LTS.pdf, id=69, pagebox=cropbox, 764.8575pt x 329.23pt>
 File: LTS.pdf Graphic file (type pdf)
 <use LTS.pdf>
 Package pdftex.def Info: LTS.pdf  used on input line 30. on input line 30.
 Package pdftex.def Info: Requested size: 398.33858pt x 171.4618pt on input line
  30.
- [12 <./ws.pdf> <./LTS.pdf>] [13]
+ [14 <./ws.pdf> <./LTS.pdf>] [15]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ‹ in font pplr7t!
- [14]
-<compositionLifecycle.pdf, id=125, pagebox=cropbox, 778.91pt x 466.74374pt>
+ [16]
+<compositionLifecycle.pdf, id=131, pagebox=cropbox, 778.91pt x 466.74374pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
 <use compositionLifecycle.pdf>
 Package pdftex.def Info: compositionLifecycle.pdf  used on input line 87. on in
 put line 87.
 Package pdftex.def Info: Requested size: 398.33858pt x 238.69138pt on input lin
 e 87.
- [15 <./compositionLifecycle.pdf>]
-[16] [17]
+ [17 <./compositionLifecycle.pdf>]
+[18] [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-[19] [20] [21] [22]
+ [20]
+[21] [22] [23] [24]
 
-LaTeX Warning: Citation `yu2007efficient' on page 23 undefined on input line 22
+LaTeX Warning: Citation `yu2007efficient' on page 25 undefined on input line 22
 8.
 
 
@@ -495,23 +492,22 @@ ng path, where the strength of pheromones
 
 Underfull \vbox (badness 1152) has occurred while \output is active []
 
- [23]
-[24]) [25] [26
+ [25]
+[26] [27]) [28] (./proposal.bbl [29
 
 
-] (./proposal.bbl [27
 
-] [28] [29]
-Underfull \hbox (badness 1997) in paragraph at lines 277--281
+] [30] [31]
+Underfull \hbox (badness 1997) in paragraph at lines 290--294
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[30] [31] [32] [33]
+[32] [33] [34] [35]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
-) [34] (./proposal.aux (./introduction.aux) (./review.aux))
+) [36] (./proposal.aux (./introduction.aux) (./review.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -520,13 +516,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4626 strings out of 493675
- 62841 string characters out of 6155645
- 150338 words of memory out of 5000000
- 7870 multiletter control sequences out of 15000+600000
+ 4631 strings out of 493675
+ 62938 string characters out of 6155645
+ 150371 words of memory out of 5000000
+ 7875 multiletter control sequences out of 15000+600000
  40606 words of font info for 110 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
- 41i,19n,26p,2389b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,19n,26p,2389b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/pkg/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/texmf-dist/fonts/type1/pub
@@ -536,10 +532,10 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (40 pages, 268804 bytes).
+Output written on proposal.pdf (42 pages, 272255 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
+ 254 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

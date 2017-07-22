@@ -202,6 +202,12 @@
 \newblock A guide to the theory of np-completeness.
 \newblock {\em WH Freemann, New York 70\/} (1979).
 
+\bibitem{guinard2009discovery}
+{\sc Guinard, D., Trifa, V., Spiess, P., Dober, B., and Karnouskos, S.}
+\newblock Discovery and on-demand provisioning of real-world web services.
+\newblock In {\em Web Services, 2009. ICWS 2009. IEEE International Conference
+  on\/} (2009), IEEE, pp.~583--590.
+
 \bibitem{gupta2015optimization}
 {\sc Gupta, I.~K., Kumar, J., and Rai, P.}
 \newblock Optimization to quality-of-service-driven web service composition
@@ -226,6 +232,13 @@
 \newblock Evolutionary many-objective optimization: A short review.
 \newblock In {\em IEEE congress on evolutionary computation\/} (2008),
   pp.~2419--2426.
+
+\bibitem{ishikawa2011bridging}
+{\sc Ishikawa, F., Katafuchi, S., Wagner, F., Fukazawa, Y., and Honiden, S.}
+\newblock Bridging the gap between semantic web service composition and common
+  implementation architectures.
+\newblock In {\em Services Computing (SCC), 2011 IEEE International Conference
+  on\/} (2011), IEEE, pp.~152--159.
 
 \bibitem{kennedy1995particle}
 {\sc KENNEDY, J., and EBERHART, R.}
@@ -382,6 +395,11 @@
 {\sc Mohanty, R., Ravi, V., and Patra, M.~R.}
 \newblock Web-services classification using intelligent techniques.
 \newblock {\em Expert Systems with Applications 37}, 7 (2010), 5484--5490.
+
+\bibitem{mostafa2015multi}
+{\sc Mostafa, A., and Zhang, M.}
+\newblock Multi-objective service composition in uncertain environments.
+\newblock {\em IEEE Transactions on Services Computing\/} (2015).
 
 \bibitem{nasridinov2012qos}
 {\sc Nasridinov, A., Byun, J.-Y., and Park, Y.-H.}
@@ -564,6 +582,13 @@
 \newblock Automated web service composition supporting conditional branch
   structures.
 \newblock {\em Enterprise Information Systems 8}, 1 (2014), 121--146.
+
+\bibitem{wen2014probabilistic}
+{\sc Wen, S., Tang, C., Li, Q., Chiu, D.~K., Liu, A., and Han, X.}
+\newblock Probabilistic top-k dominating services composition with uncertain
+  qos.
+\newblock {\em Service Oriented Computing and Applications 8}, 1 (2014),
+  91--103.
 
 \bibitem{whitley1994genetic}
 {\sc Whitley, D.}
