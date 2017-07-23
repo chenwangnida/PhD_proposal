@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  22 JUL 2017 22:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  23 JUL 2017 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -470,25 +470,13 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
- [3] [4] [5] [6] [7]
-Overfull \hbox (3.01076pt too wide) in paragraph at lines 78--79
-[]\OT1/ppl/m/n/10.95 Here we de-velop a fun-da-men-tal muti-objective op-ti-mi-
-sa-tion ap-proach us-ing some
+ [3] [4] [5] [6]
+Overfull \hbox (1.05206pt too wide) in paragraph at lines 73--75
+[]\OT1/ppl/b/n/10.95 Develop multi-objective ap-proaches to op-ti-mise the com-
+pre-hen-sive qual-ity for fully
  []
 
-
-Overfull \hbox (8.84749pt too wide) in paragraph at lines 78--79
-\OT1/ppl/m/n/10.95 multi-objective EC-based al-go-rithm. (e.g, NSGA-II [[]], SP
-EA2 [[]] and MOEA/D
- []
-
-
-Overfull \hbox (5.68224pt too wide) in paragraph at lines 78--79
-\OT1/ppl/m/n/10.95 [[]]), where dif-fer-ent rep-re-sen-ta-tions and mod-i-fied 
-multi-objective EC al-go-rithms
- []
-
-[8] [9]
+[7] [8] [9]
 Overfull \hbox (6.09898pt too wide) in paragraph at lines 106--107
 \OT1/ppl/m/n/10.95 mech-a-nism of sat-is-fac-tory on pre-con-di-tions and ef-fe
 cts to in-clude loops and choice.
@@ -508,7 +496,11 @@ LaTeX Warning: Reference `' on page 10 undefined on input line 123.
 
 LaTeX Warning: Reference `' on page 10 undefined on input line 123.
 
-) [10] [11]
+)
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+ [10]
+[11]
 \openout2 = `review.aux'.
 
  (./review.tex [12
@@ -761,7 +753,7 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (57 pages, 502810 bytes).
+Output written on proposal.pdf (57 pages, 502898 bytes).
 PDF statistics:
  530 PDF objects out of 1000 (max. 8388607)
  366 compressed objects within 4 object streams
