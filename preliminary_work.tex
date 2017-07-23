@@ -4,7 +4,7 @@ This chapter presents the highlights of the initial work conducted on the creati
 
 \section{Comprehensive Quality-Aware Service Composition Model Formalisation}\label{qswsc_approach}
 
-Here we extend the concepts from our previous paper \cite{wang2017comprehensive} to include composition constructs. We consider a \emph{semantic web service} (\emph{service}, for short) as a tuple $S =(I_{S}, O_{S}, $ $QoS_S)$ where $I_{S}$ is a set of service inputs that are consumed by $S$, $O_{S}$ is a set of service outputs that are produced by $S$, and $QoS_{S}=\{t_S, c_S, r_S, a_S\}$ is a set of non-functional attributes of $S$. The inputs in $I_{S}$ and outputs in $O_{S}$ are parameters modelled through concepts in a domain-specific ontology $\mathcal{O}$. The attributes $t_S, c_S, r_S, a_S$ refer to the response time, cost, reliability, and availability of service $S$, respectively. These four QoS attributes are most commonly used \cite{zeng2003quality}.
+We consider a \emph{semantic web service} (\emph{service}, for short) as a tuple $S =(I_{S}, O_{S}, $ $QoS_S)$ where $I_{S}$ is a set of service inputs that are consumed by $S$, $O_{S}$ is a set of service outputs that are produced by $S$, and $QoS_{S}=\{t_S, c_S, r_S, a_S\}$ is a set of non-functional attributes of $S$. The inputs in $I_{S}$ and outputs in $O_{S}$ are parameters modelled through concepts in a domain-specific ontology $\mathcal{O}$. The attributes $t_S, c_S, r_S, a_S$ refer to the response time, cost, reliability, and availability of service $S$, respectively. These four QoS attributes are most commonly used \cite{zeng2003quality}.
 
 A \emph{service repository} $\mathcal{SR}$ is a finite collection of services supported by a common ontology $\mathcal{O}$. A \emph{service request} (also called \emph{composition task}) over $\mathcal{SR}$ is a tuple $T=(I_{T}, O_{T})$ where $I_{T}$ is a set of task inputs, and $O_{T}$ is a set of task outputs. The inputs in $I_{T}$ and outputs in $O_{T}$ are parameters described by concepts in the ontology $\mathcal{O}$.
 
@@ -76,7 +76,7 @@ The weights can be adjusted according to users' preferences. $\hat{MT}$, $\hat{S
 As PSO has shown promise in solving combinatorial optimisation problems, we propose a PSO-based approach to comprehensive quality-aware automated semantic web service composition. Fig. \ref{overview} shows an overview of our approach consisting of four steps: 
 \begin{figure}[h]
 \centering
-\fbox{\includegraphics[scale=.4]{overview.pdf}}
+\fbox{\includegraphics[scale=.5]{overview.pdf}}
  \caption{An overview of our PSO-based approach to comprehensive quality-aware automated semantic web service composition.}
  \label{overview}
 \end{figure}
