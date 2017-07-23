@@ -8,27 +8,45 @@
 \contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{6}
 \contentsline {section}{\numberline {1.3}Research Goals}{6}
 \contentsline {section}{\numberline {1.4}Published Papers}{10}
-\contentsline {section}{\numberline {1.5}Organisation of Proposal}{10}
-\contentsline {chapter}{\numberline {2}Literature Review}{11}
-\contentsline {section}{\numberline {2.1}Background}{11}
-\contentsline {subsection}{\numberline {2.1.1}Web Service}{11}
-\contentsline {subsubsection}{Functional Properties of Web services}{12}
-\contentsline {subsubsection}{Nonfunctional Properties of Web services}{13}
-\contentsline {subsubsection}{Web Service Discovery}{14}
-\contentsline {subsection}{\numberline {2.1.2}Web Service Composition}{14}
-\contentsline {subsubsection}{Web Service Composition Lifecycle}{15}
-\contentsline {subsubsection}{Functional Properties of Web Service Composition}{16}
-\contentsline {subsubsection}{Nonfunctional Properties of Web Service Composition}{17}
-\contentsline {subsection}{\numberline {2.1.3}Evolutionary Computation Techniques Overview}{17}
-\contentsline {section}{\numberline {2.2}Related Work}{19}
-\contentsline {subsection}{\numberline {2.2.1}Single-Objective Web Service Composition Approaches}{19}
-\contentsline {subsubsection}{EC-based Composition Approaches}{19}
-\contentsline {subsubsection}{AI Based Approaches}{21}
-\contentsline {subsubsection}{Other Approaches}{21}
-\contentsline {subsection}{\numberline {2.2.2}Multi-objective, and Many-objective Composition Approaches}{22}
-\contentsline {subsubsection}{Multi-objective approaches}{23}
-\contentsline {subsubsection}{Many-objective approaches}{24}
-\contentsline {subsection}{\numberline {2.2.3}Dynamic Web Service Composition Approaches}{24}
-\contentsline {subsubsection}{Dynamic Approaches For Changes in QoS}{25}
-\contentsline {subsubsection}{Dynamic Approaches For Service Failure}{25}
-\contentsline {subsection}{\numberline {2.2.4}Semantic Web Service Composition Approaches}{25}
+\contentsline {section}{\numberline {1.5}Organisation of Proposal}{11}
+\contentsline {chapter}{\numberline {2}Literature Review}{13}
+\contentsline {section}{\numberline {2.1}Background}{13}
+\contentsline {subsection}{\numberline {2.1.1}Web Service}{13}
+\contentsline {subsubsection}{Functional Properties of Web services}{14}
+\contentsline {subsubsection}{Nonfunctional Properties of Web services}{15}
+\contentsline {subsubsection}{Web Service Discovery}{16}
+\contentsline {subsection}{\numberline {2.1.2}Web Service Composition}{16}
+\contentsline {subsubsection}{Web Service Composition Lifecycle}{17}
+\contentsline {subsubsection}{Functional Properties of Web Service Composition}{18}
+\contentsline {subsubsection}{Nonfunctional Properties of Web Service Composition}{19}
+\contentsline {subsection}{\numberline {2.1.3}Evolutionary Computation Techniques Overview}{19}
+\contentsline {section}{\numberline {2.2}Related Work}{21}
+\contentsline {subsection}{\numberline {2.2.1}Single-Objective Web Service Composition Approaches}{21}
+\contentsline {subsubsection}{EC-based Composition Approaches}{21}
+\contentsline {subsubsection}{AI Based Approaches}{23}
+\contentsline {subsubsection}{Other Approaches}{23}
+\contentsline {subsection}{\numberline {2.2.2}Multi-objective, and Many-objective Composition Approaches}{24}
+\contentsline {subsubsection}{Multi-objective approaches}{25}
+\contentsline {subsubsection}{Many-objective approaches}{26}
+\contentsline {subsection}{\numberline {2.2.3}Dynamic Web Service Composition Approaches}{26}
+\contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Changes in QoS}{27}
+\contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Service Failure}{27}
+\contentsline {subsection}{\numberline {2.2.4}Semantic Web Service Composition Approaches}{28}
+\contentsline {subsection}{\numberline {2.2.5}Summary and Limitations}{28}
+\contentsline {chapter}{\numberline {3}Preliminary Work}{29}
+\contentsline {section}{\numberline {3.1}Comprehensive Quality-Aware Service Composition Model Formalisation}{29}
+\contentsline {section}{\numberline {3.2}PSO-based Approach}{31}
+\contentsline {subsection}{\numberline {3.2.1}An Overview of our PSO-based Approach}{31}
+\contentsline {subsection}{\numberline {3.2.2}The Algorithms for our PSO-based Approach}{32}
+\contentsline {section}{\numberline {3.3}PSO-based Approach Experiment Study}{33}
+\contentsline {subsection}{\numberline {3.3.1}GP-based vs. PSO-based approach}{33}
+\contentsline {subsection}{\numberline {3.3.2}Comprehensive Quality Model vs. QoS Model}{34}
+\contentsline {subsection}{\numberline {3.3.3}Further Discussion}{34}
+\contentsline {section}{\numberline {3.4}Conclusion}{36}
+\contentsline {section}{\numberline {3.5}GP-based Approach}{36}
+\contentsline {subsection}{\numberline {3.5.1}Tree-like Representation}{36}
+\contentsline {subsection}{\numberline {3.5.2}GP-Based Algorithm}{38}
+\contentsline {section}{\numberline {3.6}GP-based Approach Experiment Study}{40}
+\contentsline {subsection}{\numberline {3.6.1}Comparison against a previous GP-based approach}{40}
+\contentsline {subsection}{\numberline {3.6.2}Further Discussion}{41}
+\contentsline {section}{\numberline {3.7}Conclusion}{41}
