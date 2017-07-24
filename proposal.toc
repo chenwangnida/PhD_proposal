@@ -32,20 +32,21 @@
 \contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Changes in QoS}{27}
 \contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Service Failure}{27}
 \contentsline {subsection}{\numberline {2.2.4}Semantic Web Service Composition Approaches}{28}
-\contentsline {chapter}{\numberline {3}Preliminary Work}{29}
-\contentsline {section}{\numberline {3.1}Comprehensive Quality-Aware Service Composition Model Formalisation}{29}
-\contentsline {section}{\numberline {3.2}PSO-based Approach}{31}
-\contentsline {subsection}{\numberline {3.2.1}An Overview of our PSO-based Approach}{31}
-\contentsline {subsection}{\numberline {3.2.2}The Algorithms for our PSO-based Approach}{32}
-\contentsline {section}{\numberline {3.3}PSO-based Approach Experiment Study}{33}
-\contentsline {subsection}{\numberline {3.3.1}GP-based vs. PSO-based approach}{33}
-\contentsline {subsection}{\numberline {3.3.2}Comprehensive Quality Model vs. QoS Model}{34}
-\contentsline {subsection}{\numberline {3.3.3}Further Discussion}{34}
-\contentsline {section}{\numberline {3.4}Conclusion}{36}
-\contentsline {section}{\numberline {3.5}GP-based Approach}{36}
-\contentsline {subsection}{\numberline {3.5.1}Tree-like Representation}{36}
-\contentsline {subsection}{\numberline {3.5.2}GP-Based Algorithm}{38}
-\contentsline {section}{\numberline {3.6}GP-based Approach Experiment Study}{40}
-\contentsline {subsection}{\numberline {3.6.1}Comparison against a previous GP-based approach}{40}
-\contentsline {subsection}{\numberline {3.6.2}Further Discussion}{41}
-\contentsline {section}{\numberline {3.7}Conclusion}{41}
+\contentsline {subsection}{\numberline {2.2.5}Summary and Limitations}{29}
+\contentsline {chapter}{\numberline {3}Preliminary Work}{31}
+\contentsline {section}{\numberline {3.1}Problem Formalisation}{31}
+\contentsline {section}{\numberline {3.2}PSO-based Approach}{33}
+\contentsline {subsection}{\numberline {3.2.1}An Overview of our PSO-based Approach}{33}
+\contentsline {subsection}{\numberline {3.2.2}The Algorithms for our PSO-based Approach}{34}
+\contentsline {section}{\numberline {3.3}PSO-based Approach Experiment Study}{35}
+\contentsline {subsection}{\numberline {3.3.1}GP-based vs. PSO-based approach}{35}
+\contentsline {subsection}{\numberline {3.3.2}Comprehensive Quality Model vs. QoS Model}{36}
+\contentsline {subsection}{\numberline {3.3.3}Further Discussion}{36}
+\contentsline {section}{\numberline {3.4}Conclusion}{38}
+\contentsline {section}{\numberline {3.5}GP-based Approach}{38}
+\contentsline {subsection}{\numberline {3.5.1}Tree-like Representation}{38}
+\contentsline {subsection}{\numberline {3.5.2}GP-Based Algorithm}{39}
+\contentsline {section}{\numberline {3.6}GP-based Approach Experiment Study}{42}
+\contentsline {subsection}{\numberline {3.6.1}Comparison against a previous GP-based approach}{42}
+\contentsline {subsection}{\numberline {3.6.2}Further Discussion}{43}
+\contentsline {section}{\numberline {3.7}Conclusion}{44}

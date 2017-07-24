@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  23 JUL 2017 20:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  24 JUL 2017 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -342,25 +342,9 @@ VUW Honours reports modifications -- Mar 1995
 Modified to handle different degrees 2003
 Modified to handle duplex printing properly 2006
 \@abstract=\box39
-) (./proposal.aux (./introduction.aux) (./review.aux
-
-LaTeX Warning: Label `MultiObjective' multiply defined.
-
-
-LaTeX Warning: Label `Semantic' multiply defined.
-
-) (./preliminary_work.aux
-
-LaTeX Warning: Label `eq_link' multiply defined.
-
-
-LaTeX Warning: Label `tbl:QoS_Aggre' multiply defined.
-
+) (./proposal.aux (./introduction.aux) (./review.aux) (./preliminary_work.aux
 
 LaTeX Warning: Label `qswsc_approach' multiply defined.
-
-
-LaTeX Warning: Label `overview' multiply defined.
 
 
 LaTeX Warning: Label `comparisonTest' multiply defined.
@@ -476,28 +460,25 @@ Overfull \hbox (1.05206pt too wide) in paragraph at lines 73--75
 pre-hen-sive qual-ity for fully
  []
 
-[7] [8] [9]
-Overfull \hbox (2.81403pt too wide) in paragraph at lines 103--104
-\OT1/ppl/m/n/10.95 per-for-mances of EC-based tech-niques for se-man-tic web se
-r-vice com-po-si-tion based
+[7]
+Overfull \hbox (3.0758pt too wide) in paragraph at lines 78--79
+[]\OT1/ppl/m/n/10.95 Here we de-velop a multi-objective op-ti-mi-sa-tion ap-pro
+ach by us-ing ef-fec-tive multi-
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 117.
+[8] [9]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 118.
 
-(/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
+ (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 122.
+LaTeX Warning: Reference `' on page 10 undefined on input line 123.
 
-)
-Underfull \vbox (badness 1082) has occurred while \output is active []
-
- [10]
-[11]
+) [10] [11]
 \openout2 = `review.aux'.
 
  (./review.tex [12
@@ -506,36 +487,21 @@ Underfull \vbox (badness 1082) has occurred while \output is active []
 
 ]
 Chapter 2.
-
-LaTeX Warning: Reference `' on page 13 undefined on input line 3.
-
-
-LaTeX Warning: Reference `' on page 13 undefined on input line 3.
-
-
-LaTeX Warning: Reference `' on page 13 undefined on input line 3.
-
-
-LaTeX Warning: Reference `' on page 13 undefined on input line 3.
-
-
-LaTeX Warning: Reference `' on page 13 undefined on input line 3.
-
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 4.
 [13]
 <ws.pdf, id=68, pagebox=cropbox, 470.75874pt x 285.065pt>
 File: ws.pdf Graphic file (type pdf)
 <use ws.pdf>
-Package pdftex.def Info: ws.pdf  used on input line 17. on input line 17.
+Package pdftex.def Info: ws.pdf  used on input line 15. on input line 15.
 Package pdftex.def Info: Requested size: 227.62204pt x 137.83443pt on input lin
-e 17.
+e 15.
 <LTS.pdf, id=69, pagebox=cropbox, 764.8575pt x 329.23pt>
 File: LTS.pdf Graphic file (type pdf)
 <use LTS.pdf>
-Package pdftex.def Info: LTS.pdf  used on input line 30. on input line 30.
+Package pdftex.def Info: LTS.pdf  used on input line 28. on input line 28.
 Package pdftex.def Info: Requested size: 398.33858pt x 171.4618pt on input line
- 30.
+ 28.
  [14 <./ws.pdf> <./LTS.pdf>] [15]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
@@ -544,22 +510,37 @@ Missing character: There is no ‹ in font pplr7t!
 <compositionLifecycle.pdf, id=131, pagebox=cropbox, 778.91pt x 466.74374pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
 <use compositionLifecycle.pdf>
-Package pdftex.def Info: compositionLifecycle.pdf  used on input line 87. on in
-put line 87.
+Package pdftex.def Info: compositionLifecycle.pdf  used on input line 85. on in
+put line 85.
 Package pdftex.def Info: Requested size: 398.33858pt x 238.69138pt on input lin
-e 87.
+e 85.
  [17 <./compositionLifecycle.pdf>]
-[18] [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[18]
+<sequence.pdf, id=158, pagebox=cropbox, 286.78392pt x 72.27pt>
+File: sequence.pdf Graphic file (type pdf)
+<use sequence.pdf>
+Package pdftex.def Info: sequence.pdf  used on input line 144. on input line 14
+4.
+Package pdftex.def Info: Requested size: 144.54pt x 36.42381pt on input line 14
+4.
+<parallel.pdf, id=159, pagebox=cropbox, 201.56555pt x 108.06624pt>
+File: parallel.pdf Graphic file (type pdf)
+<use parallel.pdf>
+Package pdftex.def Info: parallel.pdf  used on input line 158. on input line 15
+8.
+Package pdftex.def Info: Requested size: 101.17755pt x 54.24403pt on input line
+ 158.
 
- [20]
-[21] [22] [23] [24]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20 <./sequence.pdf> <./parallel.pdf>] [21] [22] [23] [24]
 
 LaTeX Warning: Citation `yu2007efficient' on page 25 undefined on input line 22
-8.
+9.
 
 
-Overfull \hbox (12.8214pt too wide) in paragraph at lines 228--229
+Overfull \hbox (12.8214pt too wide) in paragraph at lines 229--230
 \OT1/ppl/m/n/10.95 of a group of ants for op-ti-mis-ing the tra-versed for-ag-i
 ng path, where the strength of pheromones
  []
@@ -568,22 +549,16 @@ ng path, where the strength of pheromones
 Underfull \vbox (badness 1152) has occurred while \output is active []
 
  [25]
-[26] [27]) [28]
+[26] [27] [28]) [29]
 \openout2 = `preliminary_work.aux'.
 
- (./preliminary_work.tex
-Chapter 3.
-
-Overfull \hbox (9.36783pt too wide) in paragraph at lines 5--5
-[]\OT1/ppl/b/n/14.4 Comprehensive Quality-Aware Ser-vice Com-po-si-tion Model F
-or-
- []
-
-[29
+ (./preliminary_work.tex [30
 
 
 
 ]
+Chapter 3.
+[31]
 Overfull \hbox (31.53754pt too wide) in paragraph at lines 57--60
 \OT1/ppl/m/n/10.95 sim-plify the pre-sen-ta-tion we also use the no-ta-tion $\O
 T1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/
@@ -596,48 +571,48 @@ MT\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 SIM\OT1/ppl/m/n/10.95 , \OML/zplm/m
 5 )$\OT1/ppl/m/n/10.95 .
  []
 
-[30]
-<overview.pdf, id=199, pagebox=cropbox, 853.1875pt x 341.275pt>
+[32]
+<overview.pdf, id=220, pagebox=cropbox, 853.1875pt x 341.275pt>
 File: overview.pdf Graphic file (type pdf)
 <use overview.pdf>
 Package pdftex.def Info: overview.pdf  used on input line 79. on input line 79.
 
-Package pdftex.def Info: Requested size: 341.26895pt x 136.50757pt on input lin
+Package pdftex.def Info: Requested size: 426.59271pt x 170.63707pt on input lin
 e 79.
 
 
-LaTeX Warning: Reference `problemDes' on page 31 undefined on input line 84.
+LaTeX Warning: Reference `problemDes' on page 33 undefined on input line 84.
 
-[31 <./overview.pdf>]
+[33 <./overview.pdf>]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
 
-LaTeX Warning: Reference `problemDes' on page 32 undefined on input line 90.
+LaTeX Warning: Reference `problemDes' on page 34 undefined on input line 90.
 
-[32]
+[34]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 161.
 
-[33]
+[35]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 181.
 
-<comparisontest.pdf, id=258, pagebox=cropbox, 1137.24875pt x 735.74875pt>
+<comparisontest.pdf, id=278, pagebox=cropbox, 1137.24875pt x 735.74875pt>
 File: comparisontest.pdf Graphic file (type pdf)
 <use comparisontest.pdf>
 Package pdftex.def Info: comparisontest.pdf  used on input line 211. on input l
 ine 211.
 Package pdftex.def Info: Requested size: 329.79369pt x 213.36166pt on input lin
 e 211.
-[34]
+[36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./comparisontest.pdf>]
-Overfull \hbox (102.46939pt too wide) in paragraph at lines 241--243
+ [37 <./comparisontest.pdf>]
+Overfull \hbox (102.46939pt too wide) in paragraph at lines 240--242
 \OML/zplm/m/it/10.95 T$\OT1/ppl/m/it/10.95 . The cor-re-spond-ing ser-vice com-
 po-si-tion ex-pres-sion is $\OML/zplm/m/it/10.95 C[] \OT1/zplm/m/n/10.95 = \OMS
 /zplm/m/n/10.95 ^^O\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 Start\OT1/ppl/m/n/
@@ -652,79 +627,76 @@ n/10.95 , \OML/zplm/m/it/10.95 End\OT1/zplm/m/n/10.95 )))))\OT1/ppl/m/n/10.95 .
 $ 
  []
 
-<Tree(p-symbol).pdf, id=297, pagebox=cropbox, 1136.245pt x 652.4375pt>
+<Tree(p-symbol).pdf, id=319, pagebox=cropbox, 1136.245pt x 652.4375pt>
 File: Tree(p-symbol).pdf Graphic file (type pdf)
 <use Tree(p-symbol).pdf>
-Package pdftex.def Info: Tree(p-symbol).pdf  used on input line 252. on input l
-ine 252.
+Package pdftex.def Info: Tree(p-symbol).pdf  used on input line 251. on input l
+ine 251.
 Package pdftex.def Info: Requested size: 441.01772pt x 253.23503pt on input lin
-e 252.
+e 251.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 252--253
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 251--252
  [][] 
  []
 
-[36]
-Overfull \hbox (0.17973pt too wide) in paragraph at lines 297--299
+[38]
+Overfull \hbox (0.17973pt too wide) in paragraph at lines 296--298
 []\OT1/ppl/m/n/10.95 Our rep-re-sen-ta-tion sup-ports com-po-si-tion con-struct
 s that are avail-able in com-monly used
  []
 
-[37 <./Tree(p-symbol).pdf>]
-<DAG(p-symbol).pdf, id=338, pagebox=cropbox, 877.2775pt x 375.4025pt>
+[39 <./Tree(p-symbol).pdf>]
+<DAG(p-symbol).pdf, id=358, pagebox=cropbox, 877.2775pt x 375.4025pt>
 File: DAG(p-symbol).pdf Graphic file (type pdf)
 <use DAG(p-symbol).pdf>
-Package pdftex.def Info: DAG(p-symbol).pdf  used on input line 395. on input li
-ne 395.
+Package pdftex.def Info: DAG(p-symbol).pdf  used on input line 394. on input li
+ne 394.
 Package pdftex.def Info: Requested size: 308.71104pt x 132.10313pt on input lin
-e 395.
- [38]
-<mutationExample.pdf, id=342, pagebox=cropbox, 1474.50874pt x 908.39375pt>
+e 394.
+ [40 <./DAG(p-symbol).pdf>]
+<mutationExample.pdf, id=382, pagebox=cropbox, 1474.50874pt x 908.39375pt>
 File: mutationExample.pdf Graphic file (type pdf)
 <use mutationExample.pdf>
-Package pdftex.def Info: mutationExample.pdf  used on input line 428. on input 
-line 428.
+Package pdftex.def Info: mutationExample.pdf  used on input line 427. on input 
+line 427.
 Package pdftex.def Info: Requested size: 441.01772pt x 271.68857pt on input lin
-e 428.
+e 427.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 428--429
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 427--428
  [][] 
  []
 
-
-Underfull \vbox (badness 1132) has occurred while \output is active []
-
- [39 <./DAG(p-symbol).pdf> <./mutationExample.pdf>]
-Overfull \hbox (0.47523pt too wide) in paragraph at lines 446--447
+[41 <./mutationExample.pdf>]
+Overfull \hbox (0.47523pt too wide) in paragraph at lines 445--446
 []\OT1/ppl/m/n/10.95 Our ex-per-i-ments in-di-cate that our method can work con
 -sis-tently well un-der valid weight
  []
 
-[40]
-<experimentExample(p-symbol).pdf, id=407, pagebox=cropbox, 1034.86626pt x 937.5
+[42]
+<experimentExample(p-symbol).pdf, id=427, pagebox=cropbox, 1034.86626pt x 937.5
 025pt>
 File: experimentExample(p-symbol).pdf Graphic file (type pdf)
 <use experimentExample(p-symbol).pdf>
 Package pdftex.def Info: experimentExample(p-symbol).pdf  used on input line 50
-3. on input line 503.
+2. on input line 502.
 Package pdftex.def Info: Requested size: 396.91324pt x 359.57344pt on input lin
-e 503.
- [41]) [42 <./experimentExample(p-symbol).pdf>] (./proposal.bbl [43
+e 502.
+ [43 <./experimentExample(p-symbol).pdf>]) [44] (./proposal.bbl [45
 
 
 
 ]
-[44] [45]
+[46] [47]
 Underfull \hbox (badness 1997) in paragraph at lines 290--294
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[46] [47] [48] [49]
+[48] [49] [50] [51]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
- [50]) [51] (./proposal.aux (./introduction.aux)
+ [52]) [53] (./proposal.aux (./introduction.aux)
 (./review.aux) (./preliminary_work.aux))
 
 LaTeX Warning: There were undefined references.
@@ -734,13 +706,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6318 strings out of 493675
- 91649 string characters out of 6155645
- 191324 words of memory out of 5000000
- 9517 multiletter control sequences out of 15000+600000
+ 6334 strings out of 493675
+ 91927 string characters out of 6155645
+ 191409 words of memory out of 5000000
+ 9532 multiletter control sequences out of 15000+600000
  44696 words of font info for 115 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
- 42i,19n,41p,2530b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,19n,41p,2531b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/pkg/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/texmf-dist/fonts/type1/pub
@@ -750,10 +722,10 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (57 pages, 502917 bytes).
+Output written on proposal.pdf (59 pages, 596166 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
+ 550 PDF objects out of 1000 (max. 8388607)
+ 378 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

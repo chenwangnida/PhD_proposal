@@ -3,10 +3,12 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Property-Based Web Service Formal Model \cite {agarwal2010d5}.\relax }}{14}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The functionality of a Web Service \cite {agarwal2010d5}.\relax }}{14}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Web service composition lifecycle \cite {moghaddam2014service}.\relax }}{17}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Sequence construct and calculation of its QoS properties \cite {yu2013adaptive}.\relax }}{20}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Parallel construct and calculation of its QoS properties \cite {yu2013adaptive}.\relax }}{20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces An overview of our PSO-based approach to comprehensive quality-aware automated semantic web service composition.\relax }}{31}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces An example for the comparison of the best solutions obtained based on the QoS model and on the comprehensive quality model for Task 3.\relax }}{35}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of a tree-like representation\relax }}{37}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Example of a DAG used for transferring it into tree-like representation\relax }}{39}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Examples of two mutations on terminal and functional nodes\relax }}{39}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Example of best solutions using the two GP-based approaches\relax }}{42}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An overview of our PSO-based approach to comprehensive quality-aware automated semantic web service composition.\relax }}{33}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces An example for the comparison of the best solutions obtained based on the QoS model and on the comprehensive quality model for Task 3.\relax }}{37}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of a tree-like representation\relax }}{39}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Example of a DAG used for transferring it into tree-like representation\relax }}{40}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Examples of two mutations on terminal and functional nodes\relax }}{41}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Example of best solutions using the two GP-based approaches\relax }}{43}

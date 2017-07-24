@@ -576,13 +576,6 @@
 \newblock In {\em International Conference on Database and Expert Systems
   Applications\/} (2013), Springer, pp.~9--17.
 
-\bibitem{wang2017comprehensive}
-{\sc Wang, C., Ma, H., Chen, A., and Hartmann, S.}
-\newblock Comprehensive quality-aware automated semantic web service
-  composition.
-\newblock In {\em Australasian Joint Conference on Artificial Intelligence (To
-  appear)\/} (2017).
-
 \bibitem{wang2014novel}
 {\sc Wang, D., Huang, H., and Xie, C.}
 \newblock A novel adaptive web service selection algorithm based on ant colony
@@ -601,6 +594,12 @@
 \newblock Automated web service composition supporting conditional branch
   structures.
 \newblock {\em Enterprise Information Systems 8}, 1 (2014), 121--146.
+
+\bibitem{wang2016automatic}
+{\sc Wang, P., Ding, Z., Jiang, C., Zhou, M., and Zheng, Y.}
+\newblock Automatic web service composition based on uncertainty execution
+  effects.
+\newblock {\em IEEE Transactions on Services Computing 9}, 4 (2016), 551--565.
 
 \bibitem{wen2014probabilistic}
 {\sc Wen, S., Tang, C., Li, Q., Chiu, D.~K., Liu, A., and Han, X.}

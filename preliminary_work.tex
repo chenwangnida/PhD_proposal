@@ -2,7 +2,7 @@
 
 This chapter presents the highlights of the initial work conducted on the creation of a Web service composition approach that combines a planning algorithm, for candidate creation and modification, with EC techniques, for optimising candidates according to their overall Quality of Service. In particular, two types of direct solution representations are explored in alignment with Objective 1: a tree-based representation, which is compatible with the existing Genetic Programming algorithm but may lead to service duplication problems, and a graph-based representation, which prevents duplication issues but requires a more complex evolutionary algorithm. These two approaches are discussed and compared in the following sections.
 
-\section{Comprehensive Quality-Aware Service Composition Model Formalisation}\label{qswsc_approach}
+\section{Problem Formalisation}\label{qswsc_approach}
 
 We consider a \emph{semantic web service} (\emph{service}, for short) as a tuple $S =(I_{S}, O_{S}, $ $QoS_S)$ where $I_{S}$ is a set of service inputs that are consumed by $S$, $O_{S}$ is a set of service outputs that are produced by $S$, and $QoS_{S}=\{t_S, c_S, r_S, a_S\}$ is a set of non-functional attributes of $S$. The inputs in $I_{S}$ and outputs in $O_{S}$ are parameters modelled through concepts in a domain-specific ontology $\mathcal{O}$. The attributes $t_S, c_S, r_S, a_S$ refer to the response time, cost, reliability, and availability of service $S$, respectively. These four QoS attributes are most commonly used \cite{zeng2003quality}.
 
@@ -216,7 +216,6 @@ To analyse the effectiveness of achieving a good comprehensive quality at the ex
 \section{Conclusion}\label{conclusion}
 
 In this work, we propose an effective PSO-based approach to comprehensive quality-aware semantic web service composition, which also has shown promise in achieving a better comprehensive quality in terms of a combination of semantic matchmaking quality and QoS compared to existing works. Future works can investigate multi-objective EC techniques to produce a set of composition solutions for the situations when the quality preference is not known.
-\section*{Acknowledgments} This research is supported by the Marsden fund council from Government funding, administered by the Royal Society of New Zealand.
 %=================================================================================================== GP Approach
 \section{GP-based Approach}\label{GPApproach}
 
@@ -237,7 +236,7 @@ Let $\gra=(V,E)$ be a DAG representation of a service composition. Let $S$ be a 
 which can be evaluated inductively starting with $Start$ which has no incoming edges in $\gra$. The resulting expression $C_{Start}$ is a composite service expression that is equivalent to $\gra$.
 %Note: This needs to be modified slightly if there can be more nodes without incoming edges (other than Start). 
 
-goo\begin{example}
+\begin{example}
 Consider the composition task $T=(\{a, b, e\},\{ i\})$. Fig.~\ref{fig:ExampleOfRepresentation} shows an example of a composition solution. It involves four atomic services $S_1=(\{a, b \}, \{c, d, j \}, QoS_{S_1})$, $S_2=(\{c \}, \{f, g \}, QoS_{S_2})$, $S_3=(\{d \}, \{h \}, QoS_{S_3})$, and $S_4=(\{f, g, h \}, \{ i \}, QoS_{S_4})$. The two special services $Start=(\emptyset,\{a,b,e\},\emptyset)$ and $End=(\{i\},\emptyset,\emptyset)$ are defined by the given composition task $T$. The corresponding service composition expression is 
 $\cse_{Start}=\bullet(Start,\bullet( S_1,\parallel(\bullet(S_2,\bullet(S_4,End)),\bullet(S_3,\bullet(S_4,End))))).$
 \end{example}
