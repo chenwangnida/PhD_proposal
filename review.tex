@@ -107,7 +107,7 @@ Given two concepts $a, b$ in ontology $\mathcal{O}$, four commonly used \emph{Ma
 \item $fail$ returned, if none of previous matchmaking types is returned. 
 \end{itemize}
 
-Often, the similarity of two instances of two knowledge representations encoded in the same ontology is also utilised to measure the quality of matchmaking regarding the four matchmaking types discussed above. The work \cite{lecue2007making} additionally consider $interaction$ matchmaking type ($a \sqcap b$), i.e., if the intersection of $a$ and $b$ is satisfiable. In their work, a causal link link \begin{math} sl_{i,j} \stackrel{.}{=} \langle S_i, Sim_{T}(Out\_s_i,In\_s_j),S_j  \rangle \end{math} is created between two functional property instances for a input and a output. In particular, both $exact$ match and $plugin$ match are presented as robust causal links, while both $subsume$ match and $intersection$ match are presented as valid casual links. However, valid casual links are not specific enough to be utilised as the input of another web service. Thus the output requires Extra Description Equation \ref{equation2} to enable proper service composition. As a result, Subsume and Intersection matching type is transferred to be Exact and PlugIn respectively to formulate a robust link. 
+Often, the similarity of two instances of two knowledge representations encoded in the same ontology is also utilised to measure the quality of matchmaking regarding the four matchmaking types discussed above. The work \cite{lecue2007making} additionally consider $interaction$ matchmaking type ($a \sqcap b$), i.e., if the intersection of $a$ and $b$ is satisfiable. In their work, a causal link link \begin{math} sl_{i,j} \stackrel{.}{=} \langle S_i, Sim_{T}(Out\_s_i,In\_s_j),S_j  \rangle \end{math} is created between two functional property instances for a input and a output. In particular, both $exact$ match and $plugin$ match are presented as robust causal links, while both $subsume$ match and $intersection$ match are presented as valid casual links. However, valid casual links are not specific enough to be utilised as the input of another web service. Thus the output requires Extra Description to enable proper service composition using Eq. \ref{equation2}. As a result, Subsume and Intersection matching type is transferred to be Exact and PlugIn respectively to formulate a robust link. 
 
 \begin{equation}
 In\_s_x \setminus Out\_s_y \stackrel{.}{=} \underset {\preceq d}{min} \{ B|B\sqcap  Out\_s_y \equiv In\_s_x  \} , since \  Out\_s_y \sqsupseteq In\_s_x
@@ -132,7 +132,7 @@ The nonfunctional properties of web service composition is determined by all the
 \item \emph{Sequence construct}: service composition executes each atomic service associated with a sequence construct in a definite sequence order. The aggregation time ($T$) and execution cost ($C$) is as the sum of time and cost of web services involved respectively. The overall availability and reliability in a sequence construct are calculated by multiplying their corresponding availability and reliability of each web service in probability theory. This construct is shown in Fig. \ref{sequence}.
 \item \emph{Parallel construct}: web services in a parallel construct are executed concurrently. The QoS aggregation execution cost, availability and reliability are the same as these in sequence construct while the Total time ($T$) is determined by the most time-consuming path in the composite flow of the solution. This construct is presented in Fig. \ref{parallel}.
 \item \emph{Choice construct}: Only one service path is executed in a choice construct depending on the satisfaction of the conditions on each path. In Fig. \ref{choice}, assuming the choice construct has $n$ branches, $p_1,\ldots, p_n$ with  $\sum\limits^d_{k=1}p_k=1$ denote the probabilities of the different branches of the choice construct. For example, The aggregated total cost $C$  is the multiplication of the cost of each branching service and the $p$ possibility of the branch.
-\item \emph{Loop construct}: web services in a loop construct are executed repeatedly until a certain condition is satisfied. In Fig. \ref{loop}, assuming the average number of iterations is $\ell$, aggregated response time ($T$) and execution cost ($C$) are $p_n \cdot t_n$ and $p_n \cdot c_n$ respectively while aggregated availability $A$ and reliability $R$ are the $\ell^{th}$ power of the value of one iteration, i.e., $A=a_n^\ell$ and $R=r_n^\ell$.
+\item \emph{Loop construct}: web services in a loop construct are executed repeatedly until a certain condition is satisfied. In Fig. \ref{loop}, assuming the average number of iterations is $\ell$, and $t$, $c$, $r$, and $a$ are corresponding aggregated value of a composte service. Therefore, For a loop construct, aggregated response time ($T$) and execution cost ($C$) are $p_n \cdot t$ and $p_n \cdot c$ respectively while aggregated availability $A$ and reliability $R$ are the $\ell^{th}$ power of the value of one iteration, i.e., $A=a^\ell$ and $R=r^\ell$.
 \end{itemize}
 
 
@@ -144,7 +144,7 @@ The nonfunctional properties of web service composition is determined by all the
 $T=\sum\limits^m_{n=1}t_n$ \hfill $C=\sum\limits^m_{n=1}c_n$ \hfill
 $A=\prod\limits^m_{n=1}a_n$ \hfill $R=\prod\limits^m_{n=1}r_n$
 \end{tabular}}}
-\caption{Sequence construct and calculation of its QoS properties
+\caption{Sequence construct and calculation of its QoS
 \cite{yu2013adaptive}.}
 \label{sequence}
 %\end{figure}
@@ -158,7 +158,7 @@ $A=\prod\limits^m_{n=1}a_n$ \hfill $R=\prod\limits^m_{n=1}r_n$
 $C=\sum\limits^m_{n=1}c_n$ \hfill $A=\prod\limits^m_{n=1}a_n$ \hfill
 $R=\prod\limits^m_{n=1}r_n$
 \end{tabular}}}
-\caption{Parallel construct and calculation of its QoS properties
+\caption{Parallel construct and calculation of its QoS
 \cite{yu2013adaptive}.}
 \label{parallel}
 \centerline{
@@ -168,17 +168,17 @@ $R=\prod\limits^m_{n=1}r_n$
 $T=\sum\limits^m_{n=1}p_n \cdot t_n$ \hfill $C=\sum\limits^m_{n=1}p_n \cdot c_n$ \hfill
 $A=\prod\limits^m_{n=1}p_n \cdot a_n$ \hfill $R=\prod\limits^m_{n=1}p_n \cdot r_n$
 \end{tabular}}}
-\caption{Choice construct and calculation of its QoS properties
+\caption{Choice construct and calculation of its QoS
 \cite{yu2013adaptive}.}
 \label{choice}
 \centerline{
 \fbox{
 \begin{tabular}{p{0.8\linewidth}}
-\space\hfill\includegraphics[width=0.5in]{loop.pdf}\hfill\space\\[0.2cm]
-$T= \ell \cdot t_n$ \hfill $C=\ell \cdot c_n$ \hfill
-$A=a_n^\ell$ \hfill $R=r_n^\ell$
+\space\hfill\includegraphics[width=1.4in]{loop.pdf}\hfill\space\\[0.2cm]
+$T= \ell \cdot t$ \hfill $C=\ell \cdot c$ \hfill
+$A=a^\ell$ \hfill $R=r^\ell$
 \end{tabular}}}
-\caption{Loop construct and calculation of its QoS properties
+\caption{Loop construct and calculation of its QoS
 \cite{yu2013adaptive}.}
 \label{loop}
 \end{figure}

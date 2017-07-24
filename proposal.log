@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  24 JUL 2017 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  24 JUL 2017 20:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,12 +537,12 @@ Package pdftex.def Info: choice.pdf  used on input line 170. on input line 170.
 
 Package pdftex.def Info: Requested size: 101.17755pt x 53.98584pt on input line
  170.
-<loop.pdf, id=161, pagebox=cropbox, 77.28876pt x 65.24374pt>
+<loop.pdf, id=161, pagebox=cropbox, 247.92625pt x 67.25125pt>
 File: loop.pdf Graphic file (type pdf)
 <use loop.pdf>
 Package pdftex.def Info: loop.pdf  used on input line 180. on input line 180.
-Package pdftex.def Info: Requested size: 36.135pt x 30.50427pt on input line 18
-0.
+Package pdftex.def Info: Requested size: 101.17755pt x 27.4449pt on input line 
+180.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -586,7 +586,7 @@ MT\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 SIM\OT1/ppl/m/n/10.95 , \OML/zplm/m
  []
 
 [32]
-<overview.pdf, id=284, pagebox=cropbox, 853.1875pt x 341.275pt>
+<overview.pdf, id=290, pagebox=cropbox, 853.1875pt x 341.275pt>
 File: overview.pdf Graphic file (type pdf)
 <use overview.pdf>
 Package pdftex.def Info: overview.pdf  used on input line 79. on input line 79.
@@ -615,7 +615,7 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 181.
 
-<comparisontest.pdf, id=343, pagebox=cropbox, 1137.24875pt x 735.74875pt>
+<comparisontest.pdf, id=349, pagebox=cropbox, 1137.24875pt x 735.74875pt>
 File: comparisontest.pdf Graphic file (type pdf)
 <use comparisontest.pdf>
 Package pdftex.def Info: comparisontest.pdf  used on input line 211. on input l
@@ -641,7 +641,7 @@ n/10.95 , \OML/zplm/m/it/10.95 End\OT1/zplm/m/n/10.95 )))))\OT1/ppl/m/n/10.95 .
 $ 
  []
 
-<Tree(p-symbol).pdf, id=383, pagebox=cropbox, 1136.245pt x 652.4375pt>
+<Tree(p-symbol).pdf, id=389, pagebox=cropbox, 1136.245pt x 652.4375pt>
 File: Tree(p-symbol).pdf Graphic file (type pdf)
 <use Tree(p-symbol).pdf>
 Package pdftex.def Info: Tree(p-symbol).pdf  used on input line 251. on input l
@@ -660,7 +660,7 @@ s that are avail-able in com-monly used
  []
 
 [39 <./Tree(p-symbol).pdf>]
-<DAG(p-symbol).pdf, id=422, pagebox=cropbox, 877.2775pt x 375.4025pt>
+<DAG(p-symbol).pdf, id=428, pagebox=cropbox, 877.2775pt x 375.4025pt>
 File: DAG(p-symbol).pdf Graphic file (type pdf)
 <use DAG(p-symbol).pdf>
 Package pdftex.def Info: DAG(p-symbol).pdf  used on input line 394. on input li
@@ -668,7 +668,7 @@ ne 394.
 Package pdftex.def Info: Requested size: 308.71104pt x 132.10313pt on input lin
 e 394.
  [40 <./DAG(p-symbol).pdf>]
-<mutationExample.pdf, id=446, pagebox=cropbox, 1474.50874pt x 908.39375pt>
+<mutationExample.pdf, id=452, pagebox=cropbox, 1474.50874pt x 908.39375pt>
 File: mutationExample.pdf Graphic file (type pdf)
 <use mutationExample.pdf>
 Package pdftex.def Info: mutationExample.pdf  used on input line 427. on input 
@@ -687,7 +687,7 @@ Overfull \hbox (0.47523pt too wide) in paragraph at lines 445--446
  []
 
 [42]
-<experimentExample(p-symbol).pdf, id=492, pagebox=cropbox, 1034.86626pt x 937.5
+<experimentExample(p-symbol).pdf, id=498, pagebox=cropbox, 1034.86626pt x 937.5
 025pt>
 File: experimentExample(p-symbol).pdf Graphic file (type pdf)
 <use experimentExample(p-symbol).pdf>
@@ -736,10 +736,10 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (59 pages, 532834 bytes).
+Output written on proposal.pdf (59 pages, 534035 bytes).
 PDF statistics:
- 615 PDF objects out of 1000 (max. 8388607)
- 426 compressed objects within 5 object streams
+ 621 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
