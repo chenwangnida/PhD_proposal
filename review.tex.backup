@@ -129,8 +129,10 @@ sim(a, b){=} \frac{2N_c \cdot e^{-\lambda L/D} }{N_{a}+N_{b}}
 The nonfunctional properties of web service composition is determined by all the QoS of involved concrete web services in the solution. The aggregation value of QoS attributes for web services composition varies with respect to different constructs, which reflects how services associated with each other in a service composition \cite{zeng2003quality}.
 \begin{itemize}
 
-\item \emph{Sequence construct}: the composite web service executes each atomic service associated with a sequence construct in a definite sequence order. The aggregation value for total time ($T$) and total cost ($C$) is as the sum of time and cost of web services involved respectively. The overall availability and reliability in a sequence construct are calculated by multiplying their corresponding availability and reliability of each web service in probability theory. This construct is shown in Fig. \ref{sequence}.
+\item \emph{Sequence construct}: service composition executes each atomic service associated with a sequence construct in a definite sequence order. The aggregation value for total time ($T$) and total cost ($C$) is as the sum of time and cost of web services involved respectively. The overall availability and reliability in a sequence construct are calculated by multiplying their corresponding availability and reliability of each web service in probability theory. This construct is shown in Fig. \ref{sequence}.
 \item \emph{Parallel construct}: web services in a parallel construct are executed concurrently. The QoS aggregation value for total cost, availability and reliability are the same as these in sequence construct while the Total time ($T$) is determined by the most time-consuming path in the composite flow of the solution. This construct is presented in Fig. \ref{parallel}.
+\item \emph{Choice construct}: Only one service path is executed in a choice construct depending on the satisfaction of the conditions on each path. In Fig. \ref{choice}, assuming $p_1,\ldots, p_n$ with  $\sum\limits^d_{k=1}p_k=1$ denote the probabilities of the different options of the choice construct.
+\item \emph{Loop construct}: while $\ell$ denotes the average number of iterations
 \end{itemize}
 
 
@@ -138,7 +140,7 @@ The nonfunctional properties of web service composition is determined by all the
 \centerline{
 \fbox{
 \begin{tabular}{p{0.8\linewidth}}
-\space\hfill\includegraphics[width=1.6in]{sequence.pdf}\hfill\space\\[0.2cm]
+\space\hfill\includegraphics[width=1.8in]{sequence.pdf}\hfill\space\\[0.2cm]
 $T=\sum\limits^m_{n=1}t_n$ \hfill $C=\sum\limits^m_{n=1}c_n$ \hfill
 $A=\prod\limits^m_{n=1}a_n$ \hfill $R=\prod\limits^m_{n=1}r_n$
 \end{tabular}}}
@@ -151,7 +153,7 @@ $A=\prod\limits^m_{n=1}a_n$ \hfill $R=\prod\limits^m_{n=1}r_n$
 \centerline{
 \fbox{
 \begin{tabular}{p{0.8\linewidth}}
-\space\hfill\includegraphics[width=1.2in]{parallel.pdf}\hfill\space\\[0.2cm]
+\space\hfill\includegraphics[width=1.4in]{parallel.pdf}\hfill\space\\[0.2cm]
 \space\hfill$T=MAX\{t_n|n\in\{1,\ldots,m\}\}$\hfill\space\\[0.2cm]
 $C=\sum\limits^m_{n=1}c_n$ \hfill $A=\prod\limits^m_{n=1}a_n$ \hfill
 $R=\prod\limits^m_{n=1}r_n$
@@ -162,25 +164,24 @@ $R=\prod\limits^m_{n=1}r_n$
 \centerline{
 \fbox{
 \begin{tabular}{p{0.8\linewidth}}
-\space\hfill\includegraphics[width=1.2in]{choice.pdf}\hfill\space\\[0.2cm]
+\space\hfill\includegraphics[width=1.4in]{choice.pdf}\hfill\space\\[0.2cm]
 $T=\sum\limits^m_{n=1}p_n \cdot t_n$ \hfill $C=\sum\limits^m_{n=1}p_n \cdot c_n$ \hfill
 $A=\prod\limits^m_{n=1}p_n \cdot a_n$ \hfill $R=\prod\limits^m_{n=1}p_n \cdot r_n$
 \end{tabular}}}
-\caption{Parallel construct and calculation of its QoS properties
+\caption{Choice construct and calculation of its QoS properties
 \cite{yu2013adaptive}.}
 \label{choice}
 \centerline{
 \fbox{
 \begin{tabular}{p{0.8\linewidth}}
-\space\hfill\includegraphics[width=0.4in]{loop.pdf}\hfill\space\\[0.2cm]
-$T=lt_n$ \hfill $C=\sum\limits^m_{n=1}c_n$ \hfill
-$A=\prod\limits^m_{n=1}a_n$ \hfill $R=\prod\limits^m_{n=1}r_n$
+\space\hfill\includegraphics[width=0.5in]{loop.pdf}\hfill\space\\[0.2cm]
+$T= \ell \cdot t_n$ \hfill $C=\ell \cdot c_n$ \hfill
+$A=a_n^\ell$ \hfill $R=r_n^\ell$
 \end{tabular}}}
-\caption{Parallel construct and calculation of its QoS properties
+\caption{Loop construct and calculation of its QoS properties
 \cite{yu2013adaptive}.}
 \label{loop}
 \end{figure}
-
 
 \subsection{Evolutionary Computation Techniques Overview}\label{ec}
 
