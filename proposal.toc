@@ -50,3 +50,12 @@
 \contentsline {subsection}{\numberline {3.6.1}Comparison against a previous GP-based approach}{42}
 \contentsline {subsection}{\numberline {3.6.2}Further Discussion}{43}
 \contentsline {section}{\numberline {3.7}Conclusion}{44}
+\contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{45}
+\contentsline {section}{\numberline {4.1}Proposed Contributions}{45}
+\contentsline {section}{\numberline {4.2}Overview of Project Plan}{46}
+\contentsline {section}{\numberline {4.3}Project Timeline}{46}
+\contentsline {section}{\numberline {4.4}Thesis Outline}{46}
+\contentsline {section}{\numberline {4.5}Resources Required}{48}
+\contentsline {subsection}{\numberline {4.5.1}Computing Resources}{48}
+\contentsline {subsection}{\numberline {4.5.2}Library Resources}{48}
+\contentsline {subsection}{\numberline {4.5.3}Conference Travel Grants}{49}

@@ -2,36 +2,35 @@
 
 \section{Proposed Contributions}
 
-This thesis will contribute to the field of Evolutionary Computation by proposing novel adaptations to candidate representations in an evolutionary algorithms, and to the field of Web service composition by considering multiple composition facets simultaneously. The proposed contributions of this project are listed below:
+In the previous chapter, some preliminary work has been done to the investigation the performances of direct representation and indirect representation on the proposed PSO-based approach and GP-based approach respectively. We have shown that those two approaches outperform some recent existing EC-based approaches using our proposed comprehensive quality model for evaluation. In addition to carrying a further research on the first objective, the rest three objectives outlined in the proposal will be investigated. This chapter presents the proposed contribution and project plan to guide the research direction for the thesis.
 
 \begin{enumerate}
- \item Present a new fully automated Web service composition approach that relies on a combination of planning and EC techniques. This is expected to handle composition tasks that require conditional constraints and quality optimisation simultaneously, a problem that has not yet been investigated by researchers in the area.
+ \item This thesis will develop a new fully automated semantic web service composition approach for simultaneously optimising the quality of semantic matchmaking and QoS. This is expected to be more effective and efficient at handling combinatorial optimisation problem in service composition, which is done by relying on a most effective representation, a comprehensive quality model and a motivated EC-based method with local search or AI planning techniques.
 
- \item Extend a many-objective Web service composition approach to handle solutions with conditional constraints, particularly in the case of SLA-aware Web service composition. This extension is expected to enable the optimisation of distinct execution paths independently, meaning that SLA constraints can be verified for each possible execution path. This extension will contribute to an under-explored area in the field of Web service composition.
+\item This thesis will extend on previous many-objective web service composition approach to effective and efficient explore the Pareto front of comprehensive quality-aware service composition. Apart from that, conditional constraints in SLA and customised matchmaking level is expected to handle conditional constraints on each independent objectives in comprehensive quality mode. Simutenaneouly taking all these necessary requirements is not considered in any past research. 
 
- \item Present an EC-based approach for the semantic selection of Web services in fully automated composition scenarios, as opposed to relying on the typical semi-automated usage where an abstract workflow has already been provided. This novel approach is expected to improve the selection performance of fully automated composition techniques, which currently rely on exhaustive similarity calculations.
+\item This thesis will develop an effective and efficient EC-based hybrid approach for dynamic web service composition problem. This approach is expected to better handle composition environment changes. In particular, the changes of QoS, Ontology and service repository (i.e., service failure and new service registration). These changes are not fully studied in the past and solved using the EC-based approach in the research area.
 
- \item Introduce the use of Evolutionary Computation techniques in dynamic Web service composition scenarios, leveraging the population diversity intrinsic to these approaches.
- As the composition environment changes and solutions are re-optimised and adjusted, the use of EC techniques is expected to yield solutions with better quality levels than those produced by approaches that do not perform re-optimisation.
+\item This thesis will develop EC-based hybrid approaches to a more complex and realistic semantic web service composition based on not only inputs and outputs, but precondition and postcondition. This is expected to develop a general mechanism for supporting all the service composition constructs. Those occasionally considered precondition and postconditions are not fully studied for supporting all the composition constructs and not employed in a fully automated approach either.
 \end{enumerate}
 
 \section{Overview of Project Plan}
 
-Six overall phases have been defined in the initial research plan for this PhD project, as shown in Table \ref{tab:projectOverview}. The first phase, which comprises reviewing the relevant literature, investigating an initial Web service composition approach, and producing the proposal, has been completed. The second phase, which corresponds to the first objective of the thesis, is currently in progress and is expected to be finished on time, thus allowing the remaining phases to also be carried out as planned.
+Six milestones for PhD project are defined in the initial research plan shown in Table \ref{tab:projectOverview}. The first phase of this plan has been completed, which comprising of literature view, an initial work on comprehensive quality-aware semantic web service composition and a research proposal writing.  The second phase is related to the first objective of this proposal and is currently in progress, which is covered in Chapter \ref{C:preliminary} of the proposal. The remaining phases are expected to be completed as planned.
 
 \begin{table}
 \small
 \centering
-\caption{Overall phases of project plan.}
+\caption{The milestones of PhD project plan.}
 \vspace{0.2cm}
 \begin{tabular}{|c|p{100mm}|l|}
 \hline
 Phase & Description & Duration (months) \\ \hline
-1 & Reviewing literature, developing initial planning/EC composition approach, and writing the proposal & 10 (Complete)  \\
-2 & Developing direct, indirect, and hybrid planning EC representations & 5 (In progress) \\
-3 & Investigating many-objective optimisation techniques for the planning/EC approach & 6 \\
-4 & Developing a semantic selection method suitable to planning-based composition approaches & 4 \\
-5 & Adapting the composition approach created so far to function in a dynamic environment & 5 \\
+1 & Reviewing literature, developing initial EC-based composition approach, and writing the proposal & 9 (Complete)  \\
+2 & Develop Hybrid approaches to comprehensive quality-aware automated web service composition & 6 (In progress) \\
+3 & Develop multi-objective approaches to optimise the comprehensive quality for fully automated service composition & 7 \\
+4 & Develop hybrid techniques to support dynamic semantic web service composition effectively & 8 \\
+5 & Develop hybrid approaches for semantic web service compositions based on preconditions and effects & 3 \\
 6 & Writing the thesis & 6 \\ \hline
 \end{tabular}
 \label{tab:projectOverview}
@@ -39,7 +38,7 @@ Phase & Description & Duration (months) \\ \hline
 
 \section{Project Timeline}
 
-The phases included in the plan above are estimated to be completed following the timeline shown in Table \ref{tab:projectTimeline}, which will serve as a guide throughout this project. Note that part of the first phase has already been done, therefore the timeline only shows the estimated remaining time for its full completion.
+Table \ref{tab:projectTimeline} provide an estimated timeline comprising of the minor goals and milestones, which is expected to serve as a guide and be completed through the PhD project.
 
 \begin{table}
 \small
@@ -49,27 +48,27 @@ The phases included in the plan above are estimated to be completed following th
 \begin{tabular}{|c|p{50mm}||ccc|ccc|ccc|ccc|}
 \hline
 & & \multicolumn{12}{c|}{Time in Months} \\ \hline
-Phase & Task  & 2 & 4 & 6  & 8 & 10 & 12  & 14 & 16 & 18  & 20 & 22 & 24 \\ \hline
+Phase & Task                                                & 2 & 4 & 6  & 8 & 10 & 12  & 14 & 16 & 18  & 20 & 22 & 24 \\ \hline
 n/a & Updating the literature review
-& x & x & x & x & x & x & x & x & x & x & x & x \\ 
-2 & Developing direct solution representation
-& x &   &    &   &   &    &   &   &    &   &   &   \\
-2 & Developing indirect and hybrid solution representations
-& x & x &    &   &   &    &   &   &    &   &   &   \\
-3 & Investigating unconstrained MO optimisation
-&   & x &  x & x &   &    &   &   &    &   &   &   \\
-3 & Extending MO approach to handle SLA constraints
-&   &   &    &   & x &    &   &   &    &   &   &   \\
-4 & Designing and implementing semantic selection technique
-&   &   &    &   & x & x  & x &   &    &   &   &   \\
-5 & Extending planning/EC approach to handle QoS changes
-&   &   &    &   &   &    & x & x &    &   &   &   \\
-5 & Creating a strategy for handling service failure
-&   &   &    &   &   &    &   & x & x  &   &   &   \\
-6 & Writing the first draft of the thesis 
-&   &   &    &   &   &    &   &   &    & x & x &   \\
+                                                            & x & x & x & x & x & x & x & x & x & x & x & x \\ 
+2 & Developing indirect representation utilise in a hyper-heuristics methods
+                                                            & x & x &    &   &   &    &   &   &    &   &   &   \\
+3 & Investigating unconstrained MO optimisation for semantic quality-aware service composition
+                                                            &   & x & x  &   &   &    &   &   &    &   &   &   \\
+3 & Improving performance of MO approach by integrating other techniques  
+                                                            &   &   &  x & x &   &    &   &   &    &   &   &   \\
+3 & Extending MO approach to handle constraints on SLA and semantic matchmaking level
+                                                            &   &   &    &   & x & x   &   &   &    &   &   &   \\
+4 & Develop EC-based hybrid approach to handle changes in QoS and Ontology
+                                                            &   &   &    &   &   & x  & x &   &    &   &   &   \\
+4 & Develop EC-based hybrid approach to handle service failure and new service registration
+                                                            &   &   &    &   &   &    & x & x &    &   &   &   \\
+5 & Develop EC-based hybrid approach to handle preconditions and effects.
+                                                            &   &   &    &   &   &    &   & x & x  &   &   &   \\
+6 & Writing the first thesis draft  
+                                                            &   &   &    &   &   &    &   &   &    & x & x &   \\
 6 & Editing the final draft
-&   &   &    &   &   &    &   &   &    &   & x & x \\
+                                                            &   &   &    &   &   &    &   &   &    &   & x & x \\
 \hline
 \end{tabular}
 \label{tab:projectTimeline}
@@ -77,7 +76,7 @@ n/a & Updating the literature review
 
 \section{Thesis Outline}
 
-The completed thesis will be organised into the following chapters:
+The following is an outline of the PhD thesis,  in which Chapter 6 may be replaced by Chapter 7 since it is an optimal objective.
 
 \begin{itemize}
  \item \textit{Chapter 1: Introduction}\\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  24 JUL 2017 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  26 JUL 2017 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -355,7 +355,7 @@ LaTeX Warning: Label `meanFitness' multiply defined.
 
 LaTeX Warning: Label `conclusion' multiply defined.
 
-))
+) (./plan.aux))
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -422,21 +422,21 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [0]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 105.
- (./proposal.toc)
+ (./proposal.toc [1
+
+
+])
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
 
- [1
-
-
-] [2
-
-] (./proposal.lof)
+ [2] (./proposal.lof)
 \tf@lof=\write4
 \openout4 = `proposal.lof'.
 
 
-[3] [4
+[3
+
+] [4
 
 ]
 \openout2 = `introduction.aux'.
@@ -698,23 +698,57 @@ Package pdftex.def Info: experimentExample(p-symbol).pdf  used on input line 50
 2. on input line 502.
 Package pdftex.def Info: Requested size: 396.91324pt x 359.57344pt on input lin
 e 502.
- [43 <./experimentExample(p-symbol).pdf>]) [44] (./proposal.bbl [45
+ [43 <./experimentExample(p-symbol).pdf>]) [44]
+\openout2 = `plan.aux'.
+
+ (./plan.tex
+Chapter 4.
+[45
 
 
 
 ]
-[46] [47]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[]\OT1/ppl/m/n/10 Investigating un-con-strained
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 58--59
+\OT1/ppl/m/n/10 ap-proach by in-te-grat-ing other
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 62--63
+[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 64--65
+[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 66--67
+[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
+ []
+
+[46] [47]) [48] [49] [50
+
+
+] (./proposal.bbl [51
+
+] [52] [53]
 Underfull \hbox (badness 1997) in paragraph at lines 290--294
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[48] [49] [50] [51]
+[54] [55] [56] [57]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
- [52]) [53] (./proposal.aux (./introduction.aux)
-(./review.aux) (./preliminary_work.aux))
+ [58]) [59] (./proposal.aux (./introduction.aux)
+(./review.aux) (./preliminary_work.aux) (./plan.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -723,10 +757,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6345 strings out of 493675
- 92113 string characters out of 6155645
- 191431 words of memory out of 5000000
- 9542 multiletter control sequences out of 15000+600000
+ 6356 strings out of 493675
+ 92228 string characters out of 6155645
+ 192128 words of memory out of 5000000
+ 9546 multiletter control sequences out of 15000+600000
  44696 words of font info for 115 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
  42i,19n,41p,2531b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -739,10 +773,10 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (59 pages, 533881 bytes).
+Output written on proposal.pdf (65 pages, 543206 bytes).
 PDF statistics:
- 621 PDF objects out of 1000 (max. 8388607)
- 430 compressed objects within 5 object streams
+ 640 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
