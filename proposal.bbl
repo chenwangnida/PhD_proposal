@@ -682,6 +682,12 @@
 \newblock {\em The VLDB Journal—The International Journal on Very Large Data
   Bases 17}, 3 (2008), 537--572.
 
+\bibitem{yu2007efficient}
+{\sc Yu, T., Zhang, Y., and Lin, K.-J.}
+\newblock Efficient algorithms for web services selection with end-to-end qos
+  constraints.
+\newblock {\em ACM Transactions on the Web (TWEB) 1}, 1 (2007), 6.
+
 \bibitem{yu2013adaptive}
 {\sc Yu, Y., Ma, H., and Zhang, M.}
 \newblock An adaptive genetic programming approach to qos-aware web services

@@ -2,7 +2,7 @@
 
 This chapter exhibits the two initial works for comprehensive quality-aware semantic web service composition approach, which combines a hybridization of various techniques for optimising the quality of semantic matchmaking and quality of service. In particular,  One direct representation and another indirect representation are proposed in two premilitary works using a PSO-based approach and a GP-based approach respectively. Apart from that, composition solutions are represented in a DAG or a tree-like representation,  respectively, in the two approaches. These two works are discussed in the following sections.
 
-\section{Problem Formalisation}\label{qswsc_approach}
+\section{Problem Formalisation}\label{problemDes}
 
 We consider a \emph{semantic web service} (\emph{service}, for short) as a tuple $S =(I_{S}, O_{S}, $ $QoS_S)$ where $I_{S}$ is a set of service inputs that are consumed by $S$, $O_{S}$ is a set of service outputs that are produced by $S$, and $QoS_{S}=\{t_S, c_S, r_S, a_S\}$ is a set of non-functional attributes of $S$. The inputs in $I_{S}$ and outputs in $O_{S}$ are parameters modelled through concepts in a domain-specific ontology $\mathcal{O}$. The attributes $t_S, c_S, r_S, a_S$ refer to the response time, cost, reliability, and availability of service $S$, respectively. These four QoS attributes are most commonly used \cite{zeng2003quality}.
 
@@ -237,8 +237,9 @@ which can be evaluated inductively starting with $Start$ which has no incoming e
 %Note: This needs to be modified slightly if there can be more nodes without incoming edges (other than Start). 
 
 \begin{example}
-Consider the composition task $T=(\{a, b, e\},\{ i\})$. Fig.~\ref{fig:ExampleOfRepresentation} shows an example of a composition solution. It involves four atomic services $S_1=(\{a, b \}, \{c, d, j \}, QoS_{S_1})$, $S_2=(\{c \}, \{f, g \}, QoS_{S_2})$, $S_3=(\{d \}, \{h \}, QoS_{S_3})$, and $S_4=(\{f, g, h \}, \{ i \}, QoS_{S_4})$. The two special services $Start=(\emptyset,\{a,b,e\},\emptyset)$ and $End=(\{i\},\emptyset,\emptyset)$ are defined by the given composition task $T$. The corresponding service composition expression is 
-$\cse_{Start}=\bullet(Start,\bullet( S_1,\parallel(\bullet(S_2,\bullet(S_4,End)),\bullet(S_3,\bullet(S_4,End))))).$
+Consider the composition task $T=(\{a, b, e\},\{ i\})$. Fig.~\ref{fig:ExampleOfRepresentation} shows an example of a composition solution. It involves four atomic services $S_1=(\{a, b \}, \{c, d, j \}, QoS_{S_1})$, $S_2=(\{c \}, \{f, g \}, QoS_{S_2})$, $S_3=(\{d \}, \{h \}, QoS_{S_3})$, and $S_4=(\{f, g, h \}, \{ i \}, QoS_{S_4})$. The two special services $Start=(\emptyset,\{a,b,e\},\emptyset)$ and $End=(\{i\},\emptyset,\emptyset)$ are defined by the given composition task $T$. The corresponding service composition expression is:
+
+\noindent $\cse_{Start}=\bullet(Start,\bullet( S_1,\parallel(\bullet(S_2,\bullet(S_4,End)),\bullet(S_3,\bullet(S_4,End))))).$
 \end{example}
 
 Formal expressions can be visualized by expressions trees. For a composite service expression $\cse$ let $\tree$ denote the corresponding expression tree. 
@@ -445,9 +446,9 @@ To assure a fair comparison we have used exactly the same parameter settings as 
 Our experiments indicate that our method can work consistently well under valid weight settings and parameter $p$ to be decided by users' preferences in practice.
 
 %========================================================================================= Comparison
-\subsection{Comparison against a previous GP-based approach}\label{comparisonTest}
+\subsection{Comparison against a previous GP-based approach}\label{comparisonTest2}
 
-Table~\ref{meanFitness} shows the fitness values obtained by the two GP-based approaches. To compare the results, an independent-samples T-test over 30 runs has been conducted. The results show that our GP-based approach outperforms the previous GP-based approach \cite{ma2015hybrid} in finding more optimized composition solutions for Tasks 3 and 4. (Note: the P-values are lower than 0.0001). For Tasks 1, 2 and 5, both approaches achieve the same fitness. Therefore, the overall effectiveness of our proposed approach is considered to be better. 
+Table~\ref{meanFitness_GP} shows the fitness values obtained by the two GP-based approaches. To compare the results, an independent-samples T-test over 30 runs has been conducted. The results show that our GP-based approach outperforms the previous GP-based approach \cite{ma2015hybrid} in finding more optimized composition solutions for Tasks 3 and 4. (Note: the P-values are lower than 0.0001). For Tasks 1, 2 and 5, both approaches achieve the same fitness. Therefore, the overall effectiveness of our proposed approach is considered to be better. 
 
 %Why have we conducted a independent-samples T-test rather than a Wilcoxon test?
 %We should explain better what we want to emphasize by saying "note: the P-values are lower than 0.0001"
@@ -455,7 +456,7 @@ Table~\ref{meanFitness} shows the fitness values obtained by the two GP-based ap
 \footnotesize
 \centering
 \caption{Mean fitness values for our approach in comparison to \cite{ma2015hybrid}\\ (Note: the higher the fitness the better)}
-\label{meanFitness}
+\label{meanFitness_GP}
 \begin{tabular}{l|l|l}
 \hline
 \multicolumn{1}{c|}{Task} & Our GP-based approach                  & Ma et al. approach \cite{ma2015hybrid}  \\ \hline
@@ -523,7 +524,7 @@ mutation and crossover rather than restricting them to the previously used input
 
 %How about the best solutions obtained with both approaches for Dataset 4? Can we look at them?
 %=================================================================================================== Conclusion
-\section{Conclusion}\label{conclusion}
+\section{Conclusion}\label{conclusion_GP}
 
 This work introduces an GP-based approach to comprehensive quality-aware semantic web service composition. In particular, a tree-like representation is proposed to direct cope with the evaluation of semantic matchmaking quality. Meanwhile, crossover and mutation methods are proposed to maintain the correctness of individuals. The experiment  shows that our proposed approach could effectively produce better solutions in both semantic matchmaking quality and QoS than the existing approach. Future works can investigate multi-objective EC techniques to produce a set of composition solutions for the situations when the quality preference is not provided by users.
 

@@ -1,6 +1,6 @@
 %% $RCSfile: proj_report_outline.tex,v $
-%% $Revision: 1.2 $
-%% $Date: 2010/04/23 02:40:16 $
+%% $Revision: 1.3 $
+%% $Date: 2016/06/10 03:41:54 $
 %% $Author: kevin $
 
 \documentclass[11pt
@@ -10,14 +10,9 @@
               ]{report}
 
 
-\usepackage{float,enumerate,graphicx,algorithm2e,amsmath,amssymb,url}
+\usepackage{float} % lets you have non-floating floats
 
-\usepackage[english]{babel}
-
-\SetAlgoCaptionSeparator{.\space}
-\renewcommand\AlCapFnt{\normalfont\scshape}
-
-\hyphenation{ser-vice"-o-ri-en-ted}
+\usepackage{url} % for typesetting urls
 
 %
 %  We don't want figures to float so we define
@@ -26,9 +21,38 @@
 \floatname{fig}{Figure}
 
 %% These are standard LaTeX definitions for the document
-%%                            
-\title{Multifaceted Web Service Composition}
-\author{Alexandre Sawczuk da Silva}
+%%      
+%% Personal package
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{color,graphicx,epstopdf,changepage,amsmath,amsthm,multirow,lipsum}
+\usepackage[justification=centering]{caption}
+\usepackage{blindtext}
+\usepackage[inline]{enumitem}
+\usepackage{xcolor}
+\SetAlgoCaptionSeparator{.\space}
+\renewcommand\AlCapFnt{\normalfont\scshape}
+\setlength{\algomargin}{0.7cm}
+\newtheorem{example}{Example}
+
+
+
+
+\makeatother
+
+\newcommand{\cse}{C}
+\newcommand{\gra}{\mathcal{G}}
+\newcommand{\tree}{\mathcal{T}}
+\newcommand{\rin}{\mathcal{I}}%should we skip the subscript r (for atomic services required inputs are just the inputs)?
+\newcommand{\rout}{\mathcal{O}}%should we skip the subscript r (for atomic services required outputs are just the outputs)?
+\newcommand{\prin}{\mathcal{PI}}%should we call them available inputs (rather than provided inputs)?
+
+
+%% We don't want figures to float so we define
+\newfloat{fig}{thp}{lof}[chapter]
+\floatname{fig}{Figure}
+                      
+\title{Comprehensive Quality-Aware Automated Semantic Web Service Composition}
+\author{Chen Wang}
 
 %% This file can be used for creating a wide range of reports
 %%  across various Schools
@@ -47,7 +71,7 @@
 \usepackage[font,ecs,mcompsci]{vuwproject}
 
 % You should specifiy your supervisor here with
-     \supervisors{Dr. Hui Ma, Prof. Mengjie Zhang}
+     \supervisors{Dr. Hui Ma and Dr. Aaron Chen}
 % use \supervisors if there is more than one supervisor
 
 % Unless you've used the bschonscomp or mcompsci
@@ -68,9 +92,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{abstract}
-
-Automated Web service composition is one of the holy grails of service-oriented computing, since it allows users to create an application simply by specifying the inputs the resulting application should require, the outputs it should produce, and any constraints it should respect. The composition problem has been handled using a variety of techniques, from AI planning to optimisation algorithms, however no work so far has focused on handling multiple composition facets simultaneously, producing solutions that are: (1) fully functional (i.e. fully executable, with semantically-matched inputs and outputs), (2) respect composition constraints (e.g. user can specify logical branching), (3) are optimised according to non-functional Quality of Service (QoS) measurements, and (4) respond to changes in a dynamic environment. The overall goal of this thesis is to propose a hybrid Web service composition approach that considers elements from all four facets described above when generating solutions. This approach combines elements of AI planning and of Evolutionary Computation to allow for the creation of compositions that meet all of these requirements.
-
+Automated web service composition is an NP-hard problem and it has been raising much attention in the research community due to the computational challenge and real-world applicability. QoS-aware automated service composition is one of the promising research fields and aims to find composition solutions with optimised nonfunctional attributes (i.e., QoS). The focus of our studies on service composition is to find an effective and efficient approach to comprehensive quality-aware semantic web service composition, which aims optimise semantic matchmaking quality and Quality of service (QoS) simultaneously. This focused problem was not fully explored before. the overall goal of this thesis is to \emph{develop new and effective EC-based hybrid approaches for comprehensive quality-aware automated semantic web service composition}. More specifically, the focus will be on: （1） developing EC-based hybrid approaches that could explicitly support a comprehensive quality model that jointly optimises QoS and semantic matchmaking quality, （2） developing multi-objective approaches for optimising the quality criteria that involved in the comprehensive quality model, (3) developing EC-based hybrid composition techniques for dynamic service composition while handling various changes of composition environment, and  (4) developing approaches for semantic web service composition, particularly, considering precondition and effects.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -103,7 +125,6 @@ Automated Web service composition is one of the holy grails of service-oriented 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%\bibliographystyle{ieeetr}
 \bibliographystyle{acm}
 \bibliography{bibliography}
 
