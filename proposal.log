@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  26 JUL 2017 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  27 JUL 2017 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -744,36 +744,22 @@ Overfull \hbox (10.25974pt too wide) in paragraph at lines 84--86
 sive un-der-stand-ing and analysing
  []
 
-[46] [47]
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
-
- []
+[46] [47]) [48] [49] [50
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+] (./proposal.bbl [51
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
-
- []
-
-) [48] (./proposal.bbl [49
-
-
-
-] [50] [51]
+] [52] [53]
 Underfull \hbox (badness 1997) in paragraph at lines 290--294
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[52] [53] [54] [55]
+[54] [55] [56] [57]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
- [56]) [57] (./proposal.aux (./introduction.aux)
+ [58]) [59] (./proposal.aux (./introduction.aux)
 (./review.aux) (./preliminary_work.aux) (./plan.aux))
 
 LaTeX Warning: There were undefined references.
@@ -799,10 +785,10 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (63 pages, 541869 bytes).
+Output written on proposal.pdf (65 pages, 542790 bytes).
 PDF statistics:
- 634 PDF objects out of 1000 (max. 8388607)
- 439 compressed objects within 5 object streams
+ 640 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

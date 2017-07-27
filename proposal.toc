@@ -58,4 +58,4 @@
 \contentsline {section}{\numberline {4.5}Resources Required}{48}
 \contentsline {subsection}{\numberline {4.5.1}Computing Resources}{48}
 \contentsline {subsection}{\numberline {4.5.2}Library Resources}{48}
-\contentsline {subsection}{\numberline {4.5.3}Conference Travel Grants}{48}
+\contentsline {subsection}{\numberline {4.5.3}Conference Travel Grants}{49}
