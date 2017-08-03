@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  3 AUG 2017 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  3 AUG 2017 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -734,7 +734,7 @@ Here is how much of TeX's memory you used:
  9735 multiletter control sequences out of 15000+600000
  44696 words of font info for 115 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
- 42i,19n,41p,2577b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,19n,41p,2586b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/pkg/share/texmf-di
 st/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmex10.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -745,7 +745,7 @@ st/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/share/texmf-dist/fonts/type
 1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/u
 plr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr
 /pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (65 pages, 543912 bytes).
+Output written on proposal.pdf (65 pages, 543929 bytes).
 PDF statistics:
  640 PDF objects out of 1000 (max. 8388607)
  443 compressed objects within 5 object streams
