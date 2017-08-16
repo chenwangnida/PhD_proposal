@@ -291,6 +291,10 @@ Repeated entry---line 5629 of file bibliography.bib
  : @incollection{ma2015hybrid
  :                           ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 5661 of file bibliography.bib
+ : @article{fanjiang2014semantic
+ :                              ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 5681 of file bibliography.bib
  : @article{lausen2007semantic
  :                            ,
@@ -494,45 +498,45 @@ while executing---line 1133 of file acm.bst
 Warning--can't use both volume and number fields in lecue2007making
 Warning--empty journal in mier2015integrated
 Warning--empty journal in zitzler1999evolutionary
-You've used 119 entries,
+You've used 120 entries,
             2253 wiz_defined-function locations,
-            1138 strings with 26621 characters,
-and the built_in function-call counts, 47169 in all, are:
-= -- 4640
-> -- 2223
+            1143 strings with 26819 characters,
+and the built_in function-call counts, 47493 in all, are:
+= -- 4674
+> -- 2235
 < -- 0
-+ -- 941
-- -- 794
-* -- 3636
-:= -- 7268
-add.period$ -- 356
-call.type$ -- 119
-change.case$ -- 746
++ -- 946
+- -- 798
+* -- 3665
+:= -- 7320
+add.period$ -- 359
+call.type$ -- 120
+change.case$ -- 751
 chr.to.int$ -- 0
-cite$ -- 122
-duplicate$ -- 1825
-empty$ -- 3750
-format.name$ -- 794
-if$ -- 10060
+cite$ -- 123
+duplicate$ -- 1834
+empty$ -- 3777
+format.name$ -- 798
+if$ -- 10126
 int.to.chr$ -- 0
-int.to.str$ -- 119
-missing$ -- 118
-newline$ -- 592
-num.names$ -- 238
-pop$ -- 836
+int.to.str$ -- 120
+missing$ -- 119
+newline$ -- 597
+num.names$ -- 240
+pop$ -- 839
 preamble$ -- 1
-purify$ -- 630
+purify$ -- 634
 quote$ -- 0
-skip$ -- 1309
+skip$ -- 1314
 stack$ -- 0
-substring$ -- 3133
-swap$ -- 621
+substring$ -- 3163
+swap$ -- 623
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 470
+type$ -- 474
 warning$ -- 3
-while$ -- 477
-width$ -- 122
-write$ -- 1226
-(There were 122 error messages)
+while$ -- 481
+width$ -- 123
+write$ -- 1236
+(There were 123 error messages)
