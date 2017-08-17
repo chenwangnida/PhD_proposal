@@ -498,45 +498,45 @@ while executing---line 1133 of file acm.bst
 Warning--can't use both volume and number fields in lecue2007making
 Warning--empty journal in mier2015integrated
 Warning--empty journal in zitzler1999evolutionary
-You've used 120 entries,
+You've used 119 entries,
             2253 wiz_defined-function locations,
-            1143 strings with 26942 characters,
-and the built_in function-call counts, 47493 in all, are:
-= -- 4674
-> -- 2235
+            1140 strings with 26833 characters,
+and the built_in function-call counts, 47224 in all, are:
+= -- 4650
+> -- 2218
 < -- 0
-+ -- 946
-- -- 798
-* -- 3665
-:= -- 7320
-add.period$ -- 359
-call.type$ -- 120
-change.case$ -- 751
++ -- 939
+- -- 792
+* -- 3643
+:= -- 7272
+add.period$ -- 356
+call.type$ -- 119
+change.case$ -- 745
 chr.to.int$ -- 0
-cite$ -- 123
-duplicate$ -- 1834
-empty$ -- 3777
-format.name$ -- 798
-if$ -- 10126
+cite$ -- 122
+duplicate$ -- 1825
+empty$ -- 3758
+format.name$ -- 792
+if$ -- 10073
 int.to.chr$ -- 0
-int.to.str$ -- 120
-missing$ -- 119
-newline$ -- 597
-num.names$ -- 240
-pop$ -- 839
+int.to.str$ -- 119
+missing$ -- 118
+newline$ -- 592
+num.names$ -- 238
+pop$ -- 834
 preamble$ -- 1
-purify$ -- 634
+purify$ -- 629
 quote$ -- 0
-skip$ -- 1314
+skip$ -- 1309
 stack$ -- 0
-substring$ -- 3163
-swap$ -- 623
+substring$ -- 3158
+swap$ -- 621
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 474
+type$ -- 470
 warning$ -- 3
-while$ -- 481
-width$ -- 123
-write$ -- 1236
+while$ -- 479
+width$ -- 122
+write$ -- 1227
 (There were 123 error messages)

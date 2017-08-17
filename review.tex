@@ -1,46 +1,48 @@
 \chapter{Literature Review}\label{C:review}
-In this chapter, we first introduce the background knowledge of web service composition in Section \ref{background}, i.e., functional and nonfunctional properties of web service and web service composition in Subsections \ref{service} and \ref{servicecomposition} respectively. Evolutionary Computation techniques are also briefly introduced in Subsection \ref{ec}. Followed that Section \ref{related} reviews the single-objective service composition for both EC and non-EC based approaches in Subsection \ref{singleobjective}.  Subsection  \ref{multiobjective} reviews existing works in multi-objective approaches and many-objective approaches.  Dynamic web service composition is covered in Subsection \ref{dynamicserivce}. Subsection \ref{Semantic}  discussed semantic service composition based on preconditions and postconditions. Lastly, Subsection \ref{summary} summarises some key reviews and limitations in the literature review.
+In this chapter, we first introduce the background knowledge of web service composition in Section \ref{background}, i.e., functional and nonfunctional properties of web service and web service composition in Subsections \ref{service} and \ref{servicecomposition} respectively, and service discover mechanisms are also discussed. Second, EC techniques are also briefly introduced in Subsection \ref{ec}. Followed that Section \ref{related} reviews the single-objective service composition for both EC and non-EC based approaches in Subsection \ref{singleobjective}.  Subsection  \ref{multiobjective} reviews existing works in multi-objective approaches and many-objective approaches.  Dynamic web service composition is covered in Subsection \ref{dynamicserivce}. Subsection \ref{Semantic}  discussed semantic service composition based on preconditions and postconditions. Lastly, Subsection \ref{summary} summarizes some key reviews and limitations in the literature review.
 \section{Background}\label{background}
 \subsection{Web Service}\label{service}
-We first introduce the concept of web services and a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly. Further, A Labelled Transition System \cite{agarwal2009making} is addressed with its abstract and updated model for demonstrating the behaviours of web services in Subsection \ref{functional}, which emphasises on side of the functional attributes. After demonstrating these models, we will discuss about the nonfunctional properties of web services in Subsection \ref{nonfunctional}. Apart from these, we will dicuss three main service discover mechanisms in \ref{servicediscovery}.
+%We first introduce the concept of web services and a formal model from \cite{agarwal2010d5}, where both the functional and non-functional attributes are captured uniformly. Further, A Labelled Transition System \cite{agarwal2009making} is addressed with its abstract and updated model for demonstrating the behaviors of web services in Subsection \ref{functional}, which emphasizes on side of the functional attributes. After demonstrating these models, we will discuss about the nonfunctional properties of web services in Subsection \ref{nonfunctional}. Apart from these, we will discuss three main service discover mechanisms in \ref{servicediscovery}.
 
 Web services are self-describing modules offering functionalities over the internet. The functionalities of web services are often specified by their functional attributes, which satisfy users' functional requirements and provide mechanisms to allow users to search desired service. Web services are classified into two groups based on their functionalities:  \emph{information-providing services} and \emph{world-altering services} \cite{mcilraith2001semantic}. The first type of services expect some data returned by giving inputs or nothing. For example, a service for air velocity transducer reads the wind speed and return the velocity at the time. This service does not require any inputs. On the other side, a service for city weather requires given city name to return the weather information for that specific city. Information-providing services do not produce any side effect to the world. The functionalities of these services are only inputs and outputs. The second type of services not only provide data information but also alters the status of the world by producing side effects. For example, a PayPal service will cause a deduction in the balance of users' bank account. \emph{In this proposal, we mainly focus the first type of services for first three objective. Later on, an extensive study is optimally carried for the second type of services}
 
-In realistic scenarios, the non-functional are also important. For example, users may not prefer a service with higher cost with the same functionality provided by another one. As demonstrated above, the functional attributes determine what service really does, while the non-functional attributes often refers to some quality criteria, which is considered for raking services \cite{agarwal2009making}. \emph{A Formal Model of Web Service} is demonstrated here: given a finite set $\wp$ of property types of web services and a finite set $\vartheta$ of values sets. Each property type is associated with a value set. We view a Web service as a finite set $Q$ of property instances with each property instance $q \in Q$ being of a property type$t(q) \in \wp$ that is associated with a value $v_q \in \vartheta_{t(q)}$. See Fig. \ref{fig:ws}
+As demonstrated above, the functional attributes determine what service really does, while the non-functional attributes often refers to some quality criteria, which is considered for raking services \cite{agarwal2009making}. In realistic scenarios, the non-functional are also important. For example, users may not prefer a service with higher cost with the same functionality provided by another one. Herein we will demonstrate both the functional and non-functional properties as follow:
 
-\begin{figure}
-\centerline{
-\fbox{
-\includegraphics[width=8cm]{ws.pdf}
-}}
-\caption{Property-Based Web Service Formal Model \cite{agarwal2010d5}.}
-\label{fig:ws}
-\end{figure}
+%\emph{A Formal Model of Web Service} is demonstrated here: given a finite set $\wp$ of property types of web services and a finite set $\vartheta$ of values sets. Each property type is associated with a value set. We view a Web service as a finite set $Q$ of property instances with each property instance $q \in Q$ being of a property type$t(q) \in \wp$ that is associated with a value $v_q \in \vartheta_{t(q)}$. See Fig. \ref{fig:ws}
+
+%\begin{figure}
+%\centerline{
+%\fbox{
+%\includegraphics[width=8cm]{ws.pdf}
+%}}
+%\caption{Property-Based Web Service Formal Model \cite{agarwal2010d5}.}
+%\label{fig:ws}
+%\end{figure}
 
 \subsubsection{Functional Properties of Web services}\label{functional}
 
-\emph{A Functionality Model} is demonstrated for descriping all the functionalities of  web service. This mode is represented as a Labelled Transition System (LTS): $L = (S,T,\rightarrow)$ comprises a set $S$ of states, a set $T$ of transition labels and a labeled transition relation $\rightarrow \subseteq S \times T \times S$. This transition system is established to present the actual behaviour of web services, which consists of a series of states. See Fig. \ref{fig:lts}.
+%\emph{A Functionality Model} is demonstrated for describing all the functionalities of  web service. This mode is represented as a Labelled Transition System (LTS): $L = (S,T,\rightarrow)$ comprises a set $S$ of states, a set $T$ of transition labels and a labeled transition relation $\rightarrow \subseteq S \times T \times S$. This transition system is established to present the actual behavior of web services, which consists of a series of states. See Fig. \ref{fig:lts}.
 
-\begin{figure}
-\centerline{
-\fbox{
-\includegraphics[width=14cm]{LTS.pdf}
-}}
-\caption{ The functionality of a Web Service \cite{agarwal2010d5}.}
-\label{fig:lts}
-\end{figure}
+%\begin{figure}
+%\centerline{
+%\fbox{
+%\includegraphics[width=14cm]{LTS.pdf}
+%}}
+%\caption{ The functionality of a Web Service \cite{agarwal2010d5}.}
+%\label{fig:lts}
+%\end{figure}
+%
+%\begin{itemize}
+%\item $S_i$ start state includes knowledge available to web service before the web service is invoked by inputs; 
+%\item $S_w$ state includes the inputs additional to the knowledge in 1; 
+%\item A series of state $S_1$ to $S_n$ proceed with corresponding actions $f_n$ that only occurred if each related condition $[w_i]$ is approved to be true. 
+%\item $S_o$ state contains all the outputs and all the changes performed in the knowledge base. 
+%\item $S_e$ is the end state, which is equivalent to $S_o$, since the knowledge base is not changed.
+%\end{itemize}
 
-\begin{itemize}
-\item $S_i$ start state includes knowledge available to web service before the web service is invoked by inputs; 
-\item $S_w$ state includes the inputs additional to the knowledge in 1; 
-\item A series of state $S_1$ to $S_n$ proceed with corresponding actions $f_n$ that only occurred if each related condition $[w_i]$ is approved to be true. 
-\item $S_o$ state contains all the outputs and all the changes performed in the knowledge base. 
-\item $S_e$ is the end state, which is equivalent to $S_o$, since the knowledge base is not changed.
-\end{itemize}
+The first functionality model presented above is not completely demonstrated for the internal actions, as the services provider does not want reveal all the internal functions, and it is not feasible to list a global set of property name. Therefore, \emph{An Abstract Functionality Model} is modeled by eliminating all the intermediate properties. In the abstract model of a web service, the functional properties of the web service could be identified as inputs $i$, pre-state $S_i$, outputs $o$ and post-state $S_o$. These four properties are mapped to a set of input $I$, preconditions $\phi$, a set of outputs $O$ and postcondition $\varphi$ respectively in third updated functionality model demonstrated below.
 
-The first functionality model presented above is not completely demonstrated for the internal actions, as the services provider does not want reveal all the internal functions, and it is not feasible to list a global set of property name. Therefore, \emph{An Abstract Functionality Model} is modelled by eliminating all the intermediate properties. In the abstract model of a web service, the functional properties of the web service could be identified as inputs $i$, pre-state $S_i$, outputs $o$ and post-state $S_o$. These four properties are mapped to a set of input $I$, preconditions $\phi$, a set of outputs $O$ and postcondition $\varphi$ respectively in third updated functionality model demonstrated below.
-
-In \emph{A Updated functionality Model}, a set of inputs $I$ is required by a service and a set of output $O$ is returned after the successful execution. Apart from that, the precondition $\phi$ must be hold in the knowledge base before service is invoked by passing the input $I$. To enable the interoperability of the functional properties, ontology reasoner is employed to reason about the properties of web services. To distinguish the changes between before and after service execution, these changes are modelled as property instances. For example, inputs and outputs assigned as variable names and further referenced in preconditions and postconditions, which can be distinguished as different instances from the knowledge base. In particular, preconditions is assigned to the description of requirements of inputs using logic formula. Herein the description of the formula considers the following cases that are demonstrated using Planning Domain Description Language (PDDL \cite{fox2003pddl2}):
+In \emph{A Updated functionality Model}, a set of inputs $I$ is required by a service and a set of output $O$ is returned after the successful execution. Apart from that, the precondition $\phi$ must be hold in the knowledge base before service is invoked by passing the input $I$. To enable the interoperability of the functional properties, ontology reasoner is employed to reason about the properties of web services. To distinguish the changes between before and after service execution, these changes are modeled as property instances. For example, inputs and outputs assigned as variable names and further referenced in preconditions and postconditions, which can be distinguished as different instances from the knowledge base. In particular, preconditions is assigned to the description of requirements of inputs using logic formula. Herein the description of the formula considers the following cases that are demonstrated using Planning Domain Description Language (PDDL \cite{fox2003pddl2}):
 \begin{itemize}
 \item Conditions on the type of inputs, e.g., the payment of an online shopping website is made by Visa or Cash: $\phi:(Format(payment)=Visa \cup Format(payment)=Cash)$.
 \item Relationships among inputs, e.g.,  authoried users are required for an online shopping: $\phi:(Authoried ? Useraccount)$.
@@ -66,7 +68,7 @@ The second service discovery technique  does not take classes into account, but 
 
 The third service discovery technique is based on a hybridisation of classification and functionality-based discovery. Classification hierarchy is proposed to achieve automatic semantic reasoning in hierarchical functionality. For example, a functionality class is associated with super classes and sub classes for more general functionality class and more specific functionality class respectively. However, to make a consistency of classification hierarchy, the inputs, outputs, precondition and postcondition of a functionality class must satisfy the conditions that contains all the inputs, outputs, precondition and postcondition of all the classes it is subsumed by. The advantage of this approach is to achieve better performance combining strengths of the previous two pure classifications based and functionality based approaches. While the classification hierarchy needs to be kept consistent when a new web service is published or updated.​
 
-As discussed above, the first and third approach is considered either less effective or demands to build up a consistent ontology for classes and their functional attributes. That is not the focus of our research.  \emph{In the proposal, we use the second service discovery technique for meeting the comprehensible discovery. That is, different types of ontology reasoning are utilised to approach the matchmaking as a fundamental part of service composition algorithm.}
+As discussed above, the first and third approach is considered either less effective or demands to build up a consistent ontology for classes and their functional attributes. That is not the focus of our research.  \emph{In the proposal, we use the second service discovery technique for meeting the comprehensible discovery. That is, different types of ontology reasoning are utilized to approach the matchmaking as a fundamental part of service composition algorithm.}
 
 
 
@@ -97,9 +99,11 @@ Typical steps in a workflow-based automated Web service composition solution are
 The web service lifecycle discussed above is a typical \emph{semi-automated approach}. There is a distinction between semi-automated and fully automated approaches. On the one hand, during the goal specification stage of semi-automated approach, the abstract work is already provided.  On the other hand, an abstract workflow is not provided at the stage of goal specification for \emph{fully automated service composition}. Often, fully automated service composition rely on some algorithms (e.g., Graphplan algorithm \cite{blum1997fast}) to achieve service composition, during which service workflow is gradually built up along with the service discovery and service selection at the same time. In this proposal, I concentrate on developing methods for fully automated service composition since it has been shown the flexibility. Also, herein service discovery and service selection are considered as interrelated tasks that are interleaved with the composition algorithm.
 
 \subsubsection{Functional Properties of Web Service Composition}
-Substantial work \cite{bansal2016generalized,lecue2009optimizing, lecue2007making, lecue2006formal, rao2005semantic} on semantic web service composition utilises Description logic (DL) reasoning between input and output parameters of web services for matchmaking. OWL and OWL-S are the most common semantic specifications used currently \cite{petrie2016web}, and they enable automatic selection, composition, and interoperation of Web services to implement complicated composition tasks \cite{martin2004owl}. However, some matchmaking types (discussed below) may penalise the matchmaking quality and are less preferred by users. Therefore, exploring a effective mechanism for measuring the quality of semantic matchmaking in service composition is a very demanding research area.
+Two characteristics are addressed for the functional attributes of web service composition. One is that all the inputs of component services must be matched by given task inputs or produced outputs, so that service composition can be successfully executed. Another is that users' required inputs must be a subset of all the outputs of component web services, so that a service composition goal is completed. 
 
-Given two concepts $a, b$ in ontology $\mathcal{O}$, four commonly used \emph{Matchmaking types} are often used to describe the level of a match between outputs and inputs \cite{paolucci2002semantic}: 
+In the first characteristics, the given task inputs or produced outputs often do not perfectly match the required services' inputs. Substantial work \cite{bansal2016generalized,lecue2009optimizing, lecue2007making, lecue2006formal, rao2005semantic} utilizes Description logic (DL) reasoning between input and output parameters of web services for matchmaking. For example, OWL and OWL-S are the most common semantic specifications used currently \cite{petrie2016web}, and they enable automatic selection, composition, and interoperation of Web services to implement complicated composition tasks \cite{martin2004owl}. However, in DL, different matchmaking types are considered for matchmaking, and they result in \emph{different matchmaking quality}. Therefore, exploring a effective mechanism for measuring the quality of semantic matchmaking in service composition is a very demanding research area.
+
+Different \emph{Matchmaking Types} discussed above are further demonstrated here. Given two concepts $a, b$ in ontology $\mathcal{O}$, four commonly used matchmaking types are often used to describe the level of a match between outputs and inputs \cite{paolucci2002semantic}: 
 \begin{itemize}
 \item $exact$ returned, if $a$ and $b$ are equivalent ($a \equiv b$), 
 \item $plugin$ returned, if $a$ is a sub-concept of $b$ ($a \sqsubseteq b$),
@@ -107,7 +111,9 @@ Given two concepts $a, b$ in ontology $\mathcal{O}$, four commonly used \emph{Ma
 \item $fail$ returned, if none of previous matchmaking types is returned. 
 \end{itemize}
 
-Often, the similarity of two instances of two knowledge representations encoded in the same ontology is also utilised to measure the quality of matchmaking regarding the four matchmaking types discussed above. The work \cite{lecue2007making} additionally consider $interaction$ matchmaking type ($a \sqcap b$), i.e., if the intersection of $a$ and $b$ is satisfiable. In their work, a causal link link \begin{math} sl_{i,j} \stackrel{.}{=} \langle S_i, Sim_{T}(Out\_s_i,In\_s_j),S_j  \rangle \end{math} is created between two functional property instances for a input and a output. In particular, both $exact$ match and $plugin$ match are presented as robust causal links, while both $subsume$ match and $intersection$ match are presented as valid casual links. However, valid casual links are not specific enough to be utilised as the input of another web service. Thus the output requires Extra Description to enable proper service composition using Eq. \ref{equation2}. As a result, Subsume and Intersection matching type is transferred to be Exact and PlugIn respectively to formulate a robust link. 
+%Often, the similarity of two instances of two knowledge representations encoded in the same ontology is also
+
+One method measures the quality of matchmaking regarding the four matchmaking types discussed above. In \cite{lecue2007making}, the quality of semantic matchmaking is measured by the two quality criterion, matchmaking types and common description rate. In particular, they additionally consider $interaction$ matchmaking type ($a \sqcap b$), i.e., if the intersection of $a$ and $b$ is satisfiable. In their work, a causal link \begin{math} sl_{i,j} \stackrel{.}{=} \langle S_i, Sim_{T}(Out\_s_i,In\_s_j),S_j  \rangle \end{math} is created between a input and a output. In particular, both $exact$ match and $plugin$ match are presented as robust causal links, while both $subsume$ match and $intersection$ match are presented as valid casual links. However, valid casual links are not specific enough to be utilized as the input of another web service. Thus the output requires Extra Description to enable proper service composition using Eq. \ref{equation2}. As a result, $subsume$ and $intersection$ are transferred to be $exact$ and $plugin$ respectively to formulate a robust link. Therefore, common description rate is calculated based on Extra Description and Least common subsume.
 
 \begin{equation}
 In\_s_x \setminus Out\_s_y \stackrel{.}{=} \underset {\preceq d}{min} \{ B|B\sqcap  Out\_s_y \equiv In\_s_x  \} , since \  Out\_s_y \sqsupseteq In\_s_x
@@ -115,7 +121,7 @@ In\_s_x \setminus Out\_s_y \stackrel{.}{=} \underset {\preceq d}{min} \{ B|B\sqc
 \end{equation}
 
 
-Another method for measuring similarity is discussed in \cite{shet2012new}. For concepts $a, b$ in $\mathcal{O}$ the \emph{semantic similarity} $sim(a, b)$ is calculated based on an edge counting method in a taxonomy like WorldNet or Ontology using Eq. (\ref{eq_sim}) \cite{shet2012new}. This method has the advantages of simple calculation and good performance . In Eq. (\ref{eq_sim}), $N_a$, $N_b$ and $N_c$ measure the distances from concept $a$, concept $b$, and the closest common ancestor $c$ of $a$ and $b$ to the top concept of the ontology $\mathcal{O}$, respectively. 
+Another method for measuring the quality of semantic matchmaking is discussed in \cite{shet2012new} using semantic similarity. For concepts $a, b$ in $\mathcal{O}$, semantic similarity, denoted as $sim(a, b)$, is calculated based on an edge counting method in a taxonomy like WorldNet or Ontology using Eq. (\ref{eq_sim}) \cite{shet2012new}. This method has the advantages of simple calculation and good performance . In Eq. (\ref{eq_sim}), $N_a$, $N_b$ and $N_c$ measure the distances from concept $a$, concept $b$, and the closest common ancestor $c$ of $a$ and $b$ to the top concept of the ontology $\mathcal{O}$, respectively. 
 \begin{equation}
 sim(a, b){=} \frac{2N_c \cdot e^{-\lambda L/D} }{N_{a}+N_{b}}
 \label{eq_sim}
