@@ -169,6 +169,12 @@
 \newblock {\em IEEE transactions on evolutionary computation 6}, 2 (2002),
   182--197.
 
+\bibitem{fanjiang2014semantic}
+{\sc FanJiang, Y.-Y., and Syu, Y.}
+\newblock Semantic-based automatic service composition with functional and
+  non-functional requirements in design time: A genetic algorithm approach.
+\newblock {\em Information and Software Technology 56}, 3 (2014), 352--373.
+
 \bibitem{feng2013dynamic}
 {\sc Feng, Y., Ngan, L.~D., and Kanagasabai, R.}
 \newblock Dynamic service composition with service-dependent qos attributes.
@@ -681,6 +687,12 @@
   directions.
 \newblock {\em The VLDB Journal—The International Journal on Very Large Data
   Bases 17}, 3 (2008), 537--572.
+
+\bibitem{yu2007efficient}
+{\sc Yu, T., Zhang, Y., and Lin, K.-J.}
+\newblock Efficient algorithms for web services selection with end-to-end qos
+  constraints.
+\newblock {\em ACM Transactions on the Web (TWEB) 1}, 1 (2007), 6.
 
 \bibitem{yu2013adaptive}
 {\sc Yu, Y., Ma, H., and Zhang, M.}

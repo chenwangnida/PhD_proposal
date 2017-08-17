@@ -2,12 +2,12 @@
 \contentsline {section}{\numberline {1.1}Problem Statement}{1}
 \contentsline {section}{\numberline {1.2}Motivations}{3}
 \contentsline {subsubsection}{Various Techniques of Hybridisation}{3}
-\contentsline {subsubsection}{Hybridisation of Quality of Semantic Matchmaking and Quality of Service}{4}
-\contentsline {subsubsection}{Multi-Objective Composition Optimisation}{4}
+\contentsline {subsubsection}{Comprehensive Quality of Semantic Web Service Composition}{4}
+\contentsline {subsubsection}{Multi-Objective Composition Optimization}{5}
 \contentsline {subsubsection}{Dynamic Semantic Web Service Composition}{5}
 \contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{6}
-\contentsline {section}{\numberline {1.3}Research Goals}{6}
-\contentsline {section}{\numberline {1.4}Published Papers}{10}
+\contentsline {section}{\numberline {1.3}Research Goals}{7}
+\contentsline {section}{\numberline {1.4}Published Papers}{11}
 \contentsline {section}{\numberline {1.5}Organisation of Proposal}{11}
 \contentsline {chapter}{\numberline {2}Literature Review}{13}
 \contentsline {section}{\numberline {2.1}Background}{13}
@@ -52,10 +52,10 @@
 \contentsline {section}{\numberline {3.7}Conclusion}{44}
 \contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{45}
 \contentsline {section}{\numberline {4.1}Proposed Contributions}{45}
-\contentsline {section}{\numberline {4.2}Overview of Project Plan}{45}
+\contentsline {section}{\numberline {4.2}Overview of Project Plan}{46}
 \contentsline {section}{\numberline {4.3}Project Timeline}{46}
 \contentsline {section}{\numberline {4.4}Thesis Outline}{46}
 \contentsline {section}{\numberline {4.5}Resources Required}{48}
 \contentsline {subsection}{\numberline {4.5.1}Computing Resources}{48}
 \contentsline {subsection}{\numberline {4.5.2}Library Resources}{48}
-\contentsline {subsection}{\numberline {4.5.3}Conference Travel Grants}{48}
+\contentsline {subsection}{\numberline {4.5.3}Conference Travel Grants}{49}
