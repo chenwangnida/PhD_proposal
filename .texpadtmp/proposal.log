@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  17 AUG 2017 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  17 AUG 2017 18:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -416,20 +416,15 @@ Overfull \hbox (9.05675pt too wide) in paragraph at lines 73--75
 []\OT1/ppl/b/n/10.95 Develop multi-objective ap-proaches to fully au-to-mated com-pre-hen-sive quality-aware
  []
 
-[8] [9]
-Overfull \hbox (12.22995pt too wide) in paragraph at lines 92--93
-\OT1/ppl/m/n/10.95 we could ei-ther ef-fi-ciently mu-tate the so-lu-tions can-di-dates par-tially on un-invokable
- []
-
-[10]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 115.
+[8] [9] [10]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 114.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
 
-Overfull \hbox (8.35458pt too wide) in paragraph at lines 116--117
+Overfull \hbox (8.35458pt too wide) in paragraph at lines 115--116
 \OT1/ppl/m/n/10.95 pre-hen-sive quality-aware au-to-mated se-man-tic web ser-vice com-po-si-tion``. In: SEAL2017:
  []
 
@@ -647,7 +642,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  42i,19n,41p,2537b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 536163 bytes).
+Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 536147 bytes).
 PDF statistics:
  636 PDF objects out of 1000 (max. 8388607)
  440 compressed objects within 5 object streams
