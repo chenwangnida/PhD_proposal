@@ -112,8 +112,9 @@ Different \emph{Matchmaking Types} discussed above are further demonstrated here
 \end{itemize}
 
 %Often, the similarity of two instances of two knowledge representations encoded in the same ontology is also
+To our best knowledge, three methods  \cite{lecue2007making, pop2009immune,shet2012new} are utilized for measuring the quality of semantic matchmaking in the domain of service composition.
 
-One method measures the quality of matchmaking regarding the four matchmaking types discussed above. In \cite{lecue2007making}, the quality of semantic matchmaking is measured by the two quality criterion, matchmaking types and common description rate. In particular, they additionally consider $interaction$ matchmaking type ($a \sqcap b$), i.e., if the intersection of $a$ and $b$ is satisfiable. In their work, a causal link \begin{math} sl_{i,j} \stackrel{.}{=} \langle S_i, Sim_{T}(Out\_s_i,In\_s_j),S_j  \rangle \end{math} is created between a input and a output. In particular, both $exact$ match and $plugin$ match are presented as robust causal links, while both $subsume$ match and $intersection$ match are presented as valid casual links. However, valid casual links are not specific enough to be utilized as the input of another web service. Thus the output requires Extra Description to enable proper service composition using Eq. \ref{equation2}. As a result, $subsume$ and $intersection$ are transferred to be $exact$ and $plugin$ respectively to formulate a robust link. Therefore, common description rate is calculated based on Extra Description and Least common subsume.
+The first method measures the quality of matchmaking regarding the different matchmaking types. In \cite{lecue2007making}, the quality of semantic matchmaking is measured by the two quality criterion, matchmaking types and common description rate. In particular, they additionally consider $interaction$ matchmaking type ($a \sqcap b$), i.e., if the intersection of $a$ and $b$ is satisfiable. In their work, a causal link \begin{math} sl_{i,j} \stackrel{.}{=} \langle S_i, Sim_{T}(Out\_s_i,In\_s_j),S_j  \rangle \end{math} is created between a input and a output. In particular, both $exact$ match and $plugin$ match are presented as robust causal links, while both $subsume$ match and $intersection$ match are presented as valid casual links. However, valid casual links are not specific enough to be utilized as the input of another web service. Thus the output requires Extra Description, denoted as \begin{math} In\_s_x \setminus Out\_s_y \end{math}, to enable proper service composition using Eq. \ref{equation2}. As a result, $subsume$ and $intersection$ are transferred to be $exact$ and $plugin$ respectively to formulate a robust link. Therefore, common description rate, \begin{math} q_{cd}(sl_{i,j}) \end{math}is calculated based on Extra Description and Least common subsume, denoted as \begin{math} lcs (In\_s_x, Out\_s_y) \end{math}, using Eq. \ref{equation2}..
 
 \begin{equation}
 In\_s_x \setminus Out\_s_y \stackrel{.}{=} \underset {\preceq d}{min} \{ B|B\sqcap  Out\_s_y \equiv In\_s_x  \} , since \  Out\_s_y \sqsupseteq In\_s_x
@@ -121,12 +122,21 @@ In\_s_x \setminus Out\_s_y \stackrel{.}{=} \underset {\preceq d}{min} \{ B|B\sqc
 \end{equation}
 
 
-Another method for measuring the quality of semantic matchmaking is discussed in \cite{shet2012new} using semantic similarity. For concepts $a, b$ in $\mathcal{O}$, semantic similarity, denoted as $sim(a, b)$, is calculated based on an edge counting method in a taxonomy like WorldNet or Ontology using Eq. (\ref{eq_sim}) \cite{shet2012new}. This method has the advantages of simple calculation and good performance . In Eq. (\ref{eq_sim}), $N_a$, $N_b$ and $N_c$ measure the distances from concept $a$, concept $b$, and the closest common ancestor $c$ of $a$ and $b$ to the top concept of the ontology $\mathcal{O}$, respectively. 
+\begin{equation}
+q_{cd}(sl_{i,j}) = \frac{lcs (In\_s_x, Out\_s_y)} {In\_s_x \setminus Out\_s_y + lcs (In\_s_x, Out\_s_y)}
+ \label{equation3}
+\end{equation}
+
+The second method for measuring the quality of semantic matchmaking adopting a similarity measurement from information retrieval. In \cite{pop2009immune}, the similarity is calculated by the average value of $F\_Measure(S_i.out_k, S_j.in_k)$. $F\_Measure(S_i.out_k, S_j.in_k)$ measures the similarity of two matched output $S_i.out_k$ and input $S_j.in_k$, and it is calculated based the precision and the recall between these two parameters.
+
+
+The third method for measuring the quality of semantic matchmaking is discussed in \cite{shet2012new} using semantic similarity. For concepts $a, b$ in $\mathcal{O}$, semantic similarity, denoted as $sim(a, b)$, is calculated based on an edge counting method in a taxonomy like WorldNet or Ontology using Eq. (\ref{eq_sim}) \cite{shet2012new}. This method has the advantages of simple calculation and good performance . In Eq. (\ref{eq_sim}), $N_a$, $N_b$ and $N_c$ measure the distances from concept $a$, concept $b$, and the closest common ancestor $c$ of $a$ and $b$ to the top concept of the ontology $\mathcal{O}$, respectively.  $L$ is the shortest distance between the two concepts, $a$ and $b$, while $D$ is the depth of ontology tree. Also, $\lambda$ equals 1 for neighborhood concepts or 0 for concepts from same hierarchy.
+
 \begin{equation}
 sim(a, b){=} \frac{2N_c \cdot e^{-\lambda L/D} }{N_{a}+N_{b}}
 \label{eq_sim}
 \end{equation}
-\noindent For our purposes, $\lambda$ can be set to 0 as we do not measure the similarities of neighbourhood concepts, the matching type not considered in this paper. 
+\noindent For our purposes, $\lambda$ can be set to 0 as we do not measure the similarities of neighborhood concepts, the matching type not considered in this paper. 
 
 \emph{In this paper we are only interested in robust compositions, where only $exact$ and $plugin$ matches are considered, and we suggest to consider the semantic similarity of concepts when comparing different $plugin$ matches}. As argued in \cite{lecue2009optimizing} $plugin$ matches are less preferable than $exact$ matches due to the overheads associated with data processing
 
