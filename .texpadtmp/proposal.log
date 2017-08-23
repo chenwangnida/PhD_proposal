@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  18 AUG 2017 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  18 AUG 2017 14:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -453,42 +453,44 @@ Overfull \hbox (4.19653pt too wide) in paragraph at lines 133--134
 \OT1/ppl/m/n/10.95 [[]] us-ing se-man-tic sim-i-lar-ity. For con-cepts $\OML/zplm/m/it/10.95 a\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 b$ \OT1/ppl/m/n/10.95 in $\OMS/zplm/m/n/10.95 O$\OT1/ppl/m/n/10.95 , se-man-tic sim-i-lar-ity, de-noted as $\OML/zplm/m/it/10.95 sim\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 a\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 b\OT1/zplm/m/n/10.95 )$\OT1/ppl/m/n/10.95 ,
  []
 
-[18] <sequence.pdf, id=105, 371.3875pt x 44.165pt>
+[18] <sequence.pdf, id=106, 371.3875pt x 44.165pt>
 File: sequence.pdf Graphic file (type pdf)
  <use sequence.pdf>
 Package pdftex.def Info: sequence.pdf used on input line 162.
 (pdftex.def)             Requested size: 130.08621pt x 15.4701pt.
- <parallel.pdf, id=106, 269.005pt x 143.53625pt>
+ <parallel.pdf, id=107, 269.005pt x 143.53625pt>
 File: parallel.pdf Graphic file (type pdf)
  <use parallel.pdf>
 Package pdftex.def Info: parallel.pdf used on input line 176.
 (pdftex.def)             Requested size: 101.17755pt x 53.98584pt.
- <choice.pdf, id=107, 269.005pt x 143.53625pt>
+ <choice.pdf, id=108, 269.005pt x 143.53625pt>
 File: choice.pdf Graphic file (type pdf)
  <use choice.pdf>
 Package pdftex.def Info: choice.pdf used on input line 186.
 (pdftex.def)             Requested size: 101.17755pt x 53.98584pt.
- <loop.pdf, id=108, 247.92625pt x 67.25125pt>
+ <loop.pdf, id=109, 247.92625pt x 67.25125pt>
 File: loop.pdf Graphic file (type pdf)
  <use loop.pdf>
 Package pdftex.def Info: loop.pdf used on input line 196.
 (pdftex.def)             Requested size: 101.17755pt x 27.4449pt.
+ [19 <./sequence.pdf> <./parallel.pdf> <./choice.pdf> <./loop.pdf>]
+Underfull \vbox (badness 1320) has occurred while \output is active []
 
+ [20]
+Underfull \vbox (badness 1152) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ [21]
+Underfull \vbox (badness 2035) has occurred while \output is active []
 
-[19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <./sequence.pdf> <./parallel.pdf> <./choice.pdf> <./loop.pdf>] [21] [22] [23] [24]
+ [22] [23] [24]
 Overfull \hbox (12.8214pt too wide) in paragraph at lines 267--268
 \OT1/ppl/m/n/10.95 of a group of ants for op-ti-mis-ing the tra-versed for-ag-ing path, where the strength of pheromones
  []
 
+[25] [26]
+Underfull \vbox (badness 1354) has occurred while \output is active []
 
-Underfull \vbox (badness 1152) has occurred while \output is active []
-
- [25] [26] [27] [28]) [29]
+ [27] [28]) [29]
 \openout2 = `preliminary_work.aux'.
 
  (./preliminary_work.tex [30
@@ -640,7 +642,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  42i,19n,41p,2537b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 508577 bytes).
+Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 507596 bytes).
 PDF statistics:
  585 PDF objects out of 1000 (max. 8388607)
  404 compressed objects within 5 object streams
