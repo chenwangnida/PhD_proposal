@@ -186,12 +186,6 @@
 \newblock Evolutionary algorithms in control systems engineering: a survey.
 \newblock {\em Control engineering practice 10}, 11 (2002), 1223--1241.
 
-\bibitem{fox2003pddl2}
-{\sc Fox, M., and Long, D.}
-\newblock Pddl2. 1: An extension to pddl for expressing temporal planning
-  domains.
-\newblock {\em Journal of artificial intelligence research\/} (2003).
-
 \bibitem{gao2005web}
 {\sc Gao, A., Yang, D., Tang, S., and Zhang, M.}
 \newblock Web service composition using integer programming-based models.
