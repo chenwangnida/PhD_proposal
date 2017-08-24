@@ -5,11 +5,6 @@
 \newblock D5. 3.1 first service discovery prototype.
 \newblock {\em Deliverable D5 3\/} (2009).
 
-\bibitem{agarwal2010d5}
-{\sc Agarwal, S., Junghans, M., and Norton, B.}
-\newblock D5. 3.2 second service discovery prototype.
-\newblock {\em Deliverable D5 3\/} (2009).
-
 \bibitem{agarwal2009making}
 {\sc Agarwal, S., Lamparter, S., and Studer, R.}
 \newblock Making web services tradable: A policy-based approach for specifying
@@ -76,6 +71,18 @@
   {OWL-DL} and rules.
 \newblock {\em Service Oriented Computing and Applications 8}, 3 (2014),
   221--238.
+
+\bibitem{branke2005integrating}
+{\sc Branke, J., and Deb, K.}
+\newblock Integrating user preferences into evolutionary multi-objective
+  optimization.
+\newblock In {\em Knowledge incorporation in evolutionary computation}.
+  Springer, 2005, pp.~461--477.
+
+\bibitem{branke2001guidance}
+{\sc Branke, J., Kau{\ss}ler, T., and Schmeck, H.}
+\newblock Guidance in evolutionary multi-objective optimization.
+\newblock {\em Advances in Engineering Software 32}, 6 (2001), 499--507.
 
 \bibitem{canfora2005approach}
 {\sc Canfora, G., Di~Penta, M., Esposito, R., and Villani, M.~L.}
@@ -190,12 +197,6 @@
 {\sc Fleming, P.~J., and Purshouse, R.~C.}
 \newblock Evolutionary algorithms in control systems engineering: a survey.
 \newblock {\em Control engineering practice 10}, 11 (2002), 1223--1241.
-
-\bibitem{fox2003pddl2}
-{\sc Fox, M., and Long, D.}
-\newblock Pddl2. 1: An extension to pddl for expressing temporal planning
-  domains.
-\newblock {\em Journal of artificial intelligence research\/} (2003).
 
 \bibitem{gao2005web}
 {\sc Gao, A., Yang, D., Tang, S., and Zhang, M.}

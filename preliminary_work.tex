@@ -148,7 +148,7 @@ Algorithm  \ref{graph_building} is a forward graph building algorithm extended f
 \label{graph_building}
 \end{algorithm} 
 
-\section{PSO-based Approach Experiment Study}\label{experiment_design}
+\section{Experiment Study for PSO-based Approach}\label{experiment_design}
 In this section, we employ a quantitative evaluation approach with a benchmark dataset used in \cite{ma2015hybrid,da2016genetic}, which is an augmented version of Web Service Challenge 2009 (WSC09) including QoS attributes. Two objectives of this evaluation are to: $(1)$ evaluate the effectiveness of our PSO-based approach, see comparison test in Section \ref{comparisonTestWithGP}. $(2)$ evaluate the effectiveness of our proposed comprehensive quality model to achieve a desirable balance on semantic matchmaking quality and QoS, see comparison test in Section \ref{comparisonTest}.
 
 The parameters for the PSO are chosen from the settings from \cite{shi2001particle}, In particular, PSO population size is 30 with 100 generations. We run 30 times independently for each dataset. We configure the weights of fitness function to properly balance semantic matchmaking quality and QoS. Therefore, $w_{1}$ and $w_{2}$ are set equally to 0.25, and $w_{3}$, $w_{4}$, $w_{5}$, $w_{6}$ are all set to 0.125. The $p$ of $type_e$ is set to 0.75 ($plugin$ match) according to \cite{lecue2009optimizing}. In general, weight settings and parameter $p$ are decided according to users' preferences.
@@ -213,9 +213,9 @@ To analyse the effectiveness of achieving a good comprehensive quality at the ex
  \label{comparisontest}
 \end{figure}
 
-\section{Conclusion}\label{conclusion}
+\section{Summary for PSO-based Approach}\label{summary1}
 
-In this work, we propose an effective PSO-based approach to comprehensive quality-aware semantic web service composition, which also has shown promise in achieving a better comprehensive quality in terms of a combination of semantic matchmaking quality and QoS compared to existing works. Future works can investigate multi-objective EC techniques to produce a set of composition solutions for the situations when the quality preference is not known.
+In PSO-based approach, we propose an effective PSO-based approach to comprehensive quality-aware semantic web service composition, which also has shown promise in achieving a better comprehensive quality in terms of a combination of semantic matchmaking quality and QoS compared to existing works.
 %=================================================================================================== GP Approach
 \section{GP-based Approach}\label{GPApproach}
 
@@ -432,7 +432,7 @@ A mutation operation replaces a subtree of the selected individual (its attribut
 
 Note: The set of available nodes considered for crossover  and mutation do not include $Start$ and $End$, and their parent nodes, because these nodes remain the same for all individuals.  In addition, the nodes selected for crossover and mutation must not break the functionality of $q$ symbols. For example, in Fig. \ref{fig:ExampleOfRepresentation}, both sequential composition $\cse_2$ and $\cse_3 $ are not considered for crossover and mutation as they break the edge of $q$ symbol, but the parallel composition $\cse_{\parallel}$ can be considered for genetic operations, as it may bring a new fully functional $q$ symbol or a subtree without $q$ symbol involved. The pointed subtree $\cse_4$ could also be selected for genetic operations. 
 %=================================================================================================== Experiments
-\section{GP-based Approach Experiment Study}\label{experiment_study}
+\section{Experiment Study for GP-based Approach}\label{experiment_study}
 
 We have conducted experiments to evaluate our proposed approach. 
 For our experiments we have used the benchmark datasets originating from OWLS-TC \cite{kuster2008opossum} , which have been extended with real-world QoS attributes and five composition tasks \cite{ma2015hybrid}. To explore the effectiveness and efficiency of our proposed GP-based approach, we compare it against one recent GP-based approach \cite{ma2015hybrid}. For that we have extended the later approach by our proposed comprehensive quality model, so that semantic matchmaking quality can be computed based on the parent-child relationship in the underlying tree representations. 
@@ -524,9 +524,11 @@ mutation and crossover rather than restricting them to the previously used input
 
 %How about the best solutions obtained with both approaches for Dataset 4? Can we look at them?
 %=================================================================================================== Conclusion
-\section{Conclusion}\label{conclusion_GP}
+\section{Summary for GP-based Approach}\label{summary2}
 
-This work introduces an GP-based approach to comprehensive quality-aware semantic web service composition. In particular, a tree-like representation is proposed to direct cope with the evaluation of semantic matchmaking quality. Meanwhile, crossover and mutation methods are proposed to maintain the correctness of individuals. The experiment  shows that our proposed approach could effectively produce better solutions in both semantic matchmaking quality and QoS than the existing approach. Future works can investigate multi-objective EC techniques to produce a set of composition solutions for the situations when the quality preference is not provided by users.
+In this work, we introduces a novel GP-based approach to comprehensive quality-aware semantic web service composition. In particular, a tree-like representation is proposed to direct cope with the evaluation of semantic matchmaking quality. Meanwhile, crossover and mutation methods are proposed to maintain the correctness of individuals. The experiment  shows that our proposed approach could effectively produce better solutions in both semantic matchmaking quality and QoS than the existing approach.
 
+\section{Conclusion}\label{summary2}
+In the preliminary work, we propose and formalize a novel and effective comprehensive quality model for simultaneously optimise QoS and quality of semantic matchmaking. Apart from that, two novel and effective EC-based methods are proposed for comprehensive quality-aware semantic web service composition. In particular, indirect and direct representations are designed for studying their effectiveness and efficiency along with the EC-based methods. Overall experiment studies show both two methods reach good performances comparing to existing works. Also, it indicates that indirect representation utilised in PSO-based approach outperforms direct representation GP-based approach for finding more effective solutions. This finding will guild us to work on a more effective indirect presentation along with PSO-based memetic method.
 %=================================================================================================== Bibliography
 %The bibliography can be improved. Remove unnecessary bibliographic information from some of the items. Make sure that QoS is not shown as qos.
