@@ -104,6 +104,13 @@
 \newblock In {\em Web Services (ICWS), 2014 IEEE International Conference on\/}
   (2014), IEEE, pp.~1--8.
 
+\bibitem{cheng2015reference}
+{\sc Cheng, R., Olhofer, M., and Jin, Y.}
+\newblock Reference vector based a posteriori preference articulation for
+  evolutionary multiobjective optimization.
+\newblock In {\em Evolutionary Computation (CEC), 2015 IEEE Congress on\/}
+  (2015), IEEE, pp.~939--946.
+
 \bibitem{curbera2002unraveling}
 {\sc Curbera, F., Duftler, M., Khalaf, R., Nagy, W., Mukhi, N., and
   Weerawarana, S.}
@@ -208,6 +215,11 @@
 {\sc Garey, M.~R., and Johnson, D.~S.}
 \newblock A guide to the theory of np-completeness.
 \newblock {\em WH Freemann, New York 70\/} (1979).
+
+\bibitem{giagkiozis2014pareto}
+{\sc Giagkiozis, I., and Fleming, P.~J.}
+\newblock Pareto front estimation for decision making.
+\newblock {\em Evolutionary computation 22}, 4 (2014), 651--678.
 
 \bibitem{guinard2009discovery}
 {\sc Guinard, D., Trifa, V., Spiess, P., Dober, B., and Karnouskos, S.}
@@ -559,6 +571,12 @@
   selection problem in web service composition.
 \newblock In {\em Evolutionary Computation (CEC), 2010 IEEE Congress on\/}
   (2010), IEEE, pp.~1--8.
+
+\bibitem{van2000multiobjective}
+{\sc Van~Veldhuizen, D.~A., and Lamont, G.~B.}
+\newblock Multiobjective evolutionary algorithms: Analyzing the
+  state-of-the-art.
+\newblock {\em Evolutionary computation 8}, 2 (2000), 125--147.
 
 \bibitem{van2000measuring}
 {\sc Van~Veldhuizen, D.~A., and Lamont, G.~B.}
