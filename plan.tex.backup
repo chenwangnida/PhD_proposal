@@ -2,21 +2,21 @@
 
 \section{Proposed Contributions}
 
-In the previous chapter, some preliminary work has been done to the investigation the performances of direct representation and indirect representation on the proposed PSO-based approach and GP-based approach respectively. We have shown that those two approaches outperform some recent existing EC-based approaches using our proposed comprehensive quality model for evaluation. In addition to carrying a further research on the first objective, the rest three objectives outlined in the proposal will be investigated. This chapter presents the proposed contribution and project plan to guide the research direction for the thesis.
+In the previous chapter, some preliminary work has been done to investigaete the performances of direct representation and indirect representation on the proposed PSO-based approach and GP-based approach respectively. We have shown that those two approaches outperform some recent existing EC-based approaches using our proposed comprehensive quality evaluation model. To carry a further research on the remaining subbjective for objective one and the rest three objectives outlined in the proposal, we present the proposed contribution and project plan to guide the research direction for the thesis in this chapter.
 
 \begin{enumerate}
- \item This thesis will develop a new fully automated semantic web service composition approach for simultaneously optimising the quality of semantic matchmaking and QoS. This is expected to be more effective and efficient at handling combinatorial optimisation problem in service composition, which is done by relying on a most effective representation, a comprehensive quality model and a motivated EC-based method with local search or AI planning techniques.
+ \item This thesis will develop a new fully automated semantic web service composition approach for simultaneously optimising the quality of semantic matchmaking and QoS. We expect that more effective and efficient methods for handling novel combinatorial optimisation problem for semantic web service composition, which is done by relying on effective representations, a comprehensive quality model and a motivated EC-based method with local search or AI planning techniques.
 
-\item This thesis will extend on previous many-objective web service composition approach to effective and efficient explore the Pareto front of comprehensive quality-aware service composition. Apart from that, conditional constraints in SLA and customised matchmaking level is expected to handle conditional constraints on each independent objectives in comprehensive quality mode. Simutenaneouly taking all these necessary requirements is not considered in any past research. 
+\item This thesis will extend on previous multi-objective web service composition approach to effectively and efficiently explore the Pareto front of comprehensive quality-aware service composition. Apart from that, conditional constraints in SLA and customised matchmaking level is expected to handle conditional constraints on each independent objectives in comprehensive quality mode. Simutenaneouly taking all these necessary requirements is not considered in any past research.
 
-\item This thesis will develop an effective and efficient EC-based hybrid approach for dynamic web service composition problem. This approach is expected to better handle composition environment changes. In particular, the changes of QoS, Ontology and service repository (i.e., service failure and new service registration). These changes are not fully studied in the past and solved using the EC-based approach in the research area.
+\item This thesis will develop an effective and efficient EC-based hybrid approach for dynamic web service composition problem. This approach is expected to better handle composition environment changes. In particular, the changes of QoS, Ontology and service repository (i.e., service failure and new service registration). These changes are not fully studied in the past and solved using motivated EC-based approaches.
 
-\item This thesis will develop EC-based hybrid approaches to a more complex and realistic semantic web service composition based on not only inputs and outputs, but precondition and postcondition. This is expected to develop a general mechanism for supporting all the service composition constructs. Those occasionally considered precondition and postconditions are not fully studied for supporting all the composition constructs and not employed in a fully automated approach either.
+\item This thesis will develop EC-based hybrid approaches to a more complex and realistic semantic web service composition based on not only inputs and outputs, but preconditions and postconditions. We expected a general mechanism is developed for supporting all the service composition constructs. Those occasionally considered precondition and postconditions are not fully studied for supporting all the composition constructs and not employed in a fully automated approach either.
 \end{enumerate}
 
 \section{Overview of Project Plan}
 
-Six milestones for PhD project are defined in the initial research plan shown in Table \ref{tab:projectOverview}. The first phase of this plan has been completed, which comprising of literature view, an initial work on comprehensive quality-aware semantic web service composition and a research proposal writing.  The second phase is related to the first objective of this proposal and is currently in progress, which is covered in Chapter \ref{C:preliminary} of the proposal. The remaining phases are expected to be completed as planned.
+Six milestones for PhD project are defined in the initial research plan shown in Table \ref{tab:projectOverview}. The first phase of this plan has been completed, which comprising of literature view, two initial works on comprehensive quality-aware semantic web service composition and a research proposal writing. The second phase is related to the first objective of this proposal and is currently in progress, which is covered in Chapter \ref{C:preliminary} of the proposal. The remaining phases are expected to be completed as planned.
 
 \begin{table}
 \small
@@ -27,7 +27,7 @@ Six milestones for PhD project are defined in the initial research plan shown in
 \hline
 Phase & Description & Duration (months) \\ \hline
 1 & Reviewing literature, developing initial EC-based composition approach, and writing the proposal & 9 (Complete)  \\
-2 & Develop Hybrid approaches to comprehensive quality-aware automated web service composition & 6 (In progress) \\
+2 & Develop hybrid approaches to comprehensive quality-aware automated web service composition & 6 (In progress) \\
 3 & Develop multi-objective approaches to optimise the comprehensive quality for fully automated service composition & 7 \\
 4 & Develop hybrid techniques to support dynamic semantic web service composition effectively & 8 \\
 5 & Develop hybrid approaches for semantic web service compositions based on preconditions and effects & 3 \\
@@ -52,15 +52,17 @@ Phase & Task                                                & 2 & 4 & 6  & 8 & 1
 n/a & Updating the literature review
                                                             & x & x & x & x & x & x & x & x & x & x & x & x \\ 
 2 & Developing indirect representation utilise in a hyper-heuristics methods
-                                                            & x &   &    &   &   &    &   &   &    &   &   &   \\
-3 & Investigating unconstrained MO optimisation for semantic quality-aware service composition
                                                             & x & x &    &   &   &    &   &   &    &   &   &   \\
+3 & Investigating unconstrained MO optimisation for semantic quality-aware service composition
+                                                            &   & x & x  &   &   &    &   &   &    &   &   &   \\
 3 & Improving performance of MO approach by integrating other techniques  
-                                                            &   & x &  x & x &   &    &   &   &    &   &   &   \\
+                                                            &   &   &  x & x &   &    &   &   &    &   &   &   \\
 3 & Extending MO approach to handle constraints on SLA and semantic matchmaking level
-                                                            &   &   &    &   & x &    &   &   &    &   &   &   \\
+                                                            &   &   &    & x & x &    &   &   &    &   &   &   \\
+3 & Extending MO approach to integrate user preferences
+                                                            &   &   &    &   & x & x   &   &   &    &   &   &   \\
 4 & Develop EC-based hybrid approach to handle changes in QoS and Ontology
-                                                            &   &   &    &   & x & x  & x &   &    &   &   &   \\
+                                                            &   &   &    &   &   & x  & x &   &    &   &   &   \\
 4 & Develop EC-based hybrid approach to handle service failure and new service registration
                                                             &   &   &    &   &   &    & x & x &    &   &   &   \\
 5 & Develop EC-based hybrid approach to handle preconditions and effects.
@@ -76,33 +78,33 @@ n/a & Updating the literature review
 
 \section{Thesis Outline}
 
-The completed thesis will be organised into the following chapters:
+The following is an outline of the PhD thesis,  in which Chapter 6 may be replaced by Chapter 7 since it is an optimal objective.
 
 \begin{itemize}
  \item \textit{Chapter 1: Introduction}\\
- This chapter will introduce the thesis, providing a problem statement and motivations, defining research goals and contributions, and outlining the structure of this dissertation.
+ This chapter covers a problem statement, motivations, research goals, contributions, and organisation of the thesis.
  \item \textit{Chapter 2: Literature Review}\\
- The literature review will examine the existing work on Web service composition, discussing the fundamental concepts in this field in order to provide the reader with the necessary background. Multiple sections will then follow, each of them analysing the problem from a different angle, considering issues such as QoS-aware composition, semantic selection, and composition methods for dynamic environments. The focus of this review is on investigating composition techniques that are based on Evolutionary Computation and on AI planning.
- \item \textit{Chapter 3: A Hybrid Planning/EC Approach to Web Service Composition}\\
- This chapter will introduce a new approach to Web service composition that combines elements of AI planning with Evolutionary Computation techniques. One of the critical aspects of this new approach is the representation of composition candidates, therefore multiple representation possibilities will be analysed and compared to identify the most suitable model. 
- \item \textit{Chapter 4: Many-Objective Optimisation of Compositions with Multiple Paths}\\
- In this chapter, many-objective optimisation techniques will be employed to allow each quality dimension of compositions to be improved independently. After investigating these techniques in an unconstrained manner, SLA constraints will also be considered. While these constraints add to the complexity of the problem, they may also prove useful when filtering potential solutions, thus experiments comparing the constrained and unconstrained approaches will be conducted.
- \item \textit{Chapter 5: Semantic Web Service Selection in a Planning-Based Composition Technique}\\
- A novel semantic approach for selecting which services are to be included in the composition will be proposed in this chapter. This approach focuses on selecting candidate services to be used in a planning-based composition technique without relying on precalculated semantic distances, as existing approaches have done. A comparison will be performed between this novel approach and the those that rely on precalculations.
- \item \textit{Chapter 6: EC-Based Compositions in a Dynamic Environment}\\
- This chapter will extend the composition technique discussed throughout this thesis to work in dynamic environments. Firstly, a way of re-optimising solutions as quality values fluctuate will be proposed, and then an approach for responding to service faults will be discussed. The extended technique will be compared against the existing dynamic composition approaches, which do not use EC techniques, to establish whether there are quality gains in the solutions produced.
+This chapter initially provides some fundamental concepts for demonstrating the background of service composition. followed, a comprehensive understanding and analysing of existing work on the web service composition.  In particular, four research directions for web service composition are investigated: single-objective approach, multi-objective approach, dynamic service composition and semantic web service composition.  However, the techniques are mainly focused on EC-based approaches
+ \item \textit{Chapter 3: A Hybrid Approach to comprehensive Quality-Aware Web Service Composition}\\
+This chapter will introduce new and effective hybrid approaches that combine EC-based techniques and other searching methods. These approaches are developed to effective and efficient handle comprehensive quality-aware service composition problems. Apart from that, the performance of different direct/indirect representations is also investigated here.
+ \item \textit{Chapter 4: Develop Multi-Objective Approaches to Comprehensive Quality-Aware Semantic Service Composition}\\
+This chapter will demonstrate our multi-objective approaches, which optimises every quality criteria of comprehensive quality independently for automated semantic web service composition. Constraints on SLA and customised matchmaking levels are also considered in the multi-objective approaches. Apart from that, user preferences are integrated into Multi-Objective Approaches.
+ \item \textit{Chapter 5: Develop hybrid techniques to support dynamic semantic web service composition effectively}\\
+This chapter will discuss effective hybrid approaches for dynamic semantic web service composition. Effective and efficient EC-based hybrid methods are developed to handle service composition problems regarding the changes in QoS and Ontology and service repository (i.e., service failure new service registration). Those approaches are compared with existing dynamic service composition approaches, which do not utilise EC techniques.
+ \item \textit{Chapter 6: Develop hybrid approaches for semantic web service compositions based on preconditions and effects}\\
+This chapter will discuss semantic service composition problems by utilising a proposed matchmaking mechanism of preconditions and postconditions, which fully support different composition constructs, such as loop and choice. These problems will be approached by EC-based hybrid methods focusing on improving their performance in both effectiveness and efficiency.
  \item \textit{Chapter 7: Conclusions and Future Work}\\
- In this chapter, conclusions will be drawn from the analysis and experiments conducted in the different phases of this research, and the main findings for each one of them will be summarised. Additionally, future research directions will be discussed.
+This chapter concludes all the contributions made by the developed approaches in each objective. In addition, the limitations are also pointed along with the future research directions.
 \end{itemize}
 
 
 \section{Resources Required}
 
 \subsection{Computing Resources}
-An experimental approach will be adopted in this research, entailing the execution of experiments that are likely to be computationally expensive. The ECS Grid computing facilities can be used to complete these experiments within reasonable time frames, thus meeting this requirement.
+This research mainly utilises an experimental approach. Due to the high computation of the experiment execution, ECS Grid computing facilities is required to complete these experiments.
 
 \subsection{Library Resources}
-The majority of the material relevant to this research can be found online, using the university's electronic resources. Other works may either be acquired at the university's library, or by soliciting assistance from the Subject Librarian for the fields of engineering and computer science.
+The related literature of this research can be found online using the resources provided by Victoria University of Wellington. Apart from that, useful textbook and lecture notes can be also found in university's library.
 
 \subsection{Conference Travel Grants}
-Publications to relevant venues in this field are expected throughout this project, therefore travel grants from the university are required for key conferences.
+Publications to relevant venues in this field are expected throughout this project, therefore travel grants from Victoria University of Wellington are required for key conferences.

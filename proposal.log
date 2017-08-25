@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  24 AUG 2017 21:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  25 AUG 2017 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -454,42 +454,44 @@ nd ef-fi-cient ap-proaches to comprehensive-
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-[3] [4] [5]
-Underfull \vbox (badness 5787) has occurred while \output is active []
-
- [6]
-[7]
-Overfull \hbox (9.05675pt too wide) in paragraph at lines 73--75
+[3] [4] [5] [6] [7]
+Overfull \hbox (9.05675pt too wide) in paragraph at lines 73--74
 []\OT1/ppl/b/n/10.95 Develop multi-objective ap-proaches to fully au-to-mated c
 om-pre-hen-sive quality-aware
  []
 
+
+Overfull \hbox (5.17815pt too wide) in paragraph at lines 75--77
+[]\OT1/ppl/m/n/10.95 The de-vel-op-ment of this ap-proach can be di-vided into 
+the fol-low-ing four sub-objectives: 
+ []
+
 [8] [9] [10]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 114.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 119.
 
  (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
 
-Overfull \hbox (8.35458pt too wide) in paragraph at lines 115--116
+Overfull \hbox (8.35458pt too wide) in paragraph at lines 120--121
 \OT1/ppl/m/n/10.95 pre-hen-sive quality-aware au-to-mated se-man-tic web ser-vi
 ce com-po-si-tion``. In: SEAL2017:
  []
 
-) [11]
+) [11] [12]
 \openout2 = `review.aux'.
 
- (./review.tex [12
+ (./review.tex
+Chapter 2.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 4.
+[13
 
 
 
 ]
-Chapter 2.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 4.
-[13]
 <ws.pdf, id=68, pagebox=cropbox, 245.91875pt x 86.3225pt>
 File: ws.pdf Graphic file (type pdf)
 <use ws.pdf>
@@ -725,11 +727,6 @@ Underfull \hbox (badness 1112) in paragraph at lines 58--59
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 62--63
-[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
- []
-
-
 Underfull \hbox (badness 1454) in paragraph at lines 64--65
 []\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
  []
@@ -740,32 +737,38 @@ Underfull \hbox (badness 1454) in paragraph at lines 66--67
  []
 
 
-Overfull \hbox (0.9845pt too wide) in paragraph at lines 84--86
+Underfull \hbox (badness 1454) in paragraph at lines 68--69
+[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
+ []
+
+
+Overfull \hbox (0.9845pt too wide) in paragraph at lines 86--88
 \OT1/ppl/m/n/10.95 This chap-ter ini-tially pro-vides some fun-da-men-tal con-c
 epts for demon-strat-ing the back-
  []
 
 
-Overfull \hbox (10.25974pt too wide) in paragraph at lines 84--86
+Overfull \hbox (10.25974pt too wide) in paragraph at lines 86--88
 \OT1/ppl/m/n/10.95 ground of ser-vice com-po-si-tion. fol-lowed, a com-pre-hen-
 sive un-der-stand-ing and analysing
  []
 
-[48] [49]) [50] (./proposal.bbl [51
+[48] [49]) [50] [51] [52
 
 
+] (./proposal.bbl [53
 
-] [52] [53]
+] [54] [55]
 Underfull \hbox (badness 1997) in paragraph at lines 309--313
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
 
-[54] [55] [56] [57]
+[56] [57] [58] [59]
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
- [58]) [59] (./proposal.aux (./introduction.aux)
+ [60]) [61] (./proposal.aux (./introduction.aux)
 (./review.aux) (./preliminary_work.aux) (./plan.aux))
 
 LaTeX Warning: There were multiply-defined labels.
@@ -774,7 +777,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  6561 strings out of 493675
  94845 string characters out of 6155645
- 293132 words of memory out of 5000000
+ 293133 words of memory out of 5000000
  9746 multiletter control sequences out of 15000+600000
  44696 words of font info for 115 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
@@ -788,10 +791,10 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (65 pages, 576491 bytes).
+Output written on proposal.pdf (67 pages, 578711 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
- 466 compressed objects within 5 object streams
+ 683 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
