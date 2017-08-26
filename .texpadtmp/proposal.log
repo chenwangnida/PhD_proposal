@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  26 AUG 2017 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  26 AUG 2017 23:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -296,26 +296,15 @@ Package float Warning: Can't redefine counter variable for fig. on input line 51
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-./vuwproject.sty:82: Font \vuwf=vuw20 scaled 2074 not loadable: Metric (TFM) file not found.
-<to be read again> 
-                   \relax 
-l.82 \font\vuwf  = vuw20 scaled\magstep4
-                                        
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
 VUW Honours reports modifications -- Mar 1995
 Modified to handle different degrees 2003
 Modified to handle duplex printing properly 2006
 \@abstract=\box39
-) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux
+) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux
 
 LaTeX Warning: Label `summary2' multiply defined.
 
-) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
+) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -349,9 +338,11 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Missing character: There is no V in font nullfont!
-Missing character: There is no U in font nullfont!
-Missing character: There is no W in font nullfont!
+ <VUWlogo.png, id=1, 325.215pt x 152.10313pt>
+File: VUWlogo.png Graphic file (type png)
+ <use VUWlogo.png>
+Package pdftex.def Info: VUWlogo.png used on input line 100.
+(pdftex.def)             Requested size: 158.76663pt x 74.25731pt.
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 100.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
@@ -374,17 +365,17 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 100.
  [-1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [0]
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./VUWlogo.png>] [0]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 104.
- (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.toc [1
+ (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.toc [1
 
 
 ])
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
 
- [2] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.lof)
+ [2] (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.lof)
 \tf@lof=\write4
 \openout4 = `proposal.lof'.
 
@@ -443,7 +434,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 
 
 
-] <ws.pdf, id=67, 245.91875pt x 86.3225pt>
+] <ws.pdf, id=68, 245.91875pt x 86.3225pt>
 File: ws.pdf Graphic file (type pdf)
  <use ws.pdf>
 Package pdftex.def Info: ws.pdf used on input line 51.
@@ -452,7 +443,7 @@ Package pdftex.def Info: ws.pdf used on input line 51.
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ‹ in font pplr7t!
- <compositionLifecycle.pdf, id=92, 778.91pt x 466.74374pt>
+ <compositionLifecycle.pdf, id=93, 778.91pt x 466.74374pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
  <use compositionLifecycle.pdf>
 Package pdftex.def Info: compositionLifecycle.pdf used on input line 99.
@@ -470,12 +461,12 @@ Overfull \hbox (9.01202pt too wide) in paragraph at lines 113--114
 \OML/zplm/m/it/10.95 HomeCity$ \OT1/ppl/m/n/10.95 and $\OML/zplm/m/it/10.95 ConferenceCity$ \OT1/ppl/m/n/10.95 ) are gath-ered from cus-tomers, and task out-puts (i.e., $\OML/zplm/m/it/10.95 BusTicket$\OT1/ppl/m/n/10.95 ,
  []
 
-<wsc_example.pdf, id=119, 679.53876pt x 315.1775pt>
+<wsc_example.pdf, id=120, 679.53876pt x 315.1775pt>
 File: wsc_example.pdf Graphic file (type pdf)
  <use wsc_example.pdf>
 Package pdftex.def Info: wsc_example.pdf used on input line 119.
 (pdftex.def)             Requested size: 398.33858pt x 184.75081pt.
- [17 <./wsc_example.pdf>] <sm_example.pdf, id=148, 451.6875pt x 82.3075pt>
+ [17 <./wsc_example.pdf>] <sm_example.pdf, id=149, 451.6875pt x 82.3075pt>
 File: sm_example.pdf Graphic file (type pdf)
  <use sm_example.pdf>
 Package pdftex.def Info: sm_example.pdf used on input line 133.
@@ -485,22 +476,22 @@ Overfull \hbox (4.19653pt too wide) in paragraph at lines 167--168
 \OT1/ppl/m/n/10.95 [[]] us-ing se-man-tic sim-i-lar-ity. For con-cepts $\OML/zplm/m/it/10.95 a\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 b$ \OT1/ppl/m/n/10.95 in $\OMS/zplm/m/n/10.95 O$\OT1/ppl/m/n/10.95 , se-man-tic sim-i-lar-ity, de-noted as $\OML/zplm/m/it/10.95 sim\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 a\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 b\OT1/zplm/m/n/10.95 )$\OT1/ppl/m/n/10.95 ,
  []
 
-[19] <sequence.pdf, id=199, 371.3875pt x 44.165pt>
+[19] <sequence.pdf, id=200, 371.3875pt x 44.165pt>
 File: sequence.pdf Graphic file (type pdf)
  <use sequence.pdf>
 Package pdftex.def Info: sequence.pdf used on input line 196.
 (pdftex.def)             Requested size: 130.08621pt x 15.4701pt.
- <parallel.pdf, id=200, 269.005pt x 143.53625pt>
+ <parallel.pdf, id=201, 269.005pt x 143.53625pt>
 File: parallel.pdf Graphic file (type pdf)
  <use parallel.pdf>
 Package pdftex.def Info: parallel.pdf used on input line 210.
 (pdftex.def)             Requested size: 101.17755pt x 53.98584pt.
- <choice.pdf, id=201, 269.005pt x 143.53625pt>
+ <choice.pdf, id=202, 269.005pt x 143.53625pt>
 File: choice.pdf Graphic file (type pdf)
  <use choice.pdf>
 Package pdftex.def Info: choice.pdf used on input line 220.
 (pdftex.def)             Requested size: 101.17755pt x 53.98584pt.
- <loop.pdf, id=202, 247.92625pt x 67.25125pt>
+ <loop.pdf, id=203, 247.92625pt x 67.25125pt>
 File: loop.pdf Graphic file (type pdf)
  <use loop.pdf>
 Package pdftex.def Info: loop.pdf used on input line 230.
@@ -530,7 +521,7 @@ Overfull \hbox (31.53754pt too wide) in paragraph at lines 57--60
 \OT1/ppl/m/n/10.95 sim-plify the pre-sen-ta-tion we also use the no-ta-tion $\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/zplm/m/n/10.95 )$ $= (\OML/zplm/m/it/10.95 MT\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 SIM\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 A\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 R\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 T\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 C\OT1/zplm/m/n/10.95 )$\OT1/ppl/m/n/10.95 .
  []
 
-[34] <overview.pdf, id=332, 853.1875pt x 341.275pt>
+[34] <overview.pdf, id=333, 853.1875pt x 341.275pt>
 File: overview.pdf Graphic file (type pdf)
  <use overview.pdf>
 Package pdftex.def Info: overview.pdf used on input line 79.
@@ -549,7 +540,7 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 181.
 
-<comparisontest.pdf, id=391, 1137.24875pt x 735.74875pt>
+<comparisontest.pdf, id=392, 1137.24875pt x 735.74875pt>
 File: comparisontest.pdf Graphic file (type pdf)
  <use comparisontest.pdf>
 Package pdftex.def Info: comparisontest.pdf used on input line 211.
@@ -557,7 +548,7 @@ Package pdftex.def Info: comparisontest.pdf used on input line 211.
  [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./comparisontest.pdf>] <Tree(p-symbol).pdf, id=430, 1136.245pt x 652.4375pt>
+ [39 <./comparisontest.pdf>] <Tree(p-symbol).pdf, id=431, 1136.245pt x 652.4375pt>
 File: Tree(p-symbol).pdf Graphic file (type pdf)
  <use Tree(p-symbol).pdf>
 Package pdftex.def Info: Tree(p-symbol).pdf used on input line 252.
@@ -572,12 +563,12 @@ Overfull \hbox (0.17973pt too wide) in paragraph at lines 297--299
 []\OT1/ppl/m/n/10.95 Our rep-re-sen-ta-tion sup-ports com-po-si-tion con-structs that are avail-able in com-monly used
  []
 
-[41 <./Tree(p-symbol).pdf>] <DAG(p-symbol).pdf, id=470, 877.2775pt x 375.4025pt>
+[41 <./Tree(p-symbol).pdf>] <DAG(p-symbol).pdf, id=471, 877.2775pt x 375.4025pt>
 File: DAG(p-symbol).pdf Graphic file (type pdf)
  <use DAG(p-symbol).pdf>
 Package pdftex.def Info: DAG(p-symbol).pdf used on input line 395.
 (pdftex.def)             Requested size: 308.71104pt x 132.10313pt.
- [42 <./DAG(p-symbol).pdf>] <mutationExample.pdf, id=494, 1474.50874pt x 908.39375pt>
+ [42 <./DAG(p-symbol).pdf>] <mutationExample.pdf, id=495, 1474.50874pt x 908.39375pt>
 File: mutationExample.pdf Graphic file (type pdf)
  <use mutationExample.pdf>
 Package pdftex.def Info: mutationExample.pdf used on input line 428.
@@ -592,7 +583,7 @@ Overfull \hbox (0.47523pt too wide) in paragraph at lines 446--447
 []\OT1/ppl/m/n/10.95 Our ex-per-i-ments in-di-cate that our method can work con-sis-tently well un-der valid weight
  []
 
-[44] <experimentExample(p-symbol).pdf, id=540, 1034.86626pt x 937.5025pt>
+[44] <experimentExample(p-symbol).pdf, id=541, 1034.86626pt x 937.5025pt>
 File: experimentExample(p-symbol).pdf Graphic file (type pdf)
  <use experimentExample(p-symbol).pdf>
 Package pdftex.def Info: experimentExample(p-symbol).pdf used on input line 503.
@@ -627,18 +618,8 @@ Underfull \hbox (badness 1112) in paragraph at lines 58--59
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 64--65
-[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 66--67
-[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 68--69
-[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
+Underfull \hbox (badness 3646) in paragraph at lines 68--69
+\OT1/ppl/m/n/10 han-dle pre-con-di-tions and ef-
  []
 
 
@@ -651,10 +632,10 @@ Overfull \hbox (2.03581pt too wide) in paragraph at lines 86--88
 \OT1/ppl/m/n/10.95 multi-objective ap-proach, dy-namic ser-vice com-po-si-tion and se-man-tic web ser-vice com-
  []
 
-[48] [49] [50]) [51] [52
+[48] [49]) [50] [51] [52
 
 
-] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.bbl [53
+] (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.bbl [53
 
 ] [54] [55]
 Underfull \hbox (badness 1997) in paragraph at lines 309--313
@@ -665,24 +646,24 @@ Underfull \hbox (badness 1997) in paragraph at lines 309--313
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
- [60]) [61] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
+ [60]) [61] (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6566 strings out of 493014
- 97304 string characters out of 6133350
- 300526 words of memory out of 5000000
- 9923 multiletter control sequences out of 15000+600000
+ 6571 strings out of 493014
+ 97261 string characters out of 6133350
+ 300527 words of memory out of 5000000
+ 9927 multiletter control sequences out of 15000+600000
  44673 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,19n,41p,2911b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (67 pages, 569736 bytes).
+Output written on /Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (67 pages, 575502 bytes).
 PDF statistics:
- 679 PDF objects out of 1000 (max. 8388607)
+ 680 PDF objects out of 1000 (max. 8388607)
  468 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
