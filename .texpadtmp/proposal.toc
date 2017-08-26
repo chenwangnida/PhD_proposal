@@ -29,7 +29,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Multi-objective, and Many-objective Composition Approaches}{25}
 \contentsline {subsubsection}{Multi-objective approaches}{25}
 \contentsline {subsubsection}{Many-objective approaches}{27}
-\contentsline {subsubsection}{User Preferences-based Multi-and Many-objective Approaches}{27}
+\contentsline {subsubsection}{Preferences Articulation Techniques for Multi-and Many-objective Approaches}{27}
 \contentsline {subsection}{\numberline {2.2.3}Dynamic Web Service Composition Approaches}{28}
 \contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Changes in QoS}{28}
 \contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Service Failure}{29}
