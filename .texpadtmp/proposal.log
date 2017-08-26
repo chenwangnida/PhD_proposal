@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  26 AUG 2017 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  26 AUG 2017 19:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -461,8 +461,13 @@ Package pdftex.def Info: compositionLifecycle.pdf used on input line 99.
 Underfull \vbox (badness 3098) has occurred while \output is active []
 
  [15] [16 <./compositionLifecycle.pdf>]
-Overfull \hbox (0.4375pt too wide) in paragraph at lines 113--114
-\OML/zplm/m/it/10.95 ConferenceCity$ \OT1/ppl/m/n/10.95 ) are gath-ered from cus-tomers, and task out-puts (i.e., $\OML/zplm/m/it/10.95 BusTicket$\OT1/ppl/m/n/10.95 , $\OML/zplm/m/it/10.95 FlightTicket$\OT1/ppl/m/n/10.95 ,
+Overfull \hbox (8.29964pt too wide) in paragraph at lines 113--114
+\OT1/ppl/m/n/10.95 and map gen-er-a-tions. In Fig. 2.3[], the task in-puts (i.e., $\OML/zplm/m/it/10.95 TravelDepartureDate$\OT1/ppl/m/n/10.95 , $\OML/zplm/m/it/10.95 TravelReturnDate$\OT1/ppl/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (9.01202pt too wide) in paragraph at lines 113--114
+\OML/zplm/m/it/10.95 HomeCity$ \OT1/ppl/m/n/10.95 and $\OML/zplm/m/it/10.95 ConferenceCity$ \OT1/ppl/m/n/10.95 ) are gath-ered from cus-tomers, and task out-puts (i.e., $\OML/zplm/m/it/10.95 BusTicket$\OT1/ppl/m/n/10.95 ,
  []
 
 <wsc_example.pdf, id=119, 679.53876pt x 315.1775pt>
@@ -470,12 +475,12 @@ File: wsc_example.pdf Graphic file (type pdf)
  <use wsc_example.pdf>
 Package pdftex.def Info: wsc_example.pdf used on input line 119.
 (pdftex.def)             Requested size: 398.33858pt x 184.75081pt.
- <sm_example.pdf, id=120, 451.6875pt x 82.3075pt>
+ [17 <./wsc_example.pdf>] <sm_example.pdf, id=148, 451.6875pt x 82.3075pt>
 File: sm_example.pdf Graphic file (type pdf)
  <use sm_example.pdf>
 Package pdftex.def Info: sm_example.pdf used on input line 133.
 (pdftex.def)             Requested size: 398.33858pt x 72.5903pt.
- [17 <./wsc_example.pdf>] [18 <./sm_example.pdf>]
+ [18 <./sm_example.pdf>]
 Overfull \hbox (4.19653pt too wide) in paragraph at lines 167--168
 \OT1/ppl/m/n/10.95 [[]] us-ing se-man-tic sim-i-lar-ity. For con-cepts $\OML/zplm/m/it/10.95 a\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 b$ \OT1/ppl/m/n/10.95 in $\OMS/zplm/m/n/10.95 O$\OT1/ppl/m/n/10.95 , se-man-tic sim-i-lar-ity, de-noted as $\OML/zplm/m/it/10.95 sim\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 a\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 b\OT1/zplm/m/n/10.95 )$\OT1/ppl/m/n/10.95 ,
  []
@@ -500,15 +505,15 @@ File: loop.pdf Graphic file (type pdf)
  <use loop.pdf>
 Package pdftex.def Info: loop.pdf used on input line 230.
 (pdftex.def)             Requested size: 101.17755pt x 27.4449pt.
- [20 <./sequence.pdf> <./parallel.pdf> <./choice.pdf> <./loop.pdf>] [21] [22] [23] [24] [25]
-Overfull \hbox (12.8214pt too wide) in paragraph at lines 301--302
-\OT1/ppl/m/n/10.95 of a group of ants for op-ti-mis-ing the tra-versed for-ag-ing path, where the strength of pheromones
+ [20 <./sequence.pdf> <./parallel.pdf> <./choice.pdf> <./loop.pdf>] [21] [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23] [24] [25]
+Overfull \hbox (13.65361pt too wide) in paragraph at lines 301--302
+\OT1/ppl/m/n/10.95 of a group of ants for op-ti-miz-ing the tra-versed for-ag-ing path, where the strength of pheromones
  []
 
-
-Underfull \vbox (badness 2035) has occurred while \output is active []
-
- [26] [27] [28] [29] [30]) [31]
+[26] [27] [28] [29] [30]) [31]
 \openout2 = `preliminary_work.aux'.
 
  (./preliminary_work.tex [32
@@ -674,7 +679,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  42i,19n,41p,2911b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (67 pages, 569486 bytes).
+Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (67 pages, 569731 bytes).
 PDF statistics:
  679 PDF objects out of 1000 (max. 8388607)
  468 compressed objects within 5 object streams
