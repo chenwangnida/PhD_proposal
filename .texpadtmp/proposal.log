@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  26 AUG 2017 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  28 AUG 2017 12:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -399,7 +399,7 @@ Missing character: There is no Œ in font pplr7t!
 
 
 ] [2]
-Overfull \hbox (14.67741pt too wide) in paragraph at lines 16--17
+Overfull \hbox (14.67741pt too wide) in paragraph at lines 19--20
 []\OT1/ppl/m/n/10.95 The over-all goal of this the-sis is to pro-pose ef-fect and ef-fi-cient ap-proaches to comprehensive-
  []
 
@@ -407,19 +407,19 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 [3] [4] [5] [6] [7]
-Overfull \hbox (9.05675pt too wide) in paragraph at lines 73--75
+Overfull \hbox (9.05675pt too wide) in paragraph at lines 76--78
 []\OT1/ppl/b/n/10.95 Develop multi-objective ap-proaches to fully au-to-mated com-pre-hen-sive quality-aware
  []
 
 [8] [9] [10]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 117.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 120.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
 
-Overfull \hbox (8.35458pt too wide) in paragraph at lines 118--119
+Overfull \hbox (8.35458pt too wide) in paragraph at lines 121--122
 \OT1/ppl/m/n/10.95 pre-hen-sive quality-aware au-to-mated se-man-tic web ser-vice com-po-si-tion``. In: SEAL2017:
  []
 
@@ -499,7 +499,12 @@ Package pdftex.def Info: loop.pdf used on input line 230.
  [20 <./sequence.pdf> <./parallel.pdf> <./choice.pdf> <./loop.pdf>] [21] [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23] [24] [25]
+ [23] [24]
+Overfull \hbox (4.86385pt too wide) in paragraph at lines 285--285
+[]\OT1/ppl/b/n/12 Multi-objective, and Many-objective Web Ser-vice Com-po-si-tion Ap-proaches 
+ []
+
+[25]
 Overfull \hbox (1.94817pt too wide) in paragraph at lines 299--300
 \OT1/ppl/m/n/10.95 a group of ants for op-ti-miz-ing the tra-versed for-ag-ing path, where the strength of pheromones
  []
@@ -546,7 +551,7 @@ File: comparisontest.pdf Graphic file (type pdf)
 Package pdftex.def Info: comparisontest.pdf used on input line 211.
 (pdftex.def)             Requested size: 329.79369pt x 213.36166pt.
  [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4242) has occurred while \output is active []
 
  [39 <./comparisontest.pdf>] <Tree(p-symbol).pdf, id=431, 1136.245pt x 652.4375pt>
 File: Tree(p-symbol).pdf Graphic file (type pdf)
@@ -654,13 +659,13 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  6571 strings out of 493014
  97261 string characters out of 6133350
- 300527 words of memory out of 5000000
+ 301527 words of memory out of 5000000
  9927 multiletter control sequences out of 15000+600000
  44673 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,19n,41p,2911b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,19n,41p,2563b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (67 pages, 575502 bytes).
+Output written on /Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (67 pages, 575985 bytes).
 PDF statistics:
  680 PDF objects out of 1000 (max. 8388607)
  468 compressed objects within 5 object streams
