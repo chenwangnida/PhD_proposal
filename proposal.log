@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  25 AUG 2017 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  28 AUG 2017 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,6 +385,13 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+<VUWlogo.png, id=1, 325.215pt x 152.10313pt>
+File: VUWlogo.png Graphic file (type png)
+<use VUWlogo.png>
+Package pdftex.def Info: VUWlogo.png  used on input line 100. on input line 100
+.
+Package pdftex.def Info: Requested size: 158.76663pt x 74.25731pt on input line
+ 100.
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 100
 .
  (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omlzplm.fd
@@ -414,7 +421,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 100.
  [-1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [0]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./VUWlogo.png>] [0]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 104.
  (./proposal.toc [1
@@ -424,12 +431,12 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
 
- [2] (./proposal.lof)
+
+[2] (./proposal.lof)
 \tf@lof=\write4
 \openout4 = `proposal.lof'.
 
-
-[3
+ [3
 
 ] [4
 
@@ -442,11 +449,14 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
+Missing character: There is no ï in font pplr7t!
+Missing character: There is no ¼ in font pplr7t!
+Missing character: There is no Œ in font pplr7t!
 [1
 
 
 ] [2]
-Overfull \hbox (14.67741pt too wide) in paragraph at lines 16--17
+Overfull \hbox (14.67741pt too wide) in paragraph at lines 19--20
 []\OT1/ppl/m/n/10.95 The over-all goal of this the-sis is to pro-pose ef-fect a
 nd ef-fi-cient ap-proaches to comprehensive-
  []
@@ -454,33 +464,38 @@ nd ef-fi-cient ap-proaches to comprehensive-
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-[3] [4] [5] [6] [7]
-Overfull \hbox (9.05675pt too wide) in paragraph at lines 73--74
+[3] [4]
+
+LaTeX Warning: Citation `branke2016using' on page 5 undefined on input line 46.
+
+
+[5] [6] [7]
+Overfull \hbox (9.05675pt too wide) in paragraph at lines 77--79
 []\OT1/ppl/b/n/10.95 Develop multi-objective ap-proaches to fully au-to-mated c
 om-pre-hen-sive quality-aware
  []
 
-
-Overfull \hbox (5.17815pt too wide) in paragraph at lines 75--77
-[]\OT1/ppl/m/n/10.95 The de-vel-op-ment of this ap-proach can be di-vided into 
-the fol-low-ing four sub-objectives: 
+[8]
+Overfull \hbox (0.16304pt too wide) in paragraph at lines 80--81
+\OT1/ppl/m/it/10.95 ser-vice com-po-si-tion\OT1/ppl/m/n/10.95 . Herein we will 
+pro-pose use-ful mod-i-fi-ca-tions of multi-objective
  []
 
-[8] [9] [10]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 119.
+[9] [10] [11]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 121.
 
  (/usr/pkg/share/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
 
-Overfull \hbox (8.35458pt too wide) in paragraph at lines 120--121
+Overfull \hbox (8.35458pt too wide) in paragraph at lines 122--123
 \OT1/ppl/m/n/10.95 pre-hen-sive quality-aware au-to-mated se-man-tic web ser-vi
 ce com-po-si-tion``. In: SEAL2017:
  []
 
-) [11] [12]
+) [12]
 \openout2 = `review.aux'.
 
  (./review.tex
@@ -510,14 +525,21 @@ put line 99.
 Package pdftex.def Info: Requested size: 398.33858pt x 238.69138pt on input lin
 e 99.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3098) has occurred while \output is active []
 
  [15]
 [16 <./compositionLifecycle.pdf>]
-Overfull \hbox (0.4375pt too wide) in paragraph at lines 113--114
-\OML/zplm/m/it/10.95 ConferenceCity$ \OT1/ppl/m/n/10.95 ) are gath-ered from cu
-s-tomers, and task out-puts (i.e., $\OML/zplm/m/it/10.95 BusTicket$\OT1/ppl/m/n
-/10.95 , $\OML/zplm/m/it/10.95 FlightTicket$\OT1/ppl/m/n/10.95 ,
+Overfull \hbox (8.29964pt too wide) in paragraph at lines 113--114
+\OT1/ppl/m/n/10.95 and map gen-er-a-tions. In Fig. 2.3[], the task in-puts (i.e
+., $\OML/zplm/m/it/10.95 TravelDepartureDate$\OT1/ppl/m/n/10.95 , $\OML/zplm/m/
+it/10.95 TravelReturnDate$\OT1/ppl/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (9.01202pt too wide) in paragraph at lines 113--114
+\OML/zplm/m/it/10.95 HomeCity$ \OT1/ppl/m/n/10.95 and $\OML/zplm/m/it/10.95 Con
+ferenceCity$ \OT1/ppl/m/n/10.95 ) are gath-ered from cus-tomers, and task out-p
+uts (i.e., $\OML/zplm/m/it/10.95 BusTicket$\OT1/ppl/m/n/10.95 ,
  []
 
 <wsc_example.pdf, id=120, pagebox=cropbox, 679.53876pt x 315.1775pt>
@@ -527,14 +549,15 @@ Package pdftex.def Info: wsc_example.pdf  used on input line 119. on input line
  119.
 Package pdftex.def Info: Requested size: 398.33858pt x 184.75081pt on input lin
 e 119.
-<sm_example.pdf, id=121, pagebox=cropbox, 451.6875pt x 82.3075pt>
+[17 <./wsc_example.pdf>]
+<sm_example.pdf, id=149, pagebox=cropbox, 451.6875pt x 82.3075pt>
 File: sm_example.pdf Graphic file (type pdf)
 <use sm_example.pdf>
 Package pdftex.def Info: sm_example.pdf  used on input line 133. on input line 
 133.
 Package pdftex.def Info: Requested size: 398.33858pt x 72.5903pt on input line 
 133.
-[17 <./wsc_example.pdf>] [18 <./sm_example.pdf>]
+ [18 <./sm_example.pdf>]
 Overfull \hbox (4.19653pt too wide) in paragraph at lines 167--168
 \OT1/ppl/m/n/10.95 [[]] us-ing se-man-tic sim-i-lar-ity. For con-cepts $\OML/zp
 lm/m/it/10.95 a\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 b$ \OT1/ppl/m/n/10.95 
@@ -573,17 +596,23 @@ Package pdftex.def Info: loop.pdf  used on input line 230. on input line 230.
 Package pdftex.def Info: Requested size: 101.17755pt x 27.4449pt on input line 
 230.
  [20 <./sequence.pdf> <./parallel.pdf> <./choice.pdf> <./loop.pdf>]
-[21] [22] [23] [24] [25]
-Overfull \hbox (12.8214pt too wide) in paragraph at lines 301--302
-\OT1/ppl/m/n/10.95 of a group of ants for op-ti-mis-ing the tra-versed for-ag-i
-ng path, where the strength of pheromones
+[21] [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+[24]
+Overfull \hbox (4.86385pt too wide) in paragraph at lines 285--285
+[]\OT1/ppl/b/n/12 Multi-objective, and Many-objective Web Ser-vice Com-po-si-ti
+on Ap-proaches 
  []
 
+[25]
+Overfull \hbox (1.94817pt too wide) in paragraph at lines 299--300
+\OT1/ppl/m/n/10.95 a group of ants for op-ti-miz-ing the tra-versed for-ag-ing 
+path, where the strength of pheromones
+ []
 
-Underfull \vbox (badness 2035) has occurred while \output is active []
-
- [26]
-[27] [28] [29] [30]) [31]
+[26] [27] [28] [29] [30]) [31]
 \openout2 = `preliminary_work.aux'.
 
  (./preliminary_work.tex [32
@@ -638,7 +667,7 @@ ine 211.
 Package pdftex.def Info: Requested size: 329.79369pt x 213.36166pt on input lin
 e 211.
 [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4242) has occurred while \output is active []
 
  [39 <./comparisontest.pdf>]
 <Tree(p-symbol).pdf, id=431, pagebox=cropbox, 1136.245pt x 652.4375pt>
@@ -696,8 +725,8 @@ Package pdftex.def Info: experimentExample(p-symbol).pdf  used on input line 50
 Package pdftex.def Info: Requested size: 396.91324pt x 359.57344pt on input lin
 e 503.
  [45 <./experimentExample(p-symbol).pdf>])
-Overfull \hbox (2.22115pt too wide) in paragraph at lines 532--118
-\OT1/ppl/m/n/10.95 qual-ity model for si-mul-ta-ne-ously op-ti-mise QoS and qua
+Overfull \hbox (3.05336pt too wide) in paragraph at lines 532--118
+\OT1/ppl/m/n/10.95 qual-ity model for si-mul-ta-ne-ously op-ti-mize QoS and qua
 l-ity of se-man-tic match-mak-ing. Apart
  []
 
@@ -727,18 +756,8 @@ Underfull \hbox (badness 1112) in paragraph at lines 58--59
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 64--65
-[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 66--67
-[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 68--69
-[]\OT1/ppl/m/n/10 Develop EC-based hy-brid ap-
+Underfull \hbox (badness 3646) in paragraph at lines 68--69
+\OT1/ppl/m/n/10 han-dle pre-con-di-tions and ef-
  []
 
 
@@ -748,9 +767,9 @@ epts for demon-strat-ing the back-
  []
 
 
-Overfull \hbox (10.25974pt too wide) in paragraph at lines 86--88
-\OT1/ppl/m/n/10.95 ground of ser-vice com-po-si-tion. fol-lowed, a com-pre-hen-
-sive un-der-stand-ing and analysing
+Overfull \hbox (2.03581pt too wide) in paragraph at lines 86--88
+\OT1/ppl/m/n/10.95 multi-objective ap-proach, dy-namic ser-vice com-po-si-tion 
+and se-man-tic web ser-vice com-
  []
 
 [48] [49]) [50] [51] [52
@@ -759,7 +778,7 @@ sive un-der-stand-ing and analysing
 ] (./proposal.bbl [53
 
 ] [54] [55]
-Underfull \hbox (badness 1997) in paragraph at lines 309--313
+Underfull \hbox (badness 1997) in paragraph at lines 317--321
 \OT1/ppl/m/n/10.95 ser-vice mod-el-ing on-tol-ogy (wsmo).  \OT1/ppl/m/it/10.95 
 W3C. Avail-able at< URL: http://www. w3.
  []
@@ -771,17 +790,20 @@ Missing character: There is no ” in font pplri7t!
  [60]) [61] (./proposal.aux (./introduction.aux)
 (./review.aux) (./preliminary_work.aux) (./plan.aux))
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6561 strings out of 493675
- 94845 string characters out of 6155645
- 293133 words of memory out of 5000000
- 9746 multiletter control sequences out of 15000+600000
- 44696 words of font info for 115 fonts, out of 8000000 for 9000
+ 6568 strings out of 493675
+ 94943 string characters out of 6155645
+ 293134 words of memory out of 5000000
+ 9752 multiletter control sequences out of 15000+600000
+ 44673 words of font info for 114 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
- 42i,19n,41p,2537b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,19n,41p,2864b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/pkg/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/pkg/share/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/pkg/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi10.pfb></usr/pkg/share/texmf-dist/fonts/type1/pub
@@ -790,11 +812,11 @@ s/cm/cmsy10.pfb></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmr.pf
 b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
-palatino/uplri8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/vuw/vuw20.pfb>
-Output written on proposal.pdf (67 pages, 578711 bytes).
+palatino/uplri8a.pfb>
+Output written on proposal.pdf (67 pages, 578154 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 471 compressed objects within 5 object streams
+ 680 PDF objects out of 1000 (max. 8388607)
+ 468 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
