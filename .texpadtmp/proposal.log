@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  29 AUG 2017 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  29 AUG 2017 14:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -300,7 +300,11 @@ VUW Honours reports modifications -- Mar 1995
 Modified to handle different degrees 2003
 Modified to handle duplex printing properly 2006
 \@abstract=\box39
-) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux)
+) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux
+
+LaTeX Warning: Label `summary2' multiply defined.
+
+) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -371,23 +375,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
 
- [2] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.lof
-
-LaTeX Warning: Citation `moghaddam2014service' on page iii undefined on input line 4.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page iii undefined on input line 7.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page iii undefined on input line 8.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page iii undefined on input line 9.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page iii undefined on input line 10.
-
-)
+ [2] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.lof)
 \tf@lof=\write4
 \openout4 = `proposal.lof'.
 
@@ -404,430 +392,33 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
-
-LaTeX Warning: Citation `papazoglou2003service' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `papazoglou2006p' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `booth2004web' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `overdick2007resource' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `curbera2001web' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `curbera2002unraveling' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `lausen2007semantic' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `fensel2011semantic' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `fensel2011semantic' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `yu2008deploying' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `o2005review' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `martin2004owl' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `lausen2005w3c' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `kopecky2007sawsdl' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `petrie2016web' on page 1 undefined on input line 6.
-
 Missing character: There is no ï in font pplr7t!
 Missing character: There is no ¼ in font pplr7t!
 Missing character: There is no Œ in font pplr7t!
-
-LaTeX Warning: Citation `fensel2011semantic' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation `sahai2002automated' on page 1 undefined on input line 9.
-
 [1
 
 
-]
-
-LaTeX Warning: Citation `ishikawa2011bridging' on page 2 undefined on input line 11.
-
-
-LaTeX Warning: Citation `guinard2009discovery' on page 2 undefined on input line 11.
-
-
-LaTeX Warning: Citation `chan2009fault' on page 2 undefined on input line 11.
-
-
-LaTeX Warning: Citation `da2016genetic' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `da2016particle' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `gupta2015optimization' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `qi2010combining' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `rodriguez2010composition' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `wang2014automated' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `rao2004survey' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation `moghaddam2014service' on page 2 undefined on input line 17.
-
-
-LaTeX Warning: Citation `da2016genetic' on page 2 undefined on input line 17.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 2 undefined on input line 17.
-
-
-LaTeX Warning: Reference `C:motivation' on page 2 undefined on input line 17.
-
-[2]
+] [2]
 Overfull \hbox (14.67741pt too wide) in paragraph at lines 19--20
 []\OT1/ppl/m/n/10.95 The over-all goal of this the-sis is to pro-pose ef-fect and ef-fi-cient ap-proaches to comprehensive-
  []
 
-
-LaTeX Warning: Citation `feng2013dynamic' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `parejo2008qos' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `qi2010combining' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `wang2014automated' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `wang2014automated' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `parejo2008qos' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `renders1996hybrid' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `feng2013dynamic' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `markou2015non' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `parejo2008qos' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `peer2005web' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `qi2010combining' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `wang2014automated' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `blum1997fast' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `markou2015non' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `peer2005web' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `parejo2008qos' on page 3 undefined on input line 35.
-
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-
-LaTeX Warning: Citation `feng2013dynamic' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `parejo2008qos' on page 3 undefined on input line 35.
-
-[3]
-
-LaTeX Warning: Citation `lecue2008optimizing' on page 4 undefined on input line 38.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 4 undefined on input line 38.
-
-
-LaTeX Warning: Citation `bansal2016generalized' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `boustil2014semantic' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `mier2015integrated' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `da2015graphevol' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `da2016particle' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `gupta2015optimization' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `qi2010combining' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `paolucci2002semantic' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `fanjiang2014semantic' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Citation `pop2009immune' on page 4 undefined on input line 40.
-
-[4]
-
-LaTeX Warning: Citation `kim2006adaptive' on page 5 undefined on input line 44.
-
-
-LaTeX Warning: Citation `liu2005dynamic' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `wada2012e3' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `yao2009qos' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `yin2014hybrid' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `garey1979guide' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `branke2016using' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `branke2005integrating' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `branke2001guidance' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `cheng2015reference' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `giagkiozis2014pareto' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `van2000multiobjective' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `giagkiozis2014pareto' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `branke2005integrating' on page 5 undefined on input line 46.
-
-
-LaTeX Warning: Citation `cheng2015reference' on page 5 undefined on input line 46.
-
-[5]
-
-LaTeX Warning: Citation `li2014fault' on page 6 undefined on input line 49.
-
-
-LaTeX Warning: Citation `andrews2003business' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `baresi2011self' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `koning2009vxbpel' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `andrews2003business' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `alferez2014dynamic' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `mohanty2010web' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `salas2006ws' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `wagner2016robust' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `yin2010qos' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `feng2013dynamic' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `liu2005dynamic' on page 6 undefined on input line 52.
-
-
-LaTeX Warning: Citation `wang2014automated' on page 6 undefined on input line 57.
-
-[6]
-
-LaTeX Warning: Citation `paliwal2012semantics' on page 7 undefined on input line 59.
-
-
-LaTeX Warning: Citation `bansal2016generalized' on page 7 undefined on input line 59.
-
-
-LaTeX Warning: Citation `DBLP:journals/soca/BoustilMS14' on page 7 undefined on input line 59.
-
-
-LaTeX Warning: Citation `kona2009wsc' on page 7 undefined on input line 68.
-
-
-LaTeX Warning: Citation `kuster2008opossum' on page 7 undefined on input line 68.
-
-[7]
-
-LaTeX Warning: Citation `da2016memetic' on page 8 undefined on input line 72.
-
-
-LaTeX Warning: Citation `da2016particle' on page 8 undefined on input line 72.
-
-
-LaTeX Warning: Citation `da2016particle' on page 8 undefined on input line 72.
-
-
-LaTeX Warning: Reference `C:motivation' on page 8 undefined on input line 74.
-
-
-LaTeX Warning: Citation `chen2014partial' on page 8 undefined on input line 77.
-
-
-LaTeX Warning: Citation `xiang2014qos' on page 8 undefined on input line 77.
-
-
-LaTeX Warning: Citation `yin2014hybrid' on page 8 undefined on input line 77.
-
-
-LaTeX Warning: Citation `liu2005dynamic' on page 8 undefined on input line 77.
-
-
-LaTeX Warning: Citation `yu2013efficient' on page 8 undefined on input line 77.
-
-
-LaTeX Warning: Citation `zhang2010qos' on page 8 undefined on input line 77.
-
-
-LaTeX Warning: Citation `deb2002fast' on page 8 undefined on input line 77.
-
-
-LaTeX Warning: Citation `zitzler2001spea2' on page 8 undefined on input line 77.
-
-
-LaTeX Warning: Citation `zhang2007moea' on page 8 undefined on input line 77.
-
-
+[3] [4] [5] [6] [7]
 Overfull \hbox (9.05675pt too wide) in paragraph at lines 77--79
 []\OT1/ppl/b/n/10.95 Develop multi-objective ap-proaches to fully au-to-mated com-pre-hen-sive quality-aware
  []
 
 [8]
-
-LaTeX Warning: Citation `deb2002fast' on page 9 undefined on input line 80.
-
-
-LaTeX Warning: Citation `zitzler2001spea2' on page 9 undefined on input line 80.
-
-
-LaTeX Warning: Citation `zhang2007moea' on page 9 undefined on input line 80.
-
-
-LaTeX Warning: Reference `Obj:1' on page 9 undefined on input line 80.
-
-
 Overfull \hbox (0.16304pt too wide) in paragraph at lines 80--81
 \OT1/ppl/m/it/10.95 ser-vice com-po-si-tion\OT1/ppl/m/n/10.95 . Herein we will pro-pose use-ful mod-i-fi-ca-tions of multi-objective
  []
 
-
-LaTeX Warning: Citation `yin2014hybrid' on page 9 undefined on input line 84.
-
-
-LaTeX Warning: Citation `giagkiozis2014pareto' on page 9 undefined on input line 86.
-
-[9]
-
-LaTeX Warning: Reference `Obj:1' on page 10 undefined on input line 91.
-
-
-LaTeX Warning: Reference `Obj:2' on page 10 undefined on input line 91.
-
-
-LaTeX Warning: Citation `nasridinov2012qos' on page 10 undefined on input line 91.
-
-
-LaTeX Warning: Citation `salas2006ws' on page 10 undefined on input line 91.
-
-
-LaTeX Warning: Citation `wagner2016robust' on page 10 undefined on input line 91.
-
-
-LaTeX Warning: Citation `yin2010qos' on page 10 undefined on input line 91.
-
-
-Overfull \hbox (5.75804pt too wide) in paragraph at lines 91--92
-\OT1/ppl/m/n/10.95 vices in the ser-vice repos-i-tory, non-functional at-tributes ad-ver-tised by ser-vice providers,
- []
-
-[10] [11]
-
-LaTeX Warning: Reference `Obj:1' on page 12 undefined on input line 118.
-
+[9] [10] [11]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 121.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
@@ -837,58 +428,13 @@ Overfull \hbox (8.35458pt too wide) in paragraph at lines 122--123
 \OT1/ppl/m/n/10.95 pre-hen-sive quality-aware au-to-mated se-man-tic web ser-vice com-po-si-tion``. In: SEAL2017:
  []
 
-
-LaTeX Warning: Reference `C:review' on page 12 undefined on input line 126.
-
-
-LaTeX Warning: Reference `C:preliminary' on page 12 undefined on input line 126.
-
-
-LaTeX Warning: Reference `C:plan' on page 12 undefined on input line 126.
-
 ) [12]
 \openout2 = `review.aux'.
 
  (./review.tex
 Chapter 2.
-
-LaTeX Warning: Reference `service' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `servicecomposition' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `ec' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `related' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `singleobjective' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `multiobjective' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `dynamicserivce' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `Semantic' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `summary' on page 13 undefined on input line 2.
-
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 4.
-
-LaTeX Warning: Citation `mcilraith2001semantic' on page 13 undefined on input line 7.
-
-
-LaTeX Warning: Citation `agarwal2009making' on page 13 undefined on input line 9.
-
-
-LaTeX Warning: Reference `fig:ws' on page 13 undefined on input line 44.
-
 [13
 
 
@@ -898,53 +444,21 @@ File: ws.pdf Graphic file (type pdf)
  <use ws.pdf>
 Package pdftex.def Info: ws.pdf used on input line 51.
 (pdftex.def)             Requested size: 227.62204pt x 79.90367pt.
-
-
-LaTeX Warning: Citation `zeng2003quality' on page 14 undefined on input line 66.
-
-
-LaTeX Warning: Citation `agarwal2009d5' on page 14 undefined on input line 75.
-
-[14 <./ws.pdf>]
+ [14 <./ws.pdf>]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ‹ in font pplr7t!
-
-
-LaTeX Warning: Reference `lifecycle' on page 15 undefined on input line 89.
-
-
-LaTeX Warning: Reference `fig:lifecycle' on page 15 undefined on input line 93.
-
-<compositionLifecycle.pdf, id=93, 778.91pt x 466.74374pt>
+ <compositionLifecycle.pdf, id=93, 778.91pt x 466.74374pt>
 File: compositionLifecycle.pdf Graphic file (type pdf)
  <use compositionLifecycle.pdf>
 Package pdftex.def Info: compositionLifecycle.pdf used on input line 99.
 (pdftex.def)             Requested size: 398.33858pt x 238.69138pt.
 
-
-LaTeX Warning: Citation `moghaddam2014service' on page 15 undefined on input line 100.
-
-
-LaTeX Warning: Citation `moghaddam2014service' on page 15 undefined on input line 100.
-
-
 Underfull \vbox (badness 3098) has occurred while \output is active []
 
- [15]
-
-LaTeX Warning: Citation `blum1997fast' on page 16 undefined on input line 110.
-
-[16 <./compositionLifecycle.pdf>]
-
-LaTeX Warning: Reference `fig:wsc_example' on page 17 undefined on input line 113.
-
-
-LaTeX Warning: Reference `fig:wsc_example' on page 17 undefined on input line 113.
-
-
-Overfull \hbox (4.33562pt too wide) in paragraph at lines 113--114
-\OT1/ppl/m/n/10.95 and map gen-er-a-tions. In Fig. [], the task in-puts (i.e., $\OML/zplm/m/it/10.95 TravelDepartureDate$\OT1/ppl/m/n/10.95 , $\OML/zplm/m/it/10.95 TravelReturnDate$\OT1/ppl/m/n/10.95 ,
+ [15] [16 <./compositionLifecycle.pdf>]
+Overfull \hbox (8.29964pt too wide) in paragraph at lines 113--114
+\OT1/ppl/m/n/10.95 and map gen-er-a-tions. In Fig. 2.3[], the task in-puts (i.e., $\OML/zplm/m/it/10.95 TravelDepartureDate$\OT1/ppl/m/n/10.95 , $\OML/zplm/m/it/10.95 TravelReturnDate$\OT1/ppl/m/n/10.95 ,
  []
 
 
@@ -962,443 +476,45 @@ File: sm_example.pdf Graphic file (type pdf)
  <use sm_example.pdf>
 Package pdftex.def Info: sm_example.pdf used on input line 133.
 (pdftex.def)             Requested size: 398.33858pt x 72.5903pt.
-
-
-LaTeX Warning: Citation `bansal2016generalized' on page 18 undefined on input line 138.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 18 undefined on input line 138.
-
-
-LaTeX Warning: Citation `lecue2007making' on page 18 undefined on input line 138.
-
-
-LaTeX Warning: Citation `lecue2006formal' on page 18 undefined on input line 138.
-
-
-LaTeX Warning: Citation `rao2005semantic' on page 18 undefined on input line 138.
-
-
-LaTeX Warning: Citation `paolucci2002semantic' on page 18 undefined on input line 140.
-
-
-LaTeX Warning: Citation `lecue2007making' on page 18 undefined on input line 149.
-
-
-LaTeX Warning: Citation `pop2009immune' on page 18 undefined on input line 149.
-
-
-LaTeX Warning: Citation `shet2012new' on page 18 undefined on input line 149.
-
-
-LaTeX Warning: Citation `lecue2007making' on page 18 undefined on input line 151.
-
-
-LaTeX Warning: Reference `equation2' on page 18 undefined on input line 151.
-
-
-LaTeX Warning: Reference `equation2' on page 18 undefined on input line 151.
-
-
-LaTeX Warning: Citation `pop2009immune' on page 18 undefined on input line 164.
-
-[18 <./sm_example.pdf>]
-
-LaTeX Warning: Citation `shet2012new' on page 19 undefined on input line 167.
-
-
-LaTeX Warning: Reference `eq_sim' on page 19 undefined on input line 167.
-
-
-LaTeX Warning: Citation `shet2012new' on page 19 undefined on input line 167.
-
-
-LaTeX Warning: Reference `eq_sim' on page 19 undefined on input line 167.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 19 undefined on input line 175.
-
-
-LaTeX Warning: Citation `zeng2003quality' on page 19 undefined on input line 179.
-
-
-LaTeX Warning: Reference `sequence' on page 19 undefined on input line 182.
-
-
-LaTeX Warning: Reference `parallel' on page 19 undefined on input line 183.
-
-
-LaTeX Warning: Reference `choice' on page 19 undefined on input line 184.
-
-
-LaTeX Warning: Reference `loop' on page 19 undefined on input line 185.
+ [18 <./sm_example.pdf>]
+Overfull \hbox (4.19653pt too wide) in paragraph at lines 167--168
+\OT1/ppl/m/n/10.95 [[]] us-ing se-man-tic sim-i-lar-ity. For con-cepts $\OML/zplm/m/it/10.95 a\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 b$ \OT1/ppl/m/n/10.95 in $\OMS/zplm/m/n/10.95 O$\OT1/ppl/m/n/10.95 , se-man-tic sim-i-lar-ity, de-noted as $\OML/zplm/m/it/10.95 sim\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 a\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 b\OT1/zplm/m/n/10.95 )$\OT1/ppl/m/n/10.95 ,
+ []
 
 [19] <sequence.pdf, id=200, 371.3875pt x 44.165pt>
 File: sequence.pdf Graphic file (type pdf)
  <use sequence.pdf>
 Package pdftex.def Info: sequence.pdf used on input line 196.
 (pdftex.def)             Requested size: 130.08621pt x 15.4701pt.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 20 undefined on input line 198.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 20 undefined on input line 198.
-
-<parallel.pdf, id=201, 269.005pt x 143.53625pt>
+ <parallel.pdf, id=201, 269.005pt x 143.53625pt>
 File: parallel.pdf Graphic file (type pdf)
  <use parallel.pdf>
 Package pdftex.def Info: parallel.pdf used on input line 210.
 (pdftex.def)             Requested size: 101.17755pt x 53.98584pt.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 20 undefined on input line 212.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 20 undefined on input line 212.
-
-<choice.pdf, id=202, 269.005pt x 143.53625pt>
+ <choice.pdf, id=202, 269.005pt x 143.53625pt>
 File: choice.pdf Graphic file (type pdf)
  <use choice.pdf>
 Package pdftex.def Info: choice.pdf used on input line 220.
 (pdftex.def)             Requested size: 101.17755pt x 53.98584pt.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 20 undefined on input line 222.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 20 undefined on input line 222.
-
-<loop.pdf, id=203, 247.92625pt x 67.25125pt>
+ <loop.pdf, id=203, 247.92625pt x 67.25125pt>
 File: loop.pdf Graphic file (type pdf)
  <use loop.pdf>
 Package pdftex.def Info: loop.pdf used on input line 230.
 (pdftex.def)             Requested size: 101.17755pt x 27.4449pt.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 20 undefined on input line 232.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 20 undefined on input line 232.
-
-
-LaTeX Warning: Citation `back1997evolutionary' on page 20 undefined on input line 238.
-
-
-LaTeX Warning: Citation `fleming2002evolutionary' on page 20 undefined on input line 238.
-
-
-LaTeX Warning: Citation `whitley1994genetic' on page 20 undefined on input line 238.
-
-
-LaTeX Warning: Citation `koza1992genetic' on page 20 undefined on input line 238.
-
-
-LaTeX Warning: Citation `kennedy1995particle' on page 20 undefined on input line 238.
-
-
-LaTeX Warning: Citation `de2002learning' on page 20 undefined on input line 238.
-
-[20 <./sequence.pdf> <./parallel.pdf> <./choice.pdf> <./loop.pdf>]
-
-LaTeX Warning: Citation `hwang1981lecture' on page 21 undefined on input line 251.
-
-[21]
-
-LaTeX Warning: Citation `srinivas1994genetic' on page 22 undefined on input line 256.
-
-
-LaTeX Warning: Citation `wang2012survey' on page 22 undefined on input line 256.
-
-
-LaTeX Warning: Citation `canfora2005approach' on page 22 undefined on input line 256.
-
-
-LaTeX Warning: Citation `tang2010hybrid' on page 22 undefined on input line 256.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 22 undefined on input line 256.
-
-
-LaTeX Warning: Citation `rodriguez2010composition' on page 22 undefined on input line 259.
-
-
-LaTeX Warning: Citation `rodriguez2010composition' on page 22 undefined on input line 259.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 22 undefined on input line 259.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 22 undefined on input line 259.
-
-
-LaTeX Warning: Citation `da2016genetic' on page 22 undefined on input line 259.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 22 undefined on input line 259.
-
-
-LaTeX Warning: Citation `rodriguez2010composition' on page 22 undefined on input line 259.
-
-
-LaTeX Warning: Citation `da2016genetic' on page 22 undefined on input line 259.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 22 undefined on input line 259.
-
-
-LaTeX Warning: Citation `da2015graphevol' on page 22 undefined on input line 262.
-
-
-LaTeX Warning: Citation `da2016handling' on page 22 undefined on input line 262.
-
-
-LaTeX Warning: Citation `da2015graphevol' on page 22 undefined on input line 262.
-
-
-LaTeX Warning: Citation `da2015gp' on page 22 undefined on input line 262.
-
-
-LaTeX Warning: Citation `long2009environment' on page 22 undefined on input line 265.
-
-
-LaTeX Warning: Citation `long2009environment' on page 22 undefined on input line 265.
-
-
-LaTeX Warning: Citation `liu2007hybrid' on page 22 undefined on input line 265.
-
-
-LaTeX Warning: Citation `liu2007hybrid' on page 22 undefined on input line 265.
-
-
-LaTeX Warning: Citation `long2009environment' on page 22 undefined on input line 265.
-
-
-LaTeX Warning: Citation `da2016particle' on page 22 undefined on input line 265.
-
-
-LaTeX Warning: Citation `da2016particle' on page 22 undefined on input line 265.
-
-[22]
-
-LaTeX Warning: Citation `yan2006immune' on page 23 undefined on input line 268.
-
-
-LaTeX Warning: Citation `pop2009immune' on page 23 undefined on input line 268.
-
-
-LaTeX Warning: Citation `markou2015non' on page 23 undefined on input line 272.
-
-
-LaTeX Warning: Citation `peer2005web' on page 23 undefined on input line 272.
-
-
+ [20 <./sequence.pdf> <./parallel.pdf> <./choice.pdf> <./loop.pdf>] [21] [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-
-LaTeX Warning: Citation `feng2013dynamic' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `huang2009effective' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `rao2006mixed' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `wang2013genetic' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `wang2014automated' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `blum1997fast' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `wang2014automated' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `feng2013dynamic' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `lecue2007making' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `sohrabi2009web' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `sohrabi2009web' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `sirin2004htn' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `sohrabi2009web' on page 24 undefined on input line 274.
-
-
-LaTeX Warning: Citation `gao2005web' on page 24 undefined on input line 279.
-
-
-LaTeX Warning: Citation `yoo2008web' on page 24 undefined on input line 279.
-
-
-LaTeX Warning: Citation `gao2005web' on page 24 undefined on input line 279.
-
-
-LaTeX Warning: Citation `li2016full' on page 24 undefined on input line 279.
-
-
-LaTeX Warning: Citation `huang2009effective' on page 24 undefined on input line 281.
-
-
-LaTeX Warning: Citation `xu2012towards' on page 24 undefined on input line 281.
-
-[24]
-
-LaTeX Warning: Citation `xu2010semantic' on page 25 undefined on input line 283.
-
-
+ [23] [24]
 Overfull \hbox (4.86385pt too wide) in paragraph at lines 285--285
 []\OT1/ppl/b/n/12 Multi-objective, and Many-objective Web Ser-vice Com-po-si-tion Ap-proaches 
  []
 
-
-LaTeX Warning: Citation `hwang1981lecture' on page 25 undefined on input line 287.
-
-
-LaTeX Warning: Citation `liu2005dynamic' on page 25 undefined on input line 292.
-
-
-LaTeX Warning: Citation `zhang2010qos' on page 25 undefined on input line 292.
-
-
-LaTeX Warning: Citation `yu2013efficient' on page 25 undefined on input line 292.
-
-
-LaTeX Warning: Citation `yin2014hybrid' on page 25 undefined on input line 292.
-
-
-LaTeX Warning: Citation `xiang2014qos' on page 25 undefined on input line 292.
-
-
-LaTeX Warning: Citation `chen2014partial' on page 25 undefined on input line 292.
-
 [25]
-
-LaTeX Warning: Citation `liu2005dynamic' on page 26 undefined on input line 295.
-
-
-LaTeX Warning: Citation `liu2005dynamic' on page 26 undefined on input line 295.
-
-
-LaTeX Warning: Citation `wada2012e3' on page 26 undefined on input line 295.
-
-
-LaTeX Warning: Citation `yin2014hybrid' on page 26 undefined on input line 297.
-
-
-LaTeX Warning: Citation `wada2012e3' on page 26 undefined on input line 297.
-
-
-LaTeX Warning: Citation `zhang2010qos' on page 26 undefined on input line 299.
-
-
-LaTeX Warning: Citation `yu2007efficient' on page 26 undefined on input line 299.
-
-
-LaTeX Warning: Citation `wang2014novel' on page 26 undefined on input line 299.
-
-
 Overfull \hbox (1.94817pt too wide) in paragraph at lines 299--300
 \OT1/ppl/m/n/10.95 a group of ants for op-ti-miz-ing the tra-versed for-ag-ing path, where the strength of pheromones
  []
 
-[26]
-
-LaTeX Warning: Citation `ishibuchi2008evolutionary' on page 27 undefined on input line 303.
-
-
-LaTeX Warning: Citation `de2010many' on page 27 undefined on input line 305.
-
-
-LaTeX Warning: Citation `bentley1997finding' on page 27 undefined on input line 305.
-
-
-LaTeX Warning: Citation `zitzler1999evolutionary' on page 27 undefined on input line 305.
-
-
-LaTeX Warning: Citation `van2000measuring' on page 27 undefined on input line 305.
-
-
-LaTeX Warning: Citation `zitzler2000comparison' on page 27 undefined on input line 305.
-
-
-LaTeX Warning: Citation `van2000multiobjective' on page 27 undefined on input line 310.
-
-
-LaTeX Warning: Citation `giagkiozis2014pareto' on page 27 undefined on input line 310.
-
-
-LaTeX Warning: Citation `branke2005integrating' on page 27 undefined on input line 313.
-
-
-LaTeX Warning: Citation `branke2001guidance' on page 27 undefined on input line 313.
-
-
-LaTeX Warning: Citation `cheng2015reference' on page 27 undefined on input line 313.
-
-[27]
-
-LaTeX Warning: Citation `nasridinov2012qos' on page 28 undefined on input line 318.
-
-
-LaTeX Warning: Citation `wen2014probabilistic' on page 28 undefined on input line 322.
-
-
-LaTeX Warning: Citation `wen2014probabilistic' on page 28 undefined on input line 322.
-
-
-LaTeX Warning: Citation `mostafa2015multi' on page 28 undefined on input line 324.
-
-[28]
-
-LaTeX Warning: Citation `salas2006ws' on page 29 undefined on input line 327.
-
-
-LaTeX Warning: Citation `yin2010qos' on page 29 undefined on input line 327.
-
-
-LaTeX Warning: Citation `salas2006ws' on page 29 undefined on input line 327.
-
-
-LaTeX Warning: Citation `yin2010qos' on page 29 undefined on input line 327.
-
-
-LaTeX Warning: Citation `nasridinov2012qos' on page 29 undefined on input line 327.
-
-
-LaTeX Warning: Citation `nasridinov2012qos' on page 29 undefined on input line 327.
-
-
-LaTeX Warning: Citation `mohanty2010web' on page 29 undefined on input line 327.
-
-
-LaTeX Warning: Citation `wagner2016robust' on page 29 undefined on input line 327.
-
-
-LaTeX Warning: Citation `wang2014automated' on page 29 undefined on input line 331.
-
-
-LaTeX Warning: Citation `wang2014automated' on page 29 undefined on input line 331.
-
-[29]
-
-LaTeX Warning: Citation `bansal2016generalized' on page 30 undefined on input line 336.
-
-
-LaTeX Warning: Citation `wang2016automatic' on page 30 undefined on input line 338.
-
-[30]) [31]
+[26] [27] [28] [29] [30]) [31]
 \openout2 = `preliminary_work.aux'.
 
  (./preliminary_work.tex [32
@@ -1408,181 +524,31 @@ LaTeX Warning: Citation `wang2016automatic' on page 30 undefined on input line 3
 ]
 Chapter 3.
 
-LaTeX Warning: Citation `zeng2003quality' on page 33 undefined on input line 7.
-
-
-LaTeX Warning: Citation `paolucci2002semantic' on page 33 undefined on input line 12.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 33 undefined on input line 12.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 33 undefined on input line 12.
-
-
-LaTeX Warning: Citation `lecue2008optimizing' on page 33 undefined on input line 14.
-
-
-LaTeX Warning: Citation `shet2012new' on page 33 undefined on input line 14.
-
-
-LaTeX Warning: Citation `shet2012new' on page 33 undefined on input line 14.
-
-
 Underfull \vbox (badness 4156) has occurred while \output is active []
 
  [33]
-
-LaTeX Warning: Citation `ma2012formal' on page 34 undefined on input line 37.
-
-
-LaTeX Warning: Reference `tbl:QoS_Aggre' on page 34 undefined on input line 37.
-
-
-LaTeX Warning: Reference `eq_fitness' on page 34 undefined on input line 53.
-
-
-LaTeX Warning: Reference `eq_normal' on page 34 undefined on input line 59.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 34 undefined on input line 59.
-
-
-LaTeX Warning: Citation `da2016genetic' on page 34 undefined on input line 59.
-
-
-Overfull \hbox (14.03963pt too wide) in paragraph at lines 57--60
-\OT1/ppl/m/n/10.95 plify the pre-sen-ta-tion we also use the no-ta-tion $\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/zplm/m/n/10.95 )$ $= (\OML/zplm/m/it/10.95 MT\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 SIM\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 A\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 R\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 T\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 C\OT1/zplm/m/n/10.95 )$\OT1/ppl/m/n/10.95 .
+Overfull \hbox (31.53754pt too wide) in paragraph at lines 57--60
+\OT1/ppl/m/n/10.95 sim-plify the pre-sen-ta-tion we also use the no-ta-tion $\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 Q[]\OT1/zplm/m/n/10.95 )$ $= (\OML/zplm/m/it/10.95 MT\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 SIM\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 A\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 R\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 T\OT1/ppl/m/n/10.95 , \OML/zplm/m/it/10.95 C\OT1/zplm/m/n/10.95 )$\OT1/ppl/m/n/10.95 .
  []
 
-[34]
-
-LaTeX Warning: Reference `eq_fitness' on page 35 undefined on input line 71.
-
-
-LaTeX Warning: Reference `overview' on page 35 undefined on input line 76.
-
-<overview.pdf, id=333, 853.1875pt x 341.275pt>
+[34] <overview.pdf, id=333, 853.1875pt x 341.275pt>
 File: overview.pdf Graphic file (type pdf)
  <use overview.pdf>
 Package pdftex.def Info: overview.pdf used on input line 79.
 (pdftex.def)             Requested size: 426.59271pt x 170.63707pt.
-
-
-LaTeX Warning: Reference `problemDes' on page 35 undefined on input line 84.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 35 undefined on input line 86.
-
-
-LaTeX Warning: Citation `shi2001particle' on page 35 undefined on input line 88.
-
-
-LaTeX Warning: Reference `novelSteps' on page 35 undefined on input line 88.
-
-
-LaTeX Warning: Reference `graph_building' on page 35 undefined on input line 88.
-
-
-LaTeX Warning: Reference `PSO-based_algomargin' on page 35 undefined on input line 88.
-
-[35 <./overview.pdf>]
-
-LaTeX Warning: Reference `novelSteps' on page 36 undefined on input line 90.
-
-
-LaTeX Warning: Reference `graph_building' on page 36 undefined on input line 90.
-
-
-LaTeX Warning: Reference `novelSteps' on page 36 undefined on input line 90.
-
+ [35 <./overview.pdf>]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-
-LaTeX Warning: Reference `graph_building' on page 36 undefined on input line 90.
-
-
-LaTeX Warning: Reference `problemDes' on page 36 undefined on input line 90.
-
-
-LaTeX Warning: Reference `graph_building' on page 36 undefined on input line 114.
-
-
-LaTeX Warning: Citation `da2016particle' on page 36 undefined on input line 115.
-
-
-LaTeX Warning: Reference `graph_building' on page 36 undefined on input line 119.
-
-
-LaTeX Warning: Citation `blum1997fast' on page 36 undefined on input line 119.
-
-
-LaTeX Warning: Reference `novelSteps' on page 36 undefined on input line 119.
-
-[36]
-
-LaTeX Warning: Citation `ma2015hybrid' on page 37 undefined on input line 152.
-
-
-LaTeX Warning: Citation `da2016genetic' on page 37 undefined on input line 152.
-
-
-LaTeX Warning: Reference `comparisonTestWithGP' on page 37 undefined on input line 152.
-
-
-LaTeX Warning: Reference `comparisonTest' on page 37 undefined on input line 152.
-
-
-LaTeX Warning: Citation `shi2001particle' on page 37 undefined on input line 154.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 37 undefined on input line 154.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 37 undefined on input line 157.
-
-
-LaTeX Warning: Citation `da2015gp' on page 37 undefined on input line 157.
-
-
-LaTeX Warning: Reference `meanFitness' on page 37 undefined on input line 159.
-
-
-LaTeX Warning: Reference `meanFitness' on page 37 undefined on input line 159.
-
-
-LaTeX Warning: Reference `meanFitness' on page 37 undefined on input line 159.
-
+ [36]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 161.
 
 [37]
 
-LaTeX Warning: Citation `ma2015hybrid' on page 38 undefined on input line 178.
-
-
-LaTeX Warning: Citation `da2016particle' on page 38 undefined on input line 178.
-
-
-LaTeX Warning: Citation `da2015graphevol' on page 38 undefined on input line 178.
-
-
-LaTeX Warning: Reference `decisionTable' on page 38 undefined on input line 178.
-
-
-LaTeX Warning: Reference `decisionTable' on page 38 undefined on input line 180.
-
-
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 181.
-
-
-LaTeX Warning: Reference `comparisontest' on page 38 undefined on input line 207.
-
-
-LaTeX Warning: Reference `comparisontest' on page 38 undefined on input line 207.
 
 <comparisontest.pdf, id=392, 1137.24875pt x 735.74875pt>
 File: comparisontest.pdf Graphic file (type pdf)
@@ -1590,25 +556,9 @@ File: comparisontest.pdf Graphic file (type pdf)
 Package pdftex.def Info: comparisontest.pdf used on input line 211.
 (pdftex.def)             Requested size: 329.79369pt x 213.36166pt.
  [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4242) has occurred while \output is active []
 
- [39 <./comparisontest.pdf>]
-
-LaTeX Warning: Citation `gupta2015optimization' on page 40 undefined on input line 222.
-
-
-LaTeX Warning: Citation `da2016genetic' on page 40 undefined on input line 222.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 40 undefined on input line 222.
-
-
-LaTeX Warning: Reference `fig:ExampleOfRepresentation' on page 40 undefined on input line 240.
-
-
-LaTeX Warning: Reference `fig:ExampleOfRepresentation' on page 40 undefined on input line 247.
-
-<Tree(p-symbol).pdf, id=431, 1136.245pt x 652.4375pt>
+ [39 <./comparisontest.pdf>] <Tree(p-symbol).pdf, id=431, 1136.245pt x 652.4375pt>
 File: Tree(p-symbol).pdf Graphic file (type pdf)
  <use Tree(p-symbol).pdf>
 Package pdftex.def Info: Tree(p-symbol).pdf used on input line 252.
@@ -1618,71 +568,17 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 252--253
  [][] 
  []
 
-
-LaTeX Warning: Reference `fig:ExampleOfRepresentation' on page 40 undefined on input line 258.
-
-
-LaTeX Warning: Reference `fig:ExampleOfRepresentation' on page 40 undefined on input line 270.
-
 [40]
-
-LaTeX Warning: Citation `gupta2015optimization' on page 41 undefined on input line 297.
-
-
-LaTeX Warning: Citation `da2016genetic' on page 41 undefined on input line 297.
-
-
-LaTeX Warning: Citation `yu2013adaptive' on page 41 undefined on input line 297.
-
-
 Overfull \hbox (0.17973pt too wide) in paragraph at lines 297--299
 []\OT1/ppl/m/n/10.95 Our rep-re-sen-ta-tion sup-ports com-po-si-tion con-structs that are avail-able in com-monly used
  []
 
-
-LaTeX Warning: Reference `GP-Based Algorithm' on page 41 undefined on input line 300.
-
-
-LaTeX Warning: Reference `fig:ExampleOfRepresentation' on page 41 undefined on input line 313.
-
-
-LaTeX Warning: Reference `GP-based algorithm' on page 41 undefined on input line 348.
-
-
-LaTeX Warning: Citation `koza1992genetic' on page 41 undefined on input line 348.
-
-[41 <./Tree(p-symbol).pdf>]
-
-LaTeX Warning: Citation `ma2015hybrid' on page 42 undefined on input line 378.
-
-
-LaTeX Warning: Reference `fig:DAG' on page 42 undefined on input line 378.
-
-
-LaTeX Warning: Citation `da2016genetic' on page 42 undefined on input line 386.
-
-
-LaTeX Warning: Reference `fig:ExampleOfRepresentation' on page 42 undefined on input line 386.
-
-
-LaTeX Warning: Reference `fig:DAG' on page 42 undefined on input line 386.
-
-<DAG(p-symbol).pdf, id=471, 877.2775pt x 375.4025pt>
+[41 <./Tree(p-symbol).pdf>] <DAG(p-symbol).pdf, id=471, 877.2775pt x 375.4025pt>
 File: DAG(p-symbol).pdf Graphic file (type pdf)
  <use DAG(p-symbol).pdf>
 Package pdftex.def Info: DAG(p-symbol).pdf used on input line 395.
 (pdftex.def)             Requested size: 308.71104pt x 132.10313pt.
- [42 <./DAG(p-symbol).pdf>]
-
-LaTeX Warning: Reference `mutationExample' on page 43 undefined on input line 423.
-
-
-LaTeX Warning: Reference `mutationExample' on page 43 undefined on input line 423.
-
-
-LaTeX Warning: Reference `mutationExample' on page 43 undefined on input line 423.
-
-<mutationExample.pdf, id=495, 1474.50874pt x 908.39375pt>
+ [42 <./DAG(p-symbol).pdf>] <mutationExample.pdf, id=495, 1474.50874pt x 908.39375pt>
 File: mutationExample.pdf Graphic file (type pdf)
  <use mutationExample.pdf>
 Package pdftex.def Info: mutationExample.pdf used on input line 428.
@@ -1692,101 +588,17 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 428--429
  [][] 
  []
 
-
-LaTeX Warning: Reference `fig:ExampleOfRepresentation' on page 43 undefined on input line 433.
-
 [43 <./mutationExample.pdf>]
-
-LaTeX Warning: Citation `kuster2008opossum' on page 44 undefined on input line 438.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 438.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 438.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 442.
-
-
-LaTeX Warning: Reference `eq_fitness' on page 44 undefined on input line 442.
-
-
-LaTeX Warning: Citation `lecue2009optimizing' on page 44 undefined on input line 442.
-
-
 Overfull \hbox (0.47523pt too wide) in paragraph at lines 446--447
 []\OT1/ppl/m/n/10.95 Our ex-per-i-ments in-di-cate that our method can work con-sis-tently well un-der valid weight
  []
 
-
-LaTeX Warning: Reference `meanFitness_GP' on page 44 undefined on input line 451.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 451.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 458.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 458.
-
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 462.
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 462.
-
-
-LaTeX Warning: Reference `meanTime' on page 44 undefined on input line 471.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 471.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 471.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 475.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 475.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 479.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 44 undefined on input line 488.
-
-[44]
-
-LaTeX Warning: Reference `example1and2' on page 45 undefined on input line 492.
-
-
-LaTeX Warning: Reference `example1and2' on page 45 undefined on input line 492.
-
-
-LaTeX Warning: Reference `example1and2' on page 45 undefined on input line 492.
-
-<experimentExample(p-symbol).pdf, id=541, 1034.86626pt x 937.5025pt>
+[44] <experimentExample(p-symbol).pdf, id=541, 1034.86626pt x 937.5025pt>
 File: experimentExample(p-symbol).pdf Graphic file (type pdf)
  <use experimentExample(p-symbol).pdf>
 Package pdftex.def Info: experimentExample(p-symbol).pdf used on input line 503.
 (pdftex.def)             Requested size: 396.91324pt x 359.57344pt.
-
-
-LaTeX Warning: Reference `example1and2' on page 45 undefined on input line 507.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 45 undefined on input line 507.
-
-[45 <./experimentExample(p-symbol).pdf>]
-
-LaTeX Warning: Reference `example1and2' on page 46 undefined on input line 510.
-
-
-LaTeX Warning: Citation `ma2015hybrid' on page 46 undefined on input line 510.
-
-)
+ [45 <./experimentExample(p-symbol).pdf>])
 Overfull \hbox (3.05336pt too wide) in paragraph at lines 532--118
 \OT1/ppl/m/n/10.95 qual-ity model for si-mul-ta-ne-ously op-ti-mize QoS and qual-ity of se-man-tic match-mak-ing. Apart
  []
@@ -1806,16 +618,6 @@ Chapter 4.
 
 
 ]
-
-LaTeX Warning: Reference `tab:projectOverview' on page 48 undefined on input line 19.
-
-
-LaTeX Warning: Reference `C:preliminary' on page 48 undefined on input line 19.
-
-
-LaTeX Warning: Reference `tab:projectTimeline' on page 48 undefined on input line 41.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 []\OT1/ppl/m/n/10 Investigating un-con-strained
  []
@@ -1856,22 +658,19 @@ Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
  [60]) [61] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6564 strings out of 493014
- 96797 string characters out of 6133350
- 297400 words of memory out of 5000000
- 9927 multiletter control sequences out of 15000+600000
- 45662 words of font info for 116 fonts, out of 8000000 for 9000
+ 6573 strings out of 493014
+ 97402 string characters out of 6133350
+ 300532 words of memory out of 5000000
+ 9929 multiletter control sequences out of 15000+600000
+ 44673 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,19n,42p,2864b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,19n,41p,2864b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (67 pages, 582553 bytes).
+Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (67 pages, 577936 bytes).
 PDF statistics:
  680 PDF objects out of 1000 (max. 8388607)
  468 compressed objects within 5 object streams

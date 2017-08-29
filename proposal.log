@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  28 AUG 2017 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (Web2C 2017) (preloaded format=pdflatex 2017.6.23)  29 AUG 2017 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,12 +464,7 @@ nd ef-fi-cient ap-proaches to comprehensive-
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-[3] [4]
-
-LaTeX Warning: Citation `branke2016using' on page 5 undefined on input line 46.
-
-
-[5] [6] [7]
+[3] [4] [5] [6] [7]
 Overfull \hbox (9.05675pt too wide) in paragraph at lines 77--79
 []\OT1/ppl/b/n/10.95 Develop multi-objective ap-proaches to fully au-to-mated c
 om-pre-hen-sive quality-aware
@@ -790,16 +785,13 @@ Missing character: There is no ” in font pplri7t!
  [60]) [61] (./proposal.aux (./introduction.aux)
 (./review.aux) (./preliminary_work.aux) (./plan.aux))
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  6568 strings out of 493675
  94943 string characters out of 6155645
- 293134 words of memory out of 5000000
+ 293139 words of memory out of 5000000
  9752 multiletter control sequences out of 15000+600000
  44673 words of font info for 114 fonts, out of 8000000 for 9000
  890 hyphenation exceptions out of 8191
@@ -813,7 +805,7 @@ b></usr/pkg/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/pkg/s
 hare/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/pkg/share/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/pkg/share/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb>
-Output written on proposal.pdf (67 pages, 578154 bytes).
+Output written on proposal.pdf (67 pages, 577752 bytes).
 PDF statistics:
  680 PDF objects out of 1000 (max. 8388607)
  468 compressed objects within 5 object streams
