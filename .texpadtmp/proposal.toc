@@ -3,9 +3,9 @@
 \contentsline {section}{\numberline {1.2}Motivations}{3}
 \contentsline {subsubsection}{Various Techniques of Hybridization}{3}
 \contentsline {subsubsection}{Comprehensive Quality of Semantic Web Service Composition}{4}
-\contentsline {subsubsection}{Multi-Objective Composition Optimization}{5}
+\contentsline {subsubsection}{Multi-Objective Service Composition Optimization}{5}
 \contentsline {subsubsection}{Dynamic Semantic Web Service Composition}{6}
-\contentsline {subsubsection}{Automated Web Service Composition Based on Preconditions and Effects}{6}
+\contentsline {subsubsection}{Automated Semantic Web Service Composition Supporting Preconditions and Effects}{6}
 \contentsline {section}{\numberline {1.3}Research Goals}{7}
 \contentsline {section}{\numberline {1.4}Published Papers}{12}
 \contentsline {section}{\numberline {1.5}Organization of Proposal}{12}
