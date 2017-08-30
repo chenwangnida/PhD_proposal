@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {2.2.3}Dynamic Web Service Composition Approaches}{28}
 \contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Changes in QoS}{28}
 \contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Service Failure}{29}
-\contentsline {subsection}{\numberline {2.2.4}Semantic Web Service Composition Approaches}{30}
+\contentsline {subsection}{\numberline {2.2.4}Semantic Web Service Composition Approaches Supporting Preconditions and Effects}{30}
 \contentsline {subsection}{\numberline {2.2.5}Summary and Limitations}{30}
 \contentsline {chapter}{\numberline {3}Preliminary Work}{33}
 \contentsline {section}{\numberline {3.1}Problem Formalisation}{33}
