@@ -4,10 +4,10 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Semi-automated Web service composition lifecycle \cite {moghaddam2014service}.\relax }}{16}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces An example of traveling agency service.\relax }}{17}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces An example for demonstrating semantic matchmaking quality.\relax }}{18}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Sequence construct and calculation of its QoS \cite {yu2013adaptive}.\relax }}{20}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Parallel construct and calculation of its QoS \cite {yu2013adaptive}.\relax }}{20}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Choice construct and calculation of its QoS \cite {yu2013adaptive}.\relax }}{20}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Loop construct and calculation of its QoS \cite {yu2013adaptive}.\relax }}{20}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Sequence construct and calculation of its QoS \cite {yu2013adaptive}.\relax }}{21}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Parallel construct and calculation of its QoS \cite {yu2013adaptive}.\relax }}{21}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Choice construct and calculation of its QoS \cite {yu2013adaptive}.\relax }}{21}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Loop construct and calculation of its QoS \cite {yu2013adaptive}.\relax }}{21}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces An overview of our PSO-based approach to comprehensive quality-aware automated semantic web service composition.\relax }}{35}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces An example for the comparison of the best solutions obtained based on the QoS model and on the comprehensive quality model for Task 3.\relax }}{39}

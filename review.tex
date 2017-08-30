@@ -65,13 +65,15 @@ The operational characteristics of Web services are related to the functional pr
 %These preconditions must be hold in the state consistently while inputs are being passed to services. Similarly, the effects is restricted to the description of constraints on returned outputs, relationships between inputs and outputs, and changes caused by the service in the knowledge bases.
 
 \subsubsection{Nonfunctional Properties of Web services}\label{nonfunctional}
-Apart from the functional properties of Web services discussed above, the non-functional properties of Web services play an important part in composing services and often refer to QoS. For example, customers prefer lowest execution cost with highest response time and reliability. According to \cite{zeng2003quality}, four most often considered QoS parameters are as follows:
+Apart from the functional properties of Web services discussed above, the non-functional properties of Web services play an important part in composing services. One nonfunctional property often refers to QoS. For example, customers prefer lowest execution cost with highest response time and reliability. According to \cite{zeng2003quality}, four most often considered QoS parameters are as follows:
 \begin{itemize}
 \item \textit{Response time} ($T$) measures the expected delay in seconds between the moment when a request is sent and the moment when the results are received.
 \item \textit{Cost} ($C$) is the amount of money that a service requester has to pay for executing the Web service
 \item \textit{Reliability} ($R$) is the probability that a request is correctly responded within the maximum expected time frame.
 \item \textit{Availability} ($A$) is the probability that a Web service is accessible.
 \end{itemize}
+
+Service level agreement (SLA) is also important as another nonfunctional properties of Web services. It is a declarative contract, which clarifies the QoS level that is agreed by service providers and service users \cite{zhao2015toward}. For example,  an SLA is clarified as end-to-end QoS constraints on a business process,  which presents how a certain business goal is achieved \cite{wada2008multiobjective}.
 
 \subsubsection{Web Service Discovery}\label{servicediscovery}
 To generate service compositions, Web service must provide mechanisms for discovery required services. Therefore, service discovery becomes a fundamental technique to be considered in all service composition approaches. \cite{agarwal2009d5} discussed three mechanisms of semantic Web service discovery: classification-based approach, functionality-based approach and hybrid approach. Those service discovery techniques are further demonstrated below.

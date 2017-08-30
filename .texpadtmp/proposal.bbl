@@ -598,6 +598,12 @@
 \newblock In {\em Evolutionary Computation, 2000. Proceedings of the 2000
   Congress on\/} (2000), vol.~1, IEEE, pp.~204--211.
 
+\bibitem{wada2008multiobjective}
+{\sc Wada, H., Champrasert, P., Suzuki, J., and Oba, K.}
+\newblock Multiobjective optimization of sla-aware service composition.
+\newblock In {\em Services-Part I, 2008. IEEE Congress on\/} (2008), IEEE,
+  pp.~368--375.
+
 \bibitem{wada2012e3}
 {\sc Wada, H., Suzuki, J., Yamano, Y., and Oba, K.}
 \newblock E$^3$: A multiobjective optimization framework for sla-aware service
@@ -760,6 +766,12 @@
   optimization.
 \newblock In {\em Computer Software and Applications Conference (COMPSAC), 2010
   IEEE 34th Annual\/} (2010), IEEE, pp.~493--502.
+
+\bibitem{zhao2015toward}
+{\sc Zhao, X., Shen, L., Peng, X., and Zhao, W.}
+\newblock Toward sla-constrained service composition: An approach based on a
+  fuzzy linguistic preference model and an evolutionary algorithm.
+\newblock {\em Information Sciences 316\/} (2015), 370--396.
 
 \bibitem{zitzler1999evolutionary}
 {\sc Zitzler, E.}
