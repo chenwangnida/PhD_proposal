@@ -191,6 +191,12 @@
 \newblock {\em IEEE transactions on evolutionary computation 6}, 2 (2002),
   182--197.
 
+\bibitem{erl2004service}
+{\sc Erl, T.}
+\newblock {\em Service-oriented architecture: a field guide to integrating XML
+  and web services}.
+\newblock Prentice hall, 2004.
+
 \bibitem{fanjiang2014semantic}
 {\sc FanJiang, Y.-Y., and Syu, Y.}
 \newblock Semantic-based automatic service composition with functional and
@@ -213,7 +219,7 @@
 \newblock Evolutionary algorithms in control systems engineering: a survey.
 \newblock {\em Control engineering practice 10}, 11 (2002), 1223--1241.
 
-\bibitem{gao2005web}
+\bibitem{gao2005Web}
 {\sc Gao, A., Yang, D., Tang, S., and Zhang, M.}
 \newblock Web service composition using integer programming-based models.
 \newblock In {\em e-Business Engineering, 2005. ICEBE 2005. IEEE International
@@ -561,7 +567,7 @@
 \newblock {\em Web Semantics: Science, Services and Agents on the World Wide
   Web 1}, 4 (2004), 377--396.
 
-\bibitem{sohrabi2009web}
+\bibitem{sohrabi2009Web}
 {\sc Sohrabi, S., Prokoshyna, N., and McIlraith, S.~A.}
 \newblock Web service composition via the customization of golog programs with
   user preferences.
@@ -700,7 +706,7 @@
 \newblock In {\em Information Science and Management Engineering (ISME), 2010
   International Conference of\/} (2010), vol.~2, IEEE, pp.~79--82.
 
-\bibitem{yoo2008web}
+\bibitem{yoo2008Web}
 {\sc Yoo, J. J.-W., Kumara, S., Lee, D., and Oh, S.-C.}
 \newblock A web service composition framework using integer programming with
   non-functional objectives and constraints.

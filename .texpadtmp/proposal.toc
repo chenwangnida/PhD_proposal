@@ -16,14 +16,15 @@
 \contentsline {subsubsection}{Nonfunctional Properties of Web services}{14}
 \contentsline {subsubsection}{Web Service Discovery}{14}
 \contentsline {subsection}{\numberline {2.1.2}Web Service Composition}{15}
-\contentsline {subsubsection}{Web Service Composition Lifecycle}{16}
-\contentsline {subsubsection}{An Example of web service composition}{17}
+\contentsline {subsubsection}{Semi-Automated Web Service Composition}{16}
+\contentsline {subsubsection}{Fully Automated Web Service Composition}{16}
 \contentsline {subsubsection}{Functional Properties of Web Service Composition}{17}
+\contentsline {subsubsection}{Semantic Web Service Composition}{18}
 \contentsline {subsubsection}{Nonfunctional Properties of Web Service Composition}{19}
-\contentsline {subsection}{\numberline {2.1.3}Evolutionary Computation Techniques Overview}{20}
+\contentsline {subsection}{\numberline {2.1.3}Evolutionary Computation Techniques Overview}{21}
 \contentsline {section}{\numberline {2.2}Related Work}{21}
 \contentsline {subsection}{\numberline {2.2.1}Single-Objective Web Service Composition Approaches}{21}
-\contentsline {subsubsection}{EC-based Composition Approaches}{21}
+\contentsline {subsubsection}{EC-based Composition Approaches}{22}
 \contentsline {subsubsection}{AI Based Approaches}{24}
 \contentsline {subsubsection}{Other Approaches}{24}
 \contentsline {subsection}{\numberline {2.2.2}Multi-objective, and Many-objective Web Service Composition Approaches}{25}
@@ -33,7 +34,7 @@
 \contentsline {subsection}{\numberline {2.2.3}Dynamic Web Service Composition Approaches}{28}
 \contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Changes in QoS}{28}
 \contentsline {subsubsection}{Dynamic Web Service Composition Approaches For Service Failure}{29}
-\contentsline {subsection}{\numberline {2.2.4}Semantic Web Service Composition Approaches}{29}
+\contentsline {subsection}{\numberline {2.2.4}Semantic Web Service Composition Approaches}{30}
 \contentsline {subsection}{\numberline {2.2.5}Summary and Limitations}{30}
 \contentsline {chapter}{\numberline {3}Preliminary Work}{33}
 \contentsline {section}{\numberline {3.1}Problem Formalisation}{33}
