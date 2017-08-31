@@ -12,7 +12,7 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces An overview of our PSO-based approach to comprehensive quality-aware automated semantic web service composition.\relax }}{35}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces An example for the comparison of the best solutions obtained based on the QoS model and on the comprehensive quality model for Task 3.\relax }}{39}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Example of a tree-like representation\relax }}{41}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Example of a DAG used for transferring it into tree-like representation\relax }}{42}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Example of a weighted DAG used for transferring it into tree-like representation\relax }}{42}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Examples of two mutations on terminal and functional nodes\relax }}{43}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Example of best solutions using the two GP-based approaches\relax }}{45}
 \addvspace {10\p@ }
