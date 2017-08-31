@@ -3,13 +3,8 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: review.aux
-Case mismatch error between cite keys peer2005Web and peer2005web
----line 123 of file review.aux
- : \citation{peer2005Web
- :                      }
-I'm skipping whatever remains of this command
 Case mismatch error between cite keys mohanty2010Web and mohanty2010web
----line 192 of file review.aux
+---line 191 of file review.aux
  : \citation{mohanty2010Web
  :                         }
 I'm skipping whatever remains of this command
@@ -549,4 +544,4 @@ warning$ -- 3
 while$ -- 519
 width$ -- 131
 write$ -- 1323
-(There were 125 error messages)
+(There were 124 error messages)
