@@ -61,5 +61,5 @@
 \contentsline {section}{\numberline {4.4}Thesis Outline}{46}
 \contentsline {section}{\numberline {4.5}Resources Required}{48}
 \contentsline {subsection}{\numberline {4.5.1}Computing Resources}{48}
-\contentsline {subsection}{\numberline {4.5.2}Library Resources}{48}
+\contentsline {subsection}{\numberline {4.5.2}Library Resources}{49}
 \contentsline {subsection}{\numberline {4.5.3}Conference Travel Grants}{49}

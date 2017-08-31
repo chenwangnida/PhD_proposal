@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  31 AUG 2017 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  1 SEP 2017 00:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -300,11 +300,11 @@ VUW Honours reports modifications -- Mar 1995
 Modified to handle different degrees 2003
 Modified to handle duplex printing properly 2006
 \@abstract=\box39
-) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux
+) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux
 
 LaTeX Warning: Label `summary2' multiply defined.
 
-) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
+) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -368,14 +368,14 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./VUWlogo.png>] [0]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 104.
- (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.toc [1
+ (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.toc [1
 
 
 ])
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
 
- [2] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.lof)
+ [2] (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.lof)
 \tf@lof=\write4
 \openout4 = `proposal.lof'.
 
@@ -624,18 +624,53 @@ Chapter 4.
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[]\OT1/ppl/m/n/10 Developing in-di-rect rep-re-
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 54--55
+\OT1/ppl/m/n/10 sen-ta-tions uti-lize in a hyper-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 []\OT1/ppl/m/n/10 Investigating un-con-strained
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 58--59
-\OT1/ppl/m/n/10 ap-proach by in-te-grat-ing other
+Underfull \hbox (badness 1558) in paragraph at lines 56--57
+\OT1/ppl/m/n/10 MO op-ti-miza-tion for com-pre-
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 68--69
-\OT1/ppl/m/n/10 han-dle pre-con-di-tions and ef-
+Underfull \hbox (badness 4886) in paragraph at lines 56--57
+\OT1/ppl/m/n/10 hen-sive quality-aware ser-vice
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 60--61
+[]\OT1/ppl/m/n/10 Extending MO ap-proaches to
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 62--63
+[]\OT1/ppl/m/n/10 Extending MO ap-proaches to
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 64--65
+[]\OT1/ppl/m/n/10 Develop EC-based ap-proaches
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 66--67
+[]\OT1/ppl/m/n/10 Develop EC-based ap-proaches
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 68--69
+[]\OT1/ppl/m/n/10 Develop EC-based ap-proaches
  []
 
 
@@ -643,15 +678,15 @@ Overfull \hbox (0.9845pt too wide) in paragraph at lines 86--88
 \OT1/ppl/m/n/10.95 This chap-ter ini-tially pro-vides some fun-da-men-tal con-cepts for demon-strat-ing the back-
  []
 
-
-Overfull \hbox (2.03581pt too wide) in paragraph at lines 86--88
-\OT1/ppl/m/n/10.95 multi-objective ap-proach, dy-namic ser-vice com-po-si-tion and se-man-tic web ser-vice com-
+[46] [47]
+Overfull \hbox (3.45984pt too wide) in paragraph at lines 88--90
+\OT1/ppl/m/n/10.95 This chap-ter will in-tro-duce new EC-based ap-proaches that com-bine lo-cal search and/or
  []
 
-[46] [47]) [48] [49] [50
+[48]) [49] [50
 
 
-] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.bbl [51
+] (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.bbl [51
 
 ] [52] [53]
 Underfull \hbox (badness 1997) in paragraph at lines 323--327
@@ -662,7 +697,7 @@ Underfull \hbox (badness 1997) in paragraph at lines 323--327
 Missing character: There is no â in font pplri7t!
 Missing character: There is no € in font pplri7t!
 Missing character: There is no ” in font pplri7t!
-) [59] (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux) (/Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
+) [59] (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/introduction.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/review.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/preliminary_work.aux) (/Users/user/Documents/workspace/PhD_proposal/.texpadtmp/plan.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -672,14 +707,14 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  6579 strings out of 493014
- 97504 string characters out of 6133350
+ 97388 string characters out of 6133350
  300565 words of memory out of 5000000
  9935 multiletter control sequences out of 15000+600000
  44673 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,19n,41p,3206b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 578431 bytes).
+Output written on /Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 578349 bytes).
 PDF statistics:
  673 PDF objects out of 1000 (max. 8388607)
  463 compressed objects within 5 object streams
