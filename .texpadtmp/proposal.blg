@@ -4,7 +4,7 @@ The top-level auxiliary file: /Users/chenwang/Documents/workspace/PhD_proposal/.
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: review.aux
 Case mismatch error between cite keys mohanty2010Web and mohanty2010web
----line 191 of file review.aux
+---line 186 of file review.aux
  : \citation{mohanty2010Web
  :                         }
 I'm skipping whatever remains of this command
