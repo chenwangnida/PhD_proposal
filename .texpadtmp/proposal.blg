@@ -3,11 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/user/Documents/workspace/PhD_proposal/.texpadtmp/proposal.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: review.aux
-Case mismatch error between cite keys mohanty2010Web and mohanty2010web
----line 186 of file review.aux
- : \citation{mohanty2010Web
- :                         }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: preliminary_work.aux
 A level-1 auxiliary file: plan.aux
 The style file: acm.bst
@@ -544,4 +539,4 @@ warning$ -- 3
 while$ -- 519
 width$ -- 131
 write$ -- 1323
-(There were 124 error messages)
+(There were 123 error messages)
