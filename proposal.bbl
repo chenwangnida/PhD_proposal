@@ -191,6 +191,12 @@
 \newblock {\em IEEE transactions on evolutionary computation 6}, 2 (2002),
   182--197.
 
+\bibitem{erl2004service}
+{\sc Erl, T.}
+\newblock {\em Service-oriented architecture: a field guide to integrating XML
+  and web services}.
+\newblock Prentice hall, 2004.
+
 \bibitem{fanjiang2014semantic}
 {\sc FanJiang, Y.-Y., and Syu, Y.}
 \newblock Semantic-based automatic service composition with functional and
@@ -213,7 +219,7 @@
 \newblock Evolutionary algorithms in control systems engineering: a survey.
 \newblock {\em Control engineering practice 10}, 11 (2002), 1223--1241.
 
-\bibitem{gao2005web}
+\bibitem{gao2005Web}
 {\sc Gao, A., Yang, D., Tang, S., and Zhang, M.}
 \newblock Web service composition using integer programming-based models.
 \newblock In {\em e-Business Engineering, 2005. ICEBE 2005. IEEE International
@@ -561,7 +567,7 @@
 \newblock {\em Web Semantics: Science, Services and Agents on the World Wide
   Web 1}, 4 (2004), 377--396.
 
-\bibitem{sohrabi2009web}
+\bibitem{sohrabi2009Web}
 {\sc Sohrabi, S., Prokoshyna, N., and McIlraith, S.~A.}
 \newblock Web service composition via the customization of golog programs with
   user preferences.
@@ -592,6 +598,12 @@
 \newblock In {\em Evolutionary Computation, 2000. Proceedings of the 2000
   Congress on\/} (2000), vol.~1, IEEE, pp.~204--211.
 
+\bibitem{wada2008multiobjective}
+{\sc Wada, H., Champrasert, P., Suzuki, J., and Oba, K.}
+\newblock Multiobjective optimization of sla-aware service composition.
+\newblock In {\em Services-Part I, 2008. IEEE Congress on\/} (2008), IEEE,
+  pp.~368--375.
+
 \bibitem{wada2012e3}
 {\sc Wada, H., Suzuki, J., Yamano, Y., and Oba, K.}
 \newblock E$^3$: A multiobjective optimization framework for sla-aware service
@@ -608,6 +620,13 @@
 \newblock Genetic programming with greedy search for web service composition.
 \newblock In {\em International Conference on Database and Expert Systems
   Applications\/} (2013), Springer, pp.~9--17.
+
+\bibitem{wang2017comprehensive}
+{\sc Wang, C., Ma, H., Chen, A., and Hartmann, S.}
+\newblock Comprehensive quality-aware automated semantic web service
+  composition.
+\newblock In {\em Advances in Artificial Intelligence: 30th Australasian Joint
+  Conference\/} (2017), Springer, pp.~195--207.
 
 \bibitem{wang2014novel}
 {\sc Wang, D., Huang, H., and Xie, C.}
@@ -693,7 +712,7 @@
 \newblock In {\em Information Science and Management Engineering (ISME), 2010
   International Conference of\/} (2010), vol.~2, IEEE, pp.~79--82.
 
-\bibitem{yoo2008web}
+\bibitem{yoo2008Web}
 {\sc Yoo, J. J.-W., Kumara, S., Lee, D., and Oh, S.-C.}
 \newblock A web service composition framework using integer programming with
   non-functional objectives and constraints.
@@ -747,6 +766,12 @@
   optimization.
 \newblock In {\em Computer Software and Applications Conference (COMPSAC), 2010
   IEEE 34th Annual\/} (2010), IEEE, pp.~493--502.
+
+\bibitem{zhao2015toward}
+{\sc Zhao, X., Shen, L., Peng, X., and Zhao, W.}
+\newblock Toward sla-constrained service composition: An approach based on a
+  fuzzy linguistic preference model and an evolutionary algorithm.
+\newblock {\em Information Sciences 316\/} (2015), 370--396.
 
 \bibitem{zitzler1999evolutionary}
 {\sc Zitzler, E.}
