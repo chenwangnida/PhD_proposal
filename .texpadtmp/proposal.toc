@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Problem Statement}{1}
 \contentsline {section}{\numberline {1.2}Motivations}{3}
-\contentsline {subsubsection}{Various Techniques of Hybridization}{3}
+\contentsline {subsubsection}{Various hybridized methods for web service composition}{3}
 \contentsline {subsubsection}{Comprehensive Quality of Semantic Web Service Composition}{4}
 \contentsline {subsubsection}{Multi-Objective Optimization for Service Composition}{5}
 \contentsline {subsubsection}{Dynamic Semantic Web Service Composition}{6}
@@ -21,13 +21,13 @@
 \contentsline {subsubsection}{Functional Properties of Web Service Composition}{18}
 \contentsline {subsubsection}{Semantic Web Service Composition}{18}
 \contentsline {subsubsection}{Nonfunctional Properties of Web Service Composition}{19}
-\contentsline {subsection}{\numberline {2.1.3}Evolutionary Computation Techniques Overview}{20}
+\contentsline {subsection}{\numberline {2.1.3}An Overview of Evolutionary Computation Techniques}{20}
 \contentsline {section}{\numberline {2.2}Related Work}{22}
 \contentsline {subsection}{\numberline {2.2.1}Single-Objective Web Service Composition Approaches}{22}
 \contentsline {subsubsection}{EC-based Composition Approaches}{22}
 \contentsline {subsubsection}{AI Based Approaches}{24}
 \contentsline {subsubsection}{Other Approaches}{24}
-\contentsline {subsection}{\numberline {2.2.2}Multi-objective, and Many-objective Web Service Composition Approaches}{25}
+\contentsline {subsection}{\numberline {2.2.2}Multi-objective and Many-objective Web Service Composition Approaches}{25}
 \contentsline {subsubsection}{Multi-objective approaches}{25}
 \contentsline {subsubsection}{Many-objective approaches}{26}
 \contentsline {subsubsection}{Preferences Articulation Techniques for Multi-and Many-objective Approaches}{27}
@@ -45,14 +45,14 @@
 \contentsline {subsection}{\numberline {3.3.1}GP-based vs. PSO-based approach}{35}
 \contentsline {subsection}{\numberline {3.3.2}Comprehensive Quality Model vs. QoS Model}{36}
 \contentsline {subsection}{\numberline {3.3.3}Further Discussion}{36}
-\contentsline {section}{\numberline {3.4}Summary for PSO-based Approach}{38}
+\contentsline {section}{\numberline {3.4}Summary for our PSO-based Approach}{38}
 \contentsline {section}{\numberline {3.5}GP-based Approach to Comprehensive Quality-Aware Automated Semantic Web Service Composition}{38}
 \contentsline {subsection}{\numberline {3.5.1}A New Tree-like Representation for Web Service Composition}{38}
 \contentsline {subsection}{\numberline {3.5.2}GP-Based Algorithm}{39}
 \contentsline {section}{\numberline {3.6}Experiment Study for GP-based Approach}{42}
 \contentsline {subsection}{\numberline {3.6.1}Comparison against a previous GP-based approach}{42}
 \contentsline {subsection}{\numberline {3.6.2}Further Discussion}{43}
-\contentsline {section}{\numberline {3.7}Summary for GP-based Approach}{44}
+\contentsline {section}{\numberline {3.7}Summary for our GP-based Approach}{44}
 \contentsline {section}{\numberline {3.8}Conclusion}{44}
 \contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{45}
 \contentsline {section}{\numberline {4.1}Proposed Contributions}{45}
