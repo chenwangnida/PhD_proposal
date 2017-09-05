@@ -12,8 +12,8 @@
 \contentsline {chapter}{\numberline {2}Literature Review}{13}
 \contentsline {section}{\numberline {2.1}Background}{13}
 \contentsline {subsection}{\numberline {2.1.1}Web Service}{13}
-\contentsline {subsubsection}{Functional Properties of Web services}{14}
-\contentsline {subsubsection}{Nonfunctional Properties of Web services}{14}
+\contentsline {subsubsection}{Functional Properties of Web Services}{14}
+\contentsline {subsubsection}{Nonfunctional Properties of Web Services}{14}
 \contentsline {subsubsection}{Web Service Discovery}{15}
 \contentsline {subsection}{\numberline {2.1.2}Web Service Composition}{15}
 \contentsline {subsubsection}{Semi-Automated Web Service Composition}{16}
@@ -52,7 +52,7 @@
 \contentsline {section}{\numberline {3.6}Experiment Study for GP-based Approach}{42}
 \contentsline {subsection}{\numberline {3.6.1}Comparison against a previous GP-based approach}{42}
 \contentsline {subsection}{\numberline {3.6.2}Further Discussion}{43}
-\contentsline {section}{\numberline {3.7}Summary for our GP-based Approach}{44}
+\contentsline {section}{\numberline {3.7}Summary for our GP-based Approach}{43}
 \contentsline {section}{\numberline {3.8}Conclusion}{44}
 \contentsline {chapter}{\numberline {4}Proposed Contributions and Project Plan}{45}
 \contentsline {section}{\numberline {4.1}Proposed Contributions}{45}

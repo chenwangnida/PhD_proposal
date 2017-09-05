@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  5 SEP 2017 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  5 SEP 2017 18:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -567,11 +567,8 @@ LaTeX Warning: No positions in optional float specifier.
 File: comparisontest.pdf Graphic file (type pdf)
  <use comparisontest.pdf>
 Package pdftex.def Info: comparisontest.pdf used on input line 214.
-(pdftex.def)             Requested size: 329.79369pt x 213.36166pt.
- [36]
-Underfull \vbox (badness 2726) has occurred while \output is active []
-
- [37 <./comparisontest.pdf>] <Tree(p-symbol).pdf, id=425, 1136.245pt x 652.4375pt>
+(pdftex.def)             Requested size: 375.29324pt x 242.79784pt.
+ [36] [37 <./comparisontest.pdf>] <Tree(p-symbol).pdf, id=425, 1136.245pt x 652.4375pt>
 File: Tree(p-symbol).pdf Graphic file (type pdf)
  <use Tree(p-symbol).pdf>
 Package pdftex.def Info: Tree(p-symbol).pdf used on input line 255.
@@ -590,7 +587,7 @@ Overfull \hbox (0.17973pt too wide) in paragraph at lines 300--302
 File: DAG(p-symbol).pdf Graphic file (type pdf)
  <use DAG(p-symbol).pdf>
 Package pdftex.def Info: DAG(p-symbol).pdf used on input line 398.
-(pdftex.def)             Requested size: 308.71104pt x 132.10313pt.
+(pdftex.def)             Requested size: 330.76328pt x 141.54317pt.
  [40 <./DAG(p-symbol).pdf>] <mutationExample.pdf, id=489, 1474.50874pt x 908.39375pt>
 File: mutationExample.pdf Graphic file (type pdf)
  <use mutationExample.pdf>
@@ -611,7 +608,7 @@ File: experimentExample(p-symbol).pdf Graphic file (type pdf)
  <use experimentExample(p-symbol).pdf>
 Package pdftex.def Info: experimentExample(p-symbol).pdf used on input line 506.
 (pdftex.def)             Requested size: 396.91324pt x 359.57344pt.
- [43 <./experimentExample(p-symbol).pdf>])
+ [43])
 Overfull \hbox (3.05336pt too wide) in paragraph at lines 535--117
 \OT1/ppl/m/n/10.95 qual-ity model for si-mul-ta-ne-ously op-ti-mize QoS and qual-ity of se-man-tic match-mak-ing. Apart
  []
@@ -621,7 +618,7 @@ Overfull \hbox (8.6498pt too wide) in paragraph at lines 535--117
 \OT1/ppl/m/n/10.95 from that, two novel and ef-fec-tive EC-based meth-ods are pro-posed for com-pre-hen-sive quality-
  []
 
-[44]
+[44 <./experimentExample(p-symbol).pdf>]
 \openout2 = `plan.aux'.
 
  (./plan.tex
@@ -732,13 +729,13 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  6578 strings out of 493014
  97488 string characters out of 6133350
- 300565 words of memory out of 5000000
+ 301565 words of memory out of 5000000
  9934 multiletter control sequences out of 15000+600000
  44673 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,19n,41p,2820b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 578400 bytes).
+Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 578342 bytes).
 PDF statistics:
  673 PDF objects out of 1000 (max. 8388607)
  463 compressed objects within 5 object streams
