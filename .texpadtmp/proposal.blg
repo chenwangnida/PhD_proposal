@@ -500,7 +500,7 @@ Warning--empty journal in mier2015integrated
 Warning--empty journal in zitzler1999evolutionary
 You've used 128 entries,
             2253 wiz_defined-function locations,
-            1188 strings with 28527 characters,
+            1186 strings with 28507 characters,
 and the built_in function-call counts, 50978 in all, are:
 = -- 5032
 > -- 2376
