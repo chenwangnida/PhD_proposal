@@ -33,7 +33,7 @@
 \contentsline {subsubsection}{Preferences Articulation Techniques for Multi-and Many-objective Approaches}{27}
 \contentsline {subsection}{\numberline {2.2.3}Dynamic Web Service Composition Approaches}{28}
 \contentsline {subsubsection}{Dynamic Web Service Composition Approaches for Handling Changes in QoS}{28}
-\contentsline {subsubsection}{Dynamic Web Service Composition Approaches for Handling Unexpected Service Failure}{28}
+\contentsline {subsubsection}{Dynamic Web Service Composition Approaches for Handling Unexpected Service Failure}{29}
 \contentsline {subsection}{\numberline {2.2.4}Web Service Composition Approaches Supporting Preconditions and Effects}{29}
 \contentsline {subsection}{\numberline {2.2.5}Summary and Limitations}{29}
 \contentsline {chapter}{\numberline {3}Preliminary Work}{31}

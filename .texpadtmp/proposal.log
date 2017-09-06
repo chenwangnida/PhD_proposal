@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  6 SEP 2017 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.19)  6 SEP 2017 13:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -489,17 +489,17 @@ Package pdftex.def Info: loop.pdf used on input line 241.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20] [21 <./sequence.pdf> <./parallel.pdf> <./choice.pdf> <./loop.pdf>] [22] [23] [24]
-Overfull \hbox (1.71985pt too wide) in paragraph at lines 296--296
+Overfull \hbox (1.71985pt too wide) in paragraph at lines 298--298
 []\OT1/ppl/b/n/12 Multi-objective and Many-objective Web Ser-vice Com-po-si-tion Ap-proaches 
  []
 
 [25]
-Overfull \hbox (1.94817pt too wide) in paragraph at lines 310--312
+Overfull \hbox (1.94817pt too wide) in paragraph at lines 312--314
 \OT1/ppl/m/n/10.95 a group of ants for op-ti-miz-ing the tra-versed for-ag-ing path, where the strength of pheromones
  []
 
 
-Overfull \hbox (2.92268pt too wide) in paragraph at lines 315--316
+Overfull \hbox (2.92268pt too wide) in paragraph at lines 317--318
 \OT1/ppl/m/n/10.95 More than three ob-jec-tives in multi-objective prob-lems (MOPs) are of-ten con-sid-ered as many-
  []
 
@@ -509,7 +509,7 @@ Overfull \hbox (2.92268pt too wide) in paragraph at lines 315--316
  (./preliminary_work.tex
 Chapter 3.
 
-Underfull \vbox (badness 4156) has occurred while \output is active []
+Underfull \vbox (badness 1571) has occurred while \output is active []
 
  [31
 
@@ -609,13 +609,13 @@ Underfull \hbox (badness 2213) in paragraph at lines 31--31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-[]\OT1/ppl/m/n/10 Developing in-di-rect rep-re-
+Underfull \hbox (badness 4048) in paragraph at lines 54--55
+[]\OT1/ppl/m/n/10 Developing in-di-rect rep-re-sen-
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 54--55
-\OT1/ppl/m/n/10 sen-ta-tions uti-lize in a hyper-
+Underfull \hbox (badness 7558) in paragraph at lines 54--55
+\OT1/ppl/m/n/10 ta-tions uti-lized in a hyper-
  []
 
 
@@ -683,6 +683,11 @@ Overfull \hbox (3.45984pt too wide) in paragraph at lines 88--90
 \OT1/ppl/m/n/10.95 This chap-ter will in-tro-duce new EC-based ap-proaches that com-bine lo-cal search and/or
  []
 
+
+Overfull \hbox (1.32407pt too wide) in paragraph at lines 92--94
+\OT1/ppl/m/n/10.95 ser-vice repos-i-tory (i.e., ser-vice fail-ure and new ser-vice reg-is-tra-tions). Those ap-proaches
+ []
+
 [48]) [49] [50
 
 
@@ -711,7 +716,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  42i,19n,41p,2820b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 578217 bytes).
+Output written on /Users/chenwang/Documents/workspace/PhD_proposal/.texpadtmp/proposal.pdf (65 pages, 578703 bytes).
 PDF statistics:
  673 PDF objects out of 1000 (max. 8388607)
  463 compressed objects within 5 object streams
